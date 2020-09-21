@@ -170,7 +170,7 @@
         <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
         <Param name="stopVal" updates="constant" val="" valType="code"/>
         <Param name="store" updates="constant" val="last key" valType="str"/>
-        <Param name="storeCorrect" updates="constant" val="True" valType="bool"/>
+        <Param name="storeCorrect" updates="constant" val="False" valType="bool"/>
         <Param name="syncScreenRefresh" updates="constant" val="True" valType="bool"/>
       </KeyboardComponent>
       <StaticComponent name="ISI">
@@ -189,16 +189,17 @@
     </Routine>
     <Routine name="feat_haus_trials"/>
     <Routine name="config_haus_trials"/>
+    <Routine name="config_face_trials"/>
   </Routines>
   <Flow>
     <Routine name="start_instr"/>
     <LoopInitiator loopType="TrialHandler" name="trials">
       <Param name="Selected rows" updates="None" val="" valType="str"/>
-      <Param name="conditions" updates="None" val="[OrderedDict([('target', 'stimuli/Featural_Set/f15.tif'), ('probe', 'stimuli/Featural_Set/f15.tif'), ('corrAns', 's')]), OrderedDict([('target', 'stimuli/Featural_Set/f142.tif'), ('probe', 'stimuli/Featural_Set/f142.tif'), ('corrAns', 's')]), OrderedDict([('target', 'stimuli/Featural_Set/f131.tif'), ('probe', 'stimuli/Featural_Set/f24.tif'), ('corrAns', 'd')]), OrderedDict([('target', 'stimuli/Featural_Set/f24.tif'), ('probe', 'stimuli/Featural_Set/f15.tif'), ('corrAns', 'd')]), OrderedDict([('target', 'stimuli/Featural_Set/f131.tif'), ('probe', 'stimuli/Featural_Set/f15.tif'), ('corrAns', 'd')]), OrderedDict([('target', 'stimuli/Featural_Set/f142.tif'), ('probe', 'stimuli/Featural_Set/f24.tif'), ('corrAns', 'd')]), OrderedDict([('target', 'stimuli/Featural_Set/f24.tif'), ('probe', 'stimuli/Featural_Set/f24.tif'), ('corrAns', 's')]), OrderedDict([('target', 'stimuli/Featural_Set/f142.tif'), ('probe', 'stimuli/Featural_Set/f15.tif'), ('corrAns', 'd')]), OrderedDict([('target', 'stimuli/Featural_Set/f131.tif'), ('probe', 'stimuli/Featural_Set/f131.tif'), ('corrAns', 's')]), OrderedDict([('target', 'stimuli/Featural_Set/f142.tif'), ('probe', 'stimuli/Featural_Set/f131.tif'), ('corrAns', 'd')])]" valType="str"/>
-      <Param name="conditionsFile" updates="None" val="image_stimuli.csv" valType="str"/>
+      <Param name="conditions" updates="None" val="[OrderedDict([('trialNum', 0)]), OrderedDict([('trialNum', 1)]), OrderedDict([('trialNum', 2)]), OrderedDict([('trialNum', 3)]), OrderedDict([('trialNum', 4)]), OrderedDict([('trialNum', 5)]), OrderedDict([('trialNum', 6)]), OrderedDict([('trialNum', 7)]), OrderedDict([('trialNum', 8)]), OrderedDict([('trialNum', 9)]), OrderedDict([('trialNum', 10)]), OrderedDict([('trialNum', 11)]), OrderedDict([('trialNum', 12)]), OrderedDict([('trialNum', 13)]), OrderedDict([('trialNum', 14)]), OrderedDict([('trialNum', 15)]), OrderedDict([('trialNum', 16)]), OrderedDict([('trialNum', 17)]), OrderedDict([('trialNum', 18)]), OrderedDict([('trialNum', 19)]), OrderedDict([('trialNum', 20)]), OrderedDict([('trialNum', 21)]), OrderedDict([('trialNum', 22)]), OrderedDict([('trialNum', 23)])]" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="trials24.csv" valType="str"/>
       <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
       <Param name="isTrials" updates="None" val="True" valType="bool"/>
-      <Param name="loopType" updates="None" val="random" valType="str"/>
+      <Param name="loopType" updates="None" val="sequential" valType="str"/>
       <Param name="nReps" updates="None" val="1" valType="code"/>
       <Param name="name" updates="None" val="trials" valType="code"/>
       <Param name="random seed" updates="None" val="" valType="code"/>
@@ -206,6 +207,7 @@
     <Routine name="feat_face_trials"/>
     <LoopTerminator name="trials"/>
     <Routine name="config_haus_trials"/>
+    <Routine name="config_face_trials"/>
     <Routine name="feat_haus_trials"/>
   </Flow>
 </PsychoPy2experiment>

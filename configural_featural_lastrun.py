@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2020.2.4),
-    on Mon Sep 21 12:25:18 2020
+    on Mon Sep 21 17:00:54 2020
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -91,8 +91,8 @@ start_instructions = visual.TextStim(win=win, name='start_instructions',
     depth=0.0);
 key_resp = keyboard.Keyboard()
 
-# Initialize components for Routine "featural_trials"
-featural_trialsClock = core.Clock()
+# Initialize components for Routine "feat_face_trials"
+feat_face_trialsClock = core.Clock()
 target_image = visual.ImageStim(
     win=win,
     name='target_image', 
@@ -111,6 +111,15 @@ probe_image = visual.ImageStim(
     texRes=512, interpolate=True, depth=-1.0)
 key_resp_2 = keyboard.Keyboard()
 ISI = clock.StaticPeriod(win=win, screenHz=expInfo['frameRate'], name='ISI')
+
+# Initialize components for Routine "config_haus_trials"
+config_haus_trialsClock = core.Clock()
+
+# Initialize components for Routine "config_face_trials"
+config_face_trialsClock = core.Clock()
+
+# Initialize components for Routine "feat_haus_trials"
+feat_haus_trialsClock = core.Clock()
 
 # Create some handy timers
 globalClock = core.Clock()  # to track the time since experiment started
@@ -222,7 +231,7 @@ for thisTrial in trials:
         for paramName in thisTrial:
             exec('{} = thisTrial[paramName]'.format(paramName))
     
-    # ------Prepare to start Routine "featural_trials"-------
+    # ------Prepare to start Routine "feat_face_trials"-------
     continueRoutine = True
     # update component parameters for each repeat
     target_image.setImage(target)
@@ -231,8 +240,8 @@ for thisTrial in trials:
     key_resp_2.rt = []
     _key_resp_2_allKeys = []
     # keep track of which components have finished
-    featural_trialsComponents = [target_image, probe_image, key_resp_2, ISI]
-    for thisComponent in featural_trialsComponents:
+    feat_face_trialsComponents = [target_image, probe_image, key_resp_2, ISI]
+    for thisComponent in feat_face_trialsComponents:
         thisComponent.tStart = None
         thisComponent.tStop = None
         thisComponent.tStartRefresh = None
@@ -242,14 +251,14 @@ for thisTrial in trials:
     # reset timers
     t = 0
     _timeToFirstFrame = win.getFutureFlipTime(clock="now")
-    featural_trialsClock.reset(-_timeToFirstFrame)  # t0 is time of first possible flip
+    feat_face_trialsClock.reset(-_timeToFirstFrame)  # t0 is time of first possible flip
     frameN = -1
     
-    # -------Run Routine "featural_trials"-------
+    # -------Run Routine "feat_face_trials"-------
     while continueRoutine:
         # get current time
-        t = featural_trialsClock.getTime()
-        tThisFlip = win.getFutureFlipTime(clock=featural_trialsClock)
+        t = feat_face_trialsClock.getTime()
+        tThisFlip = win.getFutureFlipTime(clock=feat_face_trialsClock)
         tThisFlipGlobal = win.getFutureFlipTime(clock=None)
         frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
         # update/draw components on each frame
@@ -334,7 +343,7 @@ for thisTrial in trials:
         if not continueRoutine:  # a component has requested a forced-end of Routine
             break
         continueRoutine = False  # will revert to True if at least one component still running
-        for thisComponent in featural_trialsComponents:
+        for thisComponent in feat_face_trialsComponents:
             if hasattr(thisComponent, "status") and thisComponent.status != FINISHED:
                 continueRoutine = True
                 break  # at least one component has not yet finished
@@ -343,8 +352,8 @@ for thisTrial in trials:
         if continueRoutine:  # don't flip if this routine is over or we'll get a blank screen
             win.flip()
     
-    # -------Ending Routine "featural_trials"-------
-    for thisComponent in featural_trialsComponents:
+    # -------Ending Routine "feat_face_trials"-------
+    for thisComponent in feat_face_trialsComponents:
         if hasattr(thisComponent, "setAutoDraw"):
             thisComponent.setAutoDraw(False)
     trials.addData('target_image.started', target_image.tStartRefresh)
@@ -368,12 +377,165 @@ for thisTrial in trials:
     trials.addData('key_resp_2.stopped', key_resp_2.tStopRefresh)
     trials.addData('ISI.started', ISI.tStart)
     trials.addData('ISI.stopped', ISI.tStop)
-    # the Routine "featural_trials" was not non-slip safe, so reset the non-slip timer
+    # the Routine "feat_face_trials" was not non-slip safe, so reset the non-slip timer
     routineTimer.reset()
     thisExp.nextEntry()
     
 # completed 1 repeats of 'trials'
 
+
+# ------Prepare to start Routine "config_haus_trials"-------
+continueRoutine = True
+# update component parameters for each repeat
+# keep track of which components have finished
+config_haus_trialsComponents = []
+for thisComponent in config_haus_trialsComponents:
+    thisComponent.tStart = None
+    thisComponent.tStop = None
+    thisComponent.tStartRefresh = None
+    thisComponent.tStopRefresh = None
+    if hasattr(thisComponent, 'status'):
+        thisComponent.status = NOT_STARTED
+# reset timers
+t = 0
+_timeToFirstFrame = win.getFutureFlipTime(clock="now")
+config_haus_trialsClock.reset(-_timeToFirstFrame)  # t0 is time of first possible flip
+frameN = -1
+
+# -------Run Routine "config_haus_trials"-------
+while continueRoutine:
+    # get current time
+    t = config_haus_trialsClock.getTime()
+    tThisFlip = win.getFutureFlipTime(clock=config_haus_trialsClock)
+    tThisFlipGlobal = win.getFutureFlipTime(clock=None)
+    frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
+    # update/draw components on each frame
+    
+    # check for quit (typically the Esc key)
+    if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
+        core.quit()
+    
+    # check if all components have finished
+    if not continueRoutine:  # a component has requested a forced-end of Routine
+        break
+    continueRoutine = False  # will revert to True if at least one component still running
+    for thisComponent in config_haus_trialsComponents:
+        if hasattr(thisComponent, "status") and thisComponent.status != FINISHED:
+            continueRoutine = True
+            break  # at least one component has not yet finished
+    
+    # refresh the screen
+    if continueRoutine:  # don't flip if this routine is over or we'll get a blank screen
+        win.flip()
+
+# -------Ending Routine "config_haus_trials"-------
+for thisComponent in config_haus_trialsComponents:
+    if hasattr(thisComponent, "setAutoDraw"):
+        thisComponent.setAutoDraw(False)
+# the Routine "config_haus_trials" was not non-slip safe, so reset the non-slip timer
+routineTimer.reset()
+
+# ------Prepare to start Routine "config_face_trials"-------
+continueRoutine = True
+# update component parameters for each repeat
+# keep track of which components have finished
+config_face_trialsComponents = []
+for thisComponent in config_face_trialsComponents:
+    thisComponent.tStart = None
+    thisComponent.tStop = None
+    thisComponent.tStartRefresh = None
+    thisComponent.tStopRefresh = None
+    if hasattr(thisComponent, 'status'):
+        thisComponent.status = NOT_STARTED
+# reset timers
+t = 0
+_timeToFirstFrame = win.getFutureFlipTime(clock="now")
+config_face_trialsClock.reset(-_timeToFirstFrame)  # t0 is time of first possible flip
+frameN = -1
+
+# -------Run Routine "config_face_trials"-------
+while continueRoutine:
+    # get current time
+    t = config_face_trialsClock.getTime()
+    tThisFlip = win.getFutureFlipTime(clock=config_face_trialsClock)
+    tThisFlipGlobal = win.getFutureFlipTime(clock=None)
+    frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
+    # update/draw components on each frame
+    
+    # check for quit (typically the Esc key)
+    if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
+        core.quit()
+    
+    # check if all components have finished
+    if not continueRoutine:  # a component has requested a forced-end of Routine
+        break
+    continueRoutine = False  # will revert to True if at least one component still running
+    for thisComponent in config_face_trialsComponents:
+        if hasattr(thisComponent, "status") and thisComponent.status != FINISHED:
+            continueRoutine = True
+            break  # at least one component has not yet finished
+    
+    # refresh the screen
+    if continueRoutine:  # don't flip if this routine is over or we'll get a blank screen
+        win.flip()
+
+# -------Ending Routine "config_face_trials"-------
+for thisComponent in config_face_trialsComponents:
+    if hasattr(thisComponent, "setAutoDraw"):
+        thisComponent.setAutoDraw(False)
+# the Routine "config_face_trials" was not non-slip safe, so reset the non-slip timer
+routineTimer.reset()
+
+# ------Prepare to start Routine "feat_haus_trials"-------
+continueRoutine = True
+# update component parameters for each repeat
+# keep track of which components have finished
+feat_haus_trialsComponents = []
+for thisComponent in feat_haus_trialsComponents:
+    thisComponent.tStart = None
+    thisComponent.tStop = None
+    thisComponent.tStartRefresh = None
+    thisComponent.tStopRefresh = None
+    if hasattr(thisComponent, 'status'):
+        thisComponent.status = NOT_STARTED
+# reset timers
+t = 0
+_timeToFirstFrame = win.getFutureFlipTime(clock="now")
+feat_haus_trialsClock.reset(-_timeToFirstFrame)  # t0 is time of first possible flip
+frameN = -1
+
+# -------Run Routine "feat_haus_trials"-------
+while continueRoutine:
+    # get current time
+    t = feat_haus_trialsClock.getTime()
+    tThisFlip = win.getFutureFlipTime(clock=feat_haus_trialsClock)
+    tThisFlipGlobal = win.getFutureFlipTime(clock=None)
+    frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
+    # update/draw components on each frame
+    
+    # check for quit (typically the Esc key)
+    if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
+        core.quit()
+    
+    # check if all components have finished
+    if not continueRoutine:  # a component has requested a forced-end of Routine
+        break
+    continueRoutine = False  # will revert to True if at least one component still running
+    for thisComponent in feat_haus_trialsComponents:
+        if hasattr(thisComponent, "status") and thisComponent.status != FINISHED:
+            continueRoutine = True
+            break  # at least one component has not yet finished
+    
+    # refresh the screen
+    if continueRoutine:  # don't flip if this routine is over or we'll get a blank screen
+        win.flip()
+
+# -------Ending Routine "feat_haus_trials"-------
+for thisComponent in feat_haus_trialsComponents:
+    if hasattr(thisComponent, "setAutoDraw"):
+        thisComponent.setAutoDraw(False)
+# the Routine "feat_haus_trials" was not non-slip safe, so reset the non-slip timer
+routineTimer.reset()
 
 # Flip one final time so any remaining win.callOnFlip() 
 # and win.timeOnFlip() tasks get executed before quitting

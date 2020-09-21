@@ -5,27 +5,22 @@ This experiment was created using PsychoPy3 Experiment Builder (v2020.2.4),
     on Mon Sep 21 15:42:15 2020
 If you publish work using this script the most relevant publication is:
 
-    Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
-        PsychoPy2: Experiments in behavior made easy Behav Res 51: 195. 
+    Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019)
+        PsychoPy2: Experiments in behavior made easy Behav Res 51: 195.
         https://doi.org/10.3758/s13428-018-01193-y
 
 """
-
 from __future__ import absolute_import, division
-
-from psychopy import locale_setup
-from psychopy import prefs
-from psychopy import sound, gui, visual, core, data, event, logging, clock
+import os  # handy system and path functions
+import sys  # to get file system encoding
+from psychopy import sound, gui, visual, core, data, event, logging, clock, sound, locale_setup
 from psychopy.constants import (NOT_STARTED, STARTED, PLAYING, PAUSED, STOPPED, FINISHED, PRESSED, RELEASED, FOREVER)
-
+from psychopy.hardware import keyboard
 import numpy as np  # whole numpy lib is available, prepend 'np.'
 from numpy import (sin, cos, tan, log, log10, pi, average,
                    sqrt, std, deg2rad, rad2deg, linspace, asarray)
-from numpy.random import random, randint, normal, shuffle
-import os  # handy system and path functions
-import sys  # to get file system encoding
+from numpy.random import random, randint, normal, shuffle, permutation
 
-from psychopy.hardware import keyboard
 
 # Ensure that relative paths start from the same directory as this script
 _thisDir = os.path.dirname(os.path.abspath(__file__))
@@ -59,13 +54,19 @@ endExpNow = False  # flag for 'escape' or other condition => quit the exp
 frameTolerance = 0.001  # how close to onset before 'same' frame
 
 # Start Code - component code to be run before the window creation
+stim_feat_dir = os.path.abspath('stimuli/Featural_Set/')
+stim_config_dir = os.path.abspath('stimuli/Spacing_Set/')
+feat_paths = [stim_feat_dir + '/' + file for file in os.listdir(stim_feat_dir) if file.endswith(".tif")]
+feat_paths.sort()
+config_paths = [stim_config_dir + '/' + file for file in os.listdir(stim_config_dir) if file.endswith(".tif")]
+config_paths.sort()
 
 # Setup the Window
 win = visual.Window(
-    size=[1792, 1120], fullscr=True, screen=0, 
+    size=[1792, 1120], fullscr=True, screen=0,
     winType='pyglet', allowGUI=False, allowStencil=False,
     monitor='testMonitor', color=[0,0,0], colorSpace='rgb',
-    blendMode='avg', useFBO=True, 
+    blendMode='avg', useFBO=True,
     units='height')
 # store frame rate of monitor if we can measure it
 expInfo['frameRate'] = win.getActualFrameRate()
@@ -82,17 +83,44 @@ start_instrClock = core.Clock()
 start_instructions = visual.TextStim(win=win, name='start_instructions',
     text='Press S for same or D for different faces. Press <SPACE> to continue.',
     font='Arial',
-    pos=(0, 0), height=0.1, wrapWidth=None, ori=0, 
-    color='white', colorSpace='rgb', opacity=1, 
+    pos=(0, 0), height=0.1, wrapWidth=None, ori=0,
+    color='white', colorSpace='rgb', opacity=1,
     languageStyle='LTR',
     depth=0.0);
 key_resp = keyboard.Keyboard()
 
 # Initialize components for Routine "feat_face_trials"
+trial_order = np.concatenate((permutation([1,2,3,4,5,6]),
+                              permutation([1,2,3,4,5,6]),
+                              permutation([1,2,3,4,5,6]),
+                              permutation([1,2,3,4,5,6])))
+trial_order = np.round(trial_order/6 - 0.1)
+corrAns = []
 feat_face_trialsClock = core.Clock()
+
+trialSame = np.concatenate((permutation([0,1,2,3]),
+                            permutation([0,1,2,3]),
+                            permutation([0,1,2,3])))
+
+trialDiff = np.array([(0,1), (0,2), (0,3),
+                      (1,2), (1,3), (1,0),
+                      (2,3), (2,0), (2,1),
+                      (3,0), (3,1), (3,2)])
+
+diffTrial = list(range(1,13))
+shuffle(diffTrial)
+
+corrAns = []
+for trial in trial_order:
+    if trial==1:
+        ans = 's'
+    else:
+        ans = 'd'
+    corrAns.append(ans)
+
 target_image = visual.ImageStim(
     win=win,
-    name='target_image', 
+    name='target_image',
     image='sin', mask=None,
     ori=0, pos=(0, 0), size=(0.25,0.25),
     color=[1,1,1], colorSpace='rgb', opacity=1,
@@ -100,7 +128,7 @@ target_image = visual.ImageStim(
     texRes=512, interpolate=True, depth=0.0)
 probe_image = visual.ImageStim(
     win=win,
-    name='probe_image', 
+    name='probe_image',
     image='sin', mask=None,
     ori=0, pos=(0, 0), size=(0.25,0.25),
     color=[1,1,1], colorSpace='rgb', opacity=1,
@@ -120,7 +148,7 @@ feat_haus_trialsClock = core.Clock()
 
 # Create some handy timers
 globalClock = core.Clock()  # to track the time since experiment started
-routineTimer = core.CountdownTimer()  # to track time remaining of each (non-slip) routine 
+routineTimer = core.CountdownTimer()  # to track time remaining of each (non-slip) routine
 
 # ------Prepare to start Routine "start_instr"-------
 continueRoutine = True
@@ -151,7 +179,7 @@ while continueRoutine:
     tThisFlipGlobal = win.getFutureFlipTime(clock=None)
     frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
     # update/draw components on each frame
-    
+
     # *start_instructions* updates
     if start_instructions.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
         # keep track of start time/frame for later
@@ -160,7 +188,7 @@ while continueRoutine:
         start_instructions.tStartRefresh = tThisFlipGlobal  # on global time
         win.timeOnFlip(start_instructions, 'tStartRefresh')  # time at next scr refresh
         start_instructions.setAutoDraw(True)
-    
+
     # *key_resp* updates
     waitOnFlip = False
     if key_resp.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
@@ -182,11 +210,11 @@ while continueRoutine:
             key_resp.rt = _key_resp_allKeys[-1].rt
             # a response ends the routine
             continueRoutine = False
-    
+
     # check for quit (typically the Esc key)
     if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
         core.quit()
-    
+
     # check if all components have finished
     if not continueRoutine:  # a component has requested a forced-end of Routine
         break
@@ -195,7 +223,7 @@ while continueRoutine:
         if hasattr(thisComponent, "status") and thisComponent.status != FINISHED:
             continueRoutine = True
             break  # at least one component has not yet finished
-    
+
     # refresh the screen
     if continueRoutine:  # don't flip if this routine is over or we'll get a blank screen
         win.flip()
@@ -210,10 +238,10 @@ thisExp.addData('start_instructions.stopped', start_instructions.tStopRefresh)
 routineTimer.reset()
 
 # set up handler to look after randomisation of conditions etc
-trials = data.TrialHandler(nReps=1, method='random', 
-    extraInfo=expInfo, originPath=-1,
-    trialList=data.importConditions('image_stimuli.csv'),
-    seed=None, name='trials')
+trials = data.TrialHandler(nReps=1, method='sequential',
+                           extraInfo=expInfo, originPath=-1,
+                           trialList=data.importConditions('trials24.csv'),
+                           seed=None, name='trials')
 thisExp.addLoop(trials)  # add the loop to the experiment
 thisTrial = trials.trialList[0]  # so we can initialise stimuli with some values
 # abbreviate parameter names if possible (e.g. rgb = thisTrial.rgb)
@@ -222,20 +250,32 @@ if thisTrial != None:
         exec('{} = thisTrial[paramName]'.format(paramName))
 
 for thisTrial in trials:
+    trialID = trialNum
+    sameTrialid = 0
+    diffTrialid = 0
     currentLoop = trials
     # abbreviate parameter names if possible (e.g. rgb = thisTrial.rgb)
     if thisTrial != None:
         for paramName in thisTrial:
             exec('{} = thisTrial[paramName]'.format(paramName))
-    
+
     # ------Prepare to start Routine "feat_face_trials"-------
     continueRoutine = True
     # update component parameters for each repeat
-    target_image.setImage(target)
-    probe_image.setImage(probe)
+    if trial_order[trialID] == 1:
+        target_image.setImage(feat_paths[trialSame[sameTrialid]])
+        probe_image.setImage(feat_paths[trialSame[sameTrialid]])
+        sameTrialid += 1
+    elif trial_order[trialID] == 0:
+        img_pair = trialDiff[diffTrial[diffTrialid]]
+        target_image.setImage(feat_paths[img_pair[0]])
+        probe_image.setImage(feat_paths[img_pair[1]])
+        diffTrialid += 1
+
     key_resp_2.keys = []
     key_resp_2.rt = []
     _key_resp_2_allKeys = []
+
     # keep track of which components have finished
     feat_face_trialsComponents = [target_image, probe_image, key_resp_2, ISI]
     for thisComponent in feat_face_trialsComponents:
@@ -250,7 +290,7 @@ for thisTrial in trials:
     _timeToFirstFrame = win.getFutureFlipTime(clock="now")
     feat_face_trialsClock.reset(-_timeToFirstFrame)  # t0 is time of first possible flip
     frameN = -1
-    
+
     # -------Run Routine "feat_face_trials"-------
     while continueRoutine:
         # get current time
@@ -259,7 +299,7 @@ for thisTrial in trials:
         tThisFlipGlobal = win.getFutureFlipTime(clock=None)
         frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
         # update/draw components on each frame
-        
+
         # *target_image* updates
         if target_image.status == NOT_STARTED and tThisFlip >= 0.5-frameTolerance:
             # keep track of start time/frame for later
@@ -276,7 +316,7 @@ for thisTrial in trials:
                 target_image.frameNStop = frameN  # exact frame index
                 win.timeOnFlip(target_image, 'tStopRefresh')  # time at next scr refresh
                 target_image.setAutoDraw(False)
-        
+
         # *probe_image* updates
         if probe_image.status == NOT_STARTED and tThisFlip >= 1-frameTolerance:
             # keep track of start time/frame for later
@@ -293,7 +333,7 @@ for thisTrial in trials:
                 probe_image.frameNStop = frameN  # exact frame index
                 win.timeOnFlip(probe_image, 'tStopRefresh')  # time at next scr refresh
                 probe_image.setAutoDraw(False)
-        
+
         # *key_resp_2* updates
         waitOnFlip = False
         if key_resp_2.status == NOT_STARTED and tThisFlip >= 1.2-frameTolerance:
@@ -314,7 +354,7 @@ for thisTrial in trials:
                 key_resp_2.keys = _key_resp_2_allKeys[-1].name  # just the last key pressed
                 key_resp_2.rt = _key_resp_2_allKeys[-1].rt
                 # was this correct?
-                if (key_resp_2.keys == str(corrAns)) or (key_resp_2.keys == corrAns):
+                if (key_resp_2.keys == corrAns[trialID]):
                     key_resp_2.corr = 1
                 else:
                     key_resp_2.corr = 0
@@ -331,11 +371,11 @@ for thisTrial in trials:
         elif ISI.status == STARTED:  # one frame should pass before updating params and completing
             ISI.complete()  # finish the static period
             ISI.tStop = ISI.tStart + 0.3  # record stop time
-        
+
         # check for quit (typically the Esc key)
         if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
             core.quit()
-        
+
         # check if all components have finished
         if not continueRoutine:  # a component has requested a forced-end of Routine
             break
@@ -344,11 +384,11 @@ for thisTrial in trials:
             if hasattr(thisComponent, "status") and thisComponent.status != FINISHED:
                 continueRoutine = True
                 break  # at least one component has not yet finished
-        
+
         # refresh the screen
         if continueRoutine:  # don't flip if this routine is over or we'll get a blank screen
             win.flip()
-    
+
     # -------Ending Routine "feat_face_trials"-------
     for thisComponent in feat_face_trialsComponents:
         if hasattr(thisComponent, "setAutoDraw"):
