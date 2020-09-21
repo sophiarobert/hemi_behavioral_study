@@ -1,0 +1,13 @@
+target,probe,corrAns
+stimuli/Featural_Set/f15.tif,stimuli/Featural_Set/f15.tif,s
+stimuli/Featural_Set/f142.tif,stimuli/Featural_Set/f142.tif,s
+stimuli/Featural_Set/f131.tif,stimuli/Featural_Set/f24.tif,d
+stimuli/Featural_Set/f24.tif,stimuli/Featural_Set/f15.tif,d
+stimuli/Featural_Set/f131.tif,stimuli/Featural_Set/f15.tif,d
+stimuli/Featural_Set/f142.tif,stimuli/Featural_Set/f24.tif,d
+stimuli/Featural_Set/f24.tif,stimuli/Featural_Set/f24.tif,s
+stimuli/Featural_Set/f142.tif,stimuli/Featural_Set/f15.tif,d
+stimuli/Featural_Set/f131.tif,stimuli/Featural_Set/f131.tif,s
+stimuli/Featural_Set/f142.tif,stimuli/Featural_Set/f131.tif,d
+
+

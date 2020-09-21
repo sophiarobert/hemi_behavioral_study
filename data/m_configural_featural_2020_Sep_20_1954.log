@@ -1,0 +1,33 @@
+0.2308 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+8.0879 	INFO 	Loaded monitor calibration from ['2020_09_20 15:42']
+10.2953 	WARNING 	Couldn't measure a consistent frame rate.
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+10.2958 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, args=UNKNOWN, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0., 0., 0.]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x1550c3c18>, gamma=None, gammaErrorPolicy='raise', kwargs=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x155d75b38>, multiSample=False, name='window1', numSamples=2, pos=[448.0, 280.0], screen=0, size=array([3584, 2240]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=True, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+10.2960 	EXP 	window1: mouseVisible = True
+10.2960 	EXP 	window1: recordFrameIntervals = False
+10.4619 	EXP 	window1: recordFrameIntervals = True
+12.1303 	WARNING 	Couldn't measure a consistent frame rate.
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+12.5726 	EXP 	Created start_instructions = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='start_instructions', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+12.9453 	EXP 	Created image = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='stimuli/Featural_Set/f15.tif', interpolate=True, mask=None, maskParams=None, name='image', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), texRes=512, units='height', win=Window(...))
+12.9473 	EXP 	Created target_image = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='stimuli/Featural_Set/f15.tif', interpolate=True, mask=None, maskParams=None, name='target_image', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([200., 200.]), texRes=512, units='height', win=Window(...))
+12.9503 	EXP 	Created fix_cross = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.15, italic=False, languageStyle='LTR', name='fix_cross', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='+', units='height', win=Window(...), wrapWidth=1)
+12.9524 	EXP 	Created probe_image = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='stimuli/Featural_Set/f15.tif', interpolate=True, mask=None, maskParams=None, name='probe_image', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([200., 200.]), texRes=512, units='height', win=Window(...))
+13.3532 	WARNING 	t of last frame was 1223.07ms (=1/0)
+13.3532 	EXP 	start_instructions: autoDraw = True
+13.3756 	WARNING 	t of last frame was 22.39ms (=1/44)
+13.3969 	WARNING 	t of last frame was 21.34ms (=1/46)
+15.1068 	DATA 	Keypress: space
+15.1118 	EXP 	start_instructions: autoDraw = False
+15.1118 	EXP 	image: autoDraw = True
+18.1074 	DEBUG 	Read Excel file with pandas: exp_design_test.xlsx
+18.1099 	DEBUG 	Clearing unnamed columns from exp_design_test.xlsx
+18.1104 	EXP 	Imported exp_design_test.xlsx as conditions, 4 conditions, 4 params
+18.3833 	EXP 	window1: mouseVisible = True
+18.3838 	DEBUG 	Saving data for configural_featural ExperimentHandler
+18.3842 	INFO 	saved data to /Users/sophia/Documents/PycharmProjects/Local_VS_Global/data/m_configural_featural_2020_Sep_20_1954.psydat
+18.3845 	INFO 	saved data to '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/data/m_configural_featural_2020_Sep_20_1954.csv'
