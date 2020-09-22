@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2020.2.4),
-    on Mon Sep 21 17:00:54 2020
+    on Mon Sep 21 19:37:32 2020
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -213,9 +213,9 @@ thisExp.addData('start_instructions.stopped', start_instructions.tStopRefresh)
 routineTimer.reset()
 
 # set up handler to look after randomisation of conditions etc
-trials = data.TrialHandler(nReps=1, method='random', 
+trials = data.TrialHandler(nReps=1, method='sequential', 
     extraInfo=expInfo, originPath=-1,
-    trialList=data.importConditions('image_stimuli.csv'),
+    trialList=data.importConditions('trials24.csv'),
     seed=None, name='trials')
 thisExp.addLoop(trials)  # add the loop to the experiment
 thisTrial = trials.trialList[0]  # so we can initialise stimuli with some values
@@ -264,7 +264,7 @@ for thisTrial in trials:
         # update/draw components on each frame
         
         # *target_image* updates
-        if target_image.status == NOT_STARTED and tThisFlip >= 0.5-frameTolerance:
+        if target_image.status == NOT_STARTED and tThisFlip >= 0-frameTolerance:
             # keep track of start time/frame for later
             target_image.frameNStart = frameN  # exact frame index
             target_image.tStart = t  # local t and not account for scr refresh
@@ -281,7 +281,7 @@ for thisTrial in trials:
                 target_image.setAutoDraw(False)
         
         # *probe_image* updates
-        if probe_image.status == NOT_STARTED and tThisFlip >= 1-frameTolerance:
+        if probe_image.status == NOT_STARTED and tThisFlip >= 0.5-frameTolerance:
             # keep track of start time/frame for later
             probe_image.frameNStart = frameN  # exact frame index
             probe_image.tStart = t  # local t and not account for scr refresh
@@ -299,7 +299,7 @@ for thisTrial in trials:
         
         # *key_resp_2* updates
         waitOnFlip = False
-        if key_resp_2.status == NOT_STARTED and tThisFlip >= 1.2-frameTolerance:
+        if key_resp_2.status == NOT_STARTED and tThisFlip >= 0.7-frameTolerance:
             # keep track of start time/frame for later
             key_resp_2.frameNStart = frameN  # exact frame index
             key_resp_2.tStart = t  # local t and not account for scr refresh
@@ -316,15 +316,10 @@ for thisTrial in trials:
             if len(_key_resp_2_allKeys):
                 key_resp_2.keys = _key_resp_2_allKeys[-1].name  # just the last key pressed
                 key_resp_2.rt = _key_resp_2_allKeys[-1].rt
-                # was this correct?
-                if (key_resp_2.keys == str(corrAns)) or (key_resp_2.keys == corrAns):
-                    key_resp_2.corr = 1
-                else:
-                    key_resp_2.corr = 0
                 # a response ends the routine
                 continueRoutine = False
         # *ISI* period
-        if ISI.status == NOT_STARTED and t >= 0.7-frameTolerance:
+        if ISI.status == NOT_STARTED and t >= 0.2-frameTolerance:
             # keep track of start time/frame for later
             ISI.frameNStart = frameN  # exact frame index
             ISI.tStart = t  # local t and not account for scr refresh
@@ -363,14 +358,7 @@ for thisTrial in trials:
     # check responses
     if key_resp_2.keys in ['', [], None]:  # No response was made
         key_resp_2.keys = None
-        # was no response the correct answer?!
-        if str(corrAns).lower() == 'none':
-           key_resp_2.corr = 1;  # correct non-response
-        else:
-           key_resp_2.corr = 0;  # failed to respond (incorrectly)
-    # store data for trials (TrialHandler)
     trials.addData('key_resp_2.keys',key_resp_2.keys)
-    trials.addData('key_resp_2.corr', key_resp_2.corr)
     if key_resp_2.keys != None:  # we had a response
         trials.addData('key_resp_2.rt', key_resp_2.rt)
     trials.addData('key_resp_2.started', key_resp_2.tStartRefresh)

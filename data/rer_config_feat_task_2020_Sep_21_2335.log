@@ -1,0 +1,2382 @@
+2.0033 	WARNING 	psychopy.parallel has been imported on a Mac (which doesn't have a parallel port?)
+8.0510 	WARNING 	User requested fullscreen with size [1024  768], but screen is actually [1792, 1120]. Using actual size
+10.2394 	WARNING 	Couldn't measure a consistent frame rate.
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+10.2399 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, args=UNKNOWN, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0., 0., 0.]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x7fc39a00a208>, gamma=None, gammaErrorPolicy='raise', kwargs=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x7fc39a05ff60>, multiSample=False, name='window1', numSamples=2, pos=[448.0, 280.0], screen=0, size=array([3584, 2240]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=True, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+10.2402 	EXP 	window1: mouseVisible = True
+10.2402 	EXP 	window1: recordFrameIntervals = False
+10.4076 	EXP 	window1: recordFrameIntervals = True
+12.0730 	WARNING 	Couldn't measure a consistent frame rate.
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+12.5900 	EXP 	Created face_instructions = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='face_instructions', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+12.9699 	EXP 	Created target_image1 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='target_image1', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([2., 2.]), texRes=512, units='deg', win=Window(...))
+12.9710 	EXP 	Created probe_image1 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='probe_image1', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([2., 2.]), texRes=512, units='deg', win=Window(...))
+13.3482 	EXP 	Created haus_instructions = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='haus_instructions', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+13.7200 	EXP 	Created target_image2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='target_image2', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([2., 2.]), texRes=512, units='deg', win=Window(...))
+13.7211 	EXP 	Created probe_image2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='probe_image2', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([2., 2.]), texRes=512, units='deg', win=Window(...))
+14.0941 	EXP 	Created face_instructions = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='face_instructions', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+14.4705 	EXP 	Created target_image3 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='target_image3', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([2., 2.]), texRes=512, units='deg', win=Window(...))
+14.4715 	EXP 	Created probe_image3 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='probe_image3', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([2., 2.]), texRes=512, units='deg', win=Window(...))
+14.8502 	EXP 	Created haus_instructions = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='haus_instructions', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+15.2202 	EXP 	Created target_image4 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='target_image4', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([2., 2.]), texRes=512, units='deg', win=Window(...))
+15.2212 	EXP 	Created probe_image4 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='probe_image4', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([2., 2.]), texRes=512, units='deg', win=Window(...))
+15.6245 	EXP 	Created sequence: sequential, trialTypes=1, nReps=2, seed=None
+15.6246 	EXP 	New trial (rep=0, index=0): None
+15.6532 	WARNING 	t of last frame was 3580.49ms (=1/0)
+15.6532 	EXP 	face_instructions: autoDraw = True
+15.6741 	WARNING 	t of last frame was 20.90ms (=1/47)
+17.0486 	EXP 	Imported trials24.csv as conditions, 24 conditions, 1 params
+17.0488 	EXP 	Created sequence: sequential, trialTypes=24, nReps=1, seed=None
+17.0492 	EXP 	New trial (rep=0, index=0): OrderedDict([('trialNum', 0)])
+17.0720 	DATA 	Keypress: space
+17.0971 	WARNING 	t of last frame was 56.38ms (=1/17)
+17.0971 	EXP 	face_instructions: autoDraw = False
+17.0971 	EXP 	target_image1: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Featural_Set/f24.tif'
+17.0971 	EXP 	probe_image1: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Featural_Set/f24.tif'
+17.0971 	EXP 	target_image1: autoDraw = True
+17.1184 	WARNING 	t of last frame was 21.34ms (=1/46)
+17.1409 	WARNING 	Multiple dropped frames have occurred - I'll stop bothering you about them!
+17.2558 	EXP 	window1: recordFrameIntervals = False
+17.2742 	EXP 	window1: recordFrameIntervals = True
+17.6027 	EXP 	target_image1: autoDraw = False
+17.6027 	EXP 	probe_image1: autoDraw = True
+17.8073 	EXP 	probe_image1: autoDraw = False
+18.2915 	EXP 	New trial (rep=0, index=1): OrderedDict([('trialNum', 1)])
+18.2997 	DATA 	Keypress: s
+18.3050 	EXP 	target_image1: autoDraw = False
+18.3050 	EXP 	probe_image1: autoDraw = False
+18.3050 	EXP 	target_image1: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Featural_Set/f15.tif'
+18.3050 	EXP 	probe_image1: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Featural_Set/f24.tif'
+18.3050 	EXP 	target_image1: autoDraw = True
+18.4899 	EXP 	window1: recordFrameIntervals = False
+18.5078 	EXP 	target_image1: autoDraw = False
+18.5079 	EXP 	window1: recordFrameIntervals = True
+18.8220 	EXP 	probe_image1: autoDraw = True
+19.0222 	EXP 	probe_image1: autoDraw = False
+19.2081 	EXP 	New trial (rep=0, index=2): OrderedDict([('trialNum', 2)])
+19.2155 	DATA 	Keypress: d
+19.2221 	EXP 	target_image1: autoDraw = False
+19.2221 	EXP 	probe_image1: autoDraw = False
+19.2221 	EXP 	target_image1: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Featural_Set/f142.tif'
+19.2221 	EXP 	probe_image1: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Featural_Set/f142.tif'
+19.2221 	EXP 	target_image1: autoDraw = True
+19.4058 	EXP 	window1: recordFrameIntervals = False
+19.4239 	EXP 	target_image1: autoDraw = False
+19.4240 	EXP 	window1: recordFrameIntervals = True
+19.7525 	EXP 	probe_image1: autoDraw = True
+19.9560 	EXP 	probe_image1: autoDraw = False
+20.3760 	EXP 	New trial (rep=0, index=3): OrderedDict([('trialNum', 3)])
+20.3824 	DATA 	Keypress: s
+20.3887 	EXP 	target_image1: autoDraw = False
+20.3887 	EXP 	probe_image1: autoDraw = False
+20.3887 	EXP 	target_image1: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Featural_Set/f142.tif'
+20.3887 	EXP 	probe_image1: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Featural_Set/f15.tif'
+20.3887 	EXP 	target_image1: autoDraw = True
+20.5740 	EXP 	window1: recordFrameIntervals = False
+20.5919 	EXP 	target_image1: autoDraw = False
+20.5921 	EXP 	window1: recordFrameIntervals = True
+20.9055 	EXP 	probe_image1: autoDraw = True
+21.1078 	EXP 	probe_image1: autoDraw = False
+21.3908 	EXP 	New trial (rep=0, index=4): OrderedDict([('trialNum', 4)])
+21.3986 	DATA 	Keypress: d
+21.4058 	EXP 	target_image1: autoDraw = False
+21.4058 	EXP 	probe_image1: autoDraw = False
+21.4058 	EXP 	target_image1: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Featural_Set/f142.tif'
+21.4058 	EXP 	probe_image1: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Featural_Set/f24.tif'
+21.4058 	EXP 	target_image1: autoDraw = True
+21.5911 	EXP 	window1: recordFrameIntervals = False
+21.6059 	EXP 	target_image1: autoDraw = False
+21.6060 	EXP 	window1: recordFrameIntervals = True
+21.9221 	EXP 	probe_image1: autoDraw = True
+22.1242 	EXP 	probe_image1: autoDraw = False
+22.6070 	EXP 	New trial (rep=0, index=5): OrderedDict([('trialNum', 5)])
+22.6176 	DATA 	Keypress: d
+22.6217 	EXP 	target_image1: autoDraw = False
+22.6217 	EXP 	probe_image1: autoDraw = False
+22.6217 	EXP 	target_image1: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Featural_Set/f15.tif'
+22.6217 	EXP 	probe_image1: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Featural_Set/f15.tif'
+22.6217 	EXP 	target_image1: autoDraw = True
+22.8079 	EXP 	window1: recordFrameIntervals = False
+22.8226 	EXP 	target_image1: autoDraw = False
+22.8227 	EXP 	window1: recordFrameIntervals = True
+23.1387 	EXP 	probe_image1: autoDraw = True
+23.3411 	EXP 	probe_image1: autoDraw = False
+23.6243 	EXP 	New trial (rep=0, index=6): OrderedDict([('trialNum', 6)])
+23.6338 	DATA 	Keypress: s
+23.6387 	EXP 	target_image1: autoDraw = False
+23.6387 	EXP 	probe_image1: autoDraw = False
+23.6387 	EXP 	target_image1: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Featural_Set/f131.tif'
+23.6387 	EXP 	probe_image1: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Featural_Set/f131.tif'
+23.6387 	EXP 	target_image1: autoDraw = True
+23.8411 	EXP 	target_image1: autoDraw = False
+23.8412 	EXP 	window1: recordFrameIntervals = False
+23.8560 	EXP 	window1: recordFrameIntervals = True
+24.1722 	EXP 	probe_image1: autoDraw = True
+24.3727 	EXP 	probe_image1: autoDraw = False
+24.9085 	EXP 	New trial (rep=0, index=7): OrderedDict([('trialNum', 7)])
+24.9155 	DATA 	Keypress: s
+24.9224 	EXP 	target_image1: autoDraw = False
+24.9224 	EXP 	probe_image1: autoDraw = False
+24.9224 	EXP 	target_image1: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Featural_Set/f131.tif'
+24.9224 	EXP 	probe_image1: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Featural_Set/f15.tif'
+24.9224 	EXP 	target_image1: autoDraw = True
+25.1080 	EXP 	window1: recordFrameIntervals = False
+25.1227 	EXP 	target_image1: autoDraw = False
+25.1228 	EXP 	window1: recordFrameIntervals = True
+25.4389 	EXP 	probe_image1: autoDraw = True
+25.6395 	EXP 	probe_image1: autoDraw = False
+25.8919 	EXP 	New trial (rep=0, index=8): OrderedDict([('trialNum', 8)])
+25.8987 	DATA 	Keypress: d
+25.9059 	EXP 	target_image1: autoDraw = False
+25.9059 	EXP 	probe_image1: autoDraw = False
+25.9059 	EXP 	target_image1: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Featural_Set/f142.tif'
+25.9059 	EXP 	probe_image1: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Featural_Set/f142.tif'
+25.9059 	EXP 	target_image1: autoDraw = True
+26.0913 	EXP 	window1: recordFrameIntervals = False
+26.1060 	EXP 	target_image1: autoDraw = False
+26.1061 	EXP 	window1: recordFrameIntervals = True
+26.4355 	EXP 	probe_image1: autoDraw = True
+26.6411 	EXP 	probe_image1: autoDraw = False
+27.0741 	EXP 	New trial (rep=0, index=9): OrderedDict([('trialNum', 9)])
+27.0833 	DATA 	Keypress: s
+27.0887 	EXP 	target_image1: autoDraw = False
+27.0887 	EXP 	probe_image1: autoDraw = False
+27.0887 	EXP 	target_image1: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Featural_Set/f24.tif'
+27.0887 	EXP 	probe_image1: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Featural_Set/f15.tif'
+27.0887 	EXP 	target_image1: autoDraw = True
+27.2746 	EXP 	window1: recordFrameIntervals = False
+27.2894 	EXP 	target_image1: autoDraw = False
+27.2895 	EXP 	window1: recordFrameIntervals = True
+27.6056 	EXP 	probe_image1: autoDraw = True
+27.8060 	EXP 	probe_image1: autoDraw = False
+28.0267 	EXP 	New trial (rep=0, index=10): OrderedDict([('trialNum', 10)])
+28.0342 	DATA 	Keypress: d
+28.0385 	EXP 	target_image1: autoDraw = False
+28.0385 	EXP 	probe_image1: autoDraw = False
+28.0385 	EXP 	target_image1: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Featural_Set/f131.tif'
+28.0385 	EXP 	probe_image1: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Featural_Set/f131.tif'
+28.0385 	EXP 	target_image1: autoDraw = True
+28.2246 	EXP 	window1: recordFrameIntervals = False
+28.2393 	EXP 	target_image1: autoDraw = False
+28.2395 	EXP 	window1: recordFrameIntervals = True
+28.5556 	EXP 	probe_image1: autoDraw = True
+28.7578 	EXP 	probe_image1: autoDraw = False
+29.2259 	EXP 	New trial (rep=0, index=11): OrderedDict([('trialNum', 11)])
+29.2344 	DATA 	Keypress: s
+29.2389 	EXP 	target_image1: autoDraw = False
+29.2389 	EXP 	probe_image1: autoDraw = False
+29.2389 	EXP 	target_image1: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Featural_Set/f142.tif'
+29.2389 	EXP 	probe_image1: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Featural_Set/f131.tif'
+29.2389 	EXP 	target_image1: autoDraw = True
+29.4245 	EXP 	window1: recordFrameIntervals = False
+29.4393 	EXP 	target_image1: autoDraw = False
+29.4394 	EXP 	window1: recordFrameIntervals = True
+29.7556 	EXP 	probe_image1: autoDraw = True
+29.9560 	EXP 	probe_image1: autoDraw = False
+30.3763 	EXP 	New trial (rep=0, index=12): OrderedDict([('trialNum', 12)])
+30.3843 	DATA 	Keypress: d
+30.3887 	EXP 	target_image1: autoDraw = False
+30.3887 	EXP 	probe_image1: autoDraw = False
+30.3887 	EXP 	target_image1: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Featural_Set/f24.tif'
+30.3887 	EXP 	probe_image1: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Featural_Set/f24.tif'
+30.3887 	EXP 	target_image1: autoDraw = True
+30.5911 	EXP 	target_image1: autoDraw = False
+30.5913 	EXP 	window1: recordFrameIntervals = False
+30.6061 	EXP 	window1: recordFrameIntervals = True
+30.9223 	EXP 	probe_image1: autoDraw = True
+31.1244 	EXP 	probe_image1: autoDraw = False
+31.4589 	EXP 	New trial (rep=0, index=13): OrderedDict([('trialNum', 13)])
+31.4669 	DATA 	Keypress: s
+31.4717 	EXP 	target_image1: autoDraw = False
+31.4717 	EXP 	probe_image1: autoDraw = False
+31.4717 	EXP 	target_image1: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Featural_Set/f15.tif'
+31.4717 	EXP 	probe_image1: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Featural_Set/f131.tif'
+31.4717 	EXP 	target_image1: autoDraw = True
+31.6579 	EXP 	window1: recordFrameIntervals = False
+31.6728 	EXP 	target_image1: autoDraw = False
+31.6729 	EXP 	window1: recordFrameIntervals = True
+31.9888 	EXP 	probe_image1: autoDraw = True
+32.1893 	EXP 	probe_image1: autoDraw = False
+32.4584 	EXP 	New trial (rep=0, index=14): OrderedDict([('trialNum', 14)])
+32.4653 	DATA 	Keypress: d
+32.4726 	EXP 	target_image1: autoDraw = False
+32.4726 	EXP 	probe_image1: autoDraw = False
+32.4726 	EXP 	target_image1: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Featural_Set/f15.tif'
+32.4726 	EXP 	probe_image1: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Featural_Set/f142.tif'
+32.4726 	EXP 	target_image1: autoDraw = True
+32.6563 	EXP 	window1: recordFrameIntervals = False
+32.6746 	EXP 	target_image1: autoDraw = False
+32.6747 	EXP 	window1: recordFrameIntervals = True
+33.0028 	EXP 	probe_image1: autoDraw = True
+33.2061 	EXP 	probe_image1: autoDraw = False
+33.7418 	EXP 	New trial (rep=0, index=15): OrderedDict([('trialNum', 15)])
+33.7489 	DATA 	Keypress: s
+33.7559 	EXP 	target_image1: autoDraw = False
+33.7559 	EXP 	probe_image1: autoDraw = False
+33.7559 	EXP 	target_image1: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Featural_Set/f15.tif'
+33.7559 	EXP 	probe_image1: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Featural_Set/f15.tif'
+33.7559 	EXP 	target_image1: autoDraw = True
+33.9414 	EXP 	window1: recordFrameIntervals = False
+33.9560 	EXP 	target_image1: autoDraw = False
+33.9561 	EXP 	window1: recordFrameIntervals = True
+34.2723 	EXP 	probe_image1: autoDraw = True
+34.4724 	EXP 	probe_image1: autoDraw = False
+34.8087 	EXP 	New trial (rep=0, index=16): OrderedDict([('trialNum', 16)])
+34.8161 	DATA 	Keypress: d
+34.8221 	EXP 	target_image1: autoDraw = False
+34.8221 	EXP 	probe_image1: autoDraw = False
+34.8221 	EXP 	target_image1: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Featural_Set/f131.tif'
+34.8221 	EXP 	probe_image1: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Featural_Set/f24.tif'
+34.8221 	EXP 	target_image1: autoDraw = True
+35.0077 	EXP 	window1: recordFrameIntervals = False
+35.0225 	EXP 	target_image1: autoDraw = False
+35.0227 	EXP 	window1: recordFrameIntervals = True
+35.3386 	EXP 	probe_image1: autoDraw = True
+35.5392 	EXP 	probe_image1: autoDraw = False
+35.8397 	EXP 	New trial (rep=0, index=17): OrderedDict([('trialNum', 17)])
+35.8470 	DATA 	Keypress: s
+35.8560 	EXP 	target_image1: autoDraw = False
+35.8560 	EXP 	probe_image1: autoDraw = False
+35.8560 	EXP 	target_image1: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Featural_Set/f131.tif'
+35.8560 	EXP 	probe_image1: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Featural_Set/f131.tif'
+35.8560 	EXP 	target_image1: autoDraw = True
+36.0412 	EXP 	window1: recordFrameIntervals = False
+36.0559 	EXP 	target_image1: autoDraw = False
+36.0561 	EXP 	window1: recordFrameIntervals = True
+36.3721 	EXP 	probe_image1: autoDraw = True
+36.5723 	EXP 	probe_image1: autoDraw = False
+37.2072 	EXP 	New trial (rep=0, index=18): OrderedDict([('trialNum', 18)])
+37.2142 	DATA 	Keypress: s
+37.2226 	EXP 	target_image1: autoDraw = False
+37.2226 	EXP 	probe_image1: autoDraw = False
+37.2226 	EXP 	target_image1: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Featural_Set/f24.tif'
+37.2226 	EXP 	probe_image1: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Featural_Set/f131.tif'
+37.2226 	EXP 	target_image1: autoDraw = True
+37.4077 	EXP 	window1: recordFrameIntervals = False
+37.4224 	EXP 	target_image1: autoDraw = False
+37.4226 	EXP 	window1: recordFrameIntervals = True
+37.7528 	EXP 	probe_image1: autoDraw = True
+37.9559 	EXP 	probe_image1: autoDraw = False
+38.2911 	EXP 	New trial (rep=0, index=19): OrderedDict([('trialNum', 19)])
+38.2979 	DATA 	Keypress: d
+38.3057 	EXP 	target_image1: autoDraw = False
+38.3057 	EXP 	probe_image1: autoDraw = False
+38.3057 	EXP 	target_image1: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Featural_Set/f142.tif'
+38.3057 	EXP 	probe_image1: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Featural_Set/f142.tif'
+38.3057 	EXP 	target_image1: autoDraw = True
+38.4912 	EXP 	window1: recordFrameIntervals = False
+38.5058 	EXP 	target_image1: autoDraw = False
+38.5059 	EXP 	window1: recordFrameIntervals = True
+38.8220 	EXP 	probe_image1: autoDraw = True
+39.0244 	EXP 	probe_image1: autoDraw = False
+39.3428 	EXP 	New trial (rep=0, index=20): OrderedDict([('trialNum', 20)])
+39.3505 	DATA 	Keypress: s
+39.3553 	EXP 	target_image1: autoDraw = False
+39.3553 	EXP 	probe_image1: autoDraw = False
+39.3553 	EXP 	target_image1: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Featural_Set/f24.tif'
+39.3553 	EXP 	probe_image1: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Featural_Set/f142.tif'
+39.3553 	EXP 	target_image1: autoDraw = True
+39.5413 	EXP 	window1: recordFrameIntervals = False
+39.5559 	EXP 	target_image1: autoDraw = False
+39.5560 	EXP 	window1: recordFrameIntervals = True
+39.8720 	EXP 	probe_image1: autoDraw = True
+40.0727 	EXP 	probe_image1: autoDraw = False
+40.6912 	EXP 	New trial (rep=0, index=21): OrderedDict([('trialNum', 21)])
+40.6993 	DATA 	Keypress: s
+40.7057 	EXP 	target_image1: autoDraw = False
+40.7057 	EXP 	probe_image1: autoDraw = False
+40.7057 	EXP 	target_image1: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Featural_Set/f24.tif'
+40.7057 	EXP 	probe_image1: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Featural_Set/f24.tif'
+40.7057 	EXP 	target_image1: autoDraw = True
+40.8914 	EXP 	window1: recordFrameIntervals = False
+40.9059 	EXP 	target_image1: autoDraw = False
+40.9060 	EXP 	window1: recordFrameIntervals = True
+41.2223 	EXP 	probe_image1: autoDraw = True
+41.4225 	EXP 	probe_image1: autoDraw = False
+42.7916 	EXP 	New trial (rep=0, index=22): OrderedDict([('trialNum', 22)])
+42.7983 	DATA 	Keypress: d
+42.8057 	EXP 	target_image1: autoDraw = False
+42.8057 	EXP 	probe_image1: autoDraw = False
+42.8057 	EXP 	target_image1: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Featural_Set/f15.tif'
+42.8057 	EXP 	probe_image1: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Featural_Set/f15.tif'
+42.8057 	EXP 	target_image1: autoDraw = True
+42.9903 	EXP 	window1: recordFrameIntervals = False
+43.0060 	EXP 	target_image1: autoDraw = False
+43.0061 	EXP 	window1: recordFrameIntervals = True
+43.3219 	EXP 	probe_image1: autoDraw = True
+43.5242 	EXP 	probe_image1: autoDraw = False
+43.9932 	EXP 	New trial (rep=0, index=23): OrderedDict([('trialNum', 23)])
+44.0014 	DATA 	Keypress: s
+44.0061 	EXP 	target_image1: autoDraw = False
+44.0061 	EXP 	probe_image1: autoDraw = False
+44.0061 	EXP 	target_image1: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Featural_Set/f131.tif'
+44.0061 	EXP 	probe_image1: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Featural_Set/f142.tif'
+44.0061 	EXP 	target_image1: autoDraw = True
+44.1913 	EXP 	window1: recordFrameIntervals = False
+44.2059 	EXP 	target_image1: autoDraw = False
+44.2061 	EXP 	window1: recordFrameIntervals = True
+44.5224 	EXP 	probe_image1: autoDraw = True
+44.7225 	EXP 	probe_image1: autoDraw = False
+45.1445 	DATA 	Keypress: s
+45.1563 	EXP 	target_image1: autoDraw = False
+45.1563 	EXP 	probe_image1: autoDraw = False
+45.1563 	EXP 	haus_instructions: autoDraw = True
+46.0805 	EXP 	Imported trials24.csv as conditions, 24 conditions, 1 params
+46.0808 	EXP 	Created sequence: sequential, trialTypes=24, nReps=1, seed=None
+46.0812 	EXP 	New trial (rep=0, index=0): OrderedDict([('trialNum', 0)])
+46.0972 	DATA 	Keypress: space
+46.1063 	EXP 	haus_instructions: autoDraw = False
+46.1063 	EXP 	target_image2: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Spacing_Set/eomu.tif'
+46.1063 	EXP 	probe_image2: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Spacing_Set/eomu.tif'
+46.1063 	EXP 	target_image2: autoDraw = True
+46.2914 	EXP 	window1: recordFrameIntervals = False
+46.3060 	EXP 	target_image2: autoDraw = False
+46.3061 	EXP 	window1: recordFrameIntervals = True
+46.6222 	EXP 	probe_image2: autoDraw = True
+46.8228 	EXP 	probe_image2: autoDraw = False
+47.2093 	EXP 	New trial (rep=0, index=1): OrderedDict([('trialNum', 1)])
+47.2252 	DATA 	Keypress: d
+47.2394 	EXP 	target_image2: autoDraw = False
+47.2394 	EXP 	probe_image2: autoDraw = False
+47.2394 	EXP 	target_image2: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Spacing_Set/eimd.tif'
+47.2394 	EXP 	probe_image2: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Spacing_Set/edmd.tif'
+47.2394 	EXP 	target_image2: autoDraw = True
+47.4246 	EXP 	window1: recordFrameIntervals = False
+47.4395 	EXP 	target_image2: autoDraw = False
+47.4396 	EXP 	window1: recordFrameIntervals = True
+47.7558 	EXP 	probe_image2: autoDraw = True
+47.9563 	EXP 	probe_image2: autoDraw = False
+48.2098 	EXP 	New trial (rep=0, index=2): OrderedDict([('trialNum', 2)])
+48.2162 	DATA 	Keypress: s
+48.2223 	EXP 	target_image2: autoDraw = False
+48.2223 	EXP 	probe_image2: autoDraw = False
+48.2223 	EXP 	target_image2: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Spacing_Set/eomu.tif'
+48.2223 	EXP 	probe_image2: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Spacing_Set/edmd.tif'
+48.2223 	EXP 	target_image2: autoDraw = True
+48.4064 	EXP 	window1: recordFrameIntervals = False
+48.4246 	EXP 	target_image2: autoDraw = False
+48.4247 	EXP 	window1: recordFrameIntervals = True
+48.7529 	EXP 	probe_image2: autoDraw = True
+48.9562 	EXP 	probe_image2: autoDraw = False
+49.8598 	EXP 	New trial (rep=0, index=3): OrderedDict([('trialNum', 3)])
+49.8830 	DATA 	Keypress: d
+49.8979 	EXP 	target_image2: autoDraw = False
+49.8979 	EXP 	probe_image2: autoDraw = False
+49.8979 	EXP 	target_image2: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Spacing_Set/eomu.tif'
+49.8979 	EXP 	probe_image2: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Spacing_Set/eumu.tif'
+49.8979 	EXP 	target_image2: autoDraw = True
+50.0731 	EXP 	window1: recordFrameIntervals = False
+50.0915 	EXP 	window1: recordFrameIntervals = True
+50.3979 	EXP 	target_image2: autoDraw = False
+50.4196 	EXP 	probe_image2: autoDraw = True
+50.6255 	EXP 	probe_image2: autoDraw = False
+51.7418 	EXP 	New trial (rep=0, index=4): OrderedDict([('trialNum', 4)])
+51.7485 	DATA 	Keypress: s
+51.7559 	EXP 	target_image2: autoDraw = False
+51.7559 	EXP 	probe_image2: autoDraw = False
+51.7559 	EXP 	target_image2: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Spacing_Set/eimd.tif'
+51.7559 	EXP 	probe_image2: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Spacing_Set/eimd.tif'
+51.7559 	EXP 	target_image2: autoDraw = True
+51.9414 	EXP 	window1: recordFrameIntervals = False
+51.9563 	EXP 	target_image2: autoDraw = False
+51.9565 	EXP 	window1: recordFrameIntervals = True
+52.2725 	EXP 	probe_image2: autoDraw = True
+52.4745 	EXP 	probe_image2: autoDraw = False
+53.6068 	EXP 	New trial (rep=0, index=5): OrderedDict([('trialNum', 5)])
+53.6128 	DATA 	Keypress: d
+53.6222 	EXP 	target_image2: autoDraw = False
+53.6222 	EXP 	probe_image2: autoDraw = False
+53.6222 	EXP 	target_image2: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Spacing_Set/edmd.tif'
+53.6222 	EXP 	probe_image2: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Spacing_Set/edmd.tif'
+53.6222 	EXP 	target_image2: autoDraw = True
+53.8064 	EXP 	window1: recordFrameIntervals = False
+53.8246 	EXP 	target_image2: autoDraw = False
+53.8247 	EXP 	window1: recordFrameIntervals = True
+54.1530 	EXP 	probe_image2: autoDraw = True
+54.3564 	EXP 	probe_image2: autoDraw = False
+55.1935 	EXP 	New trial (rep=0, index=6): OrderedDict([('trialNum', 6)])
+55.2050 	DATA 	Keypress: d
+55.2247 	EXP 	target_image2: autoDraw = False
+55.2247 	EXP 	probe_image2: autoDraw = False
+55.2247 	EXP 	target_image2: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Spacing_Set/eumu.tif'
+55.2247 	EXP 	probe_image2: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Spacing_Set/eumu.tif'
+55.2247 	EXP 	target_image2: autoDraw = True
+55.4056 	EXP 	window1: recordFrameIntervals = False
+55.4247 	EXP 	window1: recordFrameIntervals = True
+55.7311 	EXP 	target_image2: autoDraw = False
+55.7527 	EXP 	probe_image2: autoDraw = True
+55.9580 	EXP 	probe_image2: autoDraw = False
+56.2929 	EXP 	New trial (rep=0, index=7): OrderedDict([('trialNum', 7)])
+56.3016 	DATA 	Keypress: s
+56.3062 	EXP 	target_image2: autoDraw = False
+56.3062 	EXP 	probe_image2: autoDraw = False
+56.3062 	EXP 	target_image2: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Spacing_Set/eomu.tif'
+56.3062 	EXP 	probe_image2: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Spacing_Set/eimd.tif'
+56.3062 	EXP 	target_image2: autoDraw = True
+56.4917 	EXP 	window1: recordFrameIntervals = False
+56.5062 	EXP 	target_image2: autoDraw = False
+56.5063 	EXP 	window1: recordFrameIntervals = True
+56.8226 	EXP 	probe_image2: autoDraw = True
+57.0246 	EXP 	probe_image2: autoDraw = False
+57.7097 	EXP 	New trial (rep=0, index=8): OrderedDict([('trialNum', 8)])
+57.7169 	DATA 	Keypress: d
+57.7223 	EXP 	target_image2: autoDraw = False
+57.7223 	EXP 	probe_image2: autoDraw = False
+57.7223 	EXP 	target_image2: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Spacing_Set/eimd.tif'
+57.7223 	EXP 	probe_image2: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Spacing_Set/eimd.tif'
+57.7223 	EXP 	target_image2: autoDraw = True
+57.9085 	EXP 	window1: recordFrameIntervals = False
+57.9229 	EXP 	target_image2: autoDraw = False
+57.9231 	EXP 	window1: recordFrameIntervals = True
+58.2393 	EXP 	probe_image2: autoDraw = True
+58.4414 	EXP 	probe_image2: autoDraw = False
+59.3734 	EXP 	New trial (rep=0, index=9): OrderedDict([('trialNum', 9)])
+59.3813 	DATA 	Keypress: d
+59.3893 	EXP 	target_image2: autoDraw = False
+59.3893 	EXP 	probe_image2: autoDraw = False
+59.3893 	EXP 	target_image2: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Spacing_Set/eomu.tif'
+59.3893 	EXP 	probe_image2: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Spacing_Set/eomu.tif'
+59.3893 	EXP 	target_image2: autoDraw = True
+59.5749 	EXP 	window1: recordFrameIntervals = False
+59.5897 	EXP 	target_image2: autoDraw = False
+59.5898 	EXP 	window1: recordFrameIntervals = True
+59.9055 	EXP 	probe_image2: autoDraw = True
+60.1078 	EXP 	probe_image2: autoDraw = False
+60.8928 	EXP 	New trial (rep=0, index=10): OrderedDict([('trialNum', 10)])
+60.9025 	DATA 	Keypress: s
+60.9246 	EXP 	target_image2: autoDraw = False
+60.9246 	EXP 	probe_image2: autoDraw = False
+60.9246 	EXP 	target_image2: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Spacing_Set/edmd.tif'
+60.9246 	EXP 	probe_image2: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Spacing_Set/eumu.tif'
+60.9246 	EXP 	target_image2: autoDraw = True
+61.1079 	EXP 	window1: recordFrameIntervals = False
+61.1227 	EXP 	target_image2: autoDraw = False
+61.1228 	EXP 	window1: recordFrameIntervals = True
+61.4389 	EXP 	probe_image2: autoDraw = True
+61.6396 	EXP 	probe_image2: autoDraw = False
+62.3233 	EXP 	New trial (rep=0, index=11): OrderedDict([('trialNum', 11)])
+62.3312 	DATA 	Keypress: d
+62.3391 	EXP 	target_image2: autoDraw = False
+62.3391 	EXP 	probe_image2: autoDraw = False
+62.3391 	EXP 	target_image2: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Spacing_Set/eumu.tif'
+62.3391 	EXP 	probe_image2: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Spacing_Set/eomu.tif'
+62.3391 	EXP 	target_image2: autoDraw = True
+62.5246 	EXP 	window1: recordFrameIntervals = False
+62.5393 	EXP 	target_image2: autoDraw = False
+62.5394 	EXP 	window1: recordFrameIntervals = True
+62.8556 	EXP 	probe_image2: autoDraw = True
+63.0561 	EXP 	probe_image2: autoDraw = False
+64.0240 	EXP 	New trial (rep=0, index=12): OrderedDict([('trialNum', 12)])
+64.0341 	DATA 	Keypress: d
+64.0388 	EXP 	target_image2: autoDraw = False
+64.0388 	EXP 	probe_image2: autoDraw = False
+64.0388 	EXP 	target_image2: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Spacing_Set/eumu.tif'
+64.0388 	EXP 	probe_image2: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Spacing_Set/eumu.tif'
+64.0388 	EXP 	target_image2: autoDraw = True
+64.2394 	EXP 	target_image2: autoDraw = False
+64.2395 	EXP 	window1: recordFrameIntervals = False
+64.2580 	EXP 	window1: recordFrameIntervals = True
+64.5861 	EXP 	probe_image2: autoDraw = True
+64.7911 	EXP 	probe_image2: autoDraw = False
+65.5081 	EXP 	New trial (rep=0, index=13): OrderedDict([('trialNum', 13)])
+65.5165 	DATA 	Keypress: s
+65.5224 	EXP 	target_image2: autoDraw = False
+65.5224 	EXP 	probe_image2: autoDraw = False
+65.5224 	EXP 	target_image2: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Spacing_Set/edmd.tif'
+65.5224 	EXP 	probe_image2: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Spacing_Set/edmd.tif'
+65.5224 	EXP 	target_image2: autoDraw = True
+65.7081 	EXP 	window1: recordFrameIntervals = False
+65.7230 	EXP 	target_image2: autoDraw = False
+65.7231 	EXP 	window1: recordFrameIntervals = True
+66.0391 	EXP 	probe_image2: autoDraw = True
+66.2398 	EXP 	probe_image2: autoDraw = False
+67.3078 	EXP 	New trial (rep=0, index=14): OrderedDict([('trialNum', 14)])
+67.3154 	DATA 	Keypress: s
+67.3228 	EXP 	target_image2: autoDraw = False
+67.3228 	EXP 	probe_image2: autoDraw = False
+67.3228 	EXP 	target_image2: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Spacing_Set/edmd.tif'
+67.3228 	EXP 	probe_image2: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Spacing_Set/edmd.tif'
+67.3228 	EXP 	target_image2: autoDraw = True
+67.5065 	EXP 	window1: recordFrameIntervals = False
+67.5247 	EXP 	target_image2: autoDraw = False
+67.5249 	EXP 	window1: recordFrameIntervals = True
+67.8531 	EXP 	probe_image2: autoDraw = True
+68.0564 	EXP 	probe_image2: autoDraw = False
+68.7741 	EXP 	New trial (rep=0, index=15): OrderedDict([('trialNum', 15)])
+68.7804 	DATA 	Keypress: s
+68.7894 	EXP 	target_image2: autoDraw = False
+68.7894 	EXP 	probe_image2: autoDraw = False
+68.7894 	EXP 	target_image2: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Spacing_Set/edmd.tif'
+68.7894 	EXP 	probe_image2: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Spacing_Set/eomu.tif'
+68.7894 	EXP 	target_image2: autoDraw = True
+68.9749 	EXP 	window1: recordFrameIntervals = False
+68.9897 	EXP 	target_image2: autoDraw = False
+68.9898 	EXP 	window1: recordFrameIntervals = True
+69.3060 	EXP 	probe_image2: autoDraw = True
+69.5065 	EXP 	probe_image2: autoDraw = False
+70.0427 	EXP 	New trial (rep=0, index=16): OrderedDict([('trialNum', 16)])
+70.0518 	DATA 	Keypress: d
+70.0564 	EXP 	target_image2: autoDraw = False
+70.0564 	EXP 	probe_image2: autoDraw = False
+70.0564 	EXP 	target_image2: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Spacing_Set/eumu.tif'
+70.0564 	EXP 	probe_image2: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Spacing_Set/eimd.tif'
+70.0564 	EXP 	target_image2: autoDraw = True
+70.2564 	EXP 	target_image2: autoDraw = False
+70.2565 	EXP 	window1: recordFrameIntervals = False
+70.2749 	EXP 	window1: recordFrameIntervals = True
+70.6031 	EXP 	probe_image2: autoDraw = True
+70.8065 	EXP 	probe_image2: autoDraw = False
+72.2599 	EXP 	New trial (rep=0, index=17): OrderedDict([('trialNum', 17)])
+72.2692 	DATA 	Keypress: d
+72.2913 	EXP 	target_image2: autoDraw = False
+72.2913 	EXP 	probe_image2: autoDraw = False
+72.2913 	EXP 	target_image2: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Spacing_Set/eumu.tif'
+72.2913 	EXP 	probe_image2: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Spacing_Set/edmd.tif'
+72.2913 	EXP 	target_image2: autoDraw = True
+72.4749 	EXP 	window1: recordFrameIntervals = False
+72.4898 	EXP 	target_image2: autoDraw = False
+72.4900 	EXP 	window1: recordFrameIntervals = True
+72.8060 	EXP 	probe_image2: autoDraw = True
+73.0064 	EXP 	probe_image2: autoDraw = False
+74.7599 	EXP 	New trial (rep=0, index=18): OrderedDict([('trialNum', 18)])
+74.7698 	DATA 	Keypress: s
+74.7915 	EXP 	target_image2: autoDraw = False
+74.7915 	EXP 	probe_image2: autoDraw = False
+74.7915 	EXP 	target_image2: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Spacing_Set/eimd.tif'
+74.7915 	EXP 	probe_image2: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Spacing_Set/eumu.tif'
+74.7915 	EXP 	target_image2: autoDraw = True
+74.9732 	EXP 	window1: recordFrameIntervals = False
+74.9918 	EXP 	window1: recordFrameIntervals = True
+75.2973 	EXP 	target_image2: autoDraw = False
+75.3179 	EXP 	probe_image2: autoDraw = True
+75.5231 	EXP 	probe_image2: autoDraw = False
+76.0915 	EXP 	New trial (rep=0, index=19): OrderedDict([('trialNum', 19)])
+76.1013 	DATA 	Keypress: d
+76.1057 	EXP 	target_image2: autoDraw = False
+76.1057 	EXP 	probe_image2: autoDraw = False
+76.1057 	EXP 	target_image2: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Spacing_Set/eumu.tif'
+76.1057 	EXP 	probe_image2: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Spacing_Set/eumu.tif'
+76.1057 	EXP 	target_image2: autoDraw = True
+76.3065 	EXP 	target_image2: autoDraw = False
+76.3067 	EXP 	window1: recordFrameIntervals = False
+76.3246 	EXP 	window1: recordFrameIntervals = True
+76.6526 	EXP 	probe_image2: autoDraw = True
+76.8565 	EXP 	probe_image2: autoDraw = False
+77.5248 	EXP 	New trial (rep=0, index=20): OrderedDict([('trialNum', 20)])
+77.5316 	DATA 	Keypress: s
+77.5395 	EXP 	target_image2: autoDraw = False
+77.5395 	EXP 	probe_image2: autoDraw = False
+77.5395 	EXP 	target_image2: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Spacing_Set/eimd.tif'
+77.5395 	EXP 	probe_image2: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Spacing_Set/eomu.tif'
+77.5395 	EXP 	target_image2: autoDraw = True
+77.7249 	EXP 	window1: recordFrameIntervals = False
+77.7398 	EXP 	target_image2: autoDraw = False
+77.7399 	EXP 	window1: recordFrameIntervals = True
+78.0561 	EXP 	probe_image2: autoDraw = True
+78.2564 	EXP 	probe_image2: autoDraw = False
+78.7079 	EXP 	New trial (rep=0, index=21): OrderedDict([('trialNum', 21)])
+78.7165 	DATA 	Keypress: d
+78.7227 	EXP 	target_image2: autoDraw = False
+78.7227 	EXP 	probe_image2: autoDraw = False
+78.7227 	EXP 	target_image2: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Spacing_Set/eomu.tif'
+78.7227 	EXP 	probe_image2: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Spacing_Set/eomu.tif'
+78.7227 	EXP 	target_image2: autoDraw = True
+78.9082 	EXP 	window1: recordFrameIntervals = False
+78.9231 	EXP 	target_image2: autoDraw = False
+78.9233 	EXP 	window1: recordFrameIntervals = True
+79.2395 	EXP 	probe_image2: autoDraw = True
+79.4398 	EXP 	probe_image2: autoDraw = False
+79.9935 	EXP 	New trial (rep=0, index=22): OrderedDict([('trialNum', 22)])
+80.0020 	DATA 	Keypress: s
+80.0067 	EXP 	target_image2: autoDraw = False
+80.0067 	EXP 	probe_image2: autoDraw = False
+80.0067 	EXP 	target_image2: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Spacing_Set/edmd.tif'
+80.0067 	EXP 	probe_image2: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Spacing_Set/eimd.tif'
+80.0067 	EXP 	target_image2: autoDraw = True
+80.1917 	EXP 	window1: recordFrameIntervals = False
+80.2066 	EXP 	target_image2: autoDraw = False
+80.2067 	EXP 	window1: recordFrameIntervals = True
+80.5369 	EXP 	probe_image2: autoDraw = True
+80.7398 	EXP 	probe_image2: autoDraw = False
+81.8083 	EXP 	New trial (rep=0, index=23): OrderedDict([('trialNum', 23)])
+81.8157 	DATA 	Keypress: d
+81.8230 	EXP 	target_image2: autoDraw = False
+81.8230 	EXP 	probe_image2: autoDraw = False
+81.8230 	EXP 	target_image2: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Spacing_Set/eimd.tif'
+81.8230 	EXP 	probe_image2: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Spacing_Set/eimd.tif'
+81.8230 	EXP 	target_image2: autoDraw = True
+82.0082 	EXP 	window1: recordFrameIntervals = False
+82.0232 	EXP 	target_image2: autoDraw = False
+82.0234 	EXP 	window1: recordFrameIntervals = True
+82.3530 	EXP 	probe_image2: autoDraw = True
+82.5582 	EXP 	probe_image2: autoDraw = False
+83.1092 	DATA 	Keypress: s
+83.1231 	EXP 	target_image2: autoDraw = False
+83.1231 	EXP 	probe_image2: autoDraw = False
+83.1231 	EXP 	face_instructions: autoDraw = True
+84.0764 	EXP 	Imported trials24.csv as conditions, 24 conditions, 1 params
+84.0766 	EXP 	Created sequence: sequential, trialTypes=24, nReps=1, seed=None
+84.0770 	EXP 	New trial (rep=0, index=0): OrderedDict([('trialNum', 0)])
+84.0859 	DATA 	Keypress: space
+84.1078 	EXP 	face_instructions: autoDraw = False
+84.1078 	EXP 	target_image3: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Spacing_Set/eimd.tif'
+84.1078 	EXP 	probe_image3: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Spacing_Set/eimd.tif'
+84.1078 	EXP 	target_image3: autoDraw = True
+84.2900 	EXP 	window1: recordFrameIntervals = False
+84.3079 	EXP 	window1: recordFrameIntervals = True
+84.6146 	EXP 	target_image3: autoDraw = False
+84.6361 	EXP 	probe_image3: autoDraw = True
+84.8398 	EXP 	probe_image3: autoDraw = False
+85.3581 	EXP 	New trial (rep=0, index=1): OrderedDict([('trialNum', 1)])
+85.3656 	DATA 	Keypress: s
+85.3730 	EXP 	target_image3: autoDraw = False
+85.3730 	EXP 	probe_image3: autoDraw = False
+85.3730 	EXP 	target_image3: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Spacing_Set/eomu.tif'
+85.3730 	EXP 	probe_image3: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Spacing_Set/eomu.tif'
+85.3730 	EXP 	target_image3: autoDraw = True
+85.5568 	EXP 	window1: recordFrameIntervals = False
+85.5749 	EXP 	target_image3: autoDraw = False
+85.5750 	EXP 	window1: recordFrameIntervals = True
+85.9030 	EXP 	probe_image3: autoDraw = True
+86.1083 	EXP 	probe_image3: autoDraw = False
+86.4408 	EXP 	New trial (rep=0, index=2): OrderedDict([('trialNum', 2)])
+86.4483 	DATA 	Keypress: d
+86.4563 	EXP 	target_image3: autoDraw = False
+86.4563 	EXP 	probe_image3: autoDraw = False
+86.4563 	EXP 	target_image3: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Spacing_Set/edmd.tif'
+86.4563 	EXP 	probe_image3: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Spacing_Set/edmd.tif'
+86.4563 	EXP 	target_image3: autoDraw = True
+86.6418 	EXP 	window1: recordFrameIntervals = False
+86.6566 	EXP 	target_image3: autoDraw = False
+86.6567 	EXP 	window1: recordFrameIntervals = True
+86.9727 	EXP 	probe_image3: autoDraw = True
+87.1731 	EXP 	probe_image3: autoDraw = False
+87.3581 	EXP 	New trial (rep=0, index=3): OrderedDict([('trialNum', 3)])
+87.3640 	DATA 	Keypress: s
+87.3734 	EXP 	target_image3: autoDraw = False
+87.3734 	EXP 	probe_image3: autoDraw = False
+87.3734 	EXP 	target_image3: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Spacing_Set/eimd.tif'
+87.3734 	EXP 	probe_image3: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Spacing_Set/edmd.tif'
+87.3734 	EXP 	target_image3: autoDraw = True
+87.5585 	EXP 	window1: recordFrameIntervals = False
+87.5734 	EXP 	target_image3: autoDraw = False
+87.5735 	EXP 	window1: recordFrameIntervals = True
+87.8895 	EXP 	probe_image3: autoDraw = True
+88.0900 	EXP 	probe_image3: autoDraw = False
+88.7755 	EXP 	New trial (rep=0, index=4): OrderedDict([('trialNum', 4)])
+88.7840 	DATA 	Keypress: s
+88.7890 	EXP 	target_image3: autoDraw = False
+88.7890 	EXP 	probe_image3: autoDraw = False
+88.7890 	EXP 	target_image3: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Spacing_Set/eumu.tif'
+88.7890 	EXP 	probe_image3: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Spacing_Set/eimd.tif'
+88.7890 	EXP 	target_image3: autoDraw = True
+88.9751 	EXP 	window1: recordFrameIntervals = False
+88.9900 	EXP 	target_image3: autoDraw = False
+88.9901 	EXP 	window1: recordFrameIntervals = True
+89.3061 	EXP 	probe_image3: autoDraw = True
+89.5082 	EXP 	probe_image3: autoDraw = False
+89.7748 	EXP 	New trial (rep=0, index=5): OrderedDict([('trialNum', 5)])
+89.7856 	DATA 	Keypress: d
+89.7902 	EXP 	target_image3: autoDraw = False
+89.7902 	EXP 	probe_image3: autoDraw = False
+89.7902 	EXP 	target_image3: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Spacing_Set/eumu.tif'
+89.7902 	EXP 	probe_image3: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Spacing_Set/eomu.tif'
+89.7902 	EXP 	target_image3: autoDraw = True
+89.9900 	EXP 	target_image3: autoDraw = False
+89.9901 	EXP 	window1: recordFrameIntervals = False
+90.0083 	EXP 	window1: recordFrameIntervals = True
+90.3356 	EXP 	probe_image3: autoDraw = True
+90.5399 	EXP 	probe_image3: autoDraw = False
+90.7935 	EXP 	New trial (rep=0, index=6): OrderedDict([('trialNum', 6)])
+90.8033 	DATA 	Keypress: s
+90.8250 	EXP 	target_image3: autoDraw = False
+90.8250 	EXP 	probe_image3: autoDraw = False
+90.8250 	EXP 	target_image3: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Spacing_Set/eumu.tif'
+90.8250 	EXP 	probe_image3: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Spacing_Set/edmd.tif'
+90.8250 	EXP 	target_image3: autoDraw = True
+91.0067 	EXP 	window1: recordFrameIntervals = False
+91.0251 	EXP 	window1: recordFrameIntervals = True
+91.3312 	EXP 	target_image3: autoDraw = False
+91.3529 	EXP 	probe_image3: autoDraw = True
+91.5566 	EXP 	probe_image3: autoDraw = False
+92.1099 	EXP 	New trial (rep=0, index=7): OrderedDict([('trialNum', 7)])
+92.1175 	DATA 	Keypress: d
+92.1225 	EXP 	target_image3: autoDraw = False
+92.1225 	EXP 	probe_image3: autoDraw = False
+92.1225 	EXP 	target_image3: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Spacing_Set/eimd.tif'
+92.1225 	EXP 	probe_image3: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Spacing_Set/eomu.tif'
+92.1225 	EXP 	target_image3: autoDraw = True
+92.3055 	EXP 	window1: recordFrameIntervals = False
+92.3250 	EXP 	target_image3: autoDraw = False
+92.3252 	EXP 	window1: recordFrameIntervals = True
+92.6535 	EXP 	probe_image3: autoDraw = True
+92.8564 	EXP 	probe_image3: autoDraw = False
+93.9761 	EXP 	New trial (rep=0, index=8): OrderedDict([('trialNum', 8)])
+93.9831 	DATA 	Keypress: d
+93.9896 	EXP 	target_image3: autoDraw = False
+93.9896 	EXP 	probe_image3: autoDraw = False
+93.9896 	EXP 	target_image3: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Spacing_Set/edmd.tif'
+93.9896 	EXP 	probe_image3: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Spacing_Set/eimd.tif'
+93.9896 	EXP 	target_image3: autoDraw = True
+94.1730 	EXP 	window1: recordFrameIntervals = False
+94.1918 	EXP 	target_image3: autoDraw = False
+94.1919 	EXP 	window1: recordFrameIntervals = True
+94.5200 	EXP 	probe_image3: autoDraw = True
+94.7250 	EXP 	probe_image3: autoDraw = False
+95.5760 	EXP 	New trial (rep=0, index=9): OrderedDict([('trialNum', 9)])
+95.5864 	DATA 	Keypress: d
+95.6082 	EXP 	target_image3: autoDraw = False
+95.6082 	EXP 	probe_image3: autoDraw = False
+95.6082 	EXP 	target_image3: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Spacing_Set/eumu.tif'
+95.6082 	EXP 	probe_image3: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Spacing_Set/eumu.tif'
+95.6082 	EXP 	target_image3: autoDraw = True
+95.7912 	EXP 	window1: recordFrameIntervals = False
+95.8062 	EXP 	target_image3: autoDraw = False
+95.8063 	EXP 	window1: recordFrameIntervals = True
+96.1229 	EXP 	probe_image3: autoDraw = True
+96.3249 	EXP 	probe_image3: autoDraw = False
+96.6757 	EXP 	New trial (rep=0, index=10): OrderedDict([('trialNum', 10)])
+96.6831 	DATA 	Keypress: s
+96.6897 	EXP 	target_image3: autoDraw = False
+96.6897 	EXP 	probe_image3: autoDraw = False
+96.6897 	EXP 	target_image3: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Spacing_Set/eomu.tif'
+96.6897 	EXP 	probe_image3: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Spacing_Set/eomu.tif'
+96.6897 	EXP 	target_image3: autoDraw = True
+96.8735 	EXP 	window1: recordFrameIntervals = False
+96.8918 	EXP 	target_image3: autoDraw = False
+96.8919 	EXP 	window1: recordFrameIntervals = True
+97.2200 	EXP 	probe_image3: autoDraw = True
+97.4233 	EXP 	probe_image3: autoDraw = False
+97.9100 	EXP 	New trial (rep=0, index=11): OrderedDict([('trialNum', 11)])
+97.9167 	DATA 	Keypress: d
+97.9227 	EXP 	target_image3: autoDraw = False
+97.9227 	EXP 	probe_image3: autoDraw = False
+97.9227 	EXP 	target_image3: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Spacing_Set/edmd.tif'
+97.9227 	EXP 	probe_image3: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Spacing_Set/edmd.tif'
+97.9227 	EXP 	target_image3: autoDraw = True
+98.1068 	EXP 	window1: recordFrameIntervals = False
+98.1250 	EXP 	target_image3: autoDraw = False
+98.1252 	EXP 	window1: recordFrameIntervals = True
+98.4534 	EXP 	probe_image3: autoDraw = True
+98.6566 	EXP 	probe_image3: autoDraw = False
+99.1747 	EXP 	New trial (rep=0, index=12): OrderedDict([('trialNum', 12)])
+99.1810 	DATA 	Keypress: s
+99.1897 	EXP 	target_image3: autoDraw = False
+99.1897 	EXP 	probe_image3: autoDraw = False
+99.1897 	EXP 	target_image3: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Spacing_Set/eomu.tif'
+99.1897 	EXP 	probe_image3: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Spacing_Set/eimd.tif'
+99.1897 	EXP 	target_image3: autoDraw = True
+99.3751 	EXP 	window1: recordFrameIntervals = False
+99.3901 	EXP 	target_image3: autoDraw = False
+99.3902 	EXP 	window1: recordFrameIntervals = True
+99.7200 	EXP 	probe_image3: autoDraw = True
+99.9249 	EXP 	probe_image3: autoDraw = False
+100.5102 	EXP 	New trial (rep=0, index=13): OrderedDict([('trialNum', 13)])
+100.5220 	DATA 	Keypress: d
+100.5416 	EXP 	target_image3: autoDraw = False
+100.5416 	EXP 	probe_image3: autoDraw = False
+100.5416 	EXP 	target_image3: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Spacing_Set/eumu.tif'
+100.5416 	EXP 	probe_image3: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Spacing_Set/eumu.tif'
+100.5416 	EXP 	target_image3: autoDraw = True
+100.7252 	EXP 	window1: recordFrameIntervals = False
+100.7400 	EXP 	target_image3: autoDraw = False
+100.7401 	EXP 	window1: recordFrameIntervals = True
+101.0562 	EXP 	probe_image3: autoDraw = True
+101.2567 	EXP 	probe_image3: autoDraw = False
+101.4087 	EXP 	New trial (rep=0, index=14): OrderedDict([('trialNum', 14)])
+101.4154 	DATA 	Keypress: s
+101.4231 	EXP 	target_image3: autoDraw = False
+101.4231 	EXP 	probe_image3: autoDraw = False
+101.4231 	EXP 	target_image3: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Spacing_Set/eimd.tif'
+101.4231 	EXP 	probe_image3: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Spacing_Set/eimd.tif'
+101.4231 	EXP 	target_image3: autoDraw = True
+101.6068 	EXP 	window1: recordFrameIntervals = False
+101.6250 	EXP 	target_image3: autoDraw = False
+101.6251 	EXP 	window1: recordFrameIntervals = True
+101.9532 	EXP 	probe_image3: autoDraw = True
+102.1566 	EXP 	probe_image3: autoDraw = False
+103.4432 	EXP 	New trial (rep=0, index=15): OrderedDict([('trialNum', 15)])
+103.4507 	DATA 	Keypress: s
+103.4557 	EXP 	target_image3: autoDraw = False
+103.4557 	EXP 	probe_image3: autoDraw = False
+103.4557 	EXP 	target_image3: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Spacing_Set/eomu.tif'
+103.4557 	EXP 	probe_image3: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Spacing_Set/edmd.tif'
+103.4557 	EXP 	target_image3: autoDraw = True
+103.6419 	EXP 	window1: recordFrameIntervals = False
+103.6566 	EXP 	target_image3: autoDraw = False
+103.6568 	EXP 	window1: recordFrameIntervals = True
+103.9727 	EXP 	probe_image3: autoDraw = True
+104.1751 	EXP 	probe_image3: autoDraw = False
+105.0085 	EXP 	New trial (rep=0, index=16): OrderedDict([('trialNum', 16)])
+105.0193 	DATA 	Keypress: d
+105.0418 	EXP 	target_image3: autoDraw = False
+105.0418 	EXP 	probe_image3: autoDraw = False
+105.0418 	EXP 	target_image3: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Spacing_Set/eomu.tif'
+105.0418 	EXP 	probe_image3: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Spacing_Set/eumu.tif'
+105.0418 	EXP 	target_image3: autoDraw = True
+105.2234 	EXP 	window1: recordFrameIntervals = False
+105.2415 	EXP 	window1: recordFrameIntervals = True
+105.5483 	EXP 	target_image3: autoDraw = False
+105.5700 	EXP 	probe_image3: autoDraw = True
+105.7733 	EXP 	probe_image3: autoDraw = False
+106.5439 	EXP 	New trial (rep=0, index=17): OrderedDict([('trialNum', 17)])
+106.5546 	DATA 	Keypress: d
+106.5751 	EXP 	target_image3: autoDraw = False
+106.5751 	EXP 	probe_image3: autoDraw = False
+106.5751 	EXP 	target_image3: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Spacing_Set/eumu.tif'
+106.5751 	EXP 	probe_image3: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Spacing_Set/eumu.tif'
+106.5751 	EXP 	target_image3: autoDraw = True
+106.7568 	EXP 	window1: recordFrameIntervals = False
+106.7752 	EXP 	window1: recordFrameIntervals = True
+107.0816 	EXP 	target_image3: autoDraw = False
+107.1034 	EXP 	probe_image3: autoDraw = True
+107.3084 	EXP 	probe_image3: autoDraw = False
+107.5922 	EXP 	New trial (rep=0, index=18): OrderedDict([('trialNum', 18)])
+107.6028 	DATA 	Keypress: s
+107.6252 	EXP 	target_image3: autoDraw = False
+107.6252 	EXP 	probe_image3: autoDraw = False
+107.6252 	EXP 	target_image3: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Spacing_Set/edmd.tif'
+107.6252 	EXP 	probe_image3: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Spacing_Set/eumu.tif'
+107.6252 	EXP 	target_image3: autoDraw = True
+107.8069 	EXP 	window1: recordFrameIntervals = False
+107.8255 	EXP 	window1: recordFrameIntervals = True
+108.1316 	EXP 	target_image3: autoDraw = False
+108.1534 	EXP 	probe_image3: autoDraw = True
+108.3586 	EXP 	probe_image3: autoDraw = False
+108.9093 	EXP 	New trial (rep=0, index=19): OrderedDict([('trialNum', 19)])
+108.9163 	DATA 	Keypress: d
+108.9231 	EXP 	target_image3: autoDraw = False
+108.9231 	EXP 	probe_image3: autoDraw = False
+108.9231 	EXP 	target_image3: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Spacing_Set/eimd.tif'
+108.9231 	EXP 	probe_image3: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Spacing_Set/eimd.tif'
+108.9231 	EXP 	target_image3: autoDraw = True
+109.1068 	EXP 	window1: recordFrameIntervals = False
+109.1251 	EXP 	target_image3: autoDraw = False
+109.1252 	EXP 	window1: recordFrameIntervals = True
+109.4534 	EXP 	probe_image3: autoDraw = True
+109.6567 	EXP 	probe_image3: autoDraw = False
+110.2762 	EXP 	New trial (rep=0, index=20): OrderedDict([('trialNum', 20)])
+110.2828 	DATA 	Keypress: s
+110.2898 	EXP 	target_image3: autoDraw = False
+110.2898 	EXP 	probe_image3: autoDraw = False
+110.2898 	EXP 	target_image3: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Spacing_Set/edmd.tif'
+110.2898 	EXP 	probe_image3: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Spacing_Set/edmd.tif'
+110.2898 	EXP 	target_image3: autoDraw = True
+110.4750 	EXP 	window1: recordFrameIntervals = False
+110.4900 	EXP 	target_image3: autoDraw = False
+110.4902 	EXP 	window1: recordFrameIntervals = True
+110.8063 	EXP 	probe_image3: autoDraw = True
+111.0066 	EXP 	probe_image3: autoDraw = False
+111.6264 	EXP 	New trial (rep=0, index=21): OrderedDict([('trialNum', 21)])
+111.6331 	DATA 	Keypress: s
+111.6397 	EXP 	target_image3: autoDraw = False
+111.6397 	EXP 	probe_image3: autoDraw = False
+111.6397 	EXP 	target_image3: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Spacing_Set/eomu.tif'
+111.6397 	EXP 	probe_image3: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Spacing_Set/eomu.tif'
+111.6397 	EXP 	target_image3: autoDraw = True
+111.8253 	EXP 	window1: recordFrameIntervals = False
+111.8402 	EXP 	target_image3: autoDraw = False
+111.8403 	EXP 	window1: recordFrameIntervals = True
+112.1563 	EXP 	probe_image3: autoDraw = True
+112.3567 	EXP 	probe_image3: autoDraw = False
+112.6761 	EXP 	New trial (rep=0, index=22): OrderedDict([('trialNum', 22)])
+112.6847 	DATA 	Keypress: d
+112.6894 	EXP 	target_image3: autoDraw = False
+112.6894 	EXP 	probe_image3: autoDraw = False
+112.6894 	EXP 	target_image3: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Spacing_Set/eimd.tif'
+112.6894 	EXP 	probe_image3: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Spacing_Set/eumu.tif'
+112.6894 	EXP 	target_image3: autoDraw = True
+112.8752 	EXP 	window1: recordFrameIntervals = False
+112.8901 	EXP 	target_image3: autoDraw = False
+112.8902 	EXP 	window1: recordFrameIntervals = True
+113.2063 	EXP 	probe_image3: autoDraw = True
+113.2936 	DATA 	Keypress: s
+113.4067 	EXP 	probe_image3: autoDraw = False
+114.5432 	EXP 	New trial (rep=0, index=23): OrderedDict([('trialNum', 23)])
+114.5514 	DATA 	Keypress: s
+114.5558 	EXP 	target_image3: autoDraw = False
+114.5558 	EXP 	probe_image3: autoDraw = False
+114.5558 	EXP 	target_image3: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Spacing_Set/edmd.tif'
+114.5558 	EXP 	probe_image3: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Spacing_Set/eomu.tif'
+114.5558 	EXP 	target_image3: autoDraw = True
+114.7419 	EXP 	window1: recordFrameIntervals = False
+114.7559 	EXP 	target_image3: autoDraw = False
+114.7559 	EXP 	window1: recordFrameIntervals = True
+115.0730 	EXP 	probe_image3: autoDraw = True
+115.2732 	EXP 	probe_image3: autoDraw = False
+115.7421 	DATA 	Keypress: d
+115.7566 	EXP 	target_image3: autoDraw = False
+115.7566 	EXP 	probe_image3: autoDraw = False
+115.7566 	EXP 	haus_instructions: autoDraw = True
+117.0432 	EXP 	Imported trials24.csv as conditions, 24 conditions, 1 params
+117.0435 	EXP 	Created sequence: sequential, trialTypes=24, nReps=1, seed=None
+117.0438 	EXP 	New trial (rep=0, index=0): OrderedDict([('trialNum', 0)])
+117.0506 	DATA 	Keypress: space
+117.0557 	EXP 	haus_instructions: autoDraw = False
+117.0557 	EXP 	target_image4: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Featural_Set/f142.tif'
+117.0557 	EXP 	probe_image4: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Featural_Set/f142.tif'
+117.0557 	EXP 	target_image4: autoDraw = True
+117.2583 	EXP 	target_image4: autoDraw = False
+117.2584 	EXP 	window1: recordFrameIntervals = False
+117.2733 	EXP 	window1: recordFrameIntervals = True
+117.5895 	EXP 	probe_image4: autoDraw = True
+117.7899 	EXP 	probe_image4: autoDraw = False
+119.0760 	EXP 	New trial (rep=0, index=1): OrderedDict([('trialNum', 1)])
+119.0825 	DATA 	Keypress: d
+119.0897 	EXP 	target_image4: autoDraw = False
+119.0897 	EXP 	probe_image4: autoDraw = False
+119.0897 	EXP 	target_image4: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Featural_Set/f131.tif'
+119.0897 	EXP 	probe_image4: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Featural_Set/f142.tif'
+119.0897 	EXP 	target_image4: autoDraw = True
+119.2752 	EXP 	window1: recordFrameIntervals = False
+119.2900 	EXP 	target_image4: autoDraw = False
+119.2902 	EXP 	window1: recordFrameIntervals = True
+119.6060 	EXP 	probe_image4: autoDraw = True
+119.8079 	EXP 	probe_image4: autoDraw = False
+120.3590 	EXP 	New trial (rep=0, index=2): OrderedDict([('trialNum', 2)])
+120.3646 	DATA 	Keypress: s
+120.3727 	EXP 	target_image4: autoDraw = False
+120.3727 	EXP 	probe_image4: autoDraw = False
+120.3727 	EXP 	target_image4: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Featural_Set/f24.tif'
+120.3727 	EXP 	probe_image4: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Featural_Set/f24.tif'
+120.3727 	EXP 	target_image4: autoDraw = True
+120.5582 	EXP 	window1: recordFrameIntervals = False
+120.5731 	EXP 	target_image4: autoDraw = False
+120.5732 	EXP 	window1: recordFrameIntervals = True
+120.8894 	EXP 	probe_image4: autoDraw = True
+121.0899 	EXP 	probe_image4: autoDraw = False
+121.9260 	EXP 	New trial (rep=0, index=3): OrderedDict([('trialNum', 3)])
+121.9337 	DATA 	Keypress: d
+121.9394 	EXP 	target_image4: autoDraw = False
+121.9394 	EXP 	probe_image4: autoDraw = False
+121.9394 	EXP 	target_image4: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Featural_Set/f142.tif'
+121.9394 	EXP 	probe_image4: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Featural_Set/f15.tif'
+121.9394 	EXP 	target_image4: autoDraw = True
+122.1248 	EXP 	window1: recordFrameIntervals = False
+122.1396 	EXP 	target_image4: autoDraw = False
+122.1397 	EXP 	window1: recordFrameIntervals = True
+122.4559 	EXP 	probe_image4: autoDraw = True
+122.6563 	EXP 	probe_image4: autoDraw = False
+125.2584 	EXP 	New trial (rep=0, index=4): OrderedDict([('trialNum', 4)])
+125.2663 	DATA 	Keypress: s
+125.2732 	EXP 	target_image4: autoDraw = False
+125.2732 	EXP 	probe_image4: autoDraw = False
+125.2732 	EXP 	target_image4: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Featural_Set/f131.tif'
+125.2732 	EXP 	probe_image4: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Featural_Set/f24.tif'
+125.2732 	EXP 	target_image4: autoDraw = True
+125.4588 	EXP 	window1: recordFrameIntervals = False
+125.4735 	EXP 	target_image4: autoDraw = False
+125.4736 	EXP 	window1: recordFrameIntervals = True
+125.7898 	EXP 	probe_image4: autoDraw = True
+125.9903 	EXP 	probe_image4: autoDraw = False
+127.8592 	EXP 	New trial (rep=0, index=5): OrderedDict([('trialNum', 5)])
+127.8655 	DATA 	Keypress: d
+127.8733 	EXP 	target_image4: autoDraw = False
+127.8733 	EXP 	probe_image4: autoDraw = False
+127.8733 	EXP 	target_image4: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Featural_Set/f131.tif'
+127.8733 	EXP 	probe_image4: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Featural_Set/f131.tif'
+127.8733 	EXP 	target_image4: autoDraw = True
+128.0587 	EXP 	window1: recordFrameIntervals = False
+128.0735 	EXP 	target_image4: autoDraw = False
+128.0737 	EXP 	window1: recordFrameIntervals = True
+128.3896 	EXP 	probe_image4: autoDraw = True
+128.5918 	EXP 	probe_image4: autoDraw = False
+130.8427 	EXP 	New trial (rep=0, index=6): OrderedDict([('trialNum', 6)])
+130.8516 	DATA 	Keypress: d
+130.8562 	EXP 	target_image4: autoDraw = False
+130.8562 	EXP 	probe_image4: autoDraw = False
+130.8562 	EXP 	target_image4: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Featural_Set/f142.tif'
+130.8562 	EXP 	probe_image4: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Featural_Set/f131.tif'
+130.8562 	EXP 	target_image4: autoDraw = True
+131.0076 	DATA 	Keypress: s
+131.0592 	EXP 	target_image4: autoDraw = False
+131.0593 	EXP 	window1: recordFrameIntervals = False
+131.0737 	EXP 	window1: recordFrameIntervals = True
+131.3899 	EXP 	probe_image4: autoDraw = True
+131.5918 	EXP 	probe_image4: autoDraw = False
+132.2926 	EXP 	New trial (rep=0, index=7): OrderedDict([('trialNum', 7)])
+132.2990 	DATA 	Keypress: s
+132.3066 	EXP 	target_image4: autoDraw = False
+132.3066 	EXP 	probe_image4: autoDraw = False
+132.3066 	EXP 	target_image4: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Featural_Set/f142.tif'
+132.3066 	EXP 	probe_image4: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Featural_Set/f24.tif'
+132.3066 	EXP 	target_image4: autoDraw = True
+132.4920 	EXP 	window1: recordFrameIntervals = False
+132.5069 	EXP 	target_image4: autoDraw = False
+132.5070 	EXP 	window1: recordFrameIntervals = True
+132.8232 	EXP 	probe_image4: autoDraw = True
+133.0234 	EXP 	probe_image4: autoDraw = False
+133.7432 	EXP 	New trial (rep=0, index=8): OrderedDict([('trialNum', 8)])
+133.7503 	DATA 	Keypress: d
+133.7565 	EXP 	target_image4: autoDraw = False
+133.7565 	EXP 	probe_image4: autoDraw = False
+133.7565 	EXP 	target_image4: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Featural_Set/f15.tif'
+133.7565 	EXP 	probe_image4: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Featural_Set/f15.tif'
+133.7565 	EXP 	target_image4: autoDraw = True
+133.9426 	EXP 	window1: recordFrameIntervals = False
+133.9569 	EXP 	target_image4: autoDraw = False
+133.9570 	EXP 	window1: recordFrameIntervals = True
+134.2732 	EXP 	probe_image4: autoDraw = True
+134.4753 	EXP 	probe_image4: autoDraw = False
+135.2595 	EXP 	New trial (rep=0, index=9): OrderedDict([('trialNum', 9)])
+135.2653 	DATA 	Keypress: s
+135.2731 	EXP 	target_image4: autoDraw = False
+135.2731 	EXP 	probe_image4: autoDraw = False
+135.2731 	EXP 	target_image4: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Featural_Set/f15.tif'
+135.2731 	EXP 	probe_image4: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Featural_Set/f15.tif'
+135.2731 	EXP 	target_image4: autoDraw = True
+135.4588 	EXP 	window1: recordFrameIntervals = False
+135.4736 	EXP 	target_image4: autoDraw = False
+135.4737 	EXP 	window1: recordFrameIntervals = True
+135.7898 	EXP 	probe_image4: autoDraw = True
+135.9904 	EXP 	probe_image4: autoDraw = False
+137.0421 	EXP 	New trial (rep=0, index=10): OrderedDict([('trialNum', 10)])
+137.0495 	DATA 	Keypress: d
+137.0568 	EXP 	target_image4: autoDraw = False
+137.0568 	EXP 	probe_image4: autoDraw = False
+137.0568 	EXP 	target_image4: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Featural_Set/f131.tif'
+137.0568 	EXP 	probe_image4: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Featural_Set/f15.tif'
+137.0568 	EXP 	target_image4: autoDraw = True
+137.2420 	EXP 	window1: recordFrameIntervals = False
+137.2568 	EXP 	target_image4: autoDraw = False
+137.2569 	EXP 	window1: recordFrameIntervals = True
+137.5732 	EXP 	probe_image4: autoDraw = True
+137.7737 	EXP 	probe_image4: autoDraw = False
+138.7575 	EXP 	New trial (rep=0, index=11): OrderedDict([('trialNum', 11)])
+138.7637 	DATA 	Keypress: s
+138.7734 	EXP 	target_image4: autoDraw = False
+138.7734 	EXP 	probe_image4: autoDraw = False
+138.7734 	EXP 	target_image4: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Featural_Set/f131.tif'
+138.7734 	EXP 	probe_image4: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Featural_Set/f131.tif'
+138.7734 	EXP 	target_image4: autoDraw = True
+138.9588 	EXP 	window1: recordFrameIntervals = False
+138.9737 	EXP 	target_image4: autoDraw = False
+138.9738 	EXP 	window1: recordFrameIntervals = True
+139.2898 	EXP 	probe_image4: autoDraw = True
+139.4904 	EXP 	probe_image4: autoDraw = False
+139.9581 	EXP 	New trial (rep=0, index=12): OrderedDict([('trialNum', 12)])
+139.9655 	DATA 	Keypress: d
+139.9733 	EXP 	target_image4: autoDraw = False
+139.9733 	EXP 	probe_image4: autoDraw = False
+139.9733 	EXP 	target_image4: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Featural_Set/f15.tif'
+139.9733 	EXP 	probe_image4: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Featural_Set/f142.tif'
+139.9733 	EXP 	target_image4: autoDraw = True
+140.1589 	EXP 	window1: recordFrameIntervals = False
+140.1737 	EXP 	target_image4: autoDraw = False
+140.1738 	EXP 	window1: recordFrameIntervals = True
+140.5041 	EXP 	probe_image4: autoDraw = True
+140.7066 	EXP 	probe_image4: autoDraw = False
+141.1262 	EXP 	New trial (rep=0, index=13): OrderedDict([('trialNum', 13)])
+141.1339 	DATA 	Keypress: s
+141.1402 	EXP 	target_image4: autoDraw = False
+141.1402 	EXP 	probe_image4: autoDraw = False
+141.1402 	EXP 	target_image4: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Featural_Set/f24.tif'
+141.1402 	EXP 	probe_image4: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Featural_Set/f142.tif'
+141.1402 	EXP 	target_image4: autoDraw = True
+141.3256 	EXP 	window1: recordFrameIntervals = False
+141.3403 	EXP 	target_image4: autoDraw = False
+141.3404 	EXP 	window1: recordFrameIntervals = True
+141.6565 	EXP 	probe_image4: autoDraw = True
+141.8570 	EXP 	probe_image4: autoDraw = False
+142.6579 	EXP 	New trial (rep=0, index=14): OrderedDict([('trialNum', 14)])
+142.6643 	DATA 	Keypress: d
+142.6733 	EXP 	target_image4: autoDraw = False
+142.6733 	EXP 	probe_image4: autoDraw = False
+142.6733 	EXP 	target_image4: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Featural_Set/f24.tif'
+142.6733 	EXP 	probe_image4: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Featural_Set/f24.tif'
+142.6733 	EXP 	target_image4: autoDraw = True
+142.8589 	EXP 	window1: recordFrameIntervals = False
+142.8736 	EXP 	target_image4: autoDraw = False
+142.8737 	EXP 	window1: recordFrameIntervals = True
+143.1899 	EXP 	probe_image4: autoDraw = True
+143.3903 	EXP 	probe_image4: autoDraw = False
+143.6255 	EXP 	New trial (rep=0, index=15): OrderedDict([('trialNum', 15)])
+143.6340 	DATA 	Keypress: s
+143.6400 	EXP 	target_image4: autoDraw = False
+143.6400 	EXP 	probe_image4: autoDraw = False
+143.6400 	EXP 	target_image4: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Featural_Set/f15.tif'
+143.6400 	EXP 	probe_image4: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Featural_Set/f131.tif'
+143.6400 	EXP 	target_image4: autoDraw = True
+143.8238 	EXP 	window1: recordFrameIntervals = False
+143.8419 	EXP 	target_image4: autoDraw = False
+143.8420 	EXP 	window1: recordFrameIntervals = True
+144.1704 	EXP 	probe_image4: autoDraw = True
+144.3754 	EXP 	probe_image4: autoDraw = False
+144.9762 	EXP 	New trial (rep=0, index=16): OrderedDict([('trialNum', 16)])
+144.9837 	DATA 	Keypress: d
+144.9900 	EXP 	target_image4: autoDraw = False
+144.9900 	EXP 	probe_image4: autoDraw = False
+144.9900 	EXP 	target_image4: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Featural_Set/f142.tif'
+144.9900 	EXP 	probe_image4: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Featural_Set/f142.tif'
+144.9900 	EXP 	target_image4: autoDraw = True
+145.1756 	EXP 	window1: recordFrameIntervals = False
+145.1905 	EXP 	target_image4: autoDraw = False
+145.1906 	EXP 	window1: recordFrameIntervals = True
+145.5068 	EXP 	probe_image4: autoDraw = True
+145.7086 	EXP 	probe_image4: autoDraw = False
+145.9576 	EXP 	New trial (rep=0, index=17): OrderedDict([('trialNum', 17)])
+145.9643 	DATA 	Keypress: s
+145.9737 	EXP 	target_image4: autoDraw = False
+145.9737 	EXP 	probe_image4: autoDraw = False
+145.9737 	EXP 	target_image4: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Featural_Set/f15.tif'
+145.9737 	EXP 	probe_image4: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Featural_Set/f15.tif'
+145.9737 	EXP 	target_image4: autoDraw = True
+146.1572 	EXP 	window1: recordFrameIntervals = False
+146.1755 	EXP 	target_image4: autoDraw = False
+146.1756 	EXP 	window1: recordFrameIntervals = True
+146.5037 	EXP 	probe_image4: autoDraw = True
+146.7070 	EXP 	probe_image4: autoDraw = False
+147.1414 	EXP 	New trial (rep=0, index=18): OrderedDict([('trialNum', 18)])
+147.1485 	DATA 	Keypress: s
+147.1567 	EXP 	target_image4: autoDraw = False
+147.1567 	EXP 	probe_image4: autoDraw = False
+147.1567 	EXP 	target_image4: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Featural_Set/f24.tif'
+147.1567 	EXP 	probe_image4: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Featural_Set/f131.tif'
+147.1567 	EXP 	target_image4: autoDraw = True
+147.3413 	EXP 	window1: recordFrameIntervals = False
+147.3584 	EXP 	target_image4: autoDraw = False
+147.3584 	EXP 	window1: recordFrameIntervals = True
+147.6726 	EXP 	probe_image4: autoDraw = True
+147.8754 	EXP 	probe_image4: autoDraw = False
+148.4274 	EXP 	New trial (rep=0, index=19): OrderedDict([('trialNum', 19)])
+148.4357 	DATA 	Keypress: d
+148.4402 	EXP 	target_image4: autoDraw = False
+148.4402 	EXP 	probe_image4: autoDraw = False
+148.4402 	EXP 	target_image4: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Featural_Set/f142.tif'
+148.4402 	EXP 	probe_image4: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Featural_Set/f142.tif'
+148.4402 	EXP 	target_image4: autoDraw = True
+148.6257 	EXP 	window1: recordFrameIntervals = False
+148.6404 	EXP 	target_image4: autoDraw = False
+148.6405 	EXP 	window1: recordFrameIntervals = True
+148.9565 	EXP 	probe_image4: autoDraw = True
+149.1571 	EXP 	probe_image4: autoDraw = False
+149.8580 	EXP 	New trial (rep=0, index=20): OrderedDict([('trialNum', 20)])
+149.8646 	DATA 	Keypress: s
+149.8735 	EXP 	target_image4: autoDraw = False
+149.8735 	EXP 	probe_image4: autoDraw = False
+149.8735 	EXP 	target_image4: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Featural_Set/f15.tif'
+149.8735 	EXP 	probe_image4: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Featural_Set/f24.tif'
+149.8735 	EXP 	target_image4: autoDraw = True
+150.0588 	EXP 	window1: recordFrameIntervals = False
+150.0737 	EXP 	target_image4: autoDraw = False
+150.0738 	EXP 	window1: recordFrameIntervals = True
+150.3901 	EXP 	probe_image4: autoDraw = True
+150.5921 	EXP 	probe_image4: autoDraw = False
+151.1086 	EXP 	New trial (rep=0, index=21): OrderedDict([('trialNum', 21)])
+151.1165 	DATA 	Keypress: d
+151.1235 	EXP 	target_image4: autoDraw = False
+151.1235 	EXP 	probe_image4: autoDraw = False
+151.1235 	EXP 	target_image4: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Featural_Set/f24.tif'
+151.1235 	EXP 	probe_image4: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Featural_Set/f15.tif'
+151.1235 	EXP 	target_image4: autoDraw = True
+151.3090 	EXP 	window1: recordFrameIntervals = False
+151.3235 	EXP 	target_image4: autoDraw = False
+151.3236 	EXP 	window1: recordFrameIntervals = True
+151.6399 	EXP 	probe_image4: autoDraw = True
+151.8405 	EXP 	probe_image4: autoDraw = False
+152.1599 	EXP 	New trial (rep=0, index=22): OrderedDict([('trialNum', 22)])
+152.1665 	DATA 	Keypress: s
+152.1735 	EXP 	target_image4: autoDraw = False
+152.1735 	EXP 	probe_image4: autoDraw = False
+152.1735 	EXP 	target_image4: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Featural_Set/f131.tif'
+152.1735 	EXP 	probe_image4: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Featural_Set/f131.tif'
+152.1735 	EXP 	target_image4: autoDraw = True
+152.3592 	EXP 	window1: recordFrameIntervals = False
+152.3739 	EXP 	target_image4: autoDraw = False
+152.3741 	EXP 	window1: recordFrameIntervals = True
+152.6902 	EXP 	probe_image4: autoDraw = True
+152.8905 	EXP 	probe_image4: autoDraw = False
+152.9439 	EXP 	New trial (rep=0, index=23): OrderedDict([('trialNum', 23)])
+152.9527 	DATA 	Keypress: d
+152.9575 	EXP 	target_image4: autoDraw = False
+152.9575 	EXP 	probe_image4: autoDraw = False
+152.9575 	EXP 	target_image4: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Featural_Set/f24.tif'
+152.9575 	EXP 	probe_image4: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Featural_Set/f24.tif'
+152.9575 	EXP 	target_image4: autoDraw = True
+153.1589 	EXP 	target_image4: autoDraw = False
+153.1591 	EXP 	window1: recordFrameIntervals = False
+153.1740 	EXP 	window1: recordFrameIntervals = True
+153.4901 	EXP 	probe_image4: autoDraw = True
+153.6922 	EXP 	probe_image4: autoDraw = False
+154.1758 	EXP 	New trial (rep=1, index=0): None
+154.1780 	DATA 	Keypress: s
+154.1904 	EXP 	target_image4: autoDraw = False
+154.1904 	EXP 	probe_image4: autoDraw = False
+154.1904 	EXP 	face_instructions: autoDraw = True
+155.0314 	EXP 	Imported trials24.csv as conditions, 24 conditions, 1 params
+155.0317 	EXP 	Created sequence: sequential, trialTypes=24, nReps=1, seed=None
+155.0321 	EXP 	New trial (rep=0, index=0): OrderedDict([('trialNum', 0)])
+155.0409 	DATA 	Keypress: space
+155.0594 	EXP 	face_instructions: autoDraw = False
+155.0594 	EXP 	target_image1: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Featural_Set/f15.tif'
+155.0594 	EXP 	probe_image1: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Featural_Set/f142.tif'
+155.0594 	EXP 	target_image1: autoDraw = True
+155.2406 	EXP 	window1: recordFrameIntervals = False
+155.2590 	EXP 	window1: recordFrameIntervals = True
+155.5653 	EXP 	target_image1: autoDraw = False
+155.5871 	EXP 	probe_image1: autoDraw = True
+155.7904 	EXP 	probe_image1: autoDraw = False
+156.3596 	EXP 	New trial (rep=0, index=1): OrderedDict([('trialNum', 1)])
+156.3663 	DATA 	Keypress: d
+156.3734 	EXP 	target_image1: autoDraw = False
+156.3734 	EXP 	probe_image1: autoDraw = False
+156.3734 	EXP 	target_image1: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Featural_Set/f24.tif'
+156.3734 	EXP 	probe_image1: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Featural_Set/f24.tif'
+156.3734 	EXP 	target_image1: autoDraw = True
+156.5572 	EXP 	window1: recordFrameIntervals = False
+156.5752 	EXP 	target_image1: autoDraw = False
+156.5753 	EXP 	window1: recordFrameIntervals = True
+156.9038 	EXP 	probe_image1: autoDraw = True
+157.1072 	EXP 	probe_image1: autoDraw = False
+157.5763 	EXP 	New trial (rep=0, index=2): OrderedDict([('trialNum', 2)])
+157.5832 	DATA 	Keypress: s
+157.5908 	EXP 	target_image1: autoDraw = False
+157.5908 	EXP 	probe_image1: autoDraw = False
+157.5908 	EXP 	target_image1: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Featural_Set/f15.tif'
+157.5908 	EXP 	probe_image1: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Featural_Set/f24.tif'
+157.5908 	EXP 	target_image1: autoDraw = True
+157.7758 	EXP 	window1: recordFrameIntervals = False
+157.7904 	EXP 	target_image1: autoDraw = False
+157.7906 	EXP 	window1: recordFrameIntervals = True
+158.1068 	EXP 	probe_image1: autoDraw = True
+158.3063 	EXP 	probe_image1: autoDraw = False
+158.6086 	EXP 	New trial (rep=0, index=3): OrderedDict([('trialNum', 3)])
+158.6156 	DATA 	Keypress: d
+158.6237 	EXP 	target_image1: autoDraw = False
+158.6237 	EXP 	probe_image1: autoDraw = False
+158.6237 	EXP 	target_image1: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Featural_Set/f15.tif'
+158.6237 	EXP 	probe_image1: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Featural_Set/f15.tif'
+158.6237 	EXP 	target_image1: autoDraw = True
+158.8090 	EXP 	window1: recordFrameIntervals = False
+158.8238 	EXP 	target_image1: autoDraw = False
+158.8239 	EXP 	window1: recordFrameIntervals = True
+159.1397 	EXP 	probe_image1: autoDraw = True
+159.3421 	EXP 	probe_image1: autoDraw = False
+159.5100 	EXP 	New trial (rep=0, index=4): OrderedDict([('trialNum', 4)])
+159.5171 	DATA 	Keypress: s
+159.5235 	EXP 	target_image1: autoDraw = False
+159.5235 	EXP 	probe_image1: autoDraw = False
+159.5235 	EXP 	target_image1: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Featural_Set/f131.tif'
+159.5235 	EXP 	probe_image1: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Featural_Set/f131.tif'
+159.5235 	EXP 	target_image1: autoDraw = True
+159.7090 	EXP 	window1: recordFrameIntervals = False
+159.7236 	EXP 	target_image1: autoDraw = False
+159.7238 	EXP 	window1: recordFrameIntervals = True
+160.0400 	EXP 	probe_image1: autoDraw = True
+160.2405 	EXP 	probe_image1: autoDraw = False
+160.6103 	EXP 	New trial (rep=0, index=5): OrderedDict([('trialNum', 5)])
+160.6169 	DATA 	Keypress: d
+160.6235 	EXP 	target_image1: autoDraw = False
+160.6235 	EXP 	probe_image1: autoDraw = False
+160.6235 	EXP 	target_image1: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Featural_Set/f142.tif'
+160.6235 	EXP 	probe_image1: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Featural_Set/f131.tif'
+160.6235 	EXP 	target_image1: autoDraw = True
+160.8093 	EXP 	window1: recordFrameIntervals = False
+160.8239 	EXP 	target_image1: autoDraw = False
+160.8241 	EXP 	window1: recordFrameIntervals = True
+161.1401 	EXP 	probe_image1: autoDraw = True
+161.3423 	EXP 	probe_image1: autoDraw = False
+161.6083 	EXP 	New trial (rep=0, index=6): OrderedDict([('trialNum', 6)])
+161.6153 	DATA 	Keypress: s
+161.6237 	EXP 	target_image1: autoDraw = False
+161.6237 	EXP 	probe_image1: autoDraw = False
+161.6237 	EXP 	target_image1: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Featural_Set/f142.tif'
+161.6237 	EXP 	probe_image1: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Featural_Set/f142.tif'
+161.6237 	EXP 	target_image1: autoDraw = True
+161.8088 	EXP 	window1: recordFrameIntervals = False
+161.8239 	EXP 	target_image1: autoDraw = False
+161.8241 	EXP 	window1: recordFrameIntervals = True
+162.1401 	EXP 	probe_image1: autoDraw = True
+162.3422 	EXP 	probe_image1: autoDraw = False
+162.7247 	EXP 	New trial (rep=0, index=7): OrderedDict([('trialNum', 7)])
+162.7315 	DATA 	Keypress: s
+162.7403 	EXP 	target_image1: autoDraw = False
+162.7403 	EXP 	probe_image1: autoDraw = False
+162.7403 	EXP 	target_image1: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Featural_Set/f15.tif'
+162.7403 	EXP 	probe_image1: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Featural_Set/f15.tif'
+162.7403 	EXP 	target_image1: autoDraw = True
+162.9257 	EXP 	window1: recordFrameIntervals = False
+162.9406 	EXP 	target_image1: autoDraw = False
+162.9407 	EXP 	window1: recordFrameIntervals = True
+163.2568 	EXP 	probe_image1: autoDraw = True
+163.4588 	EXP 	probe_image1: autoDraw = False
+163.8427 	EXP 	New trial (rep=0, index=8): OrderedDict([('trialNum', 8)])
+163.8503 	DATA 	Keypress: s
+163.8569 	EXP 	target_image1: autoDraw = False
+163.8569 	EXP 	probe_image1: autoDraw = False
+163.8569 	EXP 	target_image1: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Featural_Set/f24.tif'
+163.8569 	EXP 	probe_image1: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Featural_Set/f24.tif'
+163.8569 	EXP 	target_image1: autoDraw = True
+164.0424 	EXP 	window1: recordFrameIntervals = False
+164.0571 	EXP 	target_image1: autoDraw = False
+164.0573 	EXP 	window1: recordFrameIntervals = True
+164.3734 	EXP 	probe_image1: autoDraw = True
+164.5738 	EXP 	probe_image1: autoDraw = False
+164.7911 	EXP 	New trial (rep=0, index=9): OrderedDict([('trialNum', 9)])
+164.7972 	DATA 	Keypress: d
+164.8069 	EXP 	target_image1: autoDraw = False
+164.8069 	EXP 	probe_image1: autoDraw = False
+164.8069 	EXP 	target_image1: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Featural_Set/f24.tif'
+164.8069 	EXP 	probe_image1: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Featural_Set/f142.tif'
+164.8069 	EXP 	target_image1: autoDraw = True
+164.9923 	EXP 	window1: recordFrameIntervals = False
+165.0072 	EXP 	target_image1: autoDraw = False
+165.0073 	EXP 	window1: recordFrameIntervals = True
+165.3231 	EXP 	probe_image1: autoDraw = True
+165.5238 	EXP 	probe_image1: autoDraw = False
+166.3076 	EXP 	New trial (rep=0, index=10): OrderedDict([('trialNum', 10)])
+166.3147 	DATA 	Keypress: s
+166.3234 	EXP 	target_image1: autoDraw = False
+166.3234 	EXP 	probe_image1: autoDraw = False
+166.3234 	EXP 	target_image1: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Featural_Set/f142.tif'
+166.3234 	EXP 	probe_image1: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Featural_Set/f24.tif'
+166.3234 	EXP 	target_image1: autoDraw = True
+166.5089 	EXP 	window1: recordFrameIntervals = False
+166.5236 	EXP 	target_image1: autoDraw = False
+166.5237 	EXP 	window1: recordFrameIntervals = True
+166.8398 	EXP 	probe_image1: autoDraw = True
+167.0402 	EXP 	probe_image1: autoDraw = False
+167.6759 	EXP 	New trial (rep=0, index=11): OrderedDict([('trialNum', 11)])
+167.6825 	DATA 	Keypress: s
+167.6901 	EXP 	target_image1: autoDraw = False
+167.6901 	EXP 	probe_image1: autoDraw = False
+167.6901 	EXP 	target_image1: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Featural_Set/f131.tif'
+167.6901 	EXP 	probe_image1: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Featural_Set/f142.tif'
+167.6901 	EXP 	target_image1: autoDraw = True
+167.8754 	EXP 	window1: recordFrameIntervals = False
+167.8903 	EXP 	target_image1: autoDraw = False
+167.8904 	EXP 	window1: recordFrameIntervals = True
+168.2067 	EXP 	probe_image1: autoDraw = True
+168.4087 	EXP 	probe_image1: autoDraw = False
+168.8773 	EXP 	New trial (rep=0, index=12): OrderedDict([('trialNum', 12)])
+168.8852 	DATA 	Keypress: s
+168.8897 	EXP 	target_image1: autoDraw = False
+168.8897 	EXP 	probe_image1: autoDraw = False
+168.8897 	EXP 	target_image1: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Featural_Set/f131.tif'
+168.8897 	EXP 	probe_image1: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Featural_Set/f15.tif'
+168.8897 	EXP 	target_image1: autoDraw = True
+169.0759 	EXP 	window1: recordFrameIntervals = False
+169.0902 	EXP 	target_image1: autoDraw = False
+169.0903 	EXP 	window1: recordFrameIntervals = True
+169.4066 	EXP 	probe_image1: autoDraw = True
+169.6070 	EXP 	probe_image1: autoDraw = False
+169.9273 	EXP 	New trial (rep=0, index=13): OrderedDict([('trialNum', 13)])
+169.9345 	DATA 	Keypress: d
+169.9397 	EXP 	target_image1: autoDraw = False
+169.9397 	EXP 	probe_image1: autoDraw = False
+169.9397 	EXP 	target_image1: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Featural_Set/f142.tif'
+169.9397 	EXP 	probe_image1: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Featural_Set/f142.tif'
+169.9397 	EXP 	target_image1: autoDraw = True
+170.1254 	EXP 	window1: recordFrameIntervals = False
+170.1402 	EXP 	target_image1: autoDraw = False
+170.1403 	EXP 	window1: recordFrameIntervals = True
+170.4561 	EXP 	probe_image1: autoDraw = True
+170.6563 	EXP 	probe_image1: autoDraw = False
+171.2269 	EXP 	New trial (rep=0, index=14): OrderedDict([('trialNum', 14)])
+171.2349 	DATA 	Keypress: s
+171.2398 	EXP 	target_image1: autoDraw = False
+171.2398 	EXP 	probe_image1: autoDraw = False
+171.2398 	EXP 	target_image1: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Featural_Set/f131.tif'
+171.2398 	EXP 	probe_image1: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Featural_Set/f131.tif'
+171.2398 	EXP 	target_image1: autoDraw = True
+171.4421 	EXP 	target_image1: autoDraw = False
+171.4423 	EXP 	window1: recordFrameIntervals = False
+171.4571 	EXP 	window1: recordFrameIntervals = True
+171.7734 	EXP 	probe_image1: autoDraw = True
+171.9754 	EXP 	probe_image1: autoDraw = False
+172.3770 	EXP 	New trial (rep=0, index=15): OrderedDict([('trialNum', 15)])
+172.3845 	DATA 	Keypress: d
+172.3898 	EXP 	target_image1: autoDraw = False
+172.3898 	EXP 	probe_image1: autoDraw = False
+172.3898 	EXP 	target_image1: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Featural_Set/f15.tif'
+172.3898 	EXP 	probe_image1: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Featural_Set/f131.tif'
+172.3898 	EXP 	target_image1: autoDraw = True
+172.5759 	EXP 	window1: recordFrameIntervals = False
+172.5899 	EXP 	target_image1: autoDraw = False
+172.5900 	EXP 	window1: recordFrameIntervals = True
+172.9067 	EXP 	probe_image1: autoDraw = True
+173.1069 	EXP 	probe_image1: autoDraw = False
+173.2761 	EXP 	New trial (rep=0, index=16): OrderedDict([('trialNum', 16)])
+173.2827 	DATA 	Keypress: s
+173.2900 	EXP 	target_image1: autoDraw = False
+173.2900 	EXP 	probe_image1: autoDraw = False
+173.2900 	EXP 	target_image1: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Featural_Set/f24.tif'
+173.2900 	EXP 	probe_image1: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Featural_Set/f15.tif'
+173.2900 	EXP 	target_image1: autoDraw = True
+173.4747 	EXP 	window1: recordFrameIntervals = False
+173.4902 	EXP 	target_image1: autoDraw = False
+173.4904 	EXP 	window1: recordFrameIntervals = True
+173.8065 	EXP 	probe_image1: autoDraw = True
+174.0088 	EXP 	probe_image1: autoDraw = False
+174.2431 	EXP 	New trial (rep=0, index=17): OrderedDict([('trialNum', 17)])
+174.2491 	DATA 	Keypress: d
+174.2569 	EXP 	target_image1: autoDraw = False
+174.2569 	EXP 	probe_image1: autoDraw = False
+174.2569 	EXP 	target_image1: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Featural_Set/f24.tif'
+174.2569 	EXP 	probe_image1: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Featural_Set/f24.tif'
+174.2569 	EXP 	target_image1: autoDraw = True
+174.4422 	EXP 	window1: recordFrameIntervals = False
+174.4570 	EXP 	target_image1: autoDraw = False
+174.4571 	EXP 	window1: recordFrameIntervals = True
+174.7732 	EXP 	probe_image1: autoDraw = True
+174.9754 	EXP 	probe_image1: autoDraw = False
+175.5912 	EXP 	New trial (rep=0, index=18): OrderedDict([('trialNum', 18)])
+175.5982 	DATA 	Keypress: s
+175.6070 	EXP 	target_image1: autoDraw = False
+175.6070 	EXP 	probe_image1: autoDraw = False
+175.6070 	EXP 	target_image1: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Featural_Set/f15.tif'
+175.6070 	EXP 	probe_image1: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Featural_Set/f15.tif'
+175.6070 	EXP 	target_image1: autoDraw = True
+175.7926 	EXP 	window1: recordFrameIntervals = False
+175.8072 	EXP 	target_image1: autoDraw = False
+175.8074 	EXP 	window1: recordFrameIntervals = True
+176.1236 	EXP 	probe_image1: autoDraw = True
+176.3258 	EXP 	probe_image1: autoDraw = False
+176.6770 	EXP 	New trial (rep=0, index=19): OrderedDict([('trialNum', 19)])
+176.6845 	DATA 	Keypress: s
+176.6901 	EXP 	target_image1: autoDraw = False
+176.6901 	EXP 	probe_image1: autoDraw = False
+176.6901 	EXP 	target_image1: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Featural_Set/f131.tif'
+176.6901 	EXP 	probe_image1: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Featural_Set/f131.tif'
+176.6901 	EXP 	target_image1: autoDraw = True
+176.8759 	EXP 	window1: recordFrameIntervals = False
+176.8907 	EXP 	target_image1: autoDraw = False
+176.8908 	EXP 	window1: recordFrameIntervals = True
+177.2069 	EXP 	probe_image1: autoDraw = True
+177.4072 	EXP 	probe_image1: autoDraw = False
+177.8078 	EXP 	New trial (rep=0, index=20): OrderedDict([('trialNum', 20)])
+177.8142 	DATA 	Keypress: s
+177.8236 	EXP 	target_image1: autoDraw = False
+177.8236 	EXP 	probe_image1: autoDraw = False
+177.8236 	EXP 	target_image1: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Featural_Set/f24.tif'
+177.8236 	EXP 	probe_image1: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Featural_Set/f131.tif'
+177.8236 	EXP 	target_image1: autoDraw = True
+178.0092 	EXP 	window1: recordFrameIntervals = False
+178.0240 	EXP 	target_image1: autoDraw = False
+178.0241 	EXP 	window1: recordFrameIntervals = True
+178.3402 	EXP 	probe_image1: autoDraw = True
+178.5424 	EXP 	probe_image1: autoDraw = False
+178.9761 	EXP 	New trial (rep=0, index=21): OrderedDict([('trialNum', 21)])
+178.9827 	DATA 	Keypress: d
+178.9898 	EXP 	target_image1: autoDraw = False
+178.9898 	EXP 	probe_image1: autoDraw = False
+178.9898 	EXP 	target_image1: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Featural_Set/f131.tif'
+178.9898 	EXP 	probe_image1: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Featural_Set/f24.tif'
+178.9898 	EXP 	target_image1: autoDraw = True
+179.1732 	EXP 	window1: recordFrameIntervals = False
+179.1915 	EXP 	target_image1: autoDraw = False
+179.1916 	EXP 	window1: recordFrameIntervals = True
+179.5207 	EXP 	probe_image1: autoDraw = True
+179.7250 	EXP 	probe_image1: autoDraw = False
+180.3085 	EXP 	New trial (rep=0, index=22): OrderedDict([('trialNum', 22)])
+180.3151 	DATA 	Keypress: s
+180.3237 	EXP 	target_image1: autoDraw = False
+180.3237 	EXP 	probe_image1: autoDraw = False
+180.3237 	EXP 	target_image1: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Featural_Set/f142.tif'
+180.3237 	EXP 	probe_image1: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Featural_Set/f142.tif'
+180.3237 	EXP 	target_image1: autoDraw = True
+180.5092 	EXP 	window1: recordFrameIntervals = False
+180.5240 	EXP 	target_image1: autoDraw = False
+180.5241 	EXP 	window1: recordFrameIntervals = True
+180.8396 	EXP 	probe_image1: autoDraw = True
+181.0399 	EXP 	probe_image1: autoDraw = False
+181.3596 	EXP 	New trial (rep=0, index=23): OrderedDict([('trialNum', 23)])
+181.3656 	DATA 	Keypress: d
+181.3739 	EXP 	target_image1: autoDraw = False
+181.3739 	EXP 	probe_image1: autoDraw = False
+181.3739 	EXP 	target_image1: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Featural_Set/f142.tif'
+181.3739 	EXP 	probe_image1: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Featural_Set/f15.tif'
+181.3739 	EXP 	target_image1: autoDraw = True
+181.5592 	EXP 	window1: recordFrameIntervals = False
+181.5741 	EXP 	target_image1: autoDraw = False
+181.5742 	EXP 	window1: recordFrameIntervals = True
+181.8902 	EXP 	probe_image1: autoDraw = True
+182.0923 	EXP 	probe_image1: autoDraw = False
+182.2462 	DATA 	Keypress: d
+182.2573 	EXP 	target_image1: autoDraw = False
+182.2573 	EXP 	probe_image1: autoDraw = False
+182.2573 	EXP 	haus_instructions: autoDraw = True
+183.1963 	EXP 	Imported trials24.csv as conditions, 24 conditions, 1 params
+183.1965 	EXP 	Created sequence: sequential, trialTypes=24, nReps=1, seed=None
+183.1969 	EXP 	New trial (rep=0, index=0): OrderedDict([('trialNum', 0)])
+183.2092 	DATA 	Keypress: space
+183.2241 	EXP 	haus_instructions: autoDraw = False
+183.2241 	EXP 	target_image2: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Spacing_Set/eumu.tif'
+183.2241 	EXP 	probe_image2: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Spacing_Set/eumu.tif'
+183.2241 	EXP 	target_image2: autoDraw = True
+183.4074 	EXP 	window1: recordFrameIntervals = False
+183.4239 	EXP 	target_image2: autoDraw = False
+183.4240 	EXP 	window1: recordFrameIntervals = True
+183.7537 	EXP 	probe_image2: autoDraw = True
+183.9591 	EXP 	probe_image2: autoDraw = False
+184.5115 	EXP 	New trial (rep=0, index=1): OrderedDict([('trialNum', 1)])
+184.5197 	DATA 	Keypress: d
+184.5243 	EXP 	target_image2: autoDraw = False
+184.5243 	EXP 	probe_image2: autoDraw = False
+184.5243 	EXP 	target_image2: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Spacing_Set/edmd.tif'
+184.5243 	EXP 	probe_image2: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Spacing_Set/eimd.tif'
+184.5243 	EXP 	target_image2: autoDraw = True
+184.7240 	EXP 	target_image2: autoDraw = False
+184.7241 	EXP 	window1: recordFrameIntervals = False
+184.7424 	EXP 	window1: recordFrameIntervals = True
+185.0707 	EXP 	probe_image2: autoDraw = True
+185.2740 	EXP 	probe_image2: autoDraw = False
+185.5268 	EXP 	New trial (rep=0, index=2): OrderedDict([('trialNum', 2)])
+185.5326 	DATA 	Keypress: s
+185.5401 	EXP 	target_image2: autoDraw = False
+185.5401 	EXP 	probe_image2: autoDraw = False
+185.5401 	EXP 	target_image2: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Spacing_Set/edmd.tif'
+185.5401 	EXP 	probe_image2: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Spacing_Set/edmd.tif'
+185.5401 	EXP 	target_image2: autoDraw = True
+185.7242 	EXP 	window1: recordFrameIntervals = False
+185.7431 	EXP 	target_image2: autoDraw = False
+185.7432 	EXP 	window1: recordFrameIntervals = True
+186.0707 	EXP 	probe_image2: autoDraw = True
+186.2740 	EXP 	probe_image2: autoDraw = False
+187.1079 	EXP 	New trial (rep=0, index=3): OrderedDict([('trialNum', 3)])
+187.1156 	DATA 	Keypress: d
+187.1240 	EXP 	target_image2: autoDraw = False
+187.1240 	EXP 	probe_image2: autoDraw = False
+187.1240 	EXP 	target_image2: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Spacing_Set/edmd.tif'
+187.1240 	EXP 	probe_image2: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Spacing_Set/eumu.tif'
+187.1240 	EXP 	target_image2: autoDraw = True
+187.3093 	EXP 	window1: recordFrameIntervals = False
+187.3240 	EXP 	target_image2: autoDraw = False
+187.3242 	EXP 	window1: recordFrameIntervals = True
+187.6402 	EXP 	probe_image2: autoDraw = True
+187.8407 	EXP 	probe_image2: autoDraw = False
+188.1600 	EXP 	New trial (rep=0, index=4): OrderedDict([('trialNum', 4)])
+188.1670 	DATA 	Keypress: s
+188.1738 	EXP 	target_image2: autoDraw = False
+188.1738 	EXP 	probe_image2: autoDraw = False
+188.1738 	EXP 	target_image2: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Spacing_Set/eimd.tif'
+188.1738 	EXP 	probe_image2: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Spacing_Set/eimd.tif'
+188.1738 	EXP 	target_image2: autoDraw = True
+188.3593 	EXP 	window1: recordFrameIntervals = False
+188.3741 	EXP 	target_image2: autoDraw = False
+188.3742 	EXP 	window1: recordFrameIntervals = True
+188.7045 	EXP 	probe_image2: autoDraw = True
+188.9092 	EXP 	probe_image2: autoDraw = False
+190.3246 	EXP 	New trial (rep=0, index=5): OrderedDict([('trialNum', 5)])
+190.3326 	DATA 	Keypress: s
+190.3400 	EXP 	target_image2: autoDraw = False
+190.3400 	EXP 	probe_image2: autoDraw = False
+190.3400 	EXP 	target_image2: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Spacing_Set/eumu.tif'
+190.3400 	EXP 	probe_image2: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Spacing_Set/eimd.tif'
+190.3400 	EXP 	target_image2: autoDraw = True
+190.5258 	EXP 	window1: recordFrameIntervals = False
+190.5407 	EXP 	target_image2: autoDraw = False
+190.5408 	EXP 	window1: recordFrameIntervals = True
+190.8570 	EXP 	probe_image2: autoDraw = True
+191.0591 	EXP 	probe_image2: autoDraw = False
+191.6754 	EXP 	New trial (rep=0, index=6): OrderedDict([('trialNum', 6)])
+191.6830 	DATA 	Keypress: s
+191.6905 	EXP 	target_image2: autoDraw = False
+191.6905 	EXP 	probe_image2: autoDraw = False
+191.6905 	EXP 	target_image2: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Spacing_Set/eomu.tif'
+191.6905 	EXP 	probe_image2: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Spacing_Set/eomu.tif'
+191.6905 	EXP 	target_image2: autoDraw = True
+191.8759 	EXP 	window1: recordFrameIntervals = False
+191.8908 	EXP 	target_image2: autoDraw = False
+191.8910 	EXP 	window1: recordFrameIntervals = True
+192.2070 	EXP 	probe_image2: autoDraw = True
+192.4075 	EXP 	probe_image2: autoDraw = False
+192.8085 	EXP 	New trial (rep=0, index=7): OrderedDict([('trialNum', 7)])
+192.8145 	DATA 	Keypress: d
+192.8240 	EXP 	target_image2: autoDraw = False
+192.8240 	EXP 	probe_image2: autoDraw = False
+192.8240 	EXP 	target_image2: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Spacing_Set/eomu.tif'
+192.8240 	EXP 	probe_image2: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Spacing_Set/eimd.tif'
+192.8240 	EXP 	target_image2: autoDraw = True
+193.0093 	EXP 	window1: recordFrameIntervals = False
+193.0241 	EXP 	target_image2: autoDraw = False
+193.0242 	EXP 	window1: recordFrameIntervals = True
+193.3403 	EXP 	probe_image2: autoDraw = True
+193.5407 	EXP 	probe_image2: autoDraw = False
+193.7579 	EXP 	New trial (rep=0, index=8): OrderedDict([('trialNum', 8)])
+193.7641 	DATA 	Keypress: s
+193.7738 	EXP 	target_image2: autoDraw = False
+193.7738 	EXP 	probe_image2: autoDraw = False
+193.7738 	EXP 	target_image2: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Spacing_Set/edmd.tif'
+193.7738 	EXP 	probe_image2: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Spacing_Set/edmd.tif'
+193.7738 	EXP 	target_image2: autoDraw = True
+193.9575 	EXP 	window1: recordFrameIntervals = False
+193.9741 	EXP 	target_image2: autoDraw = False
+193.9742 	EXP 	window1: recordFrameIntervals = True
+194.3041 	EXP 	probe_image2: autoDraw = True
+194.5075 	EXP 	probe_image2: autoDraw = False
+195.1764 	EXP 	New trial (rep=0, index=9): OrderedDict([('trialNum', 9)])
+195.1857 	DATA 	Keypress: s
+195.1900 	EXP 	target_image2: autoDraw = False
+195.1900 	EXP 	probe_image2: autoDraw = False
+195.1900 	EXP 	target_image2: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Spacing_Set/eimd.tif'
+195.1900 	EXP 	probe_image2: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Spacing_Set/eumu.tif'
+195.1900 	EXP 	target_image2: autoDraw = True
+195.3758 	EXP 	window1: recordFrameIntervals = False
+195.3905 	EXP 	target_image2: autoDraw = False
+195.3906 	EXP 	window1: recordFrameIntervals = True
+195.7069 	EXP 	probe_image2: autoDraw = True
+195.9091 	EXP 	probe_image2: autoDraw = False
+196.4752 	EXP 	New trial (rep=0, index=10): OrderedDict([('trialNum', 10)])
+196.4855 	DATA 	Keypress: s
+196.4899 	EXP 	target_image2: autoDraw = False
+196.4899 	EXP 	probe_image2: autoDraw = False
+196.4899 	EXP 	target_image2: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Spacing_Set/eumu.tif'
+196.4899 	EXP 	probe_image2: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Spacing_Set/eumu.tif'
+196.4899 	EXP 	target_image2: autoDraw = True
+196.6905 	EXP 	target_image2: autoDraw = False
+196.6907 	EXP 	window1: recordFrameIntervals = False
+196.7074 	EXP 	window1: recordFrameIntervals = True
+197.0373 	EXP 	probe_image2: autoDraw = True
+197.2407 	EXP 	probe_image2: autoDraw = False
+197.5608 	EXP 	New trial (rep=0, index=11): OrderedDict([('trialNum', 11)])
+197.5696 	DATA 	Keypress: d
+197.5742 	EXP 	target_image2: autoDraw = False
+197.5742 	EXP 	probe_image2: autoDraw = False
+197.5742 	EXP 	target_image2: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Spacing_Set/eimd.tif'
+197.5742 	EXP 	probe_image2: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Spacing_Set/eomu.tif'
+197.5742 	EXP 	target_image2: autoDraw = True
+197.7737 	EXP 	target_image2: autoDraw = False
+197.7739 	EXP 	window1: recordFrameIntervals = False
+197.7924 	EXP 	window1: recordFrameIntervals = True
+198.1206 	EXP 	probe_image2: autoDraw = True
+198.3238 	EXP 	probe_image2: autoDraw = False
+198.4420 	EXP 	New trial (rep=0, index=12): OrderedDict([('trialNum', 12)])
+198.4481 	DATA 	Keypress: s
+198.4571 	EXP 	target_image2: autoDraw = False
+198.4571 	EXP 	probe_image2: autoDraw = False
+198.4571 	EXP 	target_image2: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Spacing_Set/eomu.tif'
+198.4571 	EXP 	probe_image2: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Spacing_Set/eomu.tif'
+198.4571 	EXP 	target_image2: autoDraw = True
+198.6422 	EXP 	window1: recordFrameIntervals = False
+198.6573 	EXP 	target_image2: autoDraw = False
+198.6575 	EXP 	window1: recordFrameIntervals = True
+198.9736 	EXP 	probe_image2: autoDraw = True
+199.1739 	EXP 	probe_image2: autoDraw = False
+199.8412 	EXP 	New trial (rep=0, index=13): OrderedDict([('trialNum', 13)])
+199.8494 	DATA 	Keypress: s
+199.8571 	EXP 	target_image2: autoDraw = False
+199.8571 	EXP 	probe_image2: autoDraw = False
+199.8571 	EXP 	target_image2: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Spacing_Set/eumu.tif'
+199.8571 	EXP 	probe_image2: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Spacing_Set/eomu.tif'
+199.8571 	EXP 	target_image2: autoDraw = True
+200.0408 	EXP 	window1: recordFrameIntervals = False
+200.0593 	EXP 	target_image2: autoDraw = False
+200.0594 	EXP 	window1: recordFrameIntervals = True
+200.3873 	EXP 	probe_image2: autoDraw = True
+200.5924 	EXP 	probe_image2: autoDraw = False
+201.3921 	EXP 	New trial (rep=0, index=14): OrderedDict([('trialNum', 14)])
+201.3991 	DATA 	Keypress: d
+201.4070 	EXP 	target_image2: autoDraw = False
+201.4070 	EXP 	probe_image2: autoDraw = False
+201.4070 	EXP 	target_image2: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Spacing_Set/eimd.tif'
+201.4070 	EXP 	probe_image2: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Spacing_Set/eimd.tif'
+201.4070 	EXP 	target_image2: autoDraw = True
+201.5925 	EXP 	window1: recordFrameIntervals = False
+201.6072 	EXP 	target_image2: autoDraw = False
+201.6073 	EXP 	window1: recordFrameIntervals = True
+201.9236 	EXP 	probe_image2: autoDraw = True
+202.1239 	EXP 	probe_image2: autoDraw = False
+203.0746 	EXP 	New trial (rep=0, index=15): OrderedDict([('trialNum', 15)])
+203.0836 	DATA 	Keypress: s
+203.0905 	EXP 	target_image2: autoDraw = False
+203.0905 	EXP 	probe_image2: autoDraw = False
+203.0905 	EXP 	target_image2: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Spacing_Set/eomu.tif'
+203.0905 	EXP 	probe_image2: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Spacing_Set/eumu.tif'
+203.0905 	EXP 	target_image2: autoDraw = True
+203.2758 	EXP 	window1: recordFrameIntervals = False
+203.2906 	EXP 	target_image2: autoDraw = False
+203.2907 	EXP 	window1: recordFrameIntervals = True
+203.6069 	EXP 	probe_image2: autoDraw = True
+203.8072 	EXP 	probe_image2: autoDraw = False
+204.0932 	EXP 	New trial (rep=0, index=16): OrderedDict([('trialNum', 16)])
+204.1021 	DATA 	Keypress: d
+204.1066 	EXP 	target_image2: autoDraw = False
+204.1066 	EXP 	probe_image2: autoDraw = False
+204.1066 	EXP 	target_image2: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Spacing_Set/eumu.tif'
+204.1066 	EXP 	probe_image2: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Spacing_Set/edmd.tif'
+204.1066 	EXP 	target_image2: autoDraw = True
+204.3073 	EXP 	target_image2: autoDraw = False
+204.3074 	EXP 	window1: recordFrameIntervals = False
+204.3233 	EXP 	window1: recordFrameIntervals = True
+204.6536 	EXP 	probe_image2: autoDraw = True
+204.8573 	EXP 	probe_image2: autoDraw = False
+205.2932 	EXP 	New trial (rep=0, index=17): OrderedDict([('trialNum', 17)])
+205.2997 	DATA 	Keypress: d
+205.3072 	EXP 	target_image2: autoDraw = False
+205.3072 	EXP 	probe_image2: autoDraw = False
+205.3072 	EXP 	target_image2: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Spacing_Set/eimd.tif'
+205.3072 	EXP 	probe_image2: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Spacing_Set/eimd.tif'
+205.3072 	EXP 	target_image2: autoDraw = True
+205.4912 	EXP 	window1: recordFrameIntervals = False
+205.5093 	EXP 	target_image2: autoDraw = False
+205.5094 	EXP 	window1: recordFrameIntervals = True
+205.8376 	EXP 	probe_image2: autoDraw = True
+206.0425 	EXP 	probe_image2: autoDraw = False
+206.5090 	EXP 	New trial (rep=0, index=18): OrderedDict([('trialNum', 18)])
+206.5163 	DATA 	Keypress: s
+206.5240 	EXP 	target_image2: autoDraw = False
+206.5240 	EXP 	probe_image2: autoDraw = False
+206.5240 	EXP 	target_image2: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Spacing_Set/eimd.tif'
+206.5240 	EXP 	probe_image2: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Spacing_Set/edmd.tif'
+206.5240 	EXP 	target_image2: autoDraw = True
+206.7094 	EXP 	window1: recordFrameIntervals = False
+206.7241 	EXP 	target_image2: autoDraw = False
+206.7242 	EXP 	window1: recordFrameIntervals = True
+207.0404 	EXP 	probe_image2: autoDraw = True
+207.2409 	EXP 	probe_image2: autoDraw = False
+207.4585 	EXP 	New trial (rep=0, index=19): OrderedDict([('trialNum', 19)])
+207.4646 	DATA 	Keypress: s
+207.4742 	EXP 	target_image2: autoDraw = False
+207.4742 	EXP 	probe_image2: autoDraw = False
+207.4742 	EXP 	target_image2: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Spacing_Set/edmd.tif'
+207.4742 	EXP 	probe_image2: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Spacing_Set/eomu.tif'
+207.4742 	EXP 	target_image2: autoDraw = True
+207.6578 	EXP 	window1: recordFrameIntervals = False
+207.6760 	EXP 	target_image2: autoDraw = False
+207.6761 	EXP 	window1: recordFrameIntervals = True
+208.0037 	EXP 	probe_image2: autoDraw = True
+208.2073 	EXP 	probe_image2: autoDraw = False
+208.5777 	EXP 	New trial (rep=0, index=20): OrderedDict([('trialNum', 20)])
+208.5889 	DATA 	Keypress: s
+208.6093 	EXP 	target_image2: autoDraw = False
+208.6093 	EXP 	probe_image2: autoDraw = False
+208.6093 	EXP 	target_image2: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Spacing_Set/eumu.tif'
+208.6093 	EXP 	probe_image2: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Spacing_Set/eumu.tif'
+208.6093 	EXP 	target_image2: autoDraw = True
+208.7909 	EXP 	window1: recordFrameIntervals = False
+208.8094 	EXP 	window1: recordFrameIntervals = True
+209.1158 	EXP 	target_image2: autoDraw = False
+209.1376 	EXP 	probe_image2: autoDraw = True
+209.3426 	EXP 	probe_image2: autoDraw = False
+209.9601 	EXP 	New trial (rep=0, index=21): OrderedDict([('trialNum', 21)])
+209.9670 	DATA 	Keypress: d
+209.9739 	EXP 	target_image2: autoDraw = False
+209.9739 	EXP 	probe_image2: autoDraw = False
+209.9739 	EXP 	target_image2: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Spacing_Set/eomu.tif'
+209.9739 	EXP 	probe_image2: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Spacing_Set/edmd.tif'
+209.9739 	EXP 	target_image2: autoDraw = True
+210.1595 	EXP 	window1: recordFrameIntervals = False
+210.1742 	EXP 	target_image2: autoDraw = False
+210.1743 	EXP 	window1: recordFrameIntervals = True
+210.4901 	EXP 	probe_image2: autoDraw = True
+210.6925 	EXP 	probe_image2: autoDraw = False
+211.8414 	EXP 	New trial (rep=0, index=22): OrderedDict([('trialNum', 22)])
+211.8481 	DATA 	Keypress: s
+211.8573 	EXP 	target_image2: autoDraw = False
+211.8573 	EXP 	probe_image2: autoDraw = False
+211.8573 	EXP 	target_image2: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Spacing_Set/eomu.tif'
+211.8573 	EXP 	probe_image2: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Spacing_Set/eomu.tif'
+211.8573 	EXP 	target_image2: autoDraw = True
+212.0429 	EXP 	window1: recordFrameIntervals = False
+212.0573 	EXP 	target_image2: autoDraw = False
+212.0574 	EXP 	window1: recordFrameIntervals = True
+212.3736 	EXP 	probe_image2: autoDraw = True
+212.5739 	EXP 	probe_image2: autoDraw = False
+213.2080 	EXP 	New trial (rep=0, index=23): OrderedDict([('trialNum', 23)])
+213.2151 	DATA 	Keypress: s
+213.2240 	EXP 	target_image2: autoDraw = False
+213.2240 	EXP 	probe_image2: autoDraw = False
+213.2240 	EXP 	target_image2: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Spacing_Set/edmd.tif'
+213.2240 	EXP 	probe_image2: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Spacing_Set/edmd.tif'
+213.2240 	EXP 	target_image2: autoDraw = True
+213.4092 	EXP 	window1: recordFrameIntervals = False
+213.4242 	EXP 	target_image2: autoDraw = False
+213.4243 	EXP 	window1: recordFrameIntervals = True
+213.7404 	EXP 	probe_image2: autoDraw = True
+213.9406 	EXP 	probe_image2: autoDraw = False
+215.2633 	DATA 	Keypress: s
+215.2739 	EXP 	target_image2: autoDraw = False
+215.2739 	EXP 	probe_image2: autoDraw = False
+215.2739 	EXP 	face_instructions: autoDraw = True
+216.2631 	EXP 	Imported trials24.csv as conditions, 24 conditions, 1 params
+216.2634 	EXP 	Created sequence: sequential, trialTypes=24, nReps=1, seed=None
+216.2638 	EXP 	New trial (rep=0, index=0): OrderedDict([('trialNum', 0)])
+216.2708 	DATA 	Keypress: space
+216.2927 	EXP 	face_instructions: autoDraw = False
+216.2927 	EXP 	target_image3: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Spacing_Set/edmd.tif'
+216.2927 	EXP 	probe_image3: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Spacing_Set/edmd.tif'
+216.2927 	EXP 	target_image3: autoDraw = True
+216.4744 	EXP 	window1: recordFrameIntervals = False
+216.4928 	EXP 	window1: recordFrameIntervals = True
+216.7990 	EXP 	target_image3: autoDraw = False
+216.8208 	EXP 	probe_image3: autoDraw = True
+217.0243 	EXP 	probe_image3: autoDraw = False
+218.2771 	EXP 	New trial (rep=0, index=1): OrderedDict([('trialNum', 1)])
+218.2854 	DATA 	Keypress: d
+218.2903 	EXP 	target_image3: autoDraw = False
+218.2903 	EXP 	probe_image3: autoDraw = False
+218.2903 	EXP 	target_image3: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Spacing_Set/eumu.tif'
+218.2903 	EXP 	probe_image3: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Spacing_Set/edmd.tif'
+218.2903 	EXP 	target_image3: autoDraw = True
+218.4746 	EXP 	window1: recordFrameIntervals = False
+218.4927 	EXP 	target_image3: autoDraw = False
+218.4929 	EXP 	window1: recordFrameIntervals = True
+218.8210 	EXP 	probe_image3: autoDraw = True
+219.0243 	EXP 	probe_image3: autoDraw = False
+219.5587 	EXP 	New trial (rep=0, index=2): OrderedDict([('trialNum', 2)])
+219.5654 	DATA 	Keypress: s
+219.5742 	EXP 	target_image3: autoDraw = False
+219.5742 	EXP 	probe_image3: autoDraw = False
+219.5742 	EXP 	target_image3: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Spacing_Set/eimd.tif'
+219.5742 	EXP 	probe_image3: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Spacing_Set/eimd.tif'
+219.5742 	EXP 	target_image3: autoDraw = True
+219.7595 	EXP 	window1: recordFrameIntervals = False
+219.7743 	EXP 	target_image3: autoDraw = False
+219.7744 	EXP 	window1: recordFrameIntervals = True
+220.0904 	EXP 	probe_image3: autoDraw = True
+220.2924 	EXP 	probe_image3: autoDraw = False
+220.6265 	EXP 	New trial (rep=0, index=3): OrderedDict([('trialNum', 3)])
+220.6371 	DATA 	Keypress: d
+220.6594 	EXP 	target_image3: autoDraw = False
+220.6594 	EXP 	probe_image3: autoDraw = False
+220.6594 	EXP 	target_image3: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Spacing_Set/eumu.tif'
+220.6594 	EXP 	probe_image3: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Spacing_Set/eumu.tif'
+220.6594 	EXP 	target_image3: autoDraw = True
+220.8407 	EXP 	window1: recordFrameIntervals = False
+220.8590 	EXP 	window1: recordFrameIntervals = True
+221.1659 	EXP 	target_image3: autoDraw = False
+221.1877 	EXP 	probe_image3: autoDraw = True
+221.3905 	EXP 	probe_image3: autoDraw = False
+221.6924 	EXP 	New trial (rep=0, index=4): OrderedDict([('trialNum', 4)])
+221.7004 	DATA 	Keypress: s
+221.7074 	EXP 	target_image3: autoDraw = False
+221.7074 	EXP 	probe_image3: autoDraw = False
+221.7074 	EXP 	target_image3: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Spacing_Set/edmd.tif'
+221.7074 	EXP 	probe_image3: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Spacing_Set/eimd.tif'
+221.7074 	EXP 	target_image3: autoDraw = True
+221.8929 	EXP 	window1: recordFrameIntervals = False
+221.9077 	EXP 	target_image3: autoDraw = False
+221.9078 	EXP 	window1: recordFrameIntervals = True
+222.2239 	EXP 	probe_image3: autoDraw = True
+222.4260 	EXP 	probe_image3: autoDraw = False
+222.7109 	EXP 	New trial (rep=0, index=5): OrderedDict([('trialNum', 5)])
+222.7194 	DATA 	Keypress: d
+222.7240 	EXP 	target_image3: autoDraw = False
+222.7240 	EXP 	probe_image3: autoDraw = False
+222.7240 	EXP 	target_image3: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Spacing_Set/eomu.tif'
+222.7240 	EXP 	probe_image3: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Spacing_Set/edmd.tif'
+222.7240 	EXP 	target_image3: autoDraw = True
+222.9096 	EXP 	window1: recordFrameIntervals = False
+222.9243 	EXP 	target_image3: autoDraw = False
+222.9245 	EXP 	window1: recordFrameIntervals = True
+223.2406 	EXP 	probe_image3: autoDraw = True
+223.4410 	EXP 	probe_image3: autoDraw = False
+224.9758 	EXP 	New trial (rep=0, index=6): OrderedDict([('trialNum', 6)])
+224.9855 	DATA 	Keypress: s
+224.9902 	EXP 	target_image3: autoDraw = False
+224.9902 	EXP 	probe_image3: autoDraw = False
+224.9902 	EXP 	target_image3: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Spacing_Set/edmd.tif'
+224.9902 	EXP 	probe_image3: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Spacing_Set/eumu.tif'
+224.9902 	EXP 	target_image3: autoDraw = True
+225.1763 	EXP 	window1: recordFrameIntervals = False
+225.1911 	EXP 	target_image3: autoDraw = False
+225.1912 	EXP 	window1: recordFrameIntervals = True
+225.5072 	EXP 	probe_image3: autoDraw = True
+225.7074 	EXP 	probe_image3: autoDraw = False
+226.8753 	EXP 	New trial (rep=0, index=7): OrderedDict([('trialNum', 7)])
+226.8819 	DATA 	Keypress: d
+226.8906 	EXP 	target_image3: autoDraw = False
+226.8906 	EXP 	probe_image3: autoDraw = False
+226.8906 	EXP 	target_image3: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Spacing_Set/eomu.tif'
+226.8906 	EXP 	probe_image3: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Spacing_Set/eomu.tif'
+226.8906 	EXP 	target_image3: autoDraw = True
+227.0759 	EXP 	window1: recordFrameIntervals = False
+227.0910 	EXP 	target_image3: autoDraw = False
+227.0911 	EXP 	window1: recordFrameIntervals = True
+227.4071 	EXP 	probe_image3: autoDraw = True
+227.6074 	EXP 	probe_image3: autoDraw = False
+228.5272 	EXP 	New trial (rep=0, index=8): OrderedDict([('trialNum', 8)])
+228.5339 	DATA 	Keypress: s
+228.5403 	EXP 	target_image3: autoDraw = False
+228.5403 	EXP 	probe_image3: autoDraw = False
+228.5403 	EXP 	target_image3: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Spacing_Set/edmd.tif'
+228.5403 	EXP 	probe_image3: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Spacing_Set/edmd.tif'
+228.5403 	EXP 	target_image3: autoDraw = True
+228.7260 	EXP 	window1: recordFrameIntervals = False
+228.7406 	EXP 	target_image3: autoDraw = False
+228.7407 	EXP 	window1: recordFrameIntervals = True
+229.0570 	EXP 	probe_image3: autoDraw = True
+229.2592 	EXP 	probe_image3: autoDraw = False
+230.0609 	EXP 	New trial (rep=0, index=9): OrderedDict([('trialNum', 9)])
+230.0718 	DATA 	Keypress: d
+230.0927 	EXP 	target_image3: autoDraw = False
+230.0927 	EXP 	probe_image3: autoDraw = False
+230.0927 	EXP 	target_image3: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Spacing_Set/eomu.tif'
+230.0927 	EXP 	probe_image3: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Spacing_Set/eumu.tif'
+230.0927 	EXP 	target_image3: autoDraw = True
+230.2742 	EXP 	window1: recordFrameIntervals = False
+230.2927 	EXP 	window1: recordFrameIntervals = True
+230.5992 	EXP 	target_image3: autoDraw = False
+230.6208 	EXP 	probe_image3: autoDraw = True
+230.8259 	EXP 	probe_image3: autoDraw = False
+231.6589 	EXP 	New trial (rep=0, index=10): OrderedDict([('trialNum', 10)])
+231.6663 	DATA 	Keypress: s
+231.6742 	EXP 	target_image3: autoDraw = False
+231.6742 	EXP 	probe_image3: autoDraw = False
+231.6742 	EXP 	target_image3: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Spacing_Set/eomu.tif'
+231.6742 	EXP 	probe_image3: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Spacing_Set/eimd.tif'
+231.6742 	EXP 	target_image3: autoDraw = True
+231.8593 	EXP 	window1: recordFrameIntervals = False
+231.8741 	EXP 	target_image3: autoDraw = False
+231.8742 	EXP 	window1: recordFrameIntervals = True
+232.1905 	EXP 	probe_image3: autoDraw = True
+232.3906 	EXP 	probe_image3: autoDraw = False
+234.1938 	EXP 	New trial (rep=0, index=11): OrderedDict([('trialNum', 11)])
+234.2003 	DATA 	Keypress: s
+234.2074 	EXP 	target_image3: autoDraw = False
+234.2074 	EXP 	probe_image3: autoDraw = False
+234.2074 	EXP 	target_image3: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Spacing_Set/eimd.tif'
+234.2074 	EXP 	probe_image3: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Spacing_Set/eimd.tif'
+234.2074 	EXP 	target_image3: autoDraw = True
+234.3906 	EXP 	window1: recordFrameIntervals = False
+234.4085 	EXP 	target_image3: autoDraw = False
+234.4086 	EXP 	window1: recordFrameIntervals = True
+234.7378 	EXP 	probe_image3: autoDraw = True
+234.9408 	EXP 	probe_image3: autoDraw = False
+235.7771 	EXP 	New trial (rep=0, index=12): OrderedDict([('trialNum', 12)])
+235.7874 	DATA 	Keypress: d
+235.8091 	EXP 	target_image3: autoDraw = False
+235.8091 	EXP 	probe_image3: autoDraw = False
+235.8091 	EXP 	target_image3: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Spacing_Set/eumu.tif'
+235.8091 	EXP 	probe_image3: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Spacing_Set/eumu.tif'
+235.8091 	EXP 	target_image3: autoDraw = True
+235.9909 	EXP 	window1: recordFrameIntervals = False
+236.0093 	EXP 	window1: recordFrameIntervals = True
+236.3151 	EXP 	target_image3: autoDraw = False
+236.3368 	EXP 	probe_image3: autoDraw = True
+236.5427 	EXP 	probe_image3: autoDraw = False
+237.1101 	EXP 	New trial (rep=0, index=13): OrderedDict([('trialNum', 13)])
+237.1166 	DATA 	Keypress: s
+237.1241 	EXP 	target_image3: autoDraw = False
+237.1241 	EXP 	probe_image3: autoDraw = False
+237.1241 	EXP 	target_image3: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Spacing_Set/eomu.tif'
+237.1241 	EXP 	probe_image3: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Spacing_Set/eomu.tif'
+237.1241 	EXP 	target_image3: autoDraw = True
+237.3095 	EXP 	window1: recordFrameIntervals = False
+237.3242 	EXP 	target_image3: autoDraw = False
+237.3244 	EXP 	window1: recordFrameIntervals = True
+237.6404 	EXP 	probe_image3: autoDraw = True
+237.8409 	EXP 	probe_image3: autoDraw = False
+239.2754 	EXP 	New trial (rep=0, index=14): OrderedDict([('trialNum', 14)])
+239.2823 	DATA 	Keypress: s
+239.2907 	EXP 	target_image3: autoDraw = False
+239.2907 	EXP 	probe_image3: autoDraw = False
+239.2907 	EXP 	target_image3: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Spacing_Set/eimd.tif'
+239.2907 	EXP 	probe_image3: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Spacing_Set/eomu.tif'
+239.2907 	EXP 	target_image3: autoDraw = True
+239.4760 	EXP 	window1: recordFrameIntervals = False
+239.4907 	EXP 	target_image3: autoDraw = False
+239.4908 	EXP 	window1: recordFrameIntervals = True
+239.8071 	EXP 	probe_image3: autoDraw = True
+240.0075 	EXP 	probe_image3: autoDraw = False
+242.1273 	EXP 	New trial (rep=0, index=15): OrderedDict([('trialNum', 15)])
+242.1384 	DATA 	Keypress: s
+242.1597 	EXP 	target_image3: autoDraw = False
+242.1597 	EXP 	probe_image3: autoDraw = False
+242.1597 	EXP 	target_image3: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Spacing_Set/eumu.tif'
+242.1597 	EXP 	probe_image3: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Spacing_Set/eimd.tif'
+242.1597 	EXP 	target_image3: autoDraw = True
+242.3426 	EXP 	window1: recordFrameIntervals = False
+242.3567 	EXP 	target_image3: autoDraw = False
+242.3568 	EXP 	window1: recordFrameIntervals = True
+242.6739 	EXP 	probe_image3: autoDraw = True
+242.8745 	EXP 	probe_image3: autoDraw = False
+244.5938 	EXP 	New trial (rep=0, index=16): OrderedDict([('trialNum', 16)])
+244.6036 	DATA 	Keypress: s
+244.6080 	EXP 	target_image3: autoDraw = False
+244.6080 	EXP 	probe_image3: autoDraw = False
+244.6080 	EXP 	target_image3: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Spacing_Set/eumu.tif'
+244.6080 	EXP 	probe_image3: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Spacing_Set/eumu.tif'
+244.6080 	EXP 	target_image3: autoDraw = True
+244.8078 	EXP 	target_image3: autoDraw = False
+244.8079 	EXP 	window1: recordFrameIntervals = False
+244.8261 	EXP 	window1: recordFrameIntervals = True
+245.1543 	EXP 	probe_image3: autoDraw = True
+245.3579 	EXP 	probe_image3: autoDraw = False
+247.4255 	EXP 	New trial (rep=0, index=17): OrderedDict([('trialNum', 17)])
+247.4350 	DATA 	Keypress: s
+247.4404 	EXP 	target_image3: autoDraw = False
+247.4404 	EXP 	probe_image3: autoDraw = False
+247.4404 	EXP 	target_image3: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Spacing_Set/eumu.tif'
+247.4404 	EXP 	probe_image3: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Spacing_Set/eomu.tif'
+247.4404 	EXP 	target_image3: autoDraw = True
+247.6263 	EXP 	window1: recordFrameIntervals = False
+247.6412 	EXP 	target_image3: autoDraw = False
+247.6413 	EXP 	window1: recordFrameIntervals = True
+247.9574 	EXP 	probe_image3: autoDraw = True
+248.1580 	EXP 	probe_image3: autoDraw = False
+248.3592 	EXP 	New trial (rep=0, index=18): OrderedDict([('trialNum', 18)])
+248.3687 	DATA 	Keypress: s
+248.3738 	EXP 	target_image3: autoDraw = False
+248.3738 	EXP 	probe_image3: autoDraw = False
+248.3738 	EXP 	target_image3: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Spacing_Set/eimd.tif'
+248.3738 	EXP 	probe_image3: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Spacing_Set/eumu.tif'
+248.3738 	EXP 	target_image3: autoDraw = True
+248.5765 	EXP 	target_image3: autoDraw = False
+248.5767 	EXP 	window1: recordFrameIntervals = False
+248.5914 	EXP 	window1: recordFrameIntervals = True
+248.9075 	EXP 	probe_image3: autoDraw = True
+248.9782 	DATA 	Keypress: d
+249.1097 	EXP 	probe_image3: autoDraw = False
+249.9423 	EXP 	New trial (rep=0, index=19): OrderedDict([('trialNum', 19)])
+249.9489 	DATA 	Keypress: s
+249.9578 	EXP 	target_image3: autoDraw = False
+249.9578 	EXP 	probe_image3: autoDraw = False
+249.9578 	EXP 	target_image3: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Spacing_Set/eimd.tif'
+249.9578 	EXP 	probe_image3: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Spacing_Set/edmd.tif'
+249.9578 	EXP 	target_image3: autoDraw = True
+250.1426 	EXP 	window1: recordFrameIntervals = False
+250.1580 	EXP 	target_image3: autoDraw = False
+250.1581 	EXP 	window1: recordFrameIntervals = True
+250.4741 	EXP 	probe_image3: autoDraw = True
+250.6761 	EXP 	probe_image3: autoDraw = False
+252.9772 	EXP 	New trial (rep=0, index=20): OrderedDict([('trialNum', 20)])
+252.9841 	DATA 	Keypress: s
+252.9910 	EXP 	target_image3: autoDraw = False
+252.9910 	EXP 	probe_image3: autoDraw = False
+252.9910 	EXP 	target_image3: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Spacing_Set/edmd.tif'
+252.9910 	EXP 	probe_image3: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Spacing_Set/eomu.tif'
+252.9910 	EXP 	target_image3: autoDraw = True
+253.1766 	EXP 	window1: recordFrameIntervals = False
+253.1913 	EXP 	target_image3: autoDraw = False
+253.1914 	EXP 	window1: recordFrameIntervals = True
+253.5075 	EXP 	probe_image3: autoDraw = True
+253.7080 	EXP 	probe_image3: autoDraw = False
+255.3104 	EXP 	New trial (rep=0, index=21): OrderedDict([('trialNum', 21)])
+255.3177 	DATA 	Keypress: s
+255.3237 	EXP 	target_image3: autoDraw = False
+255.3237 	EXP 	probe_image3: autoDraw = False
+255.3237 	EXP 	target_image3: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Spacing_Set/eomu.tif'
+255.3237 	EXP 	probe_image3: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Spacing_Set/eomu.tif'
+255.3237 	EXP 	target_image3: autoDraw = True
+255.5099 	EXP 	window1: recordFrameIntervals = False
+255.5246 	EXP 	target_image3: autoDraw = False
+255.5247 	EXP 	window1: recordFrameIntervals = True
+255.8408 	EXP 	probe_image3: autoDraw = True
+256.0412 	EXP 	probe_image3: autoDraw = False
+259.0084 	EXP 	New trial (rep=0, index=22): OrderedDict([('trialNum', 22)])
+259.0150 	DATA 	Keypress: s
+259.0243 	EXP 	target_image3: autoDraw = False
+259.0243 	EXP 	probe_image3: autoDraw = False
+259.0243 	EXP 	target_image3: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Spacing_Set/edmd.tif'
+259.0243 	EXP 	probe_image3: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Spacing_Set/edmd.tif'
+259.0243 	EXP 	target_image3: autoDraw = True
+259.2098 	EXP 	window1: recordFrameIntervals = False
+259.2246 	EXP 	target_image3: autoDraw = False
+259.2247 	EXP 	window1: recordFrameIntervals = True
+259.5408 	EXP 	probe_image3: autoDraw = True
+259.7413 	EXP 	probe_image3: autoDraw = False
+260.7774 	EXP 	New trial (rep=0, index=23): OrderedDict([('trialNum', 23)])
+260.7837 	DATA 	Keypress: s
+260.7911 	EXP 	target_image3: autoDraw = False
+260.7911 	EXP 	probe_image3: autoDraw = False
+260.7911 	EXP 	target_image3: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Spacing_Set/eimd.tif'
+260.7911 	EXP 	probe_image3: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Spacing_Set/eimd.tif'
+260.7911 	EXP 	target_image3: autoDraw = True
+260.9747 	EXP 	window1: recordFrameIntervals = False
+260.9931 	EXP 	target_image3: autoDraw = False
+260.9932 	EXP 	window1: recordFrameIntervals = True
+261.3213 	EXP 	probe_image3: autoDraw = True
+261.5247 	EXP 	probe_image3: autoDraw = False
+262.1469 	DATA 	Keypress: d
+262.1580 	EXP 	target_image3: autoDraw = False
+262.1580 	EXP 	probe_image3: autoDraw = False
+262.1580 	EXP 	haus_instructions: autoDraw = True
+263.0802 	EXP 	Imported trials24.csv as conditions, 24 conditions, 1 params
+263.0804 	EXP 	Created sequence: sequential, trialTypes=24, nReps=1, seed=None
+263.0808 	EXP 	New trial (rep=0, index=0): OrderedDict([('trialNum', 0)])
+263.0899 	DATA 	Keypress: space
+263.1079 	EXP 	haus_instructions: autoDraw = False
+263.1079 	EXP 	target_image4: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Featural_Set/f142.tif'
+263.1079 	EXP 	probe_image4: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Featural_Set/f15.tif'
+263.1079 	EXP 	target_image4: autoDraw = True
+263.2914 	EXP 	window1: recordFrameIntervals = False
+263.3098 	EXP 	target_image4: autoDraw = False
+263.3100 	EXP 	window1: recordFrameIntervals = True
+263.6379 	EXP 	probe_image4: autoDraw = True
+263.8414 	EXP 	probe_image4: autoDraw = False
+264.7089 	EXP 	New trial (rep=0, index=1): OrderedDict([('trialNum', 1)])
+264.7157 	DATA 	Keypress: d
+264.7246 	EXP 	target_image4: autoDraw = False
+264.7246 	EXP 	probe_image4: autoDraw = False
+264.7246 	EXP 	target_image4: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Featural_Set/f131.tif'
+264.7246 	EXP 	probe_image4: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Featural_Set/f15.tif'
+264.7246 	EXP 	target_image4: autoDraw = True
+264.9097 	EXP 	window1: recordFrameIntervals = False
+264.9246 	EXP 	target_image4: autoDraw = False
+264.9247 	EXP 	window1: recordFrameIntervals = True
+265.2409 	EXP 	probe_image4: autoDraw = True
+265.4415 	EXP 	probe_image4: autoDraw = False
+265.8764 	EXP 	New trial (rep=0, index=2): OrderedDict([('trialNum', 2)])
+265.8857 	DATA 	Keypress: d
+265.8906 	EXP 	target_image4: autoDraw = False
+265.8906 	EXP 	probe_image4: autoDraw = False
+265.8906 	EXP 	target_image4: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Featural_Set/f15.tif'
+265.8906 	EXP 	probe_image4: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Featural_Set/f24.tif'
+265.8906 	EXP 	target_image4: autoDraw = True
+266.0765 	EXP 	window1: recordFrameIntervals = False
+266.0911 	EXP 	target_image4: autoDraw = False
+266.0913 	EXP 	window1: recordFrameIntervals = True
+266.4211 	EXP 	probe_image4: autoDraw = True
+266.6243 	EXP 	probe_image4: autoDraw = False
+267.0932 	EXP 	New trial (rep=0, index=3): OrderedDict([('trialNum', 3)])
+267.1017 	DATA 	Keypress: d
+267.1077 	EXP 	target_image4: autoDraw = False
+267.1077 	EXP 	probe_image4: autoDraw = False
+267.1077 	EXP 	target_image4: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Featural_Set/f24.tif'
+267.1077 	EXP 	probe_image4: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Featural_Set/f24.tif'
+267.1077 	EXP 	target_image4: autoDraw = True
+267.2933 	EXP 	window1: recordFrameIntervals = False
+267.3080 	EXP 	target_image4: autoDraw = False
+267.3081 	EXP 	window1: recordFrameIntervals = True
+267.6242 	EXP 	probe_image4: autoDraw = True
+267.8247 	EXP 	probe_image4: autoDraw = False
+268.1930 	EXP 	New trial (rep=0, index=4): OrderedDict([('trialNum', 4)])
+268.1997 	DATA 	Keypress: s
+268.2077 	EXP 	target_image4: autoDraw = False
+268.2077 	EXP 	probe_image4: autoDraw = False
+268.2077 	EXP 	target_image4: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Featural_Set/f142.tif'
+268.2077 	EXP 	probe_image4: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Featural_Set/f142.tif'
+268.2077 	EXP 	target_image4: autoDraw = True
+268.3913 	EXP 	window1: recordFrameIntervals = False
+268.4096 	EXP 	target_image4: autoDraw = False
+268.4097 	EXP 	window1: recordFrameIntervals = True
+268.7379 	EXP 	probe_image4: autoDraw = True
+268.9410 	EXP 	probe_image4: autoDraw = False
+269.4086 	EXP 	New trial (rep=0, index=5): OrderedDict([('trialNum', 5)])
+269.4159 	DATA 	Keypress: s
+269.4243 	EXP 	target_image4: autoDraw = False
+269.4243 	EXP 	probe_image4: autoDraw = False
+269.4243 	EXP 	target_image4: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Featural_Set/f15.tif'
+269.4243 	EXP 	probe_image4: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Featural_Set/f15.tif'
+269.4243 	EXP 	target_image4: autoDraw = True
+269.6096 	EXP 	window1: recordFrameIntervals = False
+269.6245 	EXP 	target_image4: autoDraw = False
+269.6246 	EXP 	window1: recordFrameIntervals = True
+269.9407 	EXP 	probe_image4: autoDraw = True
+270.1411 	EXP 	probe_image4: autoDraw = False
+270.4945 	EXP 	New trial (rep=0, index=6): OrderedDict([('trialNum', 6)])
+270.5014 	DATA 	Keypress: s
+270.5073 	EXP 	target_image4: autoDraw = False
+270.5073 	EXP 	probe_image4: autoDraw = False
+270.5073 	EXP 	target_image4: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Featural_Set/f15.tif'
+270.5073 	EXP 	probe_image4: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Featural_Set/f142.tif'
+270.5073 	EXP 	target_image4: autoDraw = True
+270.6932 	EXP 	window1: recordFrameIntervals = False
+270.7079 	EXP 	target_image4: autoDraw = False
+270.7080 	EXP 	window1: recordFrameIntervals = True
+271.0242 	EXP 	probe_image4: autoDraw = True
+271.2246 	EXP 	probe_image4: autoDraw = False
+271.5420 	EXP 	New trial (rep=0, index=7): OrderedDict([('trialNum', 7)])
+271.5487 	DATA 	Keypress: d
+271.5578 	EXP 	target_image4: autoDraw = False
+271.5578 	EXP 	probe_image4: autoDraw = False
+271.5578 	EXP 	target_image4: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Featural_Set/f142.tif'
+271.5578 	EXP 	probe_image4: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Featural_Set/f24.tif'
+271.5578 	EXP 	target_image4: autoDraw = True
+271.7431 	EXP 	window1: recordFrameIntervals = False
+271.7579 	EXP 	target_image4: autoDraw = False
+271.7581 	EXP 	window1: recordFrameIntervals = True
+272.0742 	EXP 	probe_image4: autoDraw = True
+272.2746 	EXP 	probe_image4: autoDraw = False
+272.7601 	EXP 	New trial (rep=0, index=8): OrderedDict([('trialNum', 8)])
+272.7671 	DATA 	Keypress: d
+272.7744 	EXP 	target_image4: autoDraw = False
+272.7744 	EXP 	probe_image4: autoDraw = False
+272.7744 	EXP 	target_image4: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Featural_Set/f131.tif'
+272.7744 	EXP 	probe_image4: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Featural_Set/f131.tif'
+272.7744 	EXP 	target_image4: autoDraw = True
+272.9597 	EXP 	window1: recordFrameIntervals = False
+272.9745 	EXP 	target_image4: autoDraw = False
+272.9746 	EXP 	window1: recordFrameIntervals = True
+273.2908 	EXP 	probe_image4: autoDraw = True
+273.4912 	EXP 	probe_image4: autoDraw = False
+273.9450 	EXP 	New trial (rep=0, index=9): OrderedDict([('trialNum', 9)])
+273.9530 	DATA 	Keypress: s
+273.9574 	EXP 	target_image4: autoDraw = False
+273.9574 	EXP 	probe_image4: autoDraw = False
+273.9574 	EXP 	target_image4: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Featural_Set/f131.tif'
+273.9574 	EXP 	probe_image4: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Featural_Set/f131.tif'
+273.9574 	EXP 	target_image4: autoDraw = True
+274.1596 	EXP 	target_image4: autoDraw = False
+274.1597 	EXP 	window1: recordFrameIntervals = False
+274.1747 	EXP 	window1: recordFrameIntervals = True
+274.4909 	EXP 	probe_image4: autoDraw = True
+274.6932 	EXP 	probe_image4: autoDraw = False
+275.1105 	EXP 	New trial (rep=0, index=10): OrderedDict([('trialNum', 10)])
+275.1181 	DATA 	Keypress: s
+275.1241 	EXP 	target_image4: autoDraw = False
+275.1241 	EXP 	probe_image4: autoDraw = False
+275.1241 	EXP 	target_image4: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Featural_Set/f15.tif'
+275.1241 	EXP 	probe_image4: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Featural_Set/f15.tif'
+275.1241 	EXP 	target_image4: autoDraw = True
+275.3098 	EXP 	window1: recordFrameIntervals = False
+275.3246 	EXP 	target_image4: autoDraw = False
+275.3247 	EXP 	window1: recordFrameIntervals = True
+275.6409 	EXP 	probe_image4: autoDraw = True
+275.8433 	EXP 	probe_image4: autoDraw = False
+276.1436 	EXP 	New trial (rep=0, index=11): OrderedDict([('trialNum', 11)])
+276.1506 	DATA 	Keypress: s
+276.1577 	EXP 	target_image4: autoDraw = False
+276.1577 	EXP 	probe_image4: autoDraw = False
+276.1577 	EXP 	target_image4: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Featural_Set/f24.tif'
+276.1577 	EXP 	probe_image4: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Featural_Set/f142.tif'
+276.1577 	EXP 	target_image4: autoDraw = True
+276.3414 	EXP 	window1: recordFrameIntervals = False
+276.3592 	EXP 	target_image4: autoDraw = False
+276.3593 	EXP 	window1: recordFrameIntervals = True
+276.6871 	EXP 	probe_image4: autoDraw = True
+276.8912 	EXP 	probe_image4: autoDraw = False
+277.5091 	EXP 	New trial (rep=0, index=12): OrderedDict([('trialNum', 12)])
+277.5157 	DATA 	Keypress: d
+277.5243 	EXP 	target_image4: autoDraw = False
+277.5243 	EXP 	probe_image4: autoDraw = False
+277.5243 	EXP 	target_image4: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Featural_Set/f131.tif'
+277.5243 	EXP 	probe_image4: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Featural_Set/f142.tif'
+277.5243 	EXP 	target_image4: autoDraw = True
+277.7082 	EXP 	window1: recordFrameIntervals = False
+277.7264 	EXP 	target_image4: autoDraw = False
+277.7265 	EXP 	window1: recordFrameIntervals = True
+278.0549 	EXP 	probe_image4: autoDraw = True
+278.2580 	EXP 	probe_image4: autoDraw = False
+278.4780 	EXP 	New trial (rep=0, index=13): OrderedDict([('trialNum', 13)])
+278.4856 	DATA 	Keypress: s
+278.4906 	EXP 	target_image4: autoDraw = False
+278.4906 	EXP 	probe_image4: autoDraw = False
+278.4906 	EXP 	target_image4: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Featural_Set/f142.tif'
+278.4906 	EXP 	probe_image4: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Featural_Set/f142.tif'
+278.4906 	EXP 	target_image4: autoDraw = True
+278.6748 	EXP 	window1: recordFrameIntervals = False
+278.6931 	EXP 	target_image4: autoDraw = False
+278.6932 	EXP 	window1: recordFrameIntervals = True
+279.0213 	EXP 	probe_image4: autoDraw = True
+279.2243 	EXP 	probe_image4: autoDraw = False
+279.5769 	EXP 	New trial (rep=0, index=14): OrderedDict([('trialNum', 14)])
+279.5834 	DATA 	Keypress: s
+279.5911 	EXP 	target_image4: autoDraw = False
+279.5911 	EXP 	probe_image4: autoDraw = False
+279.5911 	EXP 	target_image4: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Featural_Set/f24.tif'
+279.5911 	EXP 	probe_image4: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Featural_Set/f24.tif'
+279.5911 	EXP 	target_image4: autoDraw = True
+279.7774 	EXP 	window1: recordFrameIntervals = False
+279.7913 	EXP 	target_image4: autoDraw = False
+279.7914 	EXP 	window1: recordFrameIntervals = True
+280.1076 	EXP 	probe_image4: autoDraw = True
+280.3078 	EXP 	probe_image4: autoDraw = False
+280.7614 	EXP 	New trial (rep=0, index=15): OrderedDict([('trialNum', 15)])
+280.7702 	DATA 	Keypress: s
+280.7748 	EXP 	target_image4: autoDraw = False
+280.7748 	EXP 	probe_image4: autoDraw = False
+280.7748 	EXP 	target_image4: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Featural_Set/f24.tif'
+280.7748 	EXP 	probe_image4: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Featural_Set/f131.tif'
+280.7748 	EXP 	target_image4: autoDraw = True
+280.9601 	EXP 	window1: recordFrameIntervals = False
+280.9749 	EXP 	target_image4: autoDraw = False
+280.9750 	EXP 	window1: recordFrameIntervals = True
+281.2909 	EXP 	probe_image4: autoDraw = True
+281.4915 	EXP 	probe_image4: autoDraw = False
+281.8601 	EXP 	New trial (rep=0, index=16): OrderedDict([('trialNum', 16)])
+281.8676 	DATA 	Keypress: s
+281.8746 	EXP 	target_image4: autoDraw = False
+281.8746 	EXP 	probe_image4: autoDraw = False
+281.8746 	EXP 	target_image4: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Featural_Set/f15.tif'
+281.8746 	EXP 	probe_image4: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Featural_Set/f131.tif'
+281.8746 	EXP 	target_image4: autoDraw = True
+282.0601 	EXP 	window1: recordFrameIntervals = False
+282.0748 	EXP 	target_image4: autoDraw = False
+282.0749 	EXP 	window1: recordFrameIntervals = True
+282.3911 	EXP 	probe_image4: autoDraw = True
+282.5915 	EXP 	probe_image4: autoDraw = False
+282.9258 	EXP 	New trial (rep=0, index=17): OrderedDict([('trialNum', 17)])
+282.9327 	DATA 	Keypress: d
+282.9411 	EXP 	target_image4: autoDraw = False
+282.9411 	EXP 	probe_image4: autoDraw = False
+282.9411 	EXP 	target_image4: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Featural_Set/f142.tif'
+282.9411 	EXP 	probe_image4: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Featural_Set/f142.tif'
+282.9411 	EXP 	target_image4: autoDraw = True
+283.1267 	EXP 	window1: recordFrameIntervals = False
+283.1415 	EXP 	target_image4: autoDraw = False
+283.1416 	EXP 	window1: recordFrameIntervals = True
+283.4578 	EXP 	probe_image4: autoDraw = True
+283.6582 	EXP 	probe_image4: autoDraw = False
+284.0587 	EXP 	New trial (rep=0, index=18): OrderedDict([('trialNum', 18)])
+284.0653 	DATA 	Keypress: s
+284.0746 	EXP 	target_image4: autoDraw = False
+284.0746 	EXP 	probe_image4: autoDraw = False
+284.0746 	EXP 	target_image4: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Featural_Set/f24.tif'
+284.0746 	EXP 	probe_image4: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Featural_Set/f24.tif'
+284.0746 	EXP 	target_image4: autoDraw = True
+284.2579 	EXP 	window1: recordFrameIntervals = False
+284.2761 	EXP 	target_image4: autoDraw = False
+284.2762 	EXP 	window1: recordFrameIntervals = True
+284.6053 	EXP 	probe_image4: autoDraw = True
+284.8098 	EXP 	probe_image4: autoDraw = False
+285.2588 	EXP 	New trial (rep=0, index=19): OrderedDict([('trialNum', 19)])
+285.2652 	DATA 	Keypress: s
+285.2742 	EXP 	target_image4: autoDraw = False
+285.2742 	EXP 	probe_image4: autoDraw = False
+285.2742 	EXP 	target_image4: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Featural_Set/f131.tif'
+285.2742 	EXP 	probe_image4: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Featural_Set/f24.tif'
+285.2742 	EXP 	target_image4: autoDraw = True
+285.4607 	EXP 	window1: recordFrameIntervals = False
+285.4749 	EXP 	target_image4: autoDraw = False
+285.4750 	EXP 	window1: recordFrameIntervals = True
+285.7910 	EXP 	probe_image4: autoDraw = True
+285.9914 	EXP 	probe_image4: autoDraw = False
+286.2782 	EXP 	New trial (rep=0, index=20): OrderedDict([('trialNum', 20)])
+286.2863 	DATA 	Keypress: d
+286.2907 	EXP 	target_image4: autoDraw = False
+286.2907 	EXP 	probe_image4: autoDraw = False
+286.2907 	EXP 	target_image4: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Featural_Set/f24.tif'
+286.2907 	EXP 	probe_image4: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Featural_Set/f15.tif'
+286.2907 	EXP 	target_image4: autoDraw = True
+286.4912 	EXP 	target_image4: autoDraw = False
+286.4913 	EXP 	window1: recordFrameIntervals = False
+286.5098 	EXP 	window1: recordFrameIntervals = True
+286.8381 	EXP 	probe_image4: autoDraw = True
+287.0414 	EXP 	probe_image4: autoDraw = False
+287.4617 	EXP 	New trial (rep=0, index=21): OrderedDict([('trialNum', 21)])
+287.4702 	DATA 	Keypress: s
+287.4748 	EXP 	target_image4: autoDraw = False
+287.4748 	EXP 	probe_image4: autoDraw = False
+287.4748 	EXP 	target_image4: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Featural_Set/f131.tif'
+287.4748 	EXP 	probe_image4: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Featural_Set/f131.tif'
+287.4748 	EXP 	target_image4: autoDraw = True
+287.6765 	EXP 	target_image4: autoDraw = False
+287.6766 	EXP 	window1: recordFrameIntervals = False
+287.6914 	EXP 	window1: recordFrameIntervals = True
+288.0076 	EXP 	probe_image4: autoDraw = True
+288.2079 	EXP 	probe_image4: autoDraw = False
+288.4952 	EXP 	New trial (rep=0, index=22): OrderedDict([('trialNum', 22)])
+288.5028 	DATA 	Keypress: d
+288.5074 	EXP 	target_image4: autoDraw = False
+288.5074 	EXP 	probe_image4: autoDraw = False
+288.5074 	EXP 	target_image4: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Featural_Set/f142.tif'
+288.5074 	EXP 	probe_image4: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Featural_Set/f131.tif'
+288.5074 	EXP 	target_image4: autoDraw = True
+288.6931 	EXP 	window1: recordFrameIntervals = False
+288.7079 	EXP 	target_image4: autoDraw = False
+288.7080 	EXP 	window1: recordFrameIntervals = True
+289.0243 	EXP 	probe_image4: autoDraw = True
+289.2246 	EXP 	probe_image4: autoDraw = False
+290.0919 	EXP 	New trial (rep=0, index=23): OrderedDict([('trialNum', 23)])
+290.0983 	DATA 	Keypress: d
+290.1079 	EXP 	target_image4: autoDraw = False
+290.1079 	EXP 	probe_image4: autoDraw = False
+290.1079 	EXP 	target_image4: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Featural_Set/f15.tif'
+290.1079 	EXP 	probe_image4: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Featural_Set/f15.tif'
+290.1079 	EXP 	target_image4: autoDraw = True
+290.2927 	EXP 	window1: recordFrameIntervals = False
+290.3079 	EXP 	target_image4: autoDraw = False
+290.3080 	EXP 	window1: recordFrameIntervals = True
+290.6244 	EXP 	probe_image4: autoDraw = True
+290.8247 	EXP 	probe_image4: autoDraw = False
+291.3131 	DATA 	Keypress: s
+291.3247 	EXP 	target_image4: autoDraw = False
+291.3247 	EXP 	probe_image4: autoDraw = False
+291.6427 	EXP 	window1: mouseVisible = True
