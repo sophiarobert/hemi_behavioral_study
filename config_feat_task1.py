@@ -550,7 +550,7 @@ for thisRun in runs:
                 ISI_1.start(0.3)
             elif ISI_1.status == STARTED:  # one frame should pass before updating params and completing
                 ISI_1.complete()  # finish the static period
-                ISI_1.tStop = ISI_1.tStart + 0.3  # record stop time
+                ISI_1.tStop = ISI_1.tStartRefresh + 0.3  # record stop time
 
             # check for quit (typically the Esc key)
             if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
@@ -857,7 +857,7 @@ for thisRun in runs:
                 ISI_2.start(0.3)
             elif ISI_2.status == STARTED:  # one frame should pass before updating params and completing
                 ISI_2.complete()  # finish the static period
-                ISI_2.tStop = ISI_2.tStart + 0.3  # record stop time
+                ISI_2.tStop = ISI_2.tStartRefresh + 0.3  # record stop time
 
             # check for quit (typically the Esc key)
             if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
@@ -1161,7 +1161,7 @@ for thisRun in runs:
                 ISI_3.start(0.3)
             elif ISI_3.status == STARTED:  # one frame should pass before updating params and completing
                 ISI_3.complete()  # finish the static period
-                ISI_3.tStop = ISI_3.tStart + 0.3  # record stop time
+                ISI_3.tStop = ISI_3.tStartRefresh + 0.3  # record stop time
 
             # check for quit (typically the Esc key)
             if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
@@ -1467,7 +1467,7 @@ for thisRun in runs:
                 ISI_4.start(0.3)
             elif ISI_4.status == STARTED:  # one frame should pass before updating params and completing
                 ISI_4.complete()  # finish the static period
-                ISI_4.tStop = ISI_4.tStart + 0.3  # record stop time
+                ISI_4.tStop = ISI_4.tStartRefresh + 0.3  # record stop time
 
             # check for quit (typically the Esc key)
             if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
