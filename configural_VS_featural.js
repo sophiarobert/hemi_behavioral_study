@@ -327,13 +327,6 @@ var _start_block_allKeys;
 var block_instructionComponents;
 function block_instructionRoutineBegin(snapshot) {
   return function () {
-    blocks = new TrialHandler({
-        psychoJS: psychoJS,
-        nReps: 1, method: TrialHandler.Method.SEQUENTIAL,
-        extraInfo: expInfo, originPath: undefined,
-        trialList: 'block_types_A.csv',
-        seed: undefined, name: 'blocks'
-    }); 
     //------Prepare to start Routine 'block_instruction'-------
     t = 0;
     block_instructionClock.reset(); // clock
@@ -350,19 +343,19 @@ function block_instructionRoutineBegin(snapshot) {
                     return s;
             }
     
-            if ((blocks.thisBlock["Block_type"] === "conf_face")) {
+            if ((Block_type === "conf_face")) {
                 paths = face_config_paths;
             } 
             else {
-            if ((blocks.thisBlock["Block_type"] === "conf_haus")) {
+            if ((Block_type === "conf_haus")) {
                 paths = haus_config_paths;
             } 
             else {
-            if ((blocks.thisBlock["Block_type"] === "feat_face")) {
+            if ((Block_type === "feat_face")) {
                 paths = face_feat_paths;
             } 
             else {
-            if ((blocks.thisBlock["Block_type"] === "feat_haus")) {
+            if ((Block_type === "feat_haus")) {
                 paths = haus_feat_paths;
             }
             }
@@ -376,7 +369,7 @@ function block_instructionRoutineBegin(snapshot) {
     shuffle(diffTrial);
     sameTrialid = 0;
     diffTrialid = 0;
-    instruction_text = blocks.thisBlock["instruction_text"];
+    instruction_text = instruction_text;
     
     instructions.setText(instruction_text);
     start_block.keys = undefined;
