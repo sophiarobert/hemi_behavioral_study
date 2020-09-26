@@ -29,6 +29,64 @@ psychoJS.openWindow({
 let expName = 'configural_VS_featural';  // from the Builder filename that created this script
 let expInfo = {'participant': '', 'session': '001'};
 
+
+// schedule the experiment:
+psychoJS.schedule(psychoJS.gui.DlgFromDict({
+  dictionary: expInfo,
+  title: expName
+}));
+
+const flowScheduler = new Scheduler(psychoJS);
+const dialogCancelScheduler = new Scheduler(psychoJS);
+psychoJS.scheduleCondition(function() { return (psychoJS.gui.dialogComponent.button === 'OK'); }, flowScheduler, dialogCancelScheduler);
+
+// flowScheduler gets run if the participants presses OK
+flowScheduler.add(updateInfo); // add timeStamp
+flowScheduler.add(experimentInit);
+flowScheduler.add(exp_code_setupRoutineBegin());
+flowScheduler.add(exp_code_setupRoutineEachFrame());
+flowScheduler.add(exp_code_setupRoutineEnd());
+const blocksLoopScheduler = new Scheduler(psychoJS);
+flowScheduler.add(blocksLoopBegin, blocksLoopScheduler);
+flowScheduler.add(blocksLoopScheduler);
+flowScheduler.add(blocksLoopEnd);
+flowScheduler.add(quitPsychoJS, '', true);
+
+// quit if user presses Cancel in dialog box:
+dialogCancelScheduler.add(quitPsychoJS, '', false);
+
+psychoJS.start({
+  expName: expName,
+  expInfo: expInfo,
+  resources: [
+    {'name': 'block_types_A.csv', 'path': 'block_types_A.csv'}
+  ]
+});
+
+psychoJS.experimentLogger.setLevel(core.Logger.ServerLevel.DEBUG);
+
+import * as os from 'os';
+
+var frameDur;
+function updateInfo() {
+  expInfo['date'] = util.MonotonicClock.getDateStr();  // add a simple timestamp
+  expInfo['expName'] = expName;
+  expInfo['psychopyVersion'] = '2020.2.4';
+  expInfo['OS'] = window.navigator.platform;
+
+  // store frame rate of monitor if we can measure it successfully
+  expInfo['frameRate'] = psychoJS.window.getActualFrameRate();
+  if (typeof expInfo['frameRate'] !== 'undefined')
+    frameDur = 1.0 / Math.round(expInfo['frameRate']);
+  else
+    frameDur = 1.0 / 60.0; // couldn't get a reliable measure so guess
+
+  // add info from the URL:
+  util.addInfoFromUrl(expInfo);
+  
+  return Scheduler.Event.NEXT;
+}
+
 var face_config_paths, face_feat_paths, haus_config_paths, haus_feat_paths, stim_config_dir, stim_feat_dir;
 stim_feat_dir = os.path.abspath("stimuli/Featural_Set/");
 stim_config_dir = os.path.abspath("stimuli/Spacing_Set/");
@@ -80,64 +138,6 @@ haus_config_paths = function () {
 }
 .call(this);
 haus_config_paths.sort();
-
-
-// schedule the experiment:
-psychoJS.schedule(psychoJS.gui.DlgFromDict({
-  dictionary: expInfo,
-  title: expName
-}));
-
-const flowScheduler = new Scheduler(psychoJS);
-const dialogCancelScheduler = new Scheduler(psychoJS);
-psychoJS.scheduleCondition(function() { return (psychoJS.gui.dialogComponent.button === 'OK'); }, flowScheduler, dialogCancelScheduler);
-
-// flowScheduler gets run if the participants presses OK
-flowScheduler.add(updateInfo); // add timeStamp
-flowScheduler.add(experimentInit);
-flowScheduler.add(exp_code_setupRoutineBegin());
-flowScheduler.add(exp_code_setupRoutineEachFrame());
-flowScheduler.add(exp_code_setupRoutineEnd());
-const blocksLoopScheduler = new Scheduler(psychoJS);
-flowScheduler.add(blocksLoopBegin, blocksLoopScheduler);
-flowScheduler.add(blocksLoopScheduler);
-flowScheduler.add(blocksLoopEnd);
-flowScheduler.add(quitPsychoJS, '', true);
-
-// quit if user presses Cancel in dialog box:
-dialogCancelScheduler.add(quitPsychoJS, '', false);
-
-psychoJS.start({
-  expName: expName,
-  expInfo: expInfo,
-  resources: [
-    {'name': 'block_types_A.csv', 'path': 'block_types_A.csv'}
-  ]
-});
-
-psychoJS.experimentLogger.setLevel(core.Logger.ServerLevel.DEBUG);
-
-
-var frameDur;
-function updateInfo() {
-  expInfo['date'] = util.MonotonicClock.getDateStr();  // add a simple timestamp
-  expInfo['expName'] = expName;
-  expInfo['psychopyVersion'] = '2020.2.4';
-  expInfo['OS'] = window.navigator.platform;
-
-  // store frame rate of monitor if we can measure it successfully
-  expInfo['frameRate'] = psychoJS.window.getActualFrameRate();
-  if (typeof expInfo['frameRate'] !== 'undefined')
-    frameDur = 1.0 / Math.round(expInfo['frameRate']);
-  else
-    frameDur = 1.0 / 60.0; // couldn't get a reliable measure so guess
-
-  // add info from the URL:
-  util.addInfoFromUrl(expInfo);
-  
-  return Scheduler.Event.NEXT;
-}
-
 
 var exp_code_setupClock;
 var block_instructionClock;
