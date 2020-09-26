@@ -114,7 +114,7 @@ function experimentInit() {
   instructions = new visual.TextStim({
     win: psychoJS.window,
     name: 'instructions',
-    text: instruction_text,
+    text: undefined,
     font: 'Arial',
     units: undefined, 
     pos: [0, 0], height: 0.1,  wrapWidth: undefined, ori: 0,
@@ -129,7 +129,7 @@ function experimentInit() {
   target_image = new visual.ImageStim({
     win : psychoJS.window,
     name : 'target_image', units : 'deg', 
-    image : target, mask : undefined,
+    image : undefined, mask : undefined,
     ori : 0, pos : [0, 0], size : [2, 2],
     color : new util.Color([1, 1, 1]), opacity : 1,
     flipHoriz : false, flipVert : false,
@@ -149,7 +149,7 @@ function experimentInit() {
   probe_image = new visual.ImageStim({
     win : psychoJS.window,
     name : 'probe_image', units : 'deg', 
-    image : probe, mask : undefined,
+    image : undefined, mask : undefined,
     ori : 0, pos : [0, 0], size : [2, 2],
     color : new util.Color([1, 1, 1]), opacity : 1,
     flipHoriz : false, flipVert : false,
