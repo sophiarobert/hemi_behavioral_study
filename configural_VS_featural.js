@@ -1,4 +1,4 @@
-﻿/******************************* 
+/******************************* 
  * Configural_Vs_Featural Test *
  *******************************/
 
@@ -9,7 +9,6 @@ import { Scheduler } from './lib/util-2020.2.js';
 import * as visual from './lib/visual-2020.2.js';
 import * as sound from './lib/sound-2020.2.js';
 import * as util from './lib/util-2020.2.js';
-import * as os from 'os';
 //some handy aliases as in the psychopy scripts;
 const { abs, sin, cos, PI: pi, sqrt } = Math;
 
@@ -29,7 +28,6 @@ psychoJS.openWindow({
 // store info about the experiment session:
 let expName = 'configural_VS_featural';  // from the Builder filename that created this script
 let expInfo = {'participant': '', 'session': '001'};
-
 
 // schedule the experiment:
 psychoJS.schedule(psychoJS.gui.DlgFromDict({
@@ -66,8 +64,6 @@ psychoJS.start({
 
 psychoJS.experimentLogger.setLevel(core.Logger.ServerLevel.DEBUG);
 
-
-
 var frameDur;
 function updateInfo() {
   expInfo['date'] = util.MonotonicClock.getDateStr();  // add a simple timestamp
@@ -87,58 +83,6 @@ function updateInfo() {
   
   return Scheduler.Event.NEXT;
 }
-
-var face_config_paths, face_feat_paths, haus_config_paths, haus_feat_paths, stim_config_dir, stim_feat_dir;
-stim_feat_dir = os.path.abspath("stimuli/Featural_Set/");
-stim_config_dir = os.path.abspath("stimuli/Spacing_Set/");
-face_feat_paths = function () {
-    var _pj_a = [], _pj_b = os.listdir(stim_feat_dir);
-    for (var _pj_c = 0, _pj_d = _pj_b.length; (_pj_c < _pj_d); _pj_c += 1) {
-        var file = _pj_b[_pj_c];
-        if (file.endswith(".tif")) {
-            _pj_a.push(((stim_feat_dir + "/") + file));
-        }
-    }
-    return _pj_a;
-}
-.call(this);
-face_feat_paths.sort();
-face_config_paths = function () {
-    var _pj_a = [], _pj_b = os.listdir(stim_config_dir);
-    for (var _pj_c = 0, _pj_d = _pj_b.length; (_pj_c < _pj_d); _pj_c += 1) {
-        var file = _pj_b[_pj_c];
-        if (file.endswith(".tif")) {
-            _pj_a.push(((stim_config_dir + "/") + file));
-        }
-    }
-    return _pj_a;
-}
-.call(this);
-face_config_paths.sort();
-haus_feat_paths = function () {
-    var _pj_a = [], _pj_b = os.listdir(stim_feat_dir);
-    for (var _pj_c = 0, _pj_d = _pj_b.length; (_pj_c < _pj_d); _pj_c += 1) {
-        var file = _pj_b[_pj_c];
-        if (file.endswith(".bmp")) {
-            _pj_a.push(((stim_feat_dir + "/") + file));
-        }
-    }
-    return _pj_a;
-}
-.call(this);
-haus_feat_paths.sort();
-haus_config_paths = function () {
-    var _pj_a = [], _pj_b = os.listdir(stim_config_dir);
-    for (var _pj_c = 0, _pj_d = _pj_b.length; (_pj_c < _pj_d); _pj_c += 1) {
-        var file = _pj_b[_pj_c];
-        if (file.endswith(".bmp")) {
-            _pj_a.push(((stim_config_dir + "/") + file));
-        }
-    }
-    return _pj_a;
-}
-.call(this);
-haus_config_paths.sort();
 
 var exp_code_setupClock;
 var block_instructionClock;
@@ -220,7 +164,6 @@ function experimentInit() {
   
   return Scheduler.Event.NEXT;
 }
-
 
 var t;
 var frameN;
