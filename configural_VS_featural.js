@@ -9,6 +9,7 @@ import { Scheduler } from './lib/util-2020.2.js';
 import * as visual from './lib/visual-2020.2.js';
 import * as sound from './lib/sound-2020.2.js';
 import * as util from './lib/util-2020.2.js';
+import * as os from 'os';
 //some handy aliases as in the psychopy scripts;
 const { abs, sin, cos, PI: pi, sqrt } = Math;
 
@@ -65,7 +66,7 @@ psychoJS.start({
 
 psychoJS.experimentLogger.setLevel(core.Logger.ServerLevel.DEBUG);
 
-import * as os from 'os';
+
 
 var frameDur;
 function updateInfo() {
