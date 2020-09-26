@@ -354,7 +354,7 @@ function block_instructionRoutineBegin(snapshot) {
     }
     
     console.log(blocks.trialList)
-    
+    console.log(blocks.trialList[0])
     block_count += 1
     Block_type = blocks.trialList[block_count]['Block_type']
     instruction_text = blocks.trialList[block_count]['instruction_text']
@@ -513,9 +513,6 @@ function block_instructionRoutineEnd(snapshot) {
     return Scheduler.Event.NEXT;
   };
 }
-
-console.log(paths)
-console.log(Block_type)
 
 var target;
 var probe;
