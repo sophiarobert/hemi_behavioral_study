@@ -150,6 +150,8 @@ var fix_response;
 var key_resp;
 var globalClock;
 var routineTimer;
+var target;
+var probe;
 function experimentInit() {
   // Initialize components for Routine "exp_code_setup"
   exp_code_setupClock = new util.Clock();
@@ -173,7 +175,7 @@ function experimentInit() {
   target_image = new visual.ImageStim({
     win : psychoJS.window,
     name : 'target_image', units : 'deg', 
-    image : undefined, mask : undefined,
+    image : target, mask : undefined,
     ori : 0, pos : [0, 0], size : [2, 2],
     color : new util.Color([1, 1, 1]), opacity : 1,
     flipHoriz : false, flipVert : false,
@@ -193,7 +195,7 @@ function experimentInit() {
   probe_image = new visual.ImageStim({
     win : psychoJS.window,
     name : 'probe_image', units : 'deg', 
-    image : undefined, mask : undefined,
+    image : probe, mask : undefined,
     ori : 0, pos : [0, 0], size : [2, 2],
     color : new util.Color([1, 1, 1]), opacity : 1,
     flipHoriz : false, flipVert : false,
