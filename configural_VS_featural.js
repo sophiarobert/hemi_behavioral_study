@@ -332,6 +332,7 @@ var diffTrialid;
 var _start_block_allKeys;
 var block_instructionComponents;
 var block_count;
+var Block_type;
 
 block_count = -1;
 function block_instructionRoutineBegin(snapshot) {
@@ -514,6 +515,7 @@ function block_instructionRoutineEnd(snapshot) {
 }
 
 console.log(paths)
+console.log(Block_type)
 
 var target;
 var probe;
