@@ -353,13 +353,13 @@ function block_instructionRoutineBegin(snapshot) {
             return s;
     }
     
-    Block_type = blocks.trialList[block_count]['Block_type']
-    instruction_text = blocks.trialList[block_count]['instruction_text']
-    console.log(Block_type === "conf_face")
-    
     if (typeof(Block_type) === undefined) {
          Block_type = blocks.trialList[block_count]['Block_type']
     }
+    
+    Block_type = blocks.trialList[block_count]['Block_type']
+    instruction_text = blocks.trialList[block_count]['instruction_text']
+    console.log(Block_type === "conf_face")
     
     if ((Block_type === "conf_face")) {
         paths = face_config_paths;
