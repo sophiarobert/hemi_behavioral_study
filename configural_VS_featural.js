@@ -325,8 +325,15 @@ var diffTrialid;
 var instruction_text;
 var _start_block_allKeys;
 var block_instructionComponents;
-function block_instructionRoutineBegin(snapshot, blocks) {
+function block_instructionRoutineBegin(snapshot) {
   return function () {
+    blocks = new TrialHandler({
+        psychoJS: psychoJS,
+        nReps: 1, method: TrialHandler.Method.SEQUENTIAL,
+        extraInfo: expInfo, originPath: undefined,
+        trialList: 'block_types_A.csv',
+        seed: undefined, name: 'blocks'
+    }); 
     //------Prepare to start Routine 'block_instruction'-------
     t = 0;
     block_instructionClock.reset(); // clock
