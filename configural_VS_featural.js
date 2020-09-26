@@ -357,6 +357,7 @@ function block_instructionRoutineBegin(snapshot) {
     console.log(blocks.trialList[0])
     block_count += 1
     Block_type = blocks.trialList[block_count]['Block_type']
+    console.log(blocks.trialList[block_count]['Block_type'])
     instruction_text = blocks.trialList[block_count]['instruction_text']
     
     if ((Block_type === "conf_face")) {
