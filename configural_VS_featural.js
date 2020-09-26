@@ -88,9 +88,11 @@ var stim_dir = "https://gitlab.pavlovia.org/sophiarobert/configural_featural_tas
 var face_config_paths, face_feat_paths, haus_config_paths, haus_feat_paths, stim_config_dir, stim_feat_dir;
 stim_feat_dir = stim_dir + "/Featural_Set/";
 stim_config_dir = stim_dir + "/Spacing_Set/";
-var test
-test = app.use(express.static(__dirname + '/'))
-console.log(test)
+
+var fs = require('fs');
+face_feat_paths = fs.readdirSync(stim_feat_dir + "*.bmp");
+console.log(face_feat_paths)
+
 var exp_code_setupClock;
 var block_instructionClock;
 var instructions;
