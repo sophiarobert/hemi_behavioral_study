@@ -333,38 +333,42 @@ var instruction_text;
 var _start_block_allKeys;
 var block_instructionComponents;
 function block_instructionRoutineBegin(snapshot) {
-  return function (paths) {
+  return function () {
     //------Prepare to start Routine 'block_instruction'-------
     t = 0;
     block_instructionClock.reset(); // clock
     frameN = -1;
     // update component parameters for each repeat
     
-            // add-on: list(s: string): string[]
-            function list(s) {
-                // if s is a string, we return a list of its characters
-                if (typeof s === 'string')
-                    return s.split('');
-                else
-                    // otherwise we return s:
-                    return s;
-            }
+    // add-on: list(s: string): string[]
+    function list(s) {
+        // if s is a string, we return a list of its characters
+        if (typeof s === 'string')
+            return s.split('');
+        else
+        // otherwise we return s:
+            return s;
+    }
     
-            if ((Block_type === "conf_face")) {
-                paths = face_config_paths;
-            } 
-            else {
-            if ((Block_type === "conf_haus")) {
-                paths = haus_config_paths;
-            } 
-            else {
+    if ((Block_type === "conf_face")) {
+        paths = face_config_paths;
+        return paths
+    } 
+    else {
+        if ((Block_type === "conf_haus")) {
+            paths = haus_config_paths;
+            return paths
+        } 
+        else {
             if ((Block_type === "feat_face")) {
                 paths = face_feat_paths;
+                return paths
             } 
             else {
-            if ((Block_type === "feat_haus")) {
-                paths = haus_feat_paths;
-            }
+                if ((Block_type === "feat_haus")) {
+                    paths = haus_feat_paths;
+                    return paths
+                }
             }
         }
     }
@@ -380,7 +384,9 @@ function block_instructionRoutineBegin(snapshot) {
             // let t = array[i]; array[i] = array[j]; array[j] = t
             [array[i], array[j]] = [array[j], array[i]];
         }
+        return array
     }
+    
     trial_order = [[shuffle([1, 2, 3, 4, 5, 6]), shuffle([1, 2, 3, 4, 5, 6]), shuffle([1, 2, 3, 4, 5, 6]), shuffle([1, 2, 3, 4, 5, 6])]];
     trial_order = Math.round(((trial_order / 6) - 0.1));
     trialSame = [[shuffle([0, 1, 2, 3]), shuffle([0, 1, 2, 3]), shuffle([0, 1, 2, 3])]];
@@ -389,7 +395,6 @@ function block_instructionRoutineBegin(snapshot) {
     shuffle(diffTrial);
     sameTrialid = 0;
     diffTrialid = 0;
-    instruction_text = instruction_text;
     
     instructions.setText(instruction_text);
     start_block.keys = undefined;
