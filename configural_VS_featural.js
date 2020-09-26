@@ -350,7 +350,7 @@ function block_instructionRoutineBegin(snapshot) {
     }
     
     var csv_data = $.csv.toObjects('block_types_A.csv');
-    csv_block_data = csv_data{trials.thisN};
+    csv_block_data = csv_data[trials.thisN];
     
     if ((csv_block_data['Block_type'] === "conf_face")) {
         paths = face_config_paths;
