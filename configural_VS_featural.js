@@ -9,6 +9,7 @@ import { Scheduler } from './lib/util-2020.2.js';
 import * as visual from './lib/visual-2020.2.js';
 import * as sound from './lib/sound-2020.2.js';
 import * as util from './lib/util-2020.2.js';
+import * as np from 'https://github.com/tensjs/numpy'
 //some handy aliases as in the psychopy scripts;
 const { abs, sin, cos, PI: pi, sqrt } = Math;
 
@@ -88,7 +89,7 @@ var face_config_paths, face_feat_paths, haus_config_paths, haus_feat_paths, stim
 stim_feat_dir = "stimuli/Featural_Set/";
 stim_config_dir = "stimuli/Spacing_Set/";
 face_feat_paths = function () {
-    var _pj_a = [], _pj_b = os.listdir(stim_feat_dir);
+    var _pj_a = [], _pj_b = stim_feat_dir;
     for (var _pj_c = 0, _pj_d = _pj_b.length; (_pj_c < _pj_d); _pj_c += 1) {
         var file = _pj_b[_pj_c];
         if (file.endswith(".tif")) {
