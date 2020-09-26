@@ -357,6 +357,10 @@ function block_instructionRoutineBegin(snapshot) {
     instruction_text = blocks.trialList[block_count]['instruction_text']
     console.log(Block_type === "conf_face")
     
+    if (typeof(Block_type) === undefined) {
+         Block_type = blocks.trialList[block_count]['Block_type']
+    }
+    
     if ((Block_type === "conf_face")) {
         paths = face_config_paths;
         return paths
