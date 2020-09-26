@@ -85,8 +85,8 @@ function updateInfo() {
 }
 
 var face_config_paths, face_feat_paths, haus_config_paths, haus_feat_paths, stim_config_dir, stim_feat_dir;
-stim_feat_dir = "stimuli/Featural_Set/";
-stim_config_dir = "stimuli/Spacing_Set/";
+stim_feat_dir = "./stimuli/Featural_Set/";
+stim_config_dir = "./stimuli/Spacing_Set/";
 face_feat_paths = function () {
     var _pj_a = [], _pj_b = stim_feat_dir;
     for (var _pj_c = 0, _pj_d = _pj_b.length; (_pj_c < _pj_d); _pj_c += 1) {
@@ -135,6 +135,8 @@ haus_config_paths = function () {
 }
 .call(this);
 haus_config_paths.sort();
+
+console.log(haus_config_paths)
 
 var exp_code_setupClock;
 var block_instructionClock;
