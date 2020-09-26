@@ -325,7 +325,7 @@ var diffTrialid;
 var instruction_text;
 var _start_block_allKeys;
 var block_instructionComponents;
-function block_instructionRoutineBegin(snapshot, blocks.thisBlock) {
+function block_instructionRoutineBegin(snapshot, blocks) {
   return function () {
     //------Prepare to start Routine 'block_instruction'-------
     t = 0;
@@ -343,19 +343,19 @@ function block_instructionRoutineBegin(snapshot, blocks.thisBlock) {
                     return s;
             }
     
-            if ((thisBlock["Block_type"] === "conf_face")) {
+            if ((blocks.thisBlock["Block_type"] === "conf_face")) {
                 paths = face_config_paths;
             } 
             else {
-            if ((thisBlock["Block_type"] === "conf_haus")) {
+            if ((blocks.thisBlock["Block_type"] === "conf_haus")) {
                 paths = haus_config_paths;
             } 
             else {
-            if ((thisBlock["Block_type"] === "feat_face")) {
+            if ((blocks.thisBlock["Block_type"] === "feat_face")) {
                 paths = face_feat_paths;
             } 
             else {
-            if ((thisBlock["Block_type"] === "feat_haus")) {
+            if ((blocks.thisBlock["Block_type"] === "feat_haus")) {
                 paths = haus_feat_paths;
             }
             }
