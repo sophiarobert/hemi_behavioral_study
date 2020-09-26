@@ -89,9 +89,10 @@ var face_config_paths, face_feat_paths, haus_config_paths, haus_feat_paths, stim
 stim_feat_dir = stim_dir + "/Featural_Set/";
 stim_config_dir = stim_dir + "/Spacing_Set/";
 
-var fs = require('fs');
-face_feat_paths = fs.readdirSync(stim_feat_dir + "*.bmp");
-console.log(face_feat_paths)
+face_config_paths = [stim_config_dir + "edmd.tif", stim_config_dir + "eimd.tif", stim_config_dir + "eomu.tif", stim_config_dir + "eumu.tif"]
+face_feat_paths = [stim_feat_dir + "f15.tif", stim_feat_dir + "f24.tif", stim_feat_dir + "f131.tif", stim_feat_dir + "f142.tif"]
+haus_config_paths = [stim_config_dir + "H-8sim0.bmp", stim_config_dir + "H-8sim1.bmp", stim_config_dir + "H-8sim2.bmp", stim_config_dir + "H-8sim3.bmp"]
+haus_feat_paths = [stim_feat_dir + "H5sim0.bmp", stim_feat_dir + "H6sim0.bmp", stim_feat_dir + "H7sim0.bmp", stim_feat_dir + "H8sim0.bmp"]
 
 var exp_code_setupClock;
 var block_instructionClock;
