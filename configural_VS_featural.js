@@ -427,7 +427,7 @@ function block_instructionRoutineBegin(snapshot) {
     trial_order = Math.round(((trial_order / 6) - 0.1));
     trialSame = [[shuffle([0, 1, 2, 3]), shuffle([0, 1, 2, 3]), shuffle([0, 1, 2, 3])]];
     trialDiff = [[0, 1], [0, 2], [0, 3], [1, 2], [1, 3], [1, 0], [2, 3], [2, 0], [2, 1], [3, 0], [3, 1], [3, 2]];
-    diffTrial = list(range(12));
+    diffTrial = list([...Array(12).keys()]);
     shuffle(diffTrial);
     sameTrialid = 0;
     diffTrialid = 0;
