@@ -329,7 +329,6 @@ var trialDiff;
 var diffTrial;
 var sameTrialid;
 var diffTrialid;
-var instruction_text;
 var _start_block_allKeys;
 var block_instructionComponents;
 function block_instructionRoutineBegin(snapshot) {
