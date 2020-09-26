@@ -84,60 +84,13 @@ function updateInfo() {
   return Scheduler.Event.NEXT;
 }
 
+var stim_dir = "https://gitlab.pavlovia.org/sophiarobert/configural_featural_task_designa/tree/master/stimuli"
 var face_config_paths, face_feat_paths, haus_config_paths, haus_feat_paths, stim_config_dir, stim_feat_dir;
-stim_feat_dir = "./stimuli/Featural_Set/";
-stim_config_dir = "./stimuli/Spacing_Set/";
-face_feat_paths = function () {
-    var _pj_a = [], _pj_b = stim_feat_dir;
-    for (var _pj_c = 0, _pj_d = _pj_b.length; (_pj_c < _pj_d); _pj_c += 1) {
-        var file = _pj_b[_pj_c];
-        if (file.endsWith(".tif")) {
-            _pj_a.push(((stim_feat_dir + "/") + file));
-        }
-    }
-    return _pj_a;
-}
-.call(this);
-face_feat_paths.sort();
-face_config_paths = function () {
-    var _pj_a = [], _pj_b = stim_config_dir;
-    for (var _pj_c = 0, _pj_d = _pj_b.length; (_pj_c < _pj_d); _pj_c += 1) {
-        var file = _pj_b[_pj_c];
-        if (file.endsWith(".tif")) {
-            _pj_a.push(((stim_config_dir + "/") + file));
-        }
-    }
-    return _pj_a;
-}
-.call(this);
-face_config_paths.sort();
-haus_feat_paths = function () {
-    var _pj_a = [], _pj_b = stim_feat_dir;
-    for (var _pj_c = 0, _pj_d = _pj_b.length; (_pj_c < _pj_d); _pj_c += 1) {
-        var file = _pj_b[_pj_c];
-        if (file.endsWith(".bmp")) {
-            _pj_a.push(((stim_feat_dir + "/") + file));
-        }
-    }
-    return _pj_a;
-}
-.call(this);
-haus_feat_paths.sort();
-haus_config_paths = function () {
-    var _pj_a = [], _pj_b = stim_config_dir;
-    for (var _pj_c = 0, _pj_d = _pj_b.length; (_pj_c < _pj_d); _pj_c += 1) {
-        var file = _pj_b[_pj_c];
-        if (file.endsWith(".bmp")) {
-            _pj_a.push(((stim_config_dir + "/") + file));
-        }
-    }
-    return _pj_a;
-}
-.call(this);
-haus_config_paths.sort();
-
-console.log(haus_config_paths)
-
+stim_feat_dir = stim_dir + "/Featural_Set/";
+stim_config_dir = stim_dir + "/Spacing_Set/";
+var test
+test = app.use(express.static(__dirname + '/'))
+console.log(test)
 var exp_code_setupClock;
 var block_instructionClock;
 var instructions;
