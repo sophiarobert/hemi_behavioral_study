@@ -352,22 +352,22 @@ function block_instructionRoutineBegin(snapshot) {
     var csv_data = $.csv.toObjects('block_types_A.csv'):
     csv_block_data = csv_data{trials.thisN}
     
-    if ((csv_block_data:Block_type === "conf_face")) {
+    if ((csv_block_data['Block_type'] === "conf_face")) {
         paths = face_config_paths;
         return paths
     } 
     else {
-        if ((csv_block_data:Block_type === "conf_haus")) {
+        if ((csv_block_data['Block_type'] === "conf_haus")) {
             paths = haus_config_paths;
             return paths
         } 
         else {
-            if ((csv_block_data:Block_type === "feat_face")) {
+            if ((csv_block_data['Block_type'] === "feat_face")) {
                 paths = face_feat_paths;
                 return paths
             } 
             else {
-                if ((csv_block_data:Block_type === "feat_haus")) {
+                if ((csv_block_data['Block_type'] === "feat_haus")) {
                     paths = haus_feat_paths;
                     return paths
                 }
@@ -398,7 +398,7 @@ function block_instructionRoutineBegin(snapshot) {
     sameTrialid = 0;
     diffTrialid = 0;
     
-    instructions.setText(csv_block_data:instruction_text);
+    instructions.setText(csv_block_data['instruction_text']);
     start_block.keys = undefined;
     start_block.rt = undefined;
     _start_block_allKeys = [];
