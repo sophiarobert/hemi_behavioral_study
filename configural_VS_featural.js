@@ -9,7 +9,6 @@ import { Scheduler } from './lib/util-2020.2.js';
 import * as visual from './lib/visual-2020.2.js';
 import * as sound from './lib/sound-2020.2.js';
 import * as util from './lib/util-2020.2.js';
-import * as np from 'https://github.com/tensjs/numpy'
 //some handy aliases as in the psychopy scripts;
 const { abs, sin, cos, PI: pi, sqrt } = Math;
 
@@ -411,10 +410,10 @@ function block_instructionRoutineBegin(snapshot) {
             }
         }
     }
-    trial_order = np.concatenate([permutation([1, 2, 3, 4, 5, 6]), permutation([1, 2, 3, 4, 5, 6]), permutation([1, 2, 3, 4, 5, 6]), permutation([1, 2, 3, 4, 5, 6])]);
-    trial_order = np.round(((trial_order / 6) - 0.1));
-    trialSame = np.concatenate([permutation([0, 1, 2, 3]), permutation([0, 1, 2, 3]), permutation([0, 1, 2, 3])]);
-    trialDiff = np.array([[0, 1], [0, 2], [0, 3], [1, 2], [1, 3], [1, 0], [2, 3], [2, 0], [2, 1], [3, 0], [3, 1], [3, 2]]);
+    trial_order = [[shuffle([1, 2, 3, 4, 5, 6]), shuffle([1, 2, 3, 4, 5, 6]), shuffle([1, 2, 3, 4, 5, 6]), shuffle([1, 2, 3, 4, 5, 6])]];
+    trial_order = round(((trial_order / 6) - 0.1));
+    trialSame = [[shuffle([0, 1, 2, 3]), shuffle([0, 1, 2, 3]), shuffle([0, 1, 2, 3])]];
+    trialDiff = [[0, 1], [0, 2], [0, 3], [1, 2], [1, 3], [1, 0], [2, 3], [2, 0], [2, 1], [3, 0], [3, 1], [3, 2]];
     diffTrial = list(range(12));
     shuffle(diffTrial);
     sameTrialid = 0;
