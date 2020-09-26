@@ -150,8 +150,7 @@ var fix_response;
 var key_resp;
 var globalClock;
 var routineTimer;
-var target;
-var probe;
+
 function experimentInit() {
   // Initialize components for Routine "exp_code_setup"
   exp_code_setupClock = new util.Clock();
@@ -160,7 +159,7 @@ function experimentInit() {
   instructions = new visual.TextStim({
     win: psychoJS.window,
     name: 'instructions',
-    text: 'default text',
+    text: instruction_text,
     font: 'Arial',
     units: undefined, 
     pos: [0, 0], height: 0.1,  wrapWidth: undefined, ori: 0,
@@ -379,7 +378,7 @@ var instruction_text;
 var _start_block_allKeys;
 var block_instructionComponents;
 function block_instructionRoutineBegin(snapshot) {
-  return function () {
+  return function (paths) {
     //------Prepare to start Routine 'block_instruction'-------
     t = 0;
     block_instructionClock.reset(); // clock
@@ -546,6 +545,7 @@ function block_instructionRoutineEnd(snapshot) {
   };
 }
 
+console.log(paths)
 
 var target;
 var probe;
