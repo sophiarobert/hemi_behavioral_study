@@ -331,6 +331,9 @@ var sameTrialid;
 var diffTrialid;
 var _start_block_allKeys;
 var block_instructionComponents;
+var block_count;
+
+block_count = -1;
 function block_instructionRoutineBegin(snapshot) {
   return function () {
     //------Prepare to start Routine 'block_instruction'-------
@@ -349,8 +352,11 @@ function block_instructionRoutineBegin(snapshot) {
             return s;
     }
     
-    Block_type = blocks.trialList[trials.thisN]['Block_type']
-    instruction_text = blocks.trialList[trials.thisN]['instruction_text']
+    console.log(blocks.trialList)
+    
+    block_count += 1
+    Block_type = blocks.trialList[block_count]['Block_type']
+    instruction_text = blocks.trialList[block_count]['instruction_text']
     
     if ((Block_type === "conf_face")) {
         paths = face_config_paths;
@@ -398,7 +404,7 @@ function block_instructionRoutineBegin(snapshot) {
     sameTrialid = 0;
     diffTrialid = 0;
     
-    instructions.setText(csv_block_data['instruction_text']);
+    instructions.setText(instruction_text);
     start_block.keys = undefined;
     start_block.rt = undefined;
     _start_block_allKeys = [];
