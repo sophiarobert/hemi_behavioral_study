@@ -84,10 +84,9 @@ function updateInfo() {
   return Scheduler.Event.NEXT;
 }
 
-var stim_dir = "https://gitlab.pavlovia.org/sophiarobert/configural_featural_task_designa/tree/master/stimuli"
 var face_config_paths, face_feat_paths, haus_config_paths, haus_feat_paths, stim_config_dir, stim_feat_dir;
-stim_feat_dir = stim_dir + "/Featural_Set/";
-stim_config_dir = stim_dir + "/Spacing_Set/";
+stim_feat_dir = "./stimuli/Featural_Set/";
+stim_config_dir = "./stimuli/Spacing_Set/";
 
 face_config_paths = [stim_config_dir + "edmd.tif", stim_config_dir + "eimd.tif", stim_config_dir + "eomu.tif", stim_config_dir + "eumu.tif"]
 face_feat_paths = [stim_feat_dir + "f15.tif", stim_feat_dir + "f24.tif", stim_feat_dir + "f131.tif", stim_feat_dir + "f142.tif"]
