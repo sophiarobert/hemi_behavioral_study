@@ -349,25 +349,25 @@ function block_instructionRoutineBegin(snapshot) {
             return s;
     }
     
-    var csv_data = $.csv.toObjects('block_types_A.csv');
-    csv_block_data = csv_data[trials.thisN];
+    Block_type = blocks.trialList[trials.thisN]['Block_type']
+    instruction_text = blocks.trialList[trials.thisN]['instruction_text']
     
-    if ((csv_block_data['Block_type'] === "conf_face")) {
+    if ((Block_type === "conf_face")) {
         paths = face_config_paths;
         return paths
     } 
     else {
-        if ((csv_block_data['Block_type'] === "conf_haus")) {
+        if ((Block_type === "conf_haus")) {
             paths = haus_config_paths;
             return paths
         } 
         else {
-            if ((csv_block_data['Block_type'] === "feat_face")) {
+            if ((Block_type === "feat_face")) {
                 paths = face_feat_paths;
                 return paths
             } 
             else {
-                if ((csv_block_data['Block_type'] === "feat_haus")) {
+                if ((Block_type === "feat_haus")) {
                     paths = haus_feat_paths;
                     return paths
                 }
