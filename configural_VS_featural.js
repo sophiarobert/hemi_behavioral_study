@@ -91,7 +91,7 @@ face_feat_paths = function () {
     var _pj_a = [], _pj_b = stim_feat_dir;
     for (var _pj_c = 0, _pj_d = _pj_b.length; (_pj_c < _pj_d); _pj_c += 1) {
         var file = _pj_b[_pj_c];
-        if (file.endswith(".tif")) {
+        if (file.endsWith(".tif")) {
             _pj_a.push(((stim_feat_dir + "/") + file));
         }
     }
@@ -103,7 +103,7 @@ face_config_paths = function () {
     var _pj_a = [], _pj_b = stim_config_dir;
     for (var _pj_c = 0, _pj_d = _pj_b.length; (_pj_c < _pj_d); _pj_c += 1) {
         var file = _pj_b[_pj_c];
-        if (file.endswith(".tif")) {
+        if (file.endsWith(".tif")) {
             _pj_a.push(((stim_config_dir + "/") + file));
         }
     }
@@ -115,7 +115,7 @@ haus_feat_paths = function () {
     var _pj_a = [], _pj_b = stim_feat_dir;
     for (var _pj_c = 0, _pj_d = _pj_b.length; (_pj_c < _pj_d); _pj_c += 1) {
         var file = _pj_b[_pj_c];
-        if (file.endswith(".bmp")) {
+        if (file.endsWith(".bmp")) {
             _pj_a.push(((stim_feat_dir + "/") + file));
         }
     }
@@ -127,7 +127,7 @@ haus_config_paths = function () {
     var _pj_a = [], _pj_b = stim_config_dir;
     for (var _pj_c = 0, _pj_d = _pj_b.length; (_pj_c < _pj_d); _pj_c += 1) {
         var file = _pj_b[_pj_c];
-        if (file.endswith(".bmp")) {
+        if (file.endsWith(".bmp")) {
             _pj_a.push(((stim_config_dir + "/") + file));
         }
     }
