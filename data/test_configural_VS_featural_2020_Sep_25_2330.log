@@ -1,0 +1,103 @@
+5.5149 	INFO 	Loaded monitor calibration from ['2020_09_20 15:42']
+7.0227 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, args=UNKNOWN, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0., 0., 0.]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x121f0ba20>, gamma=None, gammaErrorPolicy='raise', kwargs=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x157038ba8>, multiSample=False, name='window1', numSamples=2, pos=[448.0, 280.0], screen=0, size=array([3584, 2240]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=True, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+7.0229 	EXP 	window1: mouseVisible = True
+7.0230 	EXP 	window1: recordFrameIntervals = False
+7.1889 	EXP 	window1: recordFrameIntervals = True
+8.8569 	WARNING 	Couldn't measure a consistent frame rate.
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+9.3406 	EXP 	Created instructions = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='instructions', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='default text', units='height', win=Window(...), wrapWidth=1)
+9.7529 	EXP 	Created target_image = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='target_image', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([2., 2.]), texRes=512, units='deg', win=Window(...))
+9.7552 	EXP 	Created fixation = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='fixation', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='+', units='height', win=Window(...), wrapWidth=1)
+9.7566 	EXP 	Created probe_image = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='probe_image', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([2., 2.]), texRes=512, units='deg', win=Window(...))
+9.7578 	EXP 	Created fix_response = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='fix_response', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='+', units='height', win=Window(...), wrapWidth=1)
+10.1727 	DEBUG 	Read csv file with pandas: block_types_A.csv
+10.1746 	DEBUG 	Clearing unnamed columns from block_types_A.csv
+10.1748 	EXP 	Imported block_types_A.csv as conditions, 4 conditions, 2 params
+10.1750 	EXP 	Created sequence: sequential, trialTypes=4, nReps=1, seed=None
+10.1752 	EXP 	New trial (rep=0, index=0): OrderedDict([('Block_type', 'conf_face'), ('instruction_text', 'Press S for same or D for different faces. Press <SPACE> to continue.')])
+10.2187 	WARNING 	t of last frame was 1362.02ms (=1/0)
+10.2187 	EXP 	instructions: text = 'Press S for same or D for different faces. Press <SPACE> to continue.'
+10.2187 	EXP 	instructions: autoDraw = True
+10.2404 	WARNING 	t of last frame was 21.64ms (=1/46)
+11.6238 	DATA 	Keypress: space
+11.6471 	WARNING 	t of last frame was 72.83ms (=1/13)
+11.6471 	EXP 	instructions: autoDraw = False
+11.6471 	EXP 	target_image: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Spacing_Set/eumu.tif'
+11.6471 	EXP 	probe_image: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Spacing_Set/edmd.tif'
+11.6471 	EXP 	target_image: autoDraw = True
+11.6676 	WARNING 	t of last frame was 20.53ms (=1/48)
+11.8219 	EXP 	fixation: autoDraw = True
+11.8550 	EXP 	target_image: autoDraw = False
+12.1055 	EXP 	probe_image: autoDraw = True
+12.1221 	EXP 	fixation: autoDraw = False
+12.3072 	EXP 	probe_image: autoDraw = False
+12.3218 	EXP 	fix_response: autoDraw = True
+14.9570 	EXP 	New trial (rep=0, index=1): OrderedDict([('Block_type', 'conf_haus'), ('instruction_text', 'Press S for same or D for different houses. Press <SPACE> to continue.')])
+14.9678 	DATA 	Keypress: s
+14.9719 	EXP 	target_image: autoDraw = False
+14.9719 	EXP 	fixation: autoDraw = False
+14.9719 	EXP 	probe_image: autoDraw = False
+14.9719 	EXP 	fix_response: autoDraw = False
+14.9719 	EXP 	instructions: text = 'Press S for same or D for different houses. Press <SPACE> to continue.'
+14.9719 	EXP 	instructions: autoDraw = True
+16.0459 	DATA 	Keypress: space
+16.0634 	WARNING 	Multiple dropped frames have occurred - I'll stop bothering you about them!
+16.0634 	EXP 	instructions: autoDraw = False
+16.0634 	EXP 	target_image: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Spacing_Set/H-8sim1.bmp'
+16.0634 	EXP 	probe_image: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Spacing_Set/H-8sim3.bmp'
+16.0634 	EXP 	target_image: autoDraw = True
+16.2406 	EXP 	fixation: autoDraw = True
+16.2737 	EXP 	target_image: autoDraw = False
+16.5411 	EXP 	fixation: autoDraw = False
+16.5411 	EXP 	probe_image: autoDraw = True
+16.7404 	EXP 	fix_response: autoDraw = True
+16.7553 	EXP 	probe_image: autoDraw = False
+18.3416 	EXP 	New trial (rep=0, index=2): OrderedDict([('Block_type', 'feat_face'), ('instruction_text', 'Press S for same or D for different faces. Press <SPACE> to continue.')])
+18.3510 	DATA 	Keypress: s
+18.3551 	EXP 	target_image: autoDraw = False
+18.3551 	EXP 	fixation: autoDraw = False
+18.3551 	EXP 	probe_image: autoDraw = False
+18.3551 	EXP 	fix_response: autoDraw = False
+18.3551 	EXP 	instructions: text = 'Press S for same or D for different faces. Press <SPACE> to continue.'
+18.3551 	EXP 	instructions: autoDraw = True
+19.0548 	DATA 	Keypress: space
+19.0738 	EXP 	instructions: autoDraw = False
+19.0738 	EXP 	target_image: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Featural_Set/f142.tif'
+19.0738 	EXP 	probe_image: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Featural_Set/f24.tif'
+19.0738 	EXP 	target_image: autoDraw = True
+19.2573 	EXP 	fixation: autoDraw = True
+19.2725 	EXP 	target_image: autoDraw = False
+19.5552 	EXP 	fixation: autoDraw = False
+19.5552 	EXP 	probe_image: autoDraw = True
+19.7552 	EXP 	probe_image: autoDraw = False
+19.7552 	EXP 	fix_response: autoDraw = True
+20.4737 	EXP 	New trial (rep=0, index=3): OrderedDict([('Block_type', 'feat_haus'), ('instruction_text', 'Press S for same or D for different houses. Press <SPACE> to continue.')])
+20.4850 	DATA 	Keypress: s
+20.4896 	EXP 	target_image: autoDraw = False
+20.4896 	EXP 	fixation: autoDraw = False
+20.4896 	EXP 	probe_image: autoDraw = False
+20.4896 	EXP 	fix_response: autoDraw = False
+20.4896 	EXP 	instructions: text = 'Press S for same or D for different houses. Press <SPACE> to continue.'
+20.4896 	EXP 	instructions: autoDraw = True
+20.9905 	DATA 	Keypress: space
+21.0059 	EXP 	instructions: autoDraw = False
+21.0059 	EXP 	target_image: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Featural_Set/H8sim0.bmp'
+21.0059 	EXP 	probe_image: image = '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/stimuli/Featural_Set/H8sim0.bmp'
+21.0059 	EXP 	target_image: autoDraw = True
+21.1724 	EXP 	fixation: autoDraw = True
+21.2055 	EXP 	target_image: autoDraw = False
+21.4726 	EXP 	fixation: autoDraw = False
+21.4726 	EXP 	probe_image: autoDraw = True
+21.6723 	EXP 	probe_image: autoDraw = False
+21.6723 	EXP 	fix_response: autoDraw = True
+22.4077 	DATA 	Keypress: d
+22.4219 	EXP 	target_image: autoDraw = False
+22.4219 	EXP 	fixation: autoDraw = False
+22.4219 	EXP 	probe_image: autoDraw = False
+22.4219 	EXP 	fix_response: autoDraw = False
+22.4227 	INFO 	saved data to '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/data/test_configural_VS_featural_2020_Sep_25_2330.csv'
+22.4246 	INFO 	saved data to /Users/sophia/Documents/PycharmProjects/Local_VS_Global/data/test_configural_VS_featural_2020_Sep_25_2330.psydat
+22.6985 	EXP 	window1: mouseVisible = True
+22.6988 	DEBUG 	Saving data for configural_VS_featural ExperimentHandler

@@ -1,0 +1,56 @@
+6.2032 	INFO 	Loaded monitor calibration from ['2020_09_20 15:42']
+6.9775 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, args=UNKNOWN, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0., 0., 0.]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x121c0ba20>, gamma=None, gammaErrorPolicy='raise', kwargs=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x157951c50>, multiSample=False, name='window1', numSamples=2, pos=[448.0, 280.0], screen=0, size=array([3584, 2240]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=True, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+6.9777 	EXP 	window1: mouseVisible = True
+6.9777 	EXP 	window1: recordFrameIntervals = False
+7.1423 	EXP 	window1: recordFrameIntervals = True
+7.5263 	DEBUG 	Screen (0) actual frame rate measured at 59.83
+7.5263 	EXP 	window1: recordFrameIntervals = False
+8.0298 	EXP 	Created instructions = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='instructions', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='default text', units='height', win=Window(...), wrapWidth=1)
+8.4647 	EXP 	Created target_image = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='target_image', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([2., 2.]), texRes=512, units='deg', win=Window(...))
+8.4670 	EXP 	Created fixation = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='fixation', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='+', units='height', win=Window(...), wrapWidth=1)
+8.4685 	EXP 	Created probe_image = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='probe_image', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([2., 2.]), texRes=512, units='deg', win=Window(...))
+8.4698 	EXP 	Created fix_response = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='fix_response', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='+', units='height', win=Window(...), wrapWidth=1)
+8.9051 	DEBUG 	Read csv file with pandas: block_types_A.csv
+8.9069 	DEBUG 	Clearing unnamed columns from block_types_A.csv
+8.9072 	EXP 	Imported block_types_A.csv as conditions, 4 conditions, 2 params
+8.9074 	EXP 	Created sequence: sequential, trialTypes=4, nReps=1, seed=None
+8.9075 	EXP 	New trial (rep=0, index=0): OrderedDict([('Block_type', 'conf_face'), ('instruction_text', 'Press S for same or D for different faces. Press <SPACE> to continue.')])
+8.9506 	EXP 	instructions: text = 'Press S for same or D for different faces. Press <SPACE> to continue.'
+8.9506 	EXP 	instructions: autoDraw = True
+10.7952 	DEBUG 	Read csv file with pandas: trials24.csv
+10.7963 	DEBUG 	Clearing unnamed columns from trials24.csv
+10.7968 	EXP 	Imported trials24.csv as conditions, 24 conditions, 1 params
+10.7971 	EXP 	Created sequence: sequential, trialTypes=24, nReps=0, seed=None
+10.7973 	EXP 	New trial (rep=0, index=1): OrderedDict([('Block_type', 'conf_haus'), ('instruction_text', 'Press S for same or D for different houses. Press <SPACE> to continue.')])
+10.8103 	DATA 	Keypress: space
+10.8260 	EXP 	instructions: autoDraw = False
+10.8260 	EXP 	instructions: text = 'Press S for same or D for different houses. Press <SPACE> to continue.'
+10.8260 	EXP 	instructions: autoDraw = True
+11.6629 	DEBUG 	Read csv file with pandas: trials24.csv
+11.6643 	DEBUG 	Clearing unnamed columns from trials24.csv
+11.6649 	EXP 	Imported trials24.csv as conditions, 24 conditions, 1 params
+11.6652 	EXP 	Created sequence: sequential, trialTypes=24, nReps=0, seed=None
+11.6654 	EXP 	New trial (rep=0, index=2): OrderedDict([('Block_type', 'feat_face'), ('instruction_text', 'Press S for same or D for different faces. Press <SPACE> to continue.')])
+11.6780 	DATA 	Keypress: space
+11.6922 	EXP 	instructions: autoDraw = False
+11.6922 	EXP 	instructions: text = 'Press S for same or D for different faces. Press <SPACE> to continue.'
+11.6922 	EXP 	instructions: autoDraw = True
+12.0453 	DEBUG 	Read csv file with pandas: trials24.csv
+12.0465 	DEBUG 	Clearing unnamed columns from trials24.csv
+12.0470 	EXP 	Imported trials24.csv as conditions, 24 conditions, 1 params
+12.0473 	EXP 	Created sequence: sequential, trialTypes=24, nReps=0, seed=None
+12.0475 	EXP 	New trial (rep=0, index=3): OrderedDict([('Block_type', 'feat_haus'), ('instruction_text', 'Press S for same or D for different houses. Press <SPACE> to continue.')])
+12.0573 	DATA 	Keypress: space
+12.0758 	EXP 	instructions: autoDraw = False
+12.0758 	EXP 	instructions: text = 'Press S for same or D for different houses. Press <SPACE> to continue.'
+12.0758 	EXP 	instructions: autoDraw = True
+12.3962 	DEBUG 	Read csv file with pandas: trials24.csv
+12.3976 	DEBUG 	Clearing unnamed columns from trials24.csv
+12.3981 	EXP 	Imported trials24.csv as conditions, 24 conditions, 1 params
+12.3984 	EXP 	Created sequence: sequential, trialTypes=24, nReps=0, seed=None
+12.3999 	DATA 	Keypress: space
+12.4090 	EXP 	instructions: autoDraw = False
+12.4100 	INFO 	saved data to '/Users/sophia/Documents/PycharmProjects/Local_VS_Global/data/test_configural_VS_featural_2020_Sep_25_2306.csv'
+12.4114 	INFO 	saved data to /Users/sophia/Documents/PycharmProjects/Local_VS_Global/data/test_configural_VS_featural_2020_Sep_25_2306.psydat
+12.6868 	EXP 	window1: mouseVisible = True
+12.6869 	DEBUG 	Saving data for configural_VS_featural ExperimentHandler

@@ -1,0 +1,5 @@
+Block_type,stim_file_diff,stim_file_same
+conf_haus,conf_haus_stim_diff.csv,conf_haus_stim_same.csv
+conf_face,conf_face_stim_diff.csv,conf_face_stim_same.csv
+feat_haus,feat_haus_stim_diff.csv,feat_haus_stim_same.csv
+feat_face,feat_face_stim_diff.csv,feat_face_stim_same.csv
