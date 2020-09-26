@@ -369,7 +369,7 @@ function block_instructionRoutineBegin(snapshot, blocks) {
     shuffle(diffTrial);
     sameTrialid = 0;
     diffTrialid = 0;
-    instruction_text = thisBlock["instruction_text"];
+    instruction_text = blocks.thisBlock["instruction_text"];
     
     instructions.setText(instruction_text);
     start_block.keys = undefined;
