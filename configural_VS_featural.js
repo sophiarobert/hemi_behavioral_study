@@ -328,7 +328,7 @@ var _start_block_allKeys;
 var block_instructionComponents;
 
 function block_instructionRoutineBegin(snapshot) {
-  return function () {
+    return function () {
     //------Prepare to start Routine 'block_instruction'-------
     t = 0;
     block_instructionClock.reset(); // clock
@@ -336,41 +336,43 @@ function block_instructionRoutineBegin(snapshot) {
     block_count += 1
     // update component parameters for each repeat
     
-            // add-on: list(s: string): string[]
-            function list(s) {
-                // if s is a string, we return a list of its characters
-                if (typeof s === 'string')
-                    return s.split('');
-                else
-                    // otherwise we return s:
-                    return s;
-            }
-            
-            Block_type = blocks.trialList[block_count]['Block_type'];
-            instruction_text = blocks.trialList[block_count]['instruction_text'];
+    // add-on: list(s: string): string[]
+    function list(s) {
+        // if s is a string, we return a list of its characters
+        if {(typeof s === 'string')
+            return s.split('');
+        }
+        else{
+        // otherwise we return s:
+            return s;
+        }
+    }        
     
-            if ((Block_type === "conf_face")) {
-                paths = [stim_config_dir + "edmd.tif", stim_config_dir + "eimd.tif", stim_config_dir + "eomu.tif", stim_config_dir + "eumu.tif"];
+    Block_type = blocks.trialList[block_count]['Block_type'];
+    instruction_text = blocks.trialList[block_count]['instruction_text'];
+    
+    if ((Block_type === "conf_face")) {
+        paths = [stim_config_dir + "edmd.tif", stim_config_dir + "eimd.tif", stim_config_dir + "eomu.tif", stim_config_dir + "eumu.tif"];
+        return paths
+    } 
+    else {
+        if ((Block_type === "conf_haus")) {
+            paths = [stim_config_dir + "H-8sim0.bmp", stim_config_dir + "H-8sim1.bmp", stim_config_dir + "H-8sim2.bmp", stim_config_dir + "H-8sim3.bmp"];
+            return paths
+        } 
+        else {
+            if ((Block_type === "feat_face")) {
+                paths = [stim_feat_dir + "f15.tif", stim_feat_dir + "f24.tif", stim_feat_dir + "f131.tif", stim_feat_dir + "f142.tif"];
                 return paths
             } 
             else {
-                if ((Block_type === "conf_haus")) {
-                    paths = [stim_config_dir + "H-8sim0.bmp", stim_config_dir + "H-8sim1.bmp", stim_config_dir + "H-8sim2.bmp", stim_config_dir + "H-8sim3.bmp"];
+                if ((Block_type === "feat_haus")) {
+                    paths = [stim_feat_dir + "H5sim0.bmp", stim_feat_dir + "H6sim0.bmp", stim_feat_dir + "H7sim0.bmp", stim_feat_dir + "H8sim0.bmp"];
                     return paths
-                } 
-                else {
-                    if ((Block_type === "feat_face")) {
-                        paths = [stim_feat_dir + "f15.tif", stim_feat_dir + "f24.tif", stim_feat_dir + "f131.tif", stim_feat_dir + "f142.tif"];
-                        return paths
-                    } 
-                    else {
-                        if ((Block_type === "feat_haus")) {
-                            paths = [stim_feat_dir + "H5sim0.bmp", stim_feat_dir + "H6sim0.bmp", stim_feat_dir + "H7sim0.bmp", stim_feat_dir + "H8sim0.bmp"];
-                            return paths
-                        }
-                    }
                 }
             }
+        }
+    }
     
     function shuffle(array) {
         for (let i = array.length - 1; i > 0; i--) {
@@ -407,7 +409,7 @@ function block_instructionRoutineBegin(snapshot) {
         thisComponent.status = PsychoJS.Status.NOT_STARTED;
     
     return Scheduler.Event.NEXT;
-  };
+    };
 }
 
 
