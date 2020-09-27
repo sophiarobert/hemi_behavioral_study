@@ -42,26 +42,17 @@ psychoJS.scheduleCondition(function() { return (psychoJS.gui.dialogComponent.but
 // flowScheduler gets run if the participants presses OK
 flowScheduler.add(updateInfo); // add timeStamp
 flowScheduler.add(experimentInit);
-console.log("ExperimentInit was run")
 flowScheduler.add(exp_code_setupRoutineBegin());
-console.log("exp_code_setupRoutineBegin was run")
 flowScheduler.add(exp_code_setupRoutineEachFrame());
-console.log("exp_code_setupRoutineEachFrame was run")
 flowScheduler.add(exp_code_setupRoutineEnd());
-console.log("exp_code_setupRoutineEnd was run")
 const blocksLoopScheduler = new Scheduler(psychoJS);
-console.log("blocksLoopScheduler was made")
 flowScheduler.add(blocksLoopBegin, blocksLoopScheduler);
-console.log("blocksLoopBegin was added")
 flowScheduler.add(blocksLoopScheduler);
-console.log("blocksLoopScheduler was run")
 flowScheduler.add(blocksLoopEnd);
-console.log("blocksLoopEnd was run")
 flowScheduler.add(quitPsychoJS, '', true);
-console.log("quitPsychoJS was run")
 
 // quit if user presses Cancel in dialog box:
-dialogCancelScheduler.add(quitPsychoJS, '', true);
+dialogCancelScheduler.add(quitPsychoJS, '', false);
 
 psychoJS.start({
   expName: expName,
@@ -93,8 +84,59 @@ function updateInfo() {
   return Scheduler.Event.NEXT;
 }
 
-let stim_feat_dir = new URL("https://gitlab.pavlovia.org/sophiarobert/configural_featural_task_designa/stimuli/Featural_Set/");
-let stim_config_dir = new URL("https://gitlab.pavlovia.org/sophiarobert/configural_featural_task_designa/stimuli/Spacing_Set/");
+var face_config_paths, face_feat_paths, haus_config_paths, haus_feat_paths, stim_config_dir, stim_feat_dir;
+stim_feat_dir = "./stimuli/Featural_Set/";
+stim_config_dir = "./stimuli/Spacing_Set/";
+face_feat_paths = function () {
+    var _pj_a = [], _pj_b = stim_feat_dir;
+    for (var _pj_c = 0, _pj_d = _pj_b.length; (_pj_c < _pj_d); _pj_c += 1) {
+        var file = _pj_b[_pj_c];
+        if (file.endsWith(".tif")) {
+            _pj_a.push(((stim_feat_dir + "/") + file));
+        }
+    }
+    return _pj_a;
+}
+.call(this);
+face_feat_paths.sort();
+face_config_paths = function () {
+    var _pj_a = [], _pj_b = stim_config_dir;
+    for (var _pj_c = 0, _pj_d = _pj_b.length; (_pj_c < _pj_d); _pj_c += 1) {
+        var file = _pj_b[_pj_c];
+        if (file.endsWith(".tif")) {
+            _pj_a.push(((stim_config_dir + "/") + file));
+        }
+    }
+    return _pj_a;
+}
+.call(this);
+face_config_paths.sort();
+haus_feat_paths = function () {
+    var _pj_a = [], _pj_b = stim_feat_dir;
+    for (var _pj_c = 0, _pj_d = _pj_b.length; (_pj_c < _pj_d); _pj_c += 1) {
+        var file = _pj_b[_pj_c];
+        if (file.endsWith(".bmp")) {
+            _pj_a.push(((stim_feat_dir + "/") + file));
+        }
+    }
+    return _pj_a;
+}
+.call(this);
+haus_feat_paths.sort();
+haus_config_paths = function () {
+    var _pj_a = [], _pj_b = stim_config_dir;
+    for (var _pj_c = 0, _pj_d = _pj_b.length; (_pj_c < _pj_d); _pj_c += 1) {
+        var file = _pj_b[_pj_c];
+        if (file.endsWith(".bmp")) {
+            _pj_a.push(((stim_config_dir + "/") + file));
+        }
+    }
+    return _pj_a;
+}
+.call(this);
+haus_config_paths.sort();
+
+console.log(haus_config_paths)
 
 var exp_code_setupClock;
 var block_instructionClock;
@@ -116,7 +158,7 @@ function experimentInit() {
   instructions = new visual.TextStim({
     win: psychoJS.window,
     name: 'instructions',
-    text: 'Press S for same and D for different. Press <Space> to start.',
+    text: 'Press S for same and D for different. To start, press <Space>.',
     font: 'Arial',
     units: undefined, 
     pos: [0, 0], height: 0.1,  wrapWidth: undefined, ori: 0,
@@ -245,6 +287,7 @@ function exp_code_setupRoutineEnd(snapshot) {
     }
     // the Routine "exp_code_setup" was not non-slip safe, so reset the non-slip timer
     routineTimer.reset();
+    
     return Scheduler.Event.NEXT;
   };
 }
@@ -252,7 +295,6 @@ function exp_code_setupRoutineEnd(snapshot) {
 
 var blocks;
 var currentLoop;
-var block_count;
 function blocksLoopBegin(blocksLoopScheduler) {
   // set up handler to look after randomisation of conditions etc
   blocks = new TrialHandler({
@@ -264,7 +306,7 @@ function blocksLoopBegin(blocksLoopScheduler) {
   });
   psychoJS.experiment.addLoop(blocks); // add the loop to the experiment
   currentLoop = blocks;  // we're now the current loop
-  block_count = -1;
+
   // Schedule all the trials in the trialList:
   for (const thisBlock of blocks) {
     const snapshot = blocks.getSnapshot();
@@ -334,50 +376,39 @@ var diffTrialid;
 var instruction_text;
 var _start_block_allKeys;
 var block_instructionComponents;
-
 function block_instructionRoutineBegin(snapshot) {
-    return function () {
+  return function () {
     //------Prepare to start Routine 'block_instruction'-------
     t = 0;
     block_instructionClock.reset(); // clock
     frameN = -1;
-    block_count += 1
     // update component parameters for each repeat
     
-    // add-on: list(s: string): string[]
-    function list(s) {
-        // if s is a string, we return a list of its characters
-        if (typeof s === 'string') {
-            return s.split('');
-        }
-        else{
-        // otherwise we return s:
-            return s;
-        }
-    }        
+            // add-on: list(s: string): string[]
+            function list(s) {
+                // if s is a string, we return a list of its characters
+                if (typeof s === 'string')
+                    return s.split('');
+                else
+                    // otherwise we return s:
+                    return s;
+            }
     
-    Block_type = blocks.trialList[block_count]['Block_type'];
-    instruction_text = blocks.trialList[block_count]['instruction_text'];
-    
-    if ((Block_type === "conf_face")) {
-        paths = [stim_config_dir + "edmd.tif", stim_config_dir + "eimd.tif", stim_config_dir + "eomu.tif", stim_config_dir + "eumu.tif"];
-        return paths
-    } 
-    else {
-        if ((Block_type === "conf_haus")) {
-            paths = [stim_config_dir + "H-8sim0.bmp", stim_config_dir + "H-8sim1.bmp", stim_config_dir + "H-8sim2.bmp", stim_config_dir + "H-8sim3.bmp"];
-            return paths
-        } 
-        else {
-            if ((Block_type === "feat_face")) {
-                paths = [stim_feat_dir + "f15.tif", stim_feat_dir + "f24.tif", stim_feat_dir + "f131.tif", stim_feat_dir + "f142.tif"];
-                return paths
+            if ((Block_type === "conf_face")) {
+                paths = face_config_paths;
             } 
             else {
-                if ((Block_type === "feat_haus")) {
-                    paths = [stim_feat_dir + "H5sim0.bmp", stim_feat_dir + "H6sim0.bmp", stim_feat_dir + "H7sim0.bmp", stim_feat_dir + "H8sim0.bmp"];
-                    return paths
-                }
+            if ((Block_type === "conf_haus")) {
+                paths = haus_config_paths;
+            } 
+            else {
+            if ((Block_type === "feat_face")) {
+                paths = face_feat_paths;
+            } 
+            else {
+            if ((Block_type === "feat_haus")) {
+                paths = haus_feat_paths;
+            }
             }
         }
     }
@@ -402,6 +433,7 @@ function block_instructionRoutineBegin(snapshot) {
     shuffle(diffTrial);
     sameTrialid = 0;
     diffTrialid = 0;
+    instruction_text = instruction_text;
     
     instructions.setText(instruction_text);
     start_block.keys = undefined;
@@ -417,7 +449,7 @@ function block_instructionRoutineBegin(snapshot) {
         thisComponent.status = PsychoJS.Status.NOT_STARTED;
     
     return Scheduler.Event.NEXT;
-    };
+  };
 }
 
 
@@ -730,12 +762,7 @@ function quitPsychoJS(message, isCompleted) {
   if (psychoJS.experiment.isEntryEmpty()) {
     psychoJS.experiment.nextEntry();
   }
-  
-  
-  
-  
-  
-  
+    
   psychoJS.window.close();
   psychoJS.quit({message: message, isCompleted: isCompleted});
   
