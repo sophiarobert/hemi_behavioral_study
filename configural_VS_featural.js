@@ -346,8 +346,8 @@ function block_instructionRoutineBegin(snapshot) {
                     return s;
             }
             
-            Block_type = blocks.trialList[block_count]['Block_type']);
-            instruction_text = blocks.trialList[block_count]['instruction_text']);
+            Block_type = blocks.trialList[block_count]['Block_type'];
+            instruction_text = blocks.trialList[block_count]['instruction_text'];
     
             if ((Block_type === "conf_face")) {
                 paths = [stim_config_dir + "edmd.tif", stim_config_dir + "eimd.tif", stim_config_dir + "eomu.tif", stim_config_dir + "eumu.tif"];
