@@ -84,8 +84,8 @@ function updateInfo() {
   return Scheduler.Event.NEXT;
 }
 
-let stim_feat_dir = new URL("/stimuli/Featural_Set/");
-let stim_config_dir = new URL("/stimuli/Spacing_Set/");
+let stim_feat_dir = new URL("https://gitlab.pavlovia.org/sophiarobert/configural_featural_task_designa/stimuli/Featural_Set/");
+let stim_config_dir = new URL("https://gitlab.pavlovia.org/sophiarobert/configural_featural_task_designa/stimuli/Spacing_Set/");
 
 var exp_code_setupClock;
 var block_instructionClock;
