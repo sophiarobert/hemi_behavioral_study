@@ -380,9 +380,9 @@ function block_instructionRoutineBegin(snapshot) {
         }
         return array
     }
-    trial_order = [[shuffle([1, 2, 3, 4, 5, 6]), shuffle([1, 2, 3, 4, 5, 6]), shuffle([1, 2, 3, 4, 5, 6]), shuffle([1, 2, 3, 4, 5, 6])]];
+    trial_order = [shuffle([1, 2, 3, 4, 5, 6]), shuffle([1, 2, 3, 4, 5, 6]), shuffle([1, 2, 3, 4, 5, 6]), shuffle([1, 2, 3, 4, 5, 6])].flat();
     trial_order = Math.round(((trial_order / 6) - 0.1));
-    trialSame = [[shuffle([0, 1, 2, 3]), shuffle([0, 1, 2, 3]), shuffle([0, 1, 2, 3])]];
+    trialSame = [shuffle([0, 1, 2, 3]), shuffle([0, 1, 2, 3]), shuffle([0, 1, 2, 3])].flat();
     trialDiff = [[0, 1], [0, 2], [0, 3], [1, 2], [1, 3], [1, 0], [2, 3], [2, 0], [2, 1], [3, 0], [3, 1], [3, 2]];
     diffTrial = list([...Array(12).keys()]);
     shuffle(diffTrial);
@@ -391,6 +391,9 @@ function block_instructionRoutineBegin(snapshot) {
     console.log(Block_type)
     console.log(paths)
     console.log(trial_order)
+    console.log(trialSame)
+    console.log(diffTrial)
+    console.log(trialDiff[5])
     instructions.setText(instruction_text);
     start_block.keys = undefined;
     start_block.rt = undefined;
