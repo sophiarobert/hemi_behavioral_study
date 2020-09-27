@@ -242,16 +242,14 @@ function exp_code_setupRoutineEnd(snapshot) {
     }
     // the Routine "exp_code_setup" was not non-slip safe, so reset the non-slip timer
     routineTimer.reset();
-    var block_count;
-    block_count = -1;
     return Scheduler.Event.NEXT;
-    return block_count;
   };
 }
 
 
 var blocks;
 var currentLoop;
+var block_count;
 function blocksLoopBegin(blocksLoopScheduler) {
   // set up handler to look after randomisation of conditions etc
   blocks = new TrialHandler({
@@ -263,7 +261,7 @@ function blocksLoopBegin(blocksLoopScheduler) {
   });
   psychoJS.experiment.addLoop(blocks); // add the loop to the experiment
   currentLoop = blocks;  // we're now the current loop
-
+  block_count = -1;
   // Schedule all the trials in the trialList:
   for (const thisBlock of blocks) {
     const snapshot = blocks.getSnapshot();
