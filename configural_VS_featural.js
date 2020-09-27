@@ -693,12 +693,12 @@ function trialRoutineEnd(snapshot) {
       }
     }
     psychoJS.experiment.addData('key_resp.keys', key_resp.keys);
-    psychJS.experiment.addData('targetID', target);
-    psychJS.experiment.addData('probeID', probe);
+    psychoJS.experiment.addData('targetID', target);
+    psychoJS.experiment.addData('probeID', probe);
     if (trial_order[trials.thisTrialN] === 1) {
-        psychJS.experiment.addData('corrAns', 's');
+        psychoJS.experiment.addData('corrAns', 's');
     } else {
-        psychJS.experiment.addData('corrAns', 'd');  
+        psychoJS.experiment.addData('corrAns', 'd');  
     }
 
     if (typeof key_resp.keys !== 'undefined') {  // we had a response
