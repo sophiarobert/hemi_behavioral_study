@@ -58,7 +58,23 @@ psychoJS.start({
   expName: expName,
   expInfo: expInfo,
   resources: [
-    {'name': 'block_types_A.csv', 'path': 'block_types_A.csv'}
+    {'name': 'block_types_A.csv', 'path': 'block_types_A.csv'},
+    {'name': '/stimuli/Featural_Set/edmd.tif', 'path': '/stimuli/Featural_Set/edmd.tif'},
+    {'name': '/stimuli/Featural_Set/eimd.tif', 'path': '/stimuli/Featural_Set/eimd.tif'},
+    {'name': '/stimuli/Featural_Set/eomu.tif', 'path': '/stimuli/Featural_Set/eomu.tif'},
+    {'name': '/stimuli/Featural_Set/eumu.tif', 'path': '/stimuli/Featural_Set/eumu.tif'},
+    {'name': '/stimuli/Featural_Set/H-8sim0.bmp', 'path': '/stimuli/Featural_Set/H-8sim0.bmp'},
+    {'name': '/stimuli/Featural_Set/H-8sim1.bmp', 'path': '/stimuli/Featural_Set/H-8sim1.bmp'},
+    {'name': '/stimuli/Featural_Set/H-8sim2.bmp', 'path': '/stimuli/Featural_Set/H-8sim2.bmp'},
+    {'name': '/stimuli/Featural_Set/H-8sim3.bmp', 'path': '/stimuli/Featural_Set/H-8sim3.bmp'},
+    {'name': '/stimuli/Spacing_Set/f15.tif', 'path': '/stimuli/Spacing_Set/f15.tif'},
+    {'name': '/stimuli/Spacing_Set/f24.tif', 'path': '/stimuli/Spacing_Set/f24.tif'},
+    {'name': '/stimuli/Spacing_Set/f131.tif', 'path': '/stimuli/Spacing_Set/f131.tif'},
+    {'name': '/stimuli/Spacing_Set/f142.tif', 'path': '/stimuli/Spacing_Set/f142.tif'},
+    {'name': '/stimuli/Spacing_Set/H-5sim0.bmp', 'path': '/stimuli/Spacing_Set/H-5sim0.bmp'},
+    {'name': '/stimuli/Spacing_Set/H-6sim0.bmp', 'path': '/stimuli/Spacing_Set/H-6sim0.bmp'},
+    {'name': '/stimuli/Spacing_Set/H-7sim0.bmp', 'path': '/stimuli/Spacing_Set/H-7sim0.bmp'},
+    {'name': '/stimuli/Spacing_Set/H-8sim0.bmp', 'path': '/stimuli/Spacing_Set/H-8sim0.bmp'},  
   ]
 });
 
@@ -85,8 +101,8 @@ function updateInfo() {
 }
 
 
-let stim_feat_dir = "./resources/stimuli/Featural_Set/";
-let stim_config_dir = "./resources/stimuli/Spacing_Set/";
+let stim_feat_dir = "/stimuli/Featural_Set/";
+let stim_config_dir = "/stimuli/Spacing_Set/";
 
 let face_config_paths = [stim_config_dir + "edmd.tif", stim_config_dir + "eimd.tif", stim_config_dir + "eomu.tif", stim_config_dir + "eumu.tif"];
 let haus_config_paths = [stim_config_dir + "H-8sim0.bmp", stim_config_dir + "H-8sim1.bmp", stim_config_dir + "H-8sim2.bmp", stim_config_dir + "H-8sim3.bmp"];
