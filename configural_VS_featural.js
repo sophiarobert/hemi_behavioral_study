@@ -85,8 +85,8 @@ function updateInfo() {
 }
 
 
-let stim_feat_dir = new URL("https://gitlab.pavlovia.org/sophiarobert/configural_featural_task_designa/stimuli/Featural_Set/");
-let stim_config_dir = new URL("https://gitlab.pavlovia.org/sophiarobert/configural_featural_task_designa/stimuli/Spacing_Set/");
+let stim_feat_dir = "stimuli/Featural_Set/";
+let stim_config_dir = "/stimuli/Spacing_Set/";
 
 let face_config_paths = [stim_config_dir + "edmd.tif", stim_config_dir + "eimd.tif", stim_config_dir + "eomu.tif", stim_config_dir + "eumu.tif"];
 let haus_config_paths = [stim_config_dir + "H-8sim0.bmp", stim_config_dir + "H-8sim1.bmp", stim_config_dir + "H-8sim2.bmp", stim_config_dir + "H-8sim3.bmp"];
@@ -389,7 +389,6 @@ function block_instructionRoutineBegin(snapshot) {
     diffTrialid = 0;
     
     instructions.setText(instruction_text);
-    console.log(paths)
     start_block.keys = undefined;
     start_block.rt = undefined;
     _start_block_allKeys = [];
