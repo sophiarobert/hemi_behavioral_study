@@ -85,8 +85,8 @@ function updateInfo() {
 }
 
 var stim_config_dir, stim_feat_dir;
-stim_feat_dir = "./stimuli/Featural_Set/";
-stim_config_dir = "./stimuli/Spacing_Set/";
+let stim_feat_dir = new URL("/stimuli/Featural_Set/");
+let stim_config_dir = new URL("/stimuli/Spacing_Set/");
 
 var exp_code_setupClock;
 var block_instructionClock;
@@ -108,7 +108,7 @@ function experimentInit() {
   instructions = new visual.TextStim({
     win: psychoJS.window,
     name: 'instructions',
-    text: 'default text',
+    text: undefined,
     font: 'Arial',
     units: undefined, 
     pos: [0, 0], height: 0.1,  wrapWidth: undefined, ori: 0,
