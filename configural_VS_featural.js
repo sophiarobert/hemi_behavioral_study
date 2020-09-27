@@ -380,8 +380,23 @@ function block_instructionRoutineBegin(snapshot) {
         }
         return array
     }
+
+    function divide_subPoint1(array, divisor) {
+        let array_divided = array.map(function(element) {
+	          return element/divisor - 0.1;
+        });
+        return array_divided
+    }
+
+    function round(array) {
+            let array_rounded = array.map(function(each_element){
+            return Math.round(each_element);
+        }); 
+        return array_rounded
+    }
+
     trial_order = [shuffle([1, 2, 3, 4, 5, 6]), shuffle([1, 2, 3, 4, 5, 6]), shuffle([1, 2, 3, 4, 5, 6]), shuffle([1, 2, 3, 4, 5, 6])].flat();
-    trial_order = Math.round(((trial_order / 6) - 0.1));
+    trial_order = round(divide_subPoint1(trial_order,6))
     trialSame = [shuffle([0, 1, 2, 3]), shuffle([0, 1, 2, 3]), shuffle([0, 1, 2, 3])].flat();
     trialDiff = [[0, 1], [0, 2], [0, 3], [1, 2], [1, 3], [1, 0], [2, 3], [2, 0], [2, 1], [3, 0], [3, 1], [3, 2]];
     diffTrial = list([...Array(12).keys()]);
