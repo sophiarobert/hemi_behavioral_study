@@ -378,6 +378,7 @@ function block_instructionRoutineBegin(snapshot) {
             // let t = array[i]; array[i] = array[j]; array[j] = t
             [array[i], array[j]] = [array[j], array[i]];
         }
+        return array
     }
     trial_order = [[shuffle([1, 2, 3, 4, 5, 6]), shuffle([1, 2, 3, 4, 5, 6]), shuffle([1, 2, 3, 4, 5, 6]), shuffle([1, 2, 3, 4, 5, 6])]];
     trial_order = Math.round(((trial_order / 6) - 0.1));
