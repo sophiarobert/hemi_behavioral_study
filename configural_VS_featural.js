@@ -530,7 +530,7 @@ function block_instructionRoutineEnd(snapshot) {
   };
 }
 
-
+var img_pair;
 var target;
 var probe;
 var _key_resp_allKeys;
