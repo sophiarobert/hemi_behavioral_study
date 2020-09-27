@@ -339,7 +339,7 @@ function block_instructionRoutineBegin(snapshot) {
     // add-on: list(s: string): string[]
     function list(s) {
         // if s is a string, we return a list of its characters
-        if {(typeof s === 'string')
+        if (typeof s === 'string') {
             return s.split('');
         }
         else{
