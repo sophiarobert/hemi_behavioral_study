@@ -533,6 +533,9 @@ var trialComponents;
 function trialRoutineBegin() {
   return function () {
     //------Prepare to start Routine 'trial'-------
+    console.log("Trial number: " + trials.thisTrialN)
+    consolt.log("Same Trial ID: " + sameTrialid)
+    consolt.log("Diff Trial ID: " + diffTrialid)
     t = 0;
     trialClock.reset(); // clock
     frameN = -1;
@@ -550,6 +553,9 @@ function trialRoutineBegin() {
         }
     }
 
+    console.log("Target path: " + target)
+    console.log("Probe path: " + probe)
+    
     target_image.setImage(target);
     probe_image.setImage(probe);
     key_resp.keys = undefined;
