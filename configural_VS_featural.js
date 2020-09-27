@@ -387,7 +387,8 @@ function block_instructionRoutineBegin(snapshot) {
     shuffle(diffTrial);
     sameTrialid = 0;
     diffTrialid = 0;
-    
+    console.log(Block_type)
+    console.log(paths)
     instructions.setText(instruction_text);
     start_block.keys = undefined;
     start_block.rt = undefined;
@@ -521,7 +522,8 @@ function trialRoutineBegin(snapshot) {
             diffTrialid += 1;
         }
     }
-    
+    console.log(trial_order[trials.thisN])
+    console.log(target)
     target_image.setImage(target);
     probe_image.setImage(probe);
     key_resp.keys = undefined;
