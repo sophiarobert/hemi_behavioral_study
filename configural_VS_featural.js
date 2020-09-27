@@ -59,22 +59,22 @@ psychoJS.start({
   expInfo: expInfo,
   resources: [
     {'name': 'block_types_A.csv', 'path': 'block_types_A.csv'},
-    {'name': '/stimuli/Spacing_Set/edmd.png', 'path': 'stimuli/Spacing_Set/edmd.png'},
-    {'name': '/stimuli/Spacing_Set/eimd.png', 'path': 'stimuli/Spacing_Set/eimd.png'},
-    {'name': '/stimuli/Spacing_Set/eomu.png', 'path': 'stimuli/Spacing_Set/eomu.png'},
-    {'name': '/stimuli/Spacing_Set/eumu.png', 'path': 'stimuli/Spacing_Set/eumu.png'},
-    {'name': '/stimuli/Spacing_Set/H-8sim0.png', 'path': 'stimuli/Spacing_Set/H-8sim0.png'},
-    {'name': '/stimuli/Spacing_Set/H-8sim1.png', 'path': 'stimuli/Spacing_Set/H-8sim1.png'},
-    {'name': '/stimuli/Spacing_Set/H-8sim2.png', 'path': 'stimuli/Spacing_Set/H-8sim2.png'},
-    {'name': '/stimuli/Spacing_Set/H-8sim3.png', 'path': 'stimuli/Spacing_Set/H-8sim3.png'},
-    {'name': '/stimuli/Featural_Set/f15.png', 'path': 'stimuli/Featural_Set/f15.png'},
-    {'name': '/stimuli/Featural_Set/f24.png', 'path': 'stimuli/Featural_Set/f24.png'},
-    {'name': '/stimuli/Featural_Set/f131.png', 'path': 'stimuli/Featural_Set/f131.png'},
-    {'name': '/stimuli/Featural_Set/f142.png', 'path': 'stimuli/Featural_Set/f142.png'},
-    {'name': '/stimuli/Featural_Set/H-5sim0.png', 'path': 'stimuli/Featural_Set/H-5sim0.png'},
-    {'name': '/stimuli/Featural_Set/H-6sim0.png', 'path': 'stimuli/Featural_Set/H-6sim0.png'},
-    {'name': '/stimuli/Featural_Set/H-7sim0.png', 'path': 'stimuli/Featural_Set/H-7sim0.png'},
-    {'name': '/stimuli/Featural_Set/H-8sim0.png', 'path': 'stimuli/Featural_Set/H-8sim0.png'},  
+    {'name': '/stimuli/edmd.png', 'path': 'stimuli/edmd.png'},
+    {'name': '/stimuli/eimd.png', 'path': 'stimuli/eimd.png'},
+    {'name': '/stimuli/eomu.png', 'path': 'stimuli/eomu.png'},
+    {'name': '/stimuli/eumu.png', 'path': 'stimuli/eumu.png'},
+    {'name': '/stimuli/H-8sim0.png', 'path': 'stimuli/H-8sim0.png'},
+    {'name': '/stimuli/H-8sim1.png', 'path': 'stimuli/H-8sim1.png'},
+    {'name': '/stimuli/H-8sim2.png', 'path': 'stimuli/H-8sim2.png'},
+    {'name': '/stimuli/H-8sim3.png', 'path': 'stimuli/H-8sim3.png'},
+    {'name': '/stimuli/f15.png', 'path': 'stimuli/f15.png'},
+    {'name': '/stimuli/f24.png', 'path': 'stimuli/f24.png'},
+    {'name': '/stimuli/f131.png', 'path': 'stimuli/f131.png'},
+    {'name': '/stimuli/f142.png', 'path': 'stimuli/f142.png'},
+    {'name': '/stimuli/H-5sim0.png', 'path': 'stimuli/H-5sim0.png'},
+    {'name': '/stimuli/H-6sim0.png', 'path': 'stimuli/H-6sim0.png'},
+    {'name': '/stimuli/H-7sim0.png', 'path': 'stimuli/H-7sim0.png'},
+    {'name': '/stimuli/H-8sim0.png', 'path': 'stimuli/H-8sim0.png'},  
   ]
 });
 
@@ -100,14 +100,10 @@ function updateInfo() {
   return Scheduler.Event.NEXT;
 }
 
-
-let stim_feat_dir = "/stimuli/Featural_Set/";
-let stim_config_dir = "/stimuli/Spacing_Set/";
-
-let face_config_paths = [stim_config_dir + "edmd.png", stim_config_dir + "eimd.png", stim_config_dir + "eomu.png", stim_config_dir + "eumu.png"];
-let haus_config_paths = [stim_config_dir + "H-8sim0.png", stim_config_dir + "H-8sim1.png", stim_config_dir + "H-8sim2.png", stim_config_dir + "H-8sim3.png"];
-let face_feat_paths = [stim_feat_dir + "f15.png", stim_feat_dir + "f24.png", stim_feat_dir + "f131.png", stim_feat_dir + "f142.png"];
-let haus_feat_paths = [stim_feat_dir + "H5sim0.png", stim_feat_dir + "H6sim0.png", stim_feat_dir + "H7sim0.png", stim_feat_dir + "H8sim0.png"];
+let face_config_paths = ["/stimuli/edmd.png", "/stimuli/eimd.png", "/stimuli/eomu.png", "/stimuli/eumu.png"];
+let haus_config_paths = ["/stimuli/H-8sim0.png", "/stimuli/H-8sim1.png", "/stimuli/H-8sim2.png", "/stimuli/H-8sim3.png"];
+let face_feat_paths = ["/stimuli/f15.png", "/stimuli/f24.png", "/stimuli/f131.png", "/stimuli/f142.png"];
+let haus_feat_paths = ["/stimuli/H5sim0.png", "/stimuli/H6sim0.png", "/stimuli/H7sim0.png", "/stimuli/H8sim0.png"];
 
 var exp_code_setupClock;
 var block_instructionClock;
