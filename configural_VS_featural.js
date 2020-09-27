@@ -71,10 +71,10 @@ psychoJS.start({
     {'name': '/stimuli/f24.png', 'path': 'stimuli/f24.png'},
     {'name': '/stimuli/f131.png', 'path': 'stimuli/f131.png'},
     {'name': '/stimuli/f142.png', 'path': 'stimuli/f142.png'},
-    {'name': '/stimuli/H-5sim0.png', 'path': 'stimuli/H-5sim0.png'},
-    {'name': '/stimuli/H-6sim0.png', 'path': 'stimuli/H-6sim0.png'},
-    {'name': '/stimuli/H-7sim0.png', 'path': 'stimuli/H-7sim0.png'},
-    {'name': '/stimuli/H-8sim0.png', 'path': 'stimuli/H-8sim0.png'},  
+    {'name': '/stimuli/H5sim0.png', 'path': 'stimuli/H5sim0.png'},
+    {'name': '/stimuli/H6sim0.png', 'path': 'stimuli/H6sim0.png'},
+    {'name': '/stimuli/H7sim0.png', 'path': 'stimuli/H7sim0.png'},
+    {'name': '/stimuli/H8sim0.png', 'path': 'stimuli/H8sim0.png'},  
   ]
 });
 
