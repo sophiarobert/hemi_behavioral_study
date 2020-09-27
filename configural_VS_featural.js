@@ -50,10 +50,15 @@ console.log("exp_code_setupRoutineEachFrame was run")
 flowScheduler.add(exp_code_setupRoutineEnd());
 console.log("exp_code_setupRoutineEnd was run")
 const blocksLoopScheduler = new Scheduler(psychoJS);
+console.log("blocksLoopScheduler was made")
 flowScheduler.add(blocksLoopBegin, blocksLoopScheduler);
+console.log("blocksLoopBegin was added")
 flowScheduler.add(blocksLoopScheduler);
+console.log("blocksLoopScheduler was run")
 flowScheduler.add(blocksLoopEnd);
+console.log("blocksLoopEnd was run")
 flowScheduler.add(quitPsychoJS, '', true);
+console.log("quitPsychoJS was run")
 
 // quit if user presses Cancel in dialog box:
 dialogCancelScheduler.add(quitPsychoJS, '', true);
