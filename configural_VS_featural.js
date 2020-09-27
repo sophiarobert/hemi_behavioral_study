@@ -297,7 +297,7 @@ function trialsLoopBegin(trialsLoopScheduler) {
   for (const thisTrial of trials) {
     const snapshot = trials.getSnapshot();
     trialsLoopScheduler.add(importConditions(snapshot));
-    trialsLoopScheduler.add(trialRoutineBegin(trials.getSnapshot()));
+    trialsLoopScheduler.add(trialRoutineBegin(blocks.getSnapshot()));
     trialsLoopScheduler.add(trialRoutineEachFrame(snapshot));
     trialsLoopScheduler.add(trialRoutineEnd(snapshot));
     trialsLoopScheduler.add(endLoopIteration(trialsLoopScheduler, snapshot));
@@ -542,11 +542,10 @@ function trialRoutineBegin() {
             diffTrialid += 1;
         }
     }
-    console.log(thisN)
+
     console.log(trials.thisN)
     console.log(target)
-    console.log(thisTrialN)
-    console.log(trial.thisN)
+
     target_image.setImage(target);
     probe_image.setImage(probe);
     key_resp.keys = undefined;
