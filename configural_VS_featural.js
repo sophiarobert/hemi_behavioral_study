@@ -87,11 +87,56 @@ function updateInfo() {
 var face_config_paths, face_feat_paths, haus_config_paths, haus_feat_paths, stim_config_dir, stim_feat_dir;
 stim_feat_dir = "./stimuli/Featural_Set/";
 stim_config_dir = "./stimuli/Spacing_Set/";
+face_feat_paths = function () {
+    var _pj_a = [], _pj_b = stim_feat_dir;
+    for (var _pj_c = 0, _pj_d = _pj_b.length; (_pj_c < _pj_d); _pj_c += 1) {
+        var file = _pj_b[_pj_c];
+        if (file.endsWith(".tif")) {
+            _pj_a.push(((stim_feat_dir + "/") + file));
+        }
+    }
+    return _pj_a;
+}
+.call(this);
+face_feat_paths.sort();
+face_config_paths = function () {
+    var _pj_a = [], _pj_b = stim_config_dir;
+    for (var _pj_c = 0, _pj_d = _pj_b.length; (_pj_c < _pj_d); _pj_c += 1) {
+        var file = _pj_b[_pj_c];
+        if (file.endsWith(".tif")) {
+            _pj_a.push(((stim_config_dir + "/") + file));
+        }
+    }
+    return _pj_a;
+}
+.call(this);
+face_config_paths.sort();
+haus_feat_paths = function () {
+    var _pj_a = [], _pj_b = stim_feat_dir;
+    for (var _pj_c = 0, _pj_d = _pj_b.length; (_pj_c < _pj_d); _pj_c += 1) {
+        var file = _pj_b[_pj_c];
+        if (file.endsWith(".bmp")) {
+            _pj_a.push(((stim_feat_dir + "/") + file));
+        }
+    }
+    return _pj_a;
+}
+.call(this);
+haus_feat_paths.sort();
+haus_config_paths = function () {
+    var _pj_a = [], _pj_b = stim_config_dir;
+    for (var _pj_c = 0, _pj_d = _pj_b.length; (_pj_c < _pj_d); _pj_c += 1) {
+        var file = _pj_b[_pj_c];
+        if (file.endsWith(".bmp")) {
+            _pj_a.push(((stim_config_dir + "/") + file));
+        }
+    }
+    return _pj_a;
+}
+.call(this);
+haus_config_paths.sort();
 
-face_config_paths = [stim_config_dir + "edmd.tif", stim_config_dir + "eimd.tif", stim_config_dir + "eomu.tif", stim_config_dir + "eumu.tif"]
-face_feat_paths = [stim_feat_dir + "f15.tif", stim_feat_dir + "f24.tif", stim_feat_dir + "f131.tif", stim_feat_dir + "f142.tif"]
-haus_config_paths = [stim_config_dir + "H-8sim0.bmp", stim_config_dir + "H-8sim1.bmp", stim_config_dir + "H-8sim2.bmp", stim_config_dir + "H-8sim3.bmp"]
-haus_feat_paths = [stim_feat_dir + "H5sim0.bmp", stim_feat_dir + "H6sim0.bmp", stim_feat_dir + "H7sim0.bmp", stim_feat_dir + "H8sim0.bmp"]
+console.log(haus_config_paths)
 
 var exp_code_setupClock;
 var block_instructionClock;
@@ -105,7 +150,6 @@ var fix_response;
 var key_resp;
 var globalClock;
 var routineTimer;
-
 function experimentInit() {
   // Initialize components for Routine "exp_code_setup"
   exp_code_setupClock = new util.Clock();
@@ -114,7 +158,7 @@ function experimentInit() {
   instructions = new visual.TextStim({
     win: psychoJS.window,
     name: 'instructions',
-    text: undefined,
+    text: 'default text',
     font: 'Arial',
     units: undefined, 
     pos: [0, 0], height: 0.1,  wrapWidth: undefined, ori: 0,
@@ -249,6 +293,7 @@ function exp_code_setupRoutineEnd(snapshot) {
 }
 
 
+var blocks;
 var currentLoop;
 function blocksLoopBegin(blocksLoopScheduler) {
   // set up handler to look after randomisation of conditions etc
@@ -328,12 +373,9 @@ var trialDiff;
 var diffTrial;
 var sameTrialid;
 var diffTrialid;
+var instruction_text;
 var _start_block_allKeys;
 var block_instructionComponents;
-var block_count;
-var Block_type;
-
-block_count = -1;
 function block_instructionRoutineBegin(snapshot) {
   return function () {
     //------Prepare to start Routine 'block_instruction'-------
@@ -342,39 +384,31 @@ function block_instructionRoutineBegin(snapshot) {
     frameN = -1;
     // update component parameters for each repeat
     
-    // add-on: list(s: string): string[]
-    function list(s) {
-        // if s is a string, we return a list of its characters
-        if (typeof s === 'string')
-            return s.split('');
-        else
-        // otherwise we return s:
-            return s;
-    }
+            // add-on: list(s: string): string[]
+            function list(s) {
+                // if s is a string, we return a list of its characters
+                if (typeof s === 'string')
+                    return s.split('');
+                else
+                    // otherwise we return s:
+                    return s;
+            }
     
-    console.log(blocks.trialList[block_count]['Block_type'])
-    Block_type = blocks.trialList[block_count]['Block_type']
-    instruction_text = blocks.trialList[block_count]['instruction_text']
-    
-    if ((Block_type === "conf_face")) {
-        paths = face_config_paths;
-        return paths
-    } 
-    else {
-        if ((Block_type === "conf_haus")) {
-            paths = haus_config_paths;
-            return paths
-        } 
-        else {
-            if ((Block_type === "feat_face")) {
-                paths = face_feat_paths;
-                return paths
+            if ((Block_type === "conf_face")) {
+                paths = face_config_paths;
             } 
             else {
-                if ((Block_type === "feat_haus")) {
-                    paths = haus_feat_paths;
-                    return paths
-                }
+            if ((Block_type === "conf_haus")) {
+                paths = haus_config_paths;
+            } 
+            else {
+            if ((Block_type === "feat_face")) {
+                paths = face_feat_paths;
+            } 
+            else {
+            if ((Block_type === "feat_haus")) {
+                paths = haus_feat_paths;
+            }
             }
         }
     }
@@ -390,9 +424,7 @@ function block_instructionRoutineBegin(snapshot) {
             // let t = array[i]; array[i] = array[j]; array[j] = t
             [array[i], array[j]] = [array[j], array[i]];
         }
-        return array
     }
-    
     trial_order = [[shuffle([1, 2, 3, 4, 5, 6]), shuffle([1, 2, 3, 4, 5, 6]), shuffle([1, 2, 3, 4, 5, 6]), shuffle([1, 2, 3, 4, 5, 6])]];
     trial_order = Math.round(((trial_order / 6) - 0.1));
     trialSame = [[shuffle([0, 1, 2, 3]), shuffle([0, 1, 2, 3]), shuffle([0, 1, 2, 3])]];
@@ -401,6 +433,7 @@ function block_instructionRoutineBegin(snapshot) {
     shuffle(diffTrial);
     sameTrialid = 0;
     diffTrialid = 0;
+    instruction_text = instruction_text;
     
     instructions.setText(instruction_text);
     start_block.keys = undefined;
@@ -510,6 +543,7 @@ function block_instructionRoutineEnd(snapshot) {
     return Scheduler.Event.NEXT;
   };
 }
+
 
 var target;
 var probe;
