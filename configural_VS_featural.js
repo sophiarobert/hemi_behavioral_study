@@ -139,9 +139,9 @@ function experimentInit() {
   trialClock = new util.Clock();
   target_image = new visual.ImageStim({
     win : psychoJS.window,
-    name : 'target_image', units : 'deg', 
+    name : 'target_image', units : 'pix', 
     image : undefined, mask : undefined,
-    ori : 0, pos : [0, 0], size : [2, 2],
+    ori : 0, pos : [0, 0], size : [25, 25],
     color : new util.Color([1, 1, 1]), opacity : 1,
     flipHoriz : false, flipVert : false,
     texRes : 512, interpolate : true, depth : -1.0 
@@ -159,9 +159,9 @@ function experimentInit() {
   
   probe_image = new visual.ImageStim({
     win : psychoJS.window,
-    name : 'probe_image', units : 'deg', 
+    name : 'probe_image', units : 'pix', 
     image : undefined, mask : undefined,
-    ori : 0, pos : [0, 0], size : [2, 2],
+    ori : 0, pos : [0, 0], size : [25, 25],
     color : new util.Color([1, 1, 1]), opacity : 1,
     flipHoriz : false, flipVert : false,
     texRes : 512, interpolate : true, depth : -3.0 
