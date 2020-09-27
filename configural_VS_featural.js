@@ -389,6 +389,7 @@ function block_instructionRoutineBegin(snapshot) {
     diffTrialid = 0;
     
     instructions.setText(instruction_text);
+    console.log(paths)
     start_block.keys = undefined;
     start_block.rt = undefined;
     _start_block_allKeys = [];
