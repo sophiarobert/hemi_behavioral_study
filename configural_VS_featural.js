@@ -351,8 +351,8 @@ function block_instructionRoutineBegin(snapshot) {
                     return s;
             }
             
-            Block_type = blocks.trialList[block_count]['Block_type']
-            instruction_text = blocks.trialList[block_count]['instruction_text']
+            console.log(Block_type = blocks.trialList[block_count]['Block_type']);
+            console.log(instruction_text = blocks.trialList[block_count]['instruction_text']);
     
             if ((Block_type === "conf_face")) {
                 paths = face_config_paths;
