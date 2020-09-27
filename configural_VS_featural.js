@@ -534,8 +534,8 @@ function trialRoutineBegin() {
   return function () {
     //------Prepare to start Routine 'trial'-------
     console.log("Trial number: " + trials.thisTrialN)
-    consolt.log("Same Trial ID: " + sameTrialid)
-    consolt.log("Diff Trial ID: " + diffTrialid)
+    console.log("Same Trial ID: " + sameTrialid)
+    console.log("Diff Trial ID: " + diffTrialid)
     t = 0;
     trialClock.reset(); // clock
     frameN = -1;
