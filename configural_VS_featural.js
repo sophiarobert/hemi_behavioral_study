@@ -536,12 +536,6 @@ function trialRoutineBegin() {
   return function () {
     //------Prepare to start Routine 'trial'-------
     trialID += 1
-    console.log("Trial_order: " + trial_order)
-    console.log("Rep number: " + trials.thisRepN)
-    console.log("Trial number: " + trials.thisTrialN)
-    console.log("Trial counter: " + trialID)
-    console.log("Same Trial ID: " + sameTrialid)
-    console.log("Diff Trial ID: " + diffTrialid)
 
     t = 0;
     trialClock.reset(); // clock
