@@ -297,7 +297,7 @@ function trialsLoopBegin(trialsLoopScheduler) {
   for (const thisTrial of trials) {
     const snapshot = trials.getSnapshot();
     trialsLoopScheduler.add(importConditions(snapshot));
-    trialsLoopScheduler.add(trialRoutineBegin(snapshot));
+    trialsLoopScheduler.add(trialRoutineBegin(trials.getSnapshot()));
     trialsLoopScheduler.add(trialRoutineEachFrame(snapshot));
     trialsLoopScheduler.add(trialRoutineEnd(snapshot));
     trialsLoopScheduler.add(endLoopIteration(trialsLoopScheduler, snapshot));
@@ -523,7 +523,7 @@ var target;
 var probe;
 var _key_resp_allKeys;
 var trialComponents;
-function trialRoutineBegin(snapshot) {
+function trialRoutineBegin() {
   return function () {
     //------Prepare to start Routine 'trial'-------
     t = 0;
