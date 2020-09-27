@@ -397,7 +397,6 @@ function block_instructionRoutineBegin(snapshot) {
     shuffle(diffTrial);
     sameTrialid = 0;
     diffTrialid = 0;
-    instruction_text = instruction_text;
     
     instructions.setText(instruction_text);
     start_block.keys = undefined;
