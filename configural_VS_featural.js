@@ -113,7 +113,7 @@ function experimentInit() {
   instructions = new visual.TextStim({
     win: psychoJS.window,
     name: 'instructions',
-    text: 'Press S for same and D for different. To start, press <Space>.',
+    text: undefined,
     font: 'Arial',
     units: undefined, 
     pos: [0, 0], height: 0.1,  wrapWidth: undefined, ori: 0,
@@ -389,7 +389,8 @@ function block_instructionRoutineBegin(snapshot) {
     sameTrialid = 0;
     diffTrialid = 0;
     
-    instructions.setText('Press S for same and D for different. To start, press <Space>.');
+    instructions.setText('Press S for same and D for different. To start press <Space>.');
+    console.log(instruction_text)
     start_block.keys = undefined;
     start_block.rt = undefined;
     _start_block_allKeys = [];
