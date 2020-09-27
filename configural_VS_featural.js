@@ -42,9 +42,13 @@ psychoJS.scheduleCondition(function() { return (psychoJS.gui.dialogComponent.but
 // flowScheduler gets run if the participants presses OK
 flowScheduler.add(updateInfo); // add timeStamp
 flowScheduler.add(experimentInit);
+console.log("ExperimentInit was run")
 flowScheduler.add(exp_code_setupRoutineBegin());
+console.log("exp_code_setupRoutineBegin was run")
 flowScheduler.add(exp_code_setupRoutineEachFrame());
+console.log("exp_code_setupRoutineEachFrame was run")
 flowScheduler.add(exp_code_setupRoutineEnd());
+console.log("exp_code_setupRoutineEnd was run")
 const blocksLoopScheduler = new Scheduler(psychoJS);
 flowScheduler.add(blocksLoopBegin, blocksLoopScheduler);
 flowScheduler.add(blocksLoopScheduler);
@@ -52,7 +56,7 @@ flowScheduler.add(blocksLoopEnd);
 flowScheduler.add(quitPsychoJS, '', true);
 
 // quit if user presses Cancel in dialog box:
-dialogCancelScheduler.add(quitPsychoJS, '', false);
+dialogCancelScheduler.add(quitPsychoJS, '', true);
 
 psychoJS.start({
   expName: expName,
