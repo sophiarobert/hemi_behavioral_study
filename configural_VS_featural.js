@@ -85,8 +85,8 @@ function updateInfo() {
 }
 
 
-let stim_feat_dir = "./stimuli/Featural_Set/";
-let stim_config_dir = "./stimuli/Spacing_Set/";
+let stim_feat_dir = "./resources/stimuli/Featural_Set/";
+let stim_config_dir = "./resources/stimuli/Spacing_Set/";
 
 let face_config_paths = [stim_config_dir + "edmd.tif", stim_config_dir + "eimd.tif", stim_config_dir + "eomu.tif", stim_config_dir + "eumu.tif"];
 let haus_config_paths = [stim_config_dir + "H-8sim0.bmp", stim_config_dir + "H-8sim1.bmp", stim_config_dir + "H-8sim2.bmp", stim_config_dir + "H-8sim3.bmp"];
