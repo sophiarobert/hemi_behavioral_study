@@ -340,6 +340,7 @@ var trialDiff;
 var diffTrial;
 var sameTrialid;
 var diffTrialid;
+var trialID;
 var _start_block_allKeys;
 var block_instructionComponents;
 function block_instructionRoutineBegin(snapshot) {
@@ -415,6 +416,7 @@ function block_instructionRoutineBegin(snapshot) {
     shuffle(diffTrial);
     sameTrialid = 0;
     diffTrialid = 0;
+    trialID = -1;
 
     instructions.setText(instruction_text);
     start_block.keys = undefined;
@@ -533,21 +535,24 @@ var trialComponents;
 function trialRoutineBegin() {
   return function () {
     //------Prepare to start Routine 'trial'-------
+    trialID += 1
     console.log("Trial_order: " + trial_order)
     console.log("Rep number: " + trials.thisRepN)
     console.log("Trial number: " + trials.thisTrialN)
+    console.log("Trial counter: " + trialID)
     console.log("Same Trial ID: " + sameTrialid)
     console.log("Diff Trial ID: " + diffTrialid)
+
     t = 0;
     trialClock.reset(); // clock
     frameN = -1;
     // update component parameters for each repeat
-    if ((trial_order[trials.thisTrialN] === 1)) {
+    if ((trial_order[trialID] === 1)) {
         target = paths[trialSame[sameTrialid]];
         probe = paths[trialSame[sameTrialid]];
         sameTrialid += 1;
     } else {
-        if ((trial_order[trials.thisTrialN] === 0)) {
+        if ((trial_order[trialID] === 0)) {
             img_pair = trialDiff[diffTrial[diffTrialid]];
             target = paths[img_pair[0]];
             probe = paths[img_pair[1]];
@@ -703,7 +708,7 @@ function trialRoutineEnd(snapshot) {
     psychoJS.experiment.addData('key_resp.keys', key_resp.keys);
     psychoJS.experiment.addData('targetID', target);
     psychoJS.experiment.addData('probeID', probe);
-    if (trial_order[trials.thisTrialN] === 1) {
+    if (trial_order[trialID] === 1) {
         psychoJS.experiment.addData('corrAns', 's');
     } else {
         psychoJS.experiment.addData('corrAns', 'd');  
