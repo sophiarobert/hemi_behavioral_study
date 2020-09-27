@@ -388,8 +388,7 @@ function block_instructionRoutineBegin(snapshot) {
     sameTrialid = 0;
     diffTrialid = 0;
     
-    instructions.setText('Press S for same and D for different. To start press <Space>.');
-    console.log(blocks['instruction_text'])
+    instructions.setText(instruction_text);
     start_block.keys = undefined;
     start_block.rt = undefined;
     _start_block_allKeys = [];
