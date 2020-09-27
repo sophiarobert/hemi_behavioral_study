@@ -84,14 +84,9 @@ function updateInfo() {
   return Scheduler.Event.NEXT;
 }
 
-var face_config_paths, face_feat_paths, haus_config_paths, haus_feat_paths, stim_config_dir, stim_feat_dir;
+var stim_config_dir, stim_feat_dir;
 stim_feat_dir = "./stimuli/Featural_Set/";
 stim_config_dir = "./stimuli/Spacing_Set/";
-
-face_config_paths = [stim_config_dir + "edmd.tif", stim_config_dir + "eimd.tif", stim_config_dir + "eomu.tif", stim_config_dir + "eumu.tif"]
-face_feat_paths = [stim_feat_dir + "f15.tif", stim_feat_dir + "f24.tif", stim_feat_dir + "f131.tif", stim_feat_dir + "f142.tif"]
-haus_config_paths = [stim_config_dir + "H-8sim0.bmp", stim_config_dir + "H-8sim1.bmp", stim_config_dir + "H-8sim2.bmp", stim_config_dir + "H-8sim3.bmp"]
-haus_feat_paths = [stim_feat_dir + "H5sim0.bmp", stim_feat_dir + "H6sim0.bmp", stim_feat_dir + "H7sim0.bmp", stim_feat_dir + "H8sim0.bmp"]
 
 var exp_code_setupClock;
 var block_instructionClock;
@@ -351,26 +346,26 @@ function block_instructionRoutineBegin(snapshot) {
                     return s;
             }
             
-            console.log(Block_type = blocks.trialList[block_count]['Block_type']);
-            console.log(instruction_text = blocks.trialList[block_count]['instruction_text']);
+            Block_type = blocks.trialList[block_count]['Block_type']);
+            instruction_text = blocks.trialList[block_count]['instruction_text']);
     
             if ((Block_type === "conf_face")) {
-                paths = face_config_paths;
+                paths = [stim_config_dir + "edmd.tif", stim_config_dir + "eimd.tif", stim_config_dir + "eomu.tif", stim_config_dir + "eumu.tif"];
                 return paths
             } 
             else {
                 if ((Block_type === "conf_haus")) {
-                    paths = haus_config_paths;
+                    paths = [stim_config_dir + "H-8sim0.bmp", stim_config_dir + "H-8sim1.bmp", stim_config_dir + "H-8sim2.bmp", stim_config_dir + "H-8sim3.bmp"];
                     return paths
                 } 
                 else {
                     if ((Block_type === "feat_face")) {
-                        paths = face_feat_paths;
+                        paths = [stim_feat_dir + "f15.tif", stim_feat_dir + "f24.tif", stim_feat_dir + "f131.tif", stim_feat_dir + "f142.tif"];
                         return paths
                     } 
                     else {
                         if ((Block_type === "feat_haus")) {
-                            paths = haus_feat_paths;
+                            paths = [stim_feat_dir + "H5sim0.bmp", stim_feat_dir + "H6sim0.bmp", stim_feat_dir + "H7sim0.bmp", stim_feat_dir + "H8sim0.bmp"];
                             return paths
                         }
                     }
