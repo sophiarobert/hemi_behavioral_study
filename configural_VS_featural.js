@@ -535,7 +535,7 @@ function trialRoutineBegin() {
     //------Prepare to start Routine 'trial'-------
     console.log("Trial_order: " + trial_order)
     console.log("Rep number: " + trials.thisRepN)
-    console.log("Trial number: " + trials.thisRepN)
+    console.log("Trial number: " + trials.thisTrialN)
     console.log("Same Trial ID: " + sameTrialid)
     console.log("Diff Trial ID: " + diffTrialid)
     t = 0;
