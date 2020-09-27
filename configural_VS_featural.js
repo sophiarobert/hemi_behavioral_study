@@ -242,8 +242,10 @@ function exp_code_setupRoutineEnd(snapshot) {
     }
     // the Routine "exp_code_setup" was not non-slip safe, so reset the non-slip timer
     routineTimer.reset();
-    
+    var block_count;
+    block_count = -1;
     return Scheduler.Event.NEXT;
+    return block_count;
   };
 }
 
@@ -331,12 +333,14 @@ var diffTrialid;
 var instruction_text;
 var _start_block_allKeys;
 var block_instructionComponents;
+
 function block_instructionRoutineBegin(snapshot) {
   return function () {
     //------Prepare to start Routine 'block_instruction'-------
     t = 0;
     block_instructionClock.reset(); // clock
     frameN = -1;
+    block_count += 1
     // update component parameters for each repeat
     
             // add-on: list(s: string): string[]
