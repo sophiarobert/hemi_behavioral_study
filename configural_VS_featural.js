@@ -530,12 +530,12 @@ function trialRoutineBegin() {
     trialClock.reset(); // clock
     frameN = -1;
     // update component parameters for each repeat
-    if ((trial_order[trial.thisN] === 1)) {
+    if ((trial_order[trials.thisN] === 1)) {
         target = paths[trialSame[sameTrialid]];
         probe = paths[trialSame[sameTrialid]];
         sameTrialid += 1;
     } else {
-        if ((trial_order[trial.thisN] === 0)) {
+        if ((trial_order[trials.thisN] === 0)) {
             img_pair = trialDiff[diffTrial[diffTrialid]];
             target = paths[img_pair[0]];
             probe = paths[img_pair[1]];
