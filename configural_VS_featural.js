@@ -249,7 +249,6 @@ function exp_code_setupRoutineEnd(snapshot) {
 }
 
 
-var blocks;
 var currentLoop;
 function blocksLoopBegin(blocksLoopScheduler) {
   // set up handler to look after randomisation of conditions etc
@@ -353,13 +352,9 @@ function block_instructionRoutineBegin(snapshot) {
             return s;
     }
     
-    if (typeof(Block_type) === undefined) {
-         Block_type = blocks.trialList[block_count]['Block_type']
-    }
-    
+    console.log(blocks.trialList[block_count]['Block_type'])
     Block_type = blocks.trialList[block_count]['Block_type']
     instruction_text = blocks.trialList[block_count]['instruction_text']
-    console.log(Block_type === "conf_face")
     
     if ((Block_type === "conf_face")) {
         paths = face_config_paths;
