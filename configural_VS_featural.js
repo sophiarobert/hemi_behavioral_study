@@ -116,7 +116,7 @@ function experimentInit() {
   instructions = new visual.TextStim({
     win: psychoJS.window,
     name: 'instructions',
-    text: undefined,
+    text: 'Press S for same and D for different. Press <Space> to start.',
     font: 'Arial',
     units: undefined, 
     pos: [0, 0], height: 0.1,  wrapWidth: undefined, ori: 0,
