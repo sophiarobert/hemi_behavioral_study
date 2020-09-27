@@ -84,7 +84,6 @@ function updateInfo() {
   return Scheduler.Event.NEXT;
 }
 
-var stim_config_dir, stim_feat_dir;
 let stim_feat_dir = new URL("/stimuli/Featural_Set/");
 let stim_config_dir = new URL("/stimuli/Spacing_Set/");
 
