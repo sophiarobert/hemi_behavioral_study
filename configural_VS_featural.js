@@ -141,7 +141,7 @@ function experimentInit() {
     win : psychoJS.window,
     name : 'target_image', units : 'pix', 
     image : undefined, mask : undefined,
-    ori : 0, pos : [0, 0], size : [25, 25],
+    ori : 0, pos : [0, 0], size : [50, 50],
     color : new util.Color([1, 1, 1]), opacity : 1,
     flipHoriz : false, flipVert : false,
     texRes : 512, interpolate : true, depth : -1.0 
@@ -161,7 +161,7 @@ function experimentInit() {
     win : psychoJS.window,
     name : 'probe_image', units : 'pix', 
     image : undefined, mask : undefined,
-    ori : 0, pos : [0, 0], size : [25, 25],
+    ori : 0, pos : [0, 0], size : [50, 50],
     color : new util.Color([1, 1, 1]), opacity : 1,
     flipHoriz : false, flipVert : false,
     texRes : 512, interpolate : true, depth : -3.0 
@@ -415,12 +415,7 @@ function block_instructionRoutineBegin(snapshot) {
     shuffle(diffTrial);
     sameTrialid = 0;
     diffTrialid = 0;
-    console.log(Block_type)
-    console.log(paths)
-    console.log(trial_order)
-    console.log(trialSame)
-    console.log(diffTrial)
-    console.log(trialDiff[5])
+
     instructions.setText(instruction_text);
     start_block.keys = undefined;
     start_block.rt = undefined;
@@ -554,9 +549,6 @@ function trialRoutineBegin() {
             diffTrialid += 1;
         }
     }
-
-    console.log(trials.thisTrialN)
-    console.log(target)
 
     target_image.setImage(target);
     probe_image.setImage(probe);
@@ -701,6 +693,14 @@ function trialRoutineEnd(snapshot) {
       }
     }
     psychoJS.experiment.addData('key_resp.keys', key_resp.keys);
+    psychJS.experiment.addData('targetID', target);
+    psychJS.experiment.addData('probeID', probe);
+    if (trial_order[trials.thisTrialN] === 1) {
+        psychJS.experiment.addData('corrAns', 's');
+    } else {
+        psychJS.experiment.addData('corrAns', 'd');  
+    }
+
     if (typeof key_resp.keys !== 'undefined') {  // we had a response
         psychoJS.experiment.addData('key_resp.rt', key_resp.rt);
         routineTimer.reset();
