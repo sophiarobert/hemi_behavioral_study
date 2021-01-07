@@ -1,0 +1,13 @@
+target,probe,corrAns
+stimuli/Spacing_Set/edmd.tif,stimuli/Spacing_Set/eimd.tif,d
+stimuli/Spacing_Set/edmd.tif,stimuli/Spacing_Set/eomu.tif,d
+stimuli/Spacing_Set/edmd.tif,stimuli/Spacing_Set/eumu.tif,d
+stimuli/Spacing_Set/eimd.tif,stimuli/Spacing_Set/eomu.tif,d
+stimuli/Spacing_Set/eimd.tif,stimuli/Spacing_Set/eumu.tif,d
+stimuli/Spacing_Set/eomu.tif,stimuli/Spacing_Set/eumu.tif,d
+stimuli/Spacing_Set/eimd.tif,stimuli/Spacing_Set/edmd.tif,d
+stimuli/Spacing_Set/eomu.tif,stimuli/Spacing_Set/edmd.tif,d
+stimuli/Spacing_Set/eumu.tif,stimuli/Spacing_Set/edmd.tif,d
+stimuli/Spacing_Set/eomu.tif,stimuli/Spacing_Set/eimd.tif,d
+stimuli/Spacing_Set/eumu.tif,stimuli/Spacing_Set/eimd.tif,d
+stimuli/Spacing_Set/eumu.tif,stimuli/Spacing_Set/eomu.tif,d

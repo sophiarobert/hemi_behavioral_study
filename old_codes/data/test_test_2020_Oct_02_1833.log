@@ -1,0 +1,18 @@
+6.3956 	WARNING 	User requested fullscreen with size [1024  768], but screen is actually [1792, 1120]. Using actual size
+8.6157 	WARNING 	Couldn't measure a consistent frame rate.
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+8.6162 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, args=UNKNOWN, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0., 0., 0.]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x11fafc8d0>, gamma=None, gammaErrorPolicy='raise', kwargs=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x1569d9198>, multiSample=False, name='window1', numSamples=2, pos=[448.0, 280.0], screen=0, size=array([3584, 2240]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=True, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+8.6164 	EXP 	window1: mouseVisible = True
+8.6164 	EXP 	window1: recordFrameIntervals = False
+8.7826 	EXP 	window1: recordFrameIntervals = True
+10.0507 	DATA 	Keypress: up
+10.4471 	WARNING 	Couldn't measure a consistent frame rate.
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+11.7276 	WARNING 	t of last frame was 1280.60ms (=1/0)
+11.7487 	WARNING 	t of last frame was 21.08ms (=1/47)
+12.1505 	DATA 	Keypress: left
+12.4398 	EXP 	window1: mouseVisible = True

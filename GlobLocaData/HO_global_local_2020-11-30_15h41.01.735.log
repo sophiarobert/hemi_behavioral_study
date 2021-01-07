@@ -1,0 +1,2630 @@
+0.11219500000879634	EXP	Created Window = Window( name=Window, fullscr=true, color=#808080, units=height, waitBlanking=true, autoLog=true, size=[1366,625] )
+3.527170000001206	DATA	Keydown: h
+4.010974999997416	DATA	Keydown: o
+8.142139999996289	DATA	Keydown: h
+8.655335000003106	DATA	Keydown: o
+15.74091999999655	DATA	Keydown: Backspace
+20.292264999996405	DATA	Keydown: Backspace
+21.562135000000126	DATA	Keydown: 3
+25.25843000000168	DATA	Keydown: Backspace
+26.097795000008773	DATA	Keydown: 1
+31.328040000007604	EXP	Created text_top = TextStim( name=text_top, win=Window( name=Window, fullscr=true, color=#808080, ~), autoDraw=null, autoLog=true, units=height, pos=[0,0.3], size=undefined, ori=null, opacity=1, depth=-2, clipMask=null, boundingBox={"x":-0.43833515625,"y":0.24559999999999998,"width~, text=Resize this image to match the size of a credit ca~, alignHoriz=center, alignVert=center, flipHoriz=null, flipVert=null, font=Arial, height=0.05, wrapWidth=1, bold=null, italic=null, color=#000000, contrast=1 )
+31.336284999997588	EXP	Created text_bottom = TextStim( name=text_bottom, win=Window( name=Window, fullscr=true, color=#808080, ~), autoDraw=null, autoLog=true, units=height, pos=[0,-0.3], size=undefined, ori=null, opacity=1, depth=-3, clipMask=null, boundingBox={"x":-0.373586328125,"y":-0.3272,"width":0.7471726~, text=Press Space when you’re finished, alignHoriz=center, alignVert=center, flipHoriz=null, flipVert=null, font=Arial, height=0.05, wrapWidth=1, bold=null, italic=null, color=#000000, contrast=1 )
+31.339829999997164	EXP	Created ccimage = ImageStim( name=ccimage, win=Window( name=Window, fullscr=true, color=#808080, ~), autoDraw=null, autoLog=true, units=height, pos=[0,0], size=[0.42800000000000005,0.2699], ori=null, opacity=1, depth=-4, clipMask=null, boundingBox={"x":-0.21400000000000002,"y":-0.13495,"width":0.4~, image={}, mask=undefined, color=#ffffff, contrast=1, texRes=512, interpolate=true, flipHoriz=null, flipVert=null )
+31.345914999998058	EXP	Created prac_instr1 = ImageStim( name=prac_instr1, win=Window( name=Window, fullscr=true, color=#808080, ~), autoDraw=null, autoLog=true, units=height, pos=[0,0], size=[1.3275000000000001,0.75], ori=null, opacity=1, depth=-1, clipMask=null, boundingBox={"x":-0.6637500000000001,"y":-0.375,"width":1.3275~, image=undefined, mask=undefined, color=#ffffff, contrast=1, texRes=512, interpolate=true, flipHoriz=null, flipVert=null )
+31.353510000000824	EXP	Created prac_instr2 = ImageStim( name=prac_instr2, win=Window( name=Window, fullscr=true, color=#808080, ~), autoDraw=null, autoLog=true, units=height, pos=[0,0], size=[1.3275000000000001,0.75], ori=null, opacity=1, depth=null, clipMask=null, boundingBox={"x":-0.6637500000000001,"y":-0.375,"width":1.3275~, image={}, mask=undefined, color=#ffffff, contrast=1, texRes=512, interpolate=true, flipHoriz=null, flipVert=null )
+31.356274999998277	EXP	Created prac_instr3 = ImageStim( name=prac_instr3, win=Window( name=Window, fullscr=true, color=#808080, ~), autoDraw=null, autoLog=true, units=height, pos=[0,0], size=[1.3275000000000001,0.75], ori=null, opacity=1, depth=null, clipMask=null, boundingBox={"x":-0.6637500000000001,"y":-0.375,"width":1.3275~, image={}, mask=undefined, color=#ffffff, contrast=1, texRes=512, interpolate=true, flipHoriz=null, flipVert=null )
+31.359250000008615	EXP	Created image_2 = ImageStim( name=image_2, win=Window( name=Window, fullscr=true, color=#808080, ~), autoDraw=null, autoLog=true, units=height, pos=[0,0], size=[1.3275000000000001,0.75], ori=null, opacity=1, depth=-1, clipMask=null, boundingBox={"x":-0.6637500000000001,"y":-0.375,"width":1.3275~, image=undefined, mask=undefined, color=#ffffff, contrast=1, texRes=512, interpolate=true, flipHoriz=null, flipVert=null )
+31.36205000001064	EXP	Created text_8 = TextStim( name=text_8, win=Window( name=Window, fullscr=true, color=#808080, ~), autoDraw=null, autoLog=true, units=height, pos=[0,0], size=undefined, ori=null, opacity=1, depth=null, clipMask=null, boundingBox={"x":-0.0144828125,"y":-0.0272,"width":0.028965625~, text=+, alignHoriz=center, alignVert=center, flipHoriz=null, flipVert=null, font=Arial, height=0.05, wrapWidth=1, bold=null, italic=null, color=#FFFFFF, contrast=1 )
+31.37054000000353	EXP	Created image = ImageStim( name=image, win=Window( name=Window, fullscr=true, color=#808080, ~), autoDraw=null, autoLog=true, units=height, pos=[0,0], size=[1,1], ori=null, opacity=1, depth=-1, clipMask=null, boundingBox={"x":-0.5,"y":-0.5,"width":1,"height":1,"type":1}, image=undefined, mask=undefined, color=#ffffff, contrast=1, texRes=512, interpolate=true, flipHoriz=null, flipVert=null )
+31.376115000006394	EXP	Created image_3 = ImageStim( name=image_3, win=Window( name=Window, fullscr=true, color=#808080, ~), autoDraw=null, autoLog=true, units=height, pos=[0,0], size=[1.3275000000000001,0.75], ori=null, opacity=1, depth=-1, clipMask=null, boundingBox={"x":-0.6637500000000001,"y":-0.375,"width":1.3275~, image=undefined, mask=undefined, color=#ffffff, contrast=1, texRes=512, interpolate=true, flipHoriz=null, flipVert=null )
+31.37919000000693	EXP	Created Pinstructions_imageR1 = ImageStim( name=Pinstructions_imageR1, win=Window( name=Window, fullscr=true, color=#808080, ~), autoDraw=null, autoLog=true, units=height, pos=[0,0], size=[1.3125,0.75], ori=null, opacity=1, depth=-2, clipMask=null, boundingBox={"x":-0.65625,"y":-0.375,"width":1.3125,"height":0~, image=undefined, mask=undefined, color=#ffffff, contrast=1, texRes=512, interpolate=true, flipHoriz=null, flipVert=null )
+31.38040500000352	EXP	Created text = TextStim( name=text, win=Window( name=Window, fullscr=true, color=#808080, ~), autoDraw=null, autoLog=true, units=height, pos=[0,0], size=undefined, ori=null, opacity=1, depth=-1, clipMask=null, boundingBox={"x":-0.0144828125,"y":-0.0272,"width":0.028965625~, text=+, alignHoriz=center, alignVert=center, flipHoriz=null, flipVert=null, font=Arial, height=0.05, wrapWidth=1, bold=null, italic=null, color=#FFFFFF, contrast=1 )
+31.383620000007795	EXP	Created text_5 = TextStim( name=text_5, win=Window( name=Window, fullscr=true, color=#808080, ~), autoDraw=null, autoLog=true, units=height, pos=[0,0], size=undefined, ori=null, opacity=1, depth=null, clipMask=null, boundingBox={"x":-0.0144828125,"y":-0.0272,"width":0.028965625~, text=+, alignHoriz=center, alignVert=center, flipHoriz=null, flipVert=null, font=Arial, height=0.05, wrapWidth=1, bold=null, italic=null, color=#FFFFFF, contrast=1 )
+31.388755000007222	EXP	Created prac_image = ImageStim( name=prac_image, win=Window( name=Window, fullscr=true, color=#808080, ~), autoDraw=null, autoLog=true, units=height, pos=[0,0], size=[1,1], ori=null, opacity=1, depth=-1, clipMask=null, boundingBox={"x":-0.5,"y":-0.5,"width":1,"height":1,"type":1}, image=undefined, mask=undefined, color=#ffffff, contrast=1, texRes=512, interpolate=true, flipHoriz=null, flipVert=null )
+31.395134999998845	EXP	Created imFeedback = ImageStim( name=imFeedback, win=Window( name=Window, fullscr=true, color=#808080, ~), autoDraw=null, autoLog=true, units=height, pos=[0,0], size=[0.25,0.25], ori=null, opacity=1, depth=-1, clipMask=null, boundingBox={"x":-0.125,"y":-0.125,"width":0.25,"height":0.25,~, image=undefined, mask=undefined, color=#ffffff, contrast=1, texRes=512, interpolate=true, flipHoriz=null, flipVert=null )
+31.396829999997863	EXP	Created feedback_msg = TextStim( name=feedback_msg, win=Window( name=Window, fullscr=true, color=#808080, ~), autoDraw=null, autoLog=true, units=height, pos=[0,-0.25], size=undefined, ori=null, opacity=1, depth=-2, clipMask=null, boundingBox={"x":-0.121323828125,"y":-0.2772,"width":0.2426476~, text=default text, alignHoriz=center, alignVert=center, flipHoriz=null, flipVert=null, font=Arial, height=0.05, wrapWidth=1, bold=null, italic=null, color=#000000, contrast=1 )
+31.403015000003506	EXP	Created text_7 = TextStim( name=text_7, win=Window( name=Window, fullscr=true, color=#808080, ~), autoDraw=null, autoLog=true, units=height, pos=[0,0], size=undefined, ori=null, opacity=1, depth=null, clipMask=null, boundingBox={"x":-0.463195703125,"y":-0.1904,"width":0.9263914~, text=Great Job!
+
+Now we are going to play the real game~, alignHoriz=center, alignVert=center, flipHoriz=null, flipVert=null, font=Arial, height=0.05, wrapWidth=1, bold=null, italic=null, color=#000000, contrast=1 )
+31.406734999996843	EXP	Created instructions_imageR1 = ImageStim( name=instructions_imageR1, win=Window( name=Window, fullscr=true, color=#808080, ~), autoDraw=null, autoLog=true, units=height, pos=[0,0], size=[1.3275000000000001,0.75], ori=null, opacity=1, depth=-1, clipMask=null, boundingBox={"x":-0.6637500000000001,"y":-0.375,"width":1.3275~, image=undefined, mask=undefined, color=#ffffff, contrast=1, texRes=512, interpolate=true, flipHoriz=null, flipVert=null )
+31.40989000000991	EXP	Created text_2 = TextStim( name=text_2, win=Window( name=Window, fullscr=true, color=#808080, ~), autoDraw=null, autoLog=true, units=height, pos=[0,0], size=undefined, ori=null, opacity=1, depth=-1, clipMask=null, boundingBox={"x":-0.0144828125,"y":-0.0272,"width":0.028965625~, text=+, alignHoriz=center, alignVert=center, flipHoriz=null, flipVert=null, font=Arial, height=0.05, wrapWidth=1, bold=null, italic=null, color=#FFFFFF, contrast=1 )
+31.412049999999	EXP	Created text_6 = TextStim( name=text_6, win=Window( name=Window, fullscr=true, color=#808080, ~), autoDraw=null, autoLog=true, units=height, pos=[0,0], size=undefined, ori=null, opacity=1, depth=null, clipMask=null, boundingBox={"x":-0.0144828125,"y":-0.0272,"width":0.028965625~, text=+, alignHoriz=center, alignVert=center, flipHoriz=null, flipVert=null, font=Arial, height=0.05, wrapWidth=1, bold=null, italic=null, color=#FFFFFF, contrast=1 )
+31.423995000004652	EXP	Created trial_image = ImageStim( name=trial_image, win=Window( name=Window, fullscr=true, color=#808080, ~), autoDraw=null, autoLog=true, units=height, pos=[0,0], size=[1,1], ori=null, opacity=1, depth=-1, clipMask=null, boundingBox={"x":-0.5,"y":-0.5,"width":1,"height":1,"type":1}, image=undefined, mask=undefined, color=#ffffff, contrast=1, texRes=512, interpolate=true, flipHoriz=null, flipVert=null )
+31.42854000000807	EXP	Created image_4 = ImageStim( name=image_4, win=Window( name=Window, fullscr=true, color=#808080, ~), autoDraw=null, autoLog=true, units=height, pos=[0,0], size=[0.4,0.7320000000000001], ori=null, opacity=1, depth=-1, clipMask=null, boundingBox={"x":-0.2,"y":-0.36600000000000005,"width":0.4,"he~, image={}, mask=undefined, color=#ffffff, contrast=1, texRes=512, interpolate=true, flipHoriz=null, flipVert=null )
+31.434625000008964	EXP	Created image_2 = ImageStim( name=image_2, win=Window( name=Window, fullscr=true, color=#808080, ~), autoDraw=null, autoLog=true, units=height, pos=[0,0], size=[1.3275000000000001,0.75], ori=null, opacity=1, depth=-1, clipMask=null, boundingBox={"x":-0.6637500000000001,"y":-0.375,"width":1.3275~, image=undefined, mask=undefined, color=#ffffff, contrast=1, texRes=512, interpolate=true, flipHoriz=null, flipVert=null )
+31.43619999999646	EXP	Created text_8 = TextStim( name=text_8, win=Window( name=Window, fullscr=true, color=#808080, ~), autoDraw=null, autoLog=true, units=height, pos=[0,0], size=undefined, ori=null, opacity=1, depth=null, clipMask=null, boundingBox={"x":-0.0144828125,"y":-0.0272,"width":0.028965625~, text=+, alignHoriz=center, alignVert=center, flipHoriz=null, flipVert=null, font=Arial, height=0.05, wrapWidth=1, bold=null, italic=null, color=#FFFFFF, contrast=1 )
+31.437684999997145	EXP	Created image = ImageStim( name=image, win=Window( name=Window, fullscr=true, color=#808080, ~), autoDraw=null, autoLog=true, units=height, pos=[0,0], size=[1,1], ori=null, opacity=1, depth=-1, clipMask=null, boundingBox={"x":-0.5,"y":-0.5,"width":1,"height":1,"type":1}, image=undefined, mask=undefined, color=#ffffff, contrast=1, texRes=512, interpolate=true, flipHoriz=null, flipVert=null )
+31.43964500000584	EXP	Created image_3 = ImageStim( name=image_3, win=Window( name=Window, fullscr=true, color=#808080, ~), autoDraw=null, autoLog=true, units=height, pos=[0,0], size=[1.3275000000000001,0.75], ori=null, opacity=1, depth=-1, clipMask=null, boundingBox={"x":-0.6637500000000001,"y":-0.375,"width":1.3275~, image=undefined, mask=undefined, color=#ffffff, contrast=1, texRes=512, interpolate=true, flipHoriz=null, flipVert=null )
+31.440990000002785	EXP	Created Pinstructions_imageR2 = ImageStim( name=Pinstructions_imageR2, win=Window( name=Window, fullscr=true, color=#808080, ~), autoDraw=null, autoLog=true, units=height, pos=[0,0], size=[1.3275000000000001,0.75], ori=null, opacity=1, depth=-1, clipMask=null, boundingBox={"x":-0.6637500000000001,"y":-0.375,"width":1.3275~, image=undefined, mask=undefined, color=#ffffff, contrast=1, texRes=512, interpolate=true, flipHoriz=null, flipVert=null )
+31.441774999999325	EXP	Created text_3 = TextStim( name=text_3, win=Window( name=Window, fullscr=true, color=#808080, ~), autoDraw=null, autoLog=true, units=height, pos=[0,0], size=undefined, ori=null, opacity=1, depth=-1, clipMask=null, boundingBox={"x":-0.0144828125,"y":-0.0272,"width":0.028965625~, text=+, alignHoriz=center, alignVert=center, flipHoriz=null, flipVert=null, font=Arial, height=0.05, wrapWidth=1, bold=null, italic=null, color=#FFFFFF, contrast=1 )
+31.44406500000332	EXP	Created text_5 = TextStim( name=text_5, win=Window( name=Window, fullscr=true, color=#808080, ~), autoDraw=null, autoLog=true, units=height, pos=[0,0], size=undefined, ori=null, opacity=1, depth=null, clipMask=null, boundingBox={"x":-0.0144828125,"y":-0.0272,"width":0.028965625~, text=+, alignHoriz=center, alignVert=center, flipHoriz=null, flipVert=null, font=Arial, height=0.05, wrapWidth=1, bold=null, italic=null, color=#FFFFFF, contrast=1 )
+31.44556000000739	EXP	Created prac_image = ImageStim( name=prac_image, win=Window( name=Window, fullscr=true, color=#808080, ~), autoDraw=null, autoLog=true, units=height, pos=[0,0], size=[1,1], ori=null, opacity=1, depth=-1, clipMask=null, boundingBox={"x":-0.5,"y":-0.5,"width":1,"height":1,"type":1}, image=undefined, mask=undefined, color=#ffffff, contrast=1, texRes=512, interpolate=true, flipHoriz=null, flipVert=null )
+31.44683500000974	EXP	Created imFeedback = ImageStim( name=imFeedback, win=Window( name=Window, fullscr=true, color=#808080, ~), autoDraw=null, autoLog=true, units=height, pos=[0,0], size=[0.25,0.25], ori=null, opacity=1, depth=-1, clipMask=null, boundingBox={"x":-0.125,"y":-0.125,"width":0.25,"height":0.25,~, image=undefined, mask=undefined, color=#ffffff, contrast=1, texRes=512, interpolate=true, flipHoriz=null, flipVert=null )
+31.449860000007902	EXP	Created feedback_msg = TextStim( name=feedback_msg, win=Window( name=Window, fullscr=true, color=#808080, ~), autoDraw=null, autoLog=true, units=height, pos=[0,-0.25], size=undefined, ori=null, opacity=1, depth=-2, clipMask=null, boundingBox={"x":-0.121323828125,"y":-0.2772,"width":0.2426476~, text=default text, alignHoriz=center, alignVert=center, flipHoriz=null, flipVert=null, font=Arial, height=0.05, wrapWidth=1, bold=null, italic=null, color=#000000, contrast=1 )
+31.451450000007753	EXP	Created text_7 = TextStim( name=text_7, win=Window( name=Window, fullscr=true, color=#808080, ~), autoDraw=null, autoLog=true, units=height, pos=[0,0], size=undefined, ori=null, opacity=1, depth=null, clipMask=null, boundingBox={"x":-0.463195703125,"y":-0.1904,"width":0.9263914~, text=Great Job!
+
+Now we are going to play the real game~, alignHoriz=center, alignVert=center, flipHoriz=null, flipVert=null, font=Arial, height=0.05, wrapWidth=1, bold=null, italic=null, color=#000000, contrast=1 )
+31.45320499999798	EXP	Created instructions_imageR2 = ImageStim( name=instructions_imageR2, win=Window( name=Window, fullscr=true, color=#808080, ~), autoDraw=null, autoLog=true, units=height, pos=[0,0], size=[1.3275000000000001,0.75], ori=null, opacity=1, depth=-1, clipMask=null, boundingBox={"x":-0.6637500000000001,"y":-0.375,"width":1.3275~, image=undefined, mask=undefined, color=#ffffff, contrast=1, texRes=512, interpolate=true, flipHoriz=null, flipVert=null )
+31.45579500000167	EXP	Created text_4 = TextStim( name=text_4, win=Window( name=Window, fullscr=true, color=#808080, ~), autoDraw=null, autoLog=true, units=height, pos=[0,0], size=undefined, ori=null, opacity=1, depth=-1, clipMask=null, boundingBox={"x":-0.0144828125,"y":-0.0272,"width":0.028965625~, text=+, alignHoriz=center, alignVert=center, flipHoriz=null, flipVert=null, font=Arial, height=0.05, wrapWidth=1, bold=null, italic=null, color=#FFFFFF, contrast=1 )
+31.45700000000943	EXP	Created text_6 = TextStim( name=text_6, win=Window( name=Window, fullscr=true, color=#808080, ~), autoDraw=null, autoLog=true, units=height, pos=[0,0], size=undefined, ori=null, opacity=1, depth=null, clipMask=null, boundingBox={"x":-0.0144828125,"y":-0.0272,"width":0.028965625~, text=+, alignHoriz=center, alignVert=center, flipHoriz=null, flipVert=null, font=Arial, height=0.05, wrapWidth=1, bold=null, italic=null, color=#FFFFFF, contrast=1 )
+31.459419999999227	EXP	Created trial_image = ImageStim( name=trial_image, win=Window( name=Window, fullscr=true, color=#808080, ~), autoDraw=null, autoLog=true, units=height, pos=[0,0], size=[1,1], ori=null, opacity=1, depth=-1, clipMask=null, boundingBox={"x":-0.5,"y":-0.5,"width":1,"height":1,"type":1}, image=undefined, mask=undefined, color=#ffffff, contrast=1, texRes=512, interpolate=true, flipHoriz=null, flipVert=null )
+31.461955000006128	EXP	Created instructions_imageR1 = ImageStim( name=instructions_imageR1, win=Window( name=Window, fullscr=true, color=#808080, ~), autoDraw=null, autoLog=true, units=height, pos=[0,0], size=[1.3275000000000001,0.75], ori=null, opacity=1, depth=-1, clipMask=null, boundingBox={"x":-0.6637500000000001,"y":-0.375,"width":1.3275~, image=undefined, mask=undefined, color=#ffffff, contrast=1, texRes=512, interpolate=true, flipHoriz=null, flipVert=null )
+31.466035000004922	EXP	Created text_2 = TextStim( name=text_2, win=Window( name=Window, fullscr=true, color=#808080, ~), autoDraw=null, autoLog=true, units=height, pos=[0,0], size=undefined, ori=null, opacity=1, depth=-1, clipMask=null, boundingBox={"x":-0.0144828125,"y":-0.0272,"width":0.028965625~, text=+, alignHoriz=center, alignVert=center, flipHoriz=null, flipVert=null, font=Arial, height=0.05, wrapWidth=1, bold=null, italic=null, color=#FFFFFF, contrast=1 )
+31.467615000001388	EXP	Created text_6 = TextStim( name=text_6, win=Window( name=Window, fullscr=true, color=#808080, ~), autoDraw=null, autoLog=true, units=height, pos=[0,0], size=undefined, ori=null, opacity=1, depth=null, clipMask=null, boundingBox={"x":-0.0144828125,"y":-0.0272,"width":0.028965625~, text=+, alignHoriz=center, alignVert=center, flipHoriz=null, flipVert=null, font=Arial, height=0.05, wrapWidth=1, bold=null, italic=null, color=#FFFFFF, contrast=1 )
+31.469924999997602	EXP	Created trial_image = ImageStim( name=trial_image, win=Window( name=Window, fullscr=true, color=#808080, ~), autoDraw=null, autoLog=true, units=height, pos=[0,0], size=[1,1], ori=null, opacity=1, depth=-1, clipMask=null, boundingBox={"x":-0.5,"y":-0.5,"width":1,"height":1,"type":1}, image=undefined, mask=undefined, color=#ffffff, contrast=1, texRes=512, interpolate=true, flipHoriz=null, flipVert=null )
+31.474110000010114	EXP	Created instructions_imageR2 = ImageStim( name=instructions_imageR2, win=Window( name=Window, fullscr=true, color=#808080, ~), autoDraw=null, autoLog=true, units=height, pos=[0,0], size=[1.3275000000000001,0.75], ori=null, opacity=1, depth=-1, clipMask=null, boundingBox={"x":-0.6637500000000001,"y":-0.375,"width":1.3275~, image=undefined, mask=undefined, color=#ffffff, contrast=1, texRes=512, interpolate=true, flipHoriz=null, flipVert=null )
+31.475084999998217	EXP	Created text_4 = TextStim( name=text_4, win=Window( name=Window, fullscr=true, color=#808080, ~), autoDraw=null, autoLog=true, units=height, pos=[0,0], size=undefined, ori=null, opacity=1, depth=-1, clipMask=null, boundingBox={"x":-0.0144828125,"y":-0.0272,"width":0.028965625~, text=+, alignHoriz=center, alignVert=center, flipHoriz=null, flipVert=null, font=Arial, height=0.05, wrapWidth=1, bold=null, italic=null, color=#FFFFFF, contrast=1 )
+31.475860000005923	EXP	Created text_6 = TextStim( name=text_6, win=Window( name=Window, fullscr=true, color=#808080, ~), autoDraw=null, autoLog=true, units=height, pos=[0,0], size=undefined, ori=null, opacity=1, depth=null, clipMask=null, boundingBox={"x":-0.0144828125,"y":-0.0272,"width":0.028965625~, text=+, alignHoriz=center, alignVert=center, flipHoriz=null, flipVert=null, font=Arial, height=0.05, wrapWidth=1, bold=null, italic=null, color=#FFFFFF, contrast=1 )
+31.47796499999822	EXP	Created trial_image = ImageStim( name=trial_image, win=Window( name=Window, fullscr=true, color=#808080, ~), autoDraw=null, autoLog=true, units=height, pos=[0,0], size=[1,1], ori=null, opacity=1, depth=-1, clipMask=null, boundingBox={"x":-0.5,"y":-0.5,"width":1,"height":1,"type":1}, image=undefined, mask=undefined, color=#ffffff, contrast=1, texRes=512, interpolate=true, flipHoriz=null, flipVert=null )
+31.479254999998375	EXP	Created image_5 = ImageStim( name=image_5, win=Window( name=Window, fullscr=true, color=#808080, ~), autoDraw=null, autoLog=true, units=height, pos=[0,0], size=[0.8,0.5], ori=null, opacity=1, depth=null, clipMask=null, boundingBox={"x":-0.4,"y":-0.25,"width":0.8,"height":0.5,"type~, image={}, mask=undefined, color=#ffffff, contrast=1, texRes=512, interpolate=true, flipHoriz=null, flipVert=null )
+31.516380000000936	EXP	text_top: units = height
+31.516380000000936	EXP	text_top: pos = [0,0.3]
+31.516380000000936	EXP	text_top: size = undefined
+31.516380000000936	EXP	text_top: ori = null
+31.516380000000936	EXP	text_top: opacity = 1
+31.516380000000936	EXP	text_top: depth = -2
+31.516380000000936	EXP	text_top: clipMask = null
+31.516380000000936	EXP	text_top: boundingBox = {"x":0,"y":0,"width":0,"height":0,"type":1}
+31.516380000000936	EXP	text_top: text = Resize this image to match the size of a credit card with arrow keys
+31.516380000000936	EXP	text_top: alignHoriz = center
+31.516380000000936	EXP	text_top: alignVert = center
+31.516380000000936	EXP	text_top: flipHoriz = null
+31.516380000000936	EXP	text_top: flipVert = null
+31.516380000000936	EXP	text_top: font = Arial
+31.516380000000936	EXP	text_top: height = 0.05
+31.516380000000936	EXP	text_top: wrapWidth = 1
+31.516380000000936	EXP	text_top: bold = null
+31.516380000000936	EXP	text_top: italic = null
+31.516380000000936	EXP	text_top: color = #000000
+31.516380000000936	EXP	text_top: contrast = 1
+31.516380000000936	EXP	text_bottom: units = height
+31.516380000000936	EXP	text_bottom: pos = [0,-0.3]
+31.516380000000936	EXP	text_bottom: size = undefined
+31.516380000000936	EXP	text_bottom: ori = null
+31.516380000000936	EXP	text_bottom: opacity = 1
+31.516380000000936	EXP	text_bottom: depth = -3
+31.516380000000936	EXP	text_bottom: clipMask = null
+31.516380000000936	EXP	text_bottom: boundingBox = {"x":0,"y":0,"width":0,"height":0,"type":1}
+31.516380000000936	EXP	text_bottom: text = Press Space when you’re finished
+31.516380000000936	EXP	text_bottom: alignHoriz = center
+31.516380000000936	EXP	text_bottom: alignVert = center
+31.516380000000936	EXP	text_bottom: flipHoriz = null
+31.516380000000936	EXP	text_bottom: flipVert = null
+31.516380000000936	EXP	text_bottom: font = Arial
+31.516380000000936	EXP	text_bottom: height = 0.05
+31.516380000000936	EXP	text_bottom: wrapWidth = 1
+31.516380000000936	EXP	text_bottom: bold = null
+31.516380000000936	EXP	text_bottom: italic = null
+31.516380000000936	EXP	text_bottom: color = #000000
+31.516380000000936	EXP	text_bottom: contrast = 1
+31.516380000000936	EXP	ccimage: units = height
+31.516380000000936	EXP	ccimage: pos = [0,0]
+31.516380000000936	EXP	ccimage: size = [0.42800000000000005,0.2699]
+31.516380000000936	EXP	ccimage: ori = null
+31.516380000000936	EXP	ccimage: opacity = 1
+31.516380000000936	EXP	ccimage: depth = -4
+31.516380000000936	EXP	ccimage: clipMask = null
+31.516380000000936	EXP	ccimage: boundingBox = {"x":0,"y":0,"width":0,"height":0,"type":1}
+31.516380000000936	EXP	ccimage: image = {}
+31.516380000000936	EXP	ccimage: mask = undefined
+31.516380000000936	EXP	ccimage: color = #ffffff
+31.516380000000936	EXP	ccimage: contrast = 1
+31.516380000000936	EXP	ccimage: texRes = 512
+31.516380000000936	EXP	ccimage: interpolate = true
+31.516380000000936	EXP	ccimage: flipHoriz = null
+31.516380000000936	EXP	ccimage: flipVert = null
+31.516380000000936	EXP	prac_instr1: units = height
+31.516380000000936	EXP	prac_instr1: pos = [0,0]
+31.516380000000936	EXP	prac_instr1: size = [1.3275000000000001,0.75]
+31.516380000000936	EXP	prac_instr1: ori = null
+31.516380000000936	EXP	prac_instr1: opacity = 1
+31.516380000000936	EXP	prac_instr1: depth = -1
+31.516380000000936	EXP	prac_instr1: clipMask = null
+31.516380000000936	EXP	prac_instr1: boundingBox = {"x":0,"y":0,"width":0,"height":0,"type":1}
+31.516380000000936	EXP	prac_instr1: image = undefined
+31.516380000000936	EXP	prac_instr1: mask = undefined
+31.516380000000936	EXP	prac_instr1: color = #ffffff
+31.516380000000936	EXP	prac_instr1: contrast = 1
+31.516380000000936	EXP	prac_instr1: texRes = 512
+31.516380000000936	EXP	prac_instr1: interpolate = true
+31.516380000000936	EXP	prac_instr1: flipHoriz = null
+31.516380000000936	EXP	prac_instr1: flipVert = null
+31.516380000000936	EXP	prac_instr2: units = height
+31.516380000000936	EXP	prac_instr2: pos = [0,0]
+31.516380000000936	EXP	prac_instr2: size = [1.3275000000000001,0.75]
+31.516380000000936	EXP	prac_instr2: ori = null
+31.516380000000936	EXP	prac_instr2: opacity = 1
+31.516380000000936	EXP	prac_instr2: depth = null
+31.516380000000936	EXP	prac_instr2: clipMask = null
+31.516380000000936	EXP	prac_instr2: boundingBox = {"x":0,"y":0,"width":0,"height":0,"type":1}
+31.516380000000936	EXP	prac_instr2: image = {}
+31.516380000000936	EXP	prac_instr2: mask = undefined
+31.516380000000936	EXP	prac_instr2: color = #ffffff
+31.516380000000936	EXP	prac_instr2: contrast = 1
+31.516380000000936	EXP	prac_instr2: texRes = 512
+31.516380000000936	EXP	prac_instr2: interpolate = true
+31.516380000000936	EXP	prac_instr2: flipHoriz = null
+31.516380000000936	EXP	prac_instr2: flipVert = null
+31.516380000000936	EXP	prac_instr3: units = height
+31.516380000000936	EXP	prac_instr3: pos = [0,0]
+31.516380000000936	EXP	prac_instr3: size = [1.3275000000000001,0.75]
+31.516380000000936	EXP	prac_instr3: ori = null
+31.516380000000936	EXP	prac_instr3: opacity = 1
+31.516380000000936	EXP	prac_instr3: depth = null
+31.516380000000936	EXP	prac_instr3: clipMask = null
+31.516380000000936	EXP	prac_instr3: boundingBox = {"x":0,"y":0,"width":0,"height":0,"type":1}
+31.516380000000936	EXP	prac_instr3: image = {}
+31.516380000000936	EXP	prac_instr3: mask = undefined
+31.516380000000936	EXP	prac_instr3: color = #ffffff
+31.516380000000936	EXP	prac_instr3: contrast = 1
+31.516380000000936	EXP	prac_instr3: texRes = 512
+31.516380000000936	EXP	prac_instr3: interpolate = true
+31.516380000000936	EXP	prac_instr3: flipHoriz = null
+31.516380000000936	EXP	prac_instr3: flipVert = null
+31.516380000000936	EXP	image_2: units = height
+31.516380000000936	EXP	image_2: pos = [0,0]
+31.516380000000936	EXP	image_2: size = [1.3275000000000001,0.75]
+31.516380000000936	EXP	image_2: ori = null
+31.516380000000936	EXP	image_2: opacity = 1
+31.516380000000936	EXP	image_2: depth = -1
+31.516380000000936	EXP	image_2: clipMask = null
+31.516380000000936	EXP	image_2: boundingBox = {"x":0,"y":0,"width":0,"height":0,"type":1}
+31.516380000000936	EXP	image_2: image = undefined
+31.516380000000936	EXP	image_2: mask = undefined
+31.516380000000936	EXP	image_2: color = #ffffff
+31.516380000000936	EXP	image_2: contrast = 1
+31.516380000000936	EXP	image_2: texRes = 512
+31.516380000000936	EXP	image_2: interpolate = true
+31.516380000000936	EXP	image_2: flipHoriz = null
+31.516380000000936	EXP	image_2: flipVert = null
+31.516380000000936	EXP	text_8: units = height
+31.516380000000936	EXP	text_8: pos = [0,0]
+31.516380000000936	EXP	text_8: size = undefined
+31.516380000000936	EXP	text_8: ori = null
+31.516380000000936	EXP	text_8: opacity = 1
+31.516380000000936	EXP	text_8: depth = null
+31.516380000000936	EXP	text_8: clipMask = null
+31.516380000000936	EXP	text_8: boundingBox = {"x":0,"y":0,"width":0,"height":0,"type":1}
+31.516380000000936	EXP	text_8: text = +
+31.516380000000936	EXP	text_8: alignHoriz = center
+31.516380000000936	EXP	text_8: alignVert = center
+31.516380000000936	EXP	text_8: flipHoriz = null
+31.516380000000936	EXP	text_8: flipVert = null
+31.516380000000936	EXP	text_8: font = Arial
+31.516380000000936	EXP	text_8: height = 0.05
+31.516380000000936	EXP	text_8: wrapWidth = 1
+31.516380000000936	EXP	text_8: bold = null
+31.516380000000936	EXP	text_8: italic = null
+31.516380000000936	EXP	text_8: color = #FFFFFF
+31.516380000000936	EXP	text_8: contrast = 1
+31.516380000000936	EXP	image: units = height
+31.516380000000936	EXP	image: pos = [0,0]
+31.516380000000936	EXP	image: size = [1,1]
+31.516380000000936	EXP	image: ori = null
+31.516380000000936	EXP	image: opacity = 1
+31.516380000000936	EXP	image: depth = -1
+31.516380000000936	EXP	image: clipMask = null
+31.516380000000936	EXP	image: boundingBox = {"x":0,"y":0,"width":0,"height":0,"type":1}
+31.516380000000936	EXP	image: image = undefined
+31.516380000000936	EXP	image: mask = undefined
+31.516380000000936	EXP	image: color = #ffffff
+31.516380000000936	EXP	image: contrast = 1
+31.516380000000936	EXP	image: texRes = 512
+31.516380000000936	EXP	image: interpolate = true
+31.516380000000936	EXP	image: flipHoriz = null
+31.516380000000936	EXP	image: flipVert = null
+31.516380000000936	EXP	image_3: units = height
+31.516380000000936	EXP	image_3: pos = [0,0]
+31.516380000000936	EXP	image_3: size = [1.3275000000000001,0.75]
+31.516380000000936	EXP	image_3: ori = null
+31.516380000000936	EXP	image_3: opacity = 1
+31.516380000000936	EXP	image_3: depth = -1
+31.516380000000936	EXP	image_3: clipMask = null
+31.516380000000936	EXP	image_3: boundingBox = {"x":0,"y":0,"width":0,"height":0,"type":1}
+31.516380000000936	EXP	image_3: image = undefined
+31.516380000000936	EXP	image_3: mask = undefined
+31.516380000000936	EXP	image_3: color = #ffffff
+31.516380000000936	EXP	image_3: contrast = 1
+31.516380000000936	EXP	image_3: texRes = 512
+31.516380000000936	EXP	image_3: interpolate = true
+31.516380000000936	EXP	image_3: flipHoriz = null
+31.516380000000936	EXP	image_3: flipVert = null
+31.516380000000936	EXP	Pinstructions_imageR1: units = height
+31.516380000000936	EXP	Pinstructions_imageR1: pos = [0,0]
+31.516380000000936	EXP	Pinstructions_imageR1: size = [1.3125,0.75]
+31.516380000000936	EXP	Pinstructions_imageR1: ori = null
+31.516380000000936	EXP	Pinstructions_imageR1: opacity = 1
+31.516380000000936	EXP	Pinstructions_imageR1: depth = -2
+31.516380000000936	EXP	Pinstructions_imageR1: clipMask = null
+31.516380000000936	EXP	Pinstructions_imageR1: boundingBox = {"x":0,"y":0,"width":0,"height":0,"type":1}
+31.516380000000936	EXP	Pinstructions_imageR1: image = undefined
+31.516380000000936	EXP	Pinstructions_imageR1: mask = undefined
+31.516380000000936	EXP	Pinstructions_imageR1: color = #ffffff
+31.516380000000936	EXP	Pinstructions_imageR1: contrast = 1
+31.516380000000936	EXP	Pinstructions_imageR1: texRes = 512
+31.516380000000936	EXP	Pinstructions_imageR1: interpolate = true
+31.516380000000936	EXP	Pinstructions_imageR1: flipHoriz = null
+31.516380000000936	EXP	Pinstructions_imageR1: flipVert = null
+31.516380000000936	EXP	text: units = height
+31.516380000000936	EXP	text: pos = [0,0]
+31.516380000000936	EXP	text: size = undefined
+31.516380000000936	EXP	text: ori = null
+31.516380000000936	EXP	text: opacity = 1
+31.516380000000936	EXP	text: depth = -1
+31.516380000000936	EXP	text: clipMask = null
+31.516380000000936	EXP	text: boundingBox = {"x":0,"y":0,"width":0,"height":0,"type":1}
+31.516380000000936	EXP	text: text = +
+31.516380000000936	EXP	text: alignHoriz = center
+31.516380000000936	EXP	text: alignVert = center
+31.516380000000936	EXP	text: flipHoriz = null
+31.516380000000936	EXP	text: flipVert = null
+31.516380000000936	EXP	text: font = Arial
+31.516380000000936	EXP	text: height = 0.05
+31.516380000000936	EXP	text: wrapWidth = 1
+31.516380000000936	EXP	text: bold = null
+31.516380000000936	EXP	text: italic = null
+31.516380000000936	EXP	text: color = #FFFFFF
+31.516380000000936	EXP	text: contrast = 1
+31.516380000000936	EXP	text_5: units = height
+31.516380000000936	EXP	text_5: pos = [0,0]
+31.516380000000936	EXP	text_5: size = undefined
+31.516380000000936	EXP	text_5: ori = null
+31.516380000000936	EXP	text_5: opacity = 1
+31.516380000000936	EXP	text_5: depth = null
+31.516380000000936	EXP	text_5: clipMask = null
+31.516380000000936	EXP	text_5: boundingBox = {"x":0,"y":0,"width":0,"height":0,"type":1}
+31.516380000000936	EXP	text_5: text = +
+31.516380000000936	EXP	text_5: alignHoriz = center
+31.516380000000936	EXP	text_5: alignVert = center
+31.516380000000936	EXP	text_5: flipHoriz = null
+31.516380000000936	EXP	text_5: flipVert = null
+31.516380000000936	EXP	text_5: font = Arial
+31.516380000000936	EXP	text_5: height = 0.05
+31.516380000000936	EXP	text_5: wrapWidth = 1
+31.516380000000936	EXP	text_5: bold = null
+31.516380000000936	EXP	text_5: italic = null
+31.516380000000936	EXP	text_5: color = #FFFFFF
+31.516380000000936	EXP	text_5: contrast = 1
+31.516380000000936	EXP	prac_image: units = height
+31.516380000000936	EXP	prac_image: pos = [0,0]
+31.516380000000936	EXP	prac_image: size = [1,1]
+31.516380000000936	EXP	prac_image: ori = null
+31.516380000000936	EXP	prac_image: opacity = 1
+31.516380000000936	EXP	prac_image: depth = -1
+31.516380000000936	EXP	prac_image: clipMask = null
+31.516380000000936	EXP	prac_image: boundingBox = {"x":0,"y":0,"width":0,"height":0,"type":1}
+31.516380000000936	EXP	prac_image: image = undefined
+31.516380000000936	EXP	prac_image: mask = undefined
+31.516380000000936	EXP	prac_image: color = #ffffff
+31.516380000000936	EXP	prac_image: contrast = 1
+31.516380000000936	EXP	prac_image: texRes = 512
+31.516380000000936	EXP	prac_image: interpolate = true
+31.516380000000936	EXP	prac_image: flipHoriz = null
+31.516380000000936	EXP	prac_image: flipVert = null
+31.516380000000936	EXP	imFeedback: units = height
+31.516380000000936	EXP	imFeedback: pos = [0,0]
+31.516380000000936	EXP	imFeedback: size = [0.25,0.25]
+31.516380000000936	EXP	imFeedback: ori = null
+31.516380000000936	EXP	imFeedback: opacity = 1
+31.516380000000936	EXP	imFeedback: depth = -1
+31.516380000000936	EXP	imFeedback: clipMask = null
+31.516380000000936	EXP	imFeedback: boundingBox = {"x":0,"y":0,"width":0,"height":0,"type":1}
+31.516380000000936	EXP	imFeedback: image = undefined
+31.516380000000936	EXP	imFeedback: mask = undefined
+31.516380000000936	EXP	imFeedback: color = #ffffff
+31.516380000000936	EXP	imFeedback: contrast = 1
+31.516380000000936	EXP	imFeedback: texRes = 512
+31.516380000000936	EXP	imFeedback: interpolate = true
+31.516380000000936	EXP	imFeedback: flipHoriz = null
+31.516380000000936	EXP	imFeedback: flipVert = null
+31.516380000000936	EXP	feedback_msg: units = height
+31.516380000000936	EXP	feedback_msg: pos = [0,-0.25]
+31.516380000000936	EXP	feedback_msg: size = undefined
+31.516380000000936	EXP	feedback_msg: ori = null
+31.516380000000936	EXP	feedback_msg: opacity = 1
+31.516380000000936	EXP	feedback_msg: depth = -2
+31.516380000000936	EXP	feedback_msg: clipMask = null
+31.516380000000936	EXP	feedback_msg: boundingBox = {"x":0,"y":0,"width":0,"height":0,"type":1}
+31.516380000000936	EXP	feedback_msg: text = default text
+31.516380000000936	EXP	feedback_msg: alignHoriz = center
+31.516380000000936	EXP	feedback_msg: alignVert = center
+31.516380000000936	EXP	feedback_msg: flipHoriz = null
+31.516380000000936	EXP	feedback_msg: flipVert = null
+31.516380000000936	EXP	feedback_msg: font = Arial
+31.516380000000936	EXP	feedback_msg: height = 0.05
+31.516380000000936	EXP	feedback_msg: wrapWidth = 1
+31.516380000000936	EXP	feedback_msg: bold = null
+31.516380000000936	EXP	feedback_msg: italic = null
+31.516380000000936	EXP	feedback_msg: color = #000000
+31.516380000000936	EXP	feedback_msg: contrast = 1
+31.516380000000936	EXP	text_7: units = height
+31.516380000000936	EXP	text_7: pos = [0,0]
+31.516380000000936	EXP	text_7: size = undefined
+31.516380000000936	EXP	text_7: ori = null
+31.516380000000936	EXP	text_7: opacity = 1
+31.516380000000936	EXP	text_7: depth = null
+31.516380000000936	EXP	text_7: clipMask = null
+31.516380000000936	EXP	text_7: boundingBox = {"x":0,"y":0,"width":0,"height":0,"type":1}
+31.516380000000936	EXP	text_7: text = Great Job!
+
+Now we are going to play the real game. 
+
+Press Space to see the instructions again.
+
+
+31.516380000000936	EXP	text_7: alignHoriz = center
+31.516380000000936	EXP	text_7: alignVert = center
+31.516380000000936	EXP	text_7: flipHoriz = null
+31.516380000000936	EXP	text_7: flipVert = null
+31.516380000000936	EXP	text_7: font = Arial
+31.516380000000936	EXP	text_7: height = 0.05
+31.516380000000936	EXP	text_7: wrapWidth = 1
+31.516380000000936	EXP	text_7: bold = null
+31.516380000000936	EXP	text_7: italic = null
+31.516380000000936	EXP	text_7: color = #000000
+31.516380000000936	EXP	text_7: contrast = 1
+31.516380000000936	EXP	instructions_imageR1: units = height
+31.516380000000936	EXP	instructions_imageR1: pos = [0,0]
+31.516380000000936	EXP	instructions_imageR1: size = [1.3275000000000001,0.75]
+31.516380000000936	EXP	instructions_imageR1: ori = null
+31.516380000000936	EXP	instructions_imageR1: opacity = 1
+31.516380000000936	EXP	instructions_imageR1: depth = -1
+31.516380000000936	EXP	instructions_imageR1: clipMask = null
+31.516380000000936	EXP	instructions_imageR1: boundingBox = {"x":0,"y":0,"width":0,"height":0,"type":1}
+31.516380000000936	EXP	instructions_imageR1: image = undefined
+31.516380000000936	EXP	instructions_imageR1: mask = undefined
+31.516380000000936	EXP	instructions_imageR1: color = #ffffff
+31.516380000000936	EXP	instructions_imageR1: contrast = 1
+31.516380000000936	EXP	instructions_imageR1: texRes = 512
+31.516380000000936	EXP	instructions_imageR1: interpolate = true
+31.516380000000936	EXP	instructions_imageR1: flipHoriz = null
+31.516380000000936	EXP	instructions_imageR1: flipVert = null
+31.516380000000936	EXP	text_2: units = height
+31.516380000000936	EXP	text_2: pos = [0,0]
+31.516380000000936	EXP	text_2: size = undefined
+31.516380000000936	EXP	text_2: ori = null
+31.516380000000936	EXP	text_2: opacity = 1
+31.516380000000936	EXP	text_2: depth = -1
+31.516380000000936	EXP	text_2: clipMask = null
+31.516380000000936	EXP	text_2: boundingBox = {"x":0,"y":0,"width":0,"height":0,"type":1}
+31.516380000000936	EXP	text_2: text = +
+31.516380000000936	EXP	text_2: alignHoriz = center
+31.516380000000936	EXP	text_2: alignVert = center
+31.516380000000936	EXP	text_2: flipHoriz = null
+31.516380000000936	EXP	text_2: flipVert = null
+31.516380000000936	EXP	text_2: font = Arial
+31.516380000000936	EXP	text_2: height = 0.05
+31.516380000000936	EXP	text_2: wrapWidth = 1
+31.516380000000936	EXP	text_2: bold = null
+31.516380000000936	EXP	text_2: italic = null
+31.516380000000936	EXP	text_2: color = #FFFFFF
+31.516380000000936	EXP	text_2: contrast = 1
+31.516380000000936	EXP	text_6: units = height
+31.516380000000936	EXP	text_6: pos = [0,0]
+31.516380000000936	EXP	text_6: size = undefined
+31.516380000000936	EXP	text_6: ori = null
+31.516380000000936	EXP	text_6: opacity = 1
+31.516380000000936	EXP	text_6: depth = null
+31.516380000000936	EXP	text_6: clipMask = null
+31.516380000000936	EXP	text_6: boundingBox = {"x":0,"y":0,"width":0,"height":0,"type":1}
+31.516380000000936	EXP	text_6: text = +
+31.516380000000936	EXP	text_6: alignHoriz = center
+31.516380000000936	EXP	text_6: alignVert = center
+31.516380000000936	EXP	text_6: flipHoriz = null
+31.516380000000936	EXP	text_6: flipVert = null
+31.516380000000936	EXP	text_6: font = Arial
+31.516380000000936	EXP	text_6: height = 0.05
+31.516380000000936	EXP	text_6: wrapWidth = 1
+31.516380000000936	EXP	text_6: bold = null
+31.516380000000936	EXP	text_6: italic = null
+31.516380000000936	EXP	text_6: color = #FFFFFF
+31.516380000000936	EXP	text_6: contrast = 1
+31.516380000000936	EXP	trial_image: units = height
+31.516380000000936	EXP	trial_image: pos = [0,0]
+31.516380000000936	EXP	trial_image: size = [1,1]
+31.516380000000936	EXP	trial_image: ori = null
+31.516380000000936	EXP	trial_image: opacity = 1
+31.516380000000936	EXP	trial_image: depth = -1
+31.516380000000936	EXP	trial_image: clipMask = null
+31.516380000000936	EXP	trial_image: boundingBox = {"x":0,"y":0,"width":0,"height":0,"type":1}
+31.516380000000936	EXP	trial_image: image = undefined
+31.516380000000936	EXP	trial_image: mask = undefined
+31.516380000000936	EXP	trial_image: color = #ffffff
+31.516380000000936	EXP	trial_image: contrast = 1
+31.516380000000936	EXP	trial_image: texRes = 512
+31.516380000000936	EXP	trial_image: interpolate = true
+31.516380000000936	EXP	trial_image: flipHoriz = null
+31.516380000000936	EXP	trial_image: flipVert = null
+31.516380000000936	EXP	image_4: units = height
+31.516380000000936	EXP	image_4: pos = [0,0]
+31.516380000000936	EXP	image_4: size = [0.4,0.7320000000000001]
+31.516380000000936	EXP	image_4: ori = null
+31.516380000000936	EXP	image_4: opacity = 1
+31.516380000000936	EXP	image_4: depth = -1
+31.516380000000936	EXP	image_4: clipMask = null
+31.516380000000936	EXP	image_4: boundingBox = {"x":0,"y":0,"width":0,"height":0,"type":1}
+31.516380000000936	EXP	image_4: image = {}
+31.516380000000936	EXP	image_4: mask = undefined
+31.516380000000936	EXP	image_4: color = #ffffff
+31.516380000000936	EXP	image_4: contrast = 1
+31.516380000000936	EXP	image_4: texRes = 512
+31.516380000000936	EXP	image_4: interpolate = true
+31.516380000000936	EXP	image_4: flipHoriz = null
+31.516380000000936	EXP	image_4: flipVert = null
+31.516380000000936	EXP	image_2: units = height
+31.516380000000936	EXP	image_2: pos = [0,0]
+31.516380000000936	EXP	image_2: size = [1.3275000000000001,0.75]
+31.516380000000936	EXP	image_2: ori = null
+31.516380000000936	EXP	image_2: opacity = 1
+31.516380000000936	EXP	image_2: depth = -1
+31.516380000000936	EXP	image_2: clipMask = null
+31.516380000000936	EXP	image_2: boundingBox = {"x":0,"y":0,"width":0,"height":0,"type":1}
+31.516380000000936	EXP	image_2: image = undefined
+31.516380000000936	EXP	image_2: mask = undefined
+31.516380000000936	EXP	image_2: color = #ffffff
+31.516380000000936	EXP	image_2: contrast = 1
+31.516380000000936	EXP	image_2: texRes = 512
+31.516380000000936	EXP	image_2: interpolate = true
+31.516380000000936	EXP	image_2: flipHoriz = null
+31.516380000000936	EXP	image_2: flipVert = null
+31.516380000000936	EXP	text_8: units = height
+31.516380000000936	EXP	text_8: pos = [0,0]
+31.516380000000936	EXP	text_8: size = undefined
+31.516380000000936	EXP	text_8: ori = null
+31.516380000000936	EXP	text_8: opacity = 1
+31.516380000000936	EXP	text_8: depth = null
+31.516380000000936	EXP	text_8: clipMask = null
+31.516380000000936	EXP	text_8: boundingBox = {"x":0,"y":0,"width":0,"height":0,"type":1}
+31.516380000000936	EXP	text_8: text = +
+31.516380000000936	EXP	text_8: alignHoriz = center
+31.516380000000936	EXP	text_8: alignVert = center
+31.516380000000936	EXP	text_8: flipHoriz = null
+31.516380000000936	EXP	text_8: flipVert = null
+31.516380000000936	EXP	text_8: font = Arial
+31.516380000000936	EXP	text_8: height = 0.05
+31.516380000000936	EXP	text_8: wrapWidth = 1
+31.516380000000936	EXP	text_8: bold = null
+31.516380000000936	EXP	text_8: italic = null
+31.516380000000936	EXP	text_8: color = #FFFFFF
+31.516380000000936	EXP	text_8: contrast = 1
+31.516380000000936	EXP	image: units = height
+31.516380000000936	EXP	image: pos = [0,0]
+31.516380000000936	EXP	image: size = [1,1]
+31.516380000000936	EXP	image: ori = null
+31.516380000000936	EXP	image: opacity = 1
+31.516380000000936	EXP	image: depth = -1
+31.516380000000936	EXP	image: clipMask = null
+31.516380000000936	EXP	image: boundingBox = {"x":0,"y":0,"width":0,"height":0,"type":1}
+31.516380000000936	EXP	image: image = undefined
+31.516380000000936	EXP	image: mask = undefined
+31.516380000000936	EXP	image: color = #ffffff
+31.516380000000936	EXP	image: contrast = 1
+31.516380000000936	EXP	image: texRes = 512
+31.516380000000936	EXP	image: interpolate = true
+31.516380000000936	EXP	image: flipHoriz = null
+31.516380000000936	EXP	image: flipVert = null
+31.516380000000936	EXP	image_3: units = height
+31.516380000000936	EXP	image_3: pos = [0,0]
+31.516380000000936	EXP	image_3: size = [1.3275000000000001,0.75]
+31.516380000000936	EXP	image_3: ori = null
+31.516380000000936	EXP	image_3: opacity = 1
+31.516380000000936	EXP	image_3: depth = -1
+31.516380000000936	EXP	image_3: clipMask = null
+31.516380000000936	EXP	image_3: boundingBox = {"x":0,"y":0,"width":0,"height":0,"type":1}
+31.516380000000936	EXP	image_3: image = undefined
+31.516380000000936	EXP	image_3: mask = undefined
+31.516380000000936	EXP	image_3: color = #ffffff
+31.516380000000936	EXP	image_3: contrast = 1
+31.516380000000936	EXP	image_3: texRes = 512
+31.516380000000936	EXP	image_3: interpolate = true
+31.516380000000936	EXP	image_3: flipHoriz = null
+31.516380000000936	EXP	image_3: flipVert = null
+31.516380000000936	EXP	Pinstructions_imageR2: units = height
+31.516380000000936	EXP	Pinstructions_imageR2: pos = [0,0]
+31.516380000000936	EXP	Pinstructions_imageR2: size = [1.3275000000000001,0.75]
+31.516380000000936	EXP	Pinstructions_imageR2: ori = null
+31.516380000000936	EXP	Pinstructions_imageR2: opacity = 1
+31.516380000000936	EXP	Pinstructions_imageR2: depth = -1
+31.516380000000936	EXP	Pinstructions_imageR2: clipMask = null
+31.516380000000936	EXP	Pinstructions_imageR2: boundingBox = {"x":0,"y":0,"width":0,"height":0,"type":1}
+31.516380000000936	EXP	Pinstructions_imageR2: image = undefined
+31.516380000000936	EXP	Pinstructions_imageR2: mask = undefined
+31.516380000000936	EXP	Pinstructions_imageR2: color = #ffffff
+31.516380000000936	EXP	Pinstructions_imageR2: contrast = 1
+31.516380000000936	EXP	Pinstructions_imageR2: texRes = 512
+31.516380000000936	EXP	Pinstructions_imageR2: interpolate = true
+31.516380000000936	EXP	Pinstructions_imageR2: flipHoriz = null
+31.516380000000936	EXP	Pinstructions_imageR2: flipVert = null
+31.516380000000936	EXP	text_3: units = height
+31.516380000000936	EXP	text_3: pos = [0,0]
+31.516380000000936	EXP	text_3: size = undefined
+31.516380000000936	EXP	text_3: ori = null
+31.516380000000936	EXP	text_3: opacity = 1
+31.516380000000936	EXP	text_3: depth = -1
+31.516380000000936	EXP	text_3: clipMask = null
+31.516380000000936	EXP	text_3: boundingBox = {"x":0,"y":0,"width":0,"height":0,"type":1}
+31.516380000000936	EXP	text_3: text = +
+31.516380000000936	EXP	text_3: alignHoriz = center
+31.516380000000936	EXP	text_3: alignVert = center
+31.516380000000936	EXP	text_3: flipHoriz = null
+31.516380000000936	EXP	text_3: flipVert = null
+31.516380000000936	EXP	text_3: font = Arial
+31.516380000000936	EXP	text_3: height = 0.05
+31.516380000000936	EXP	text_3: wrapWidth = 1
+31.516380000000936	EXP	text_3: bold = null
+31.516380000000936	EXP	text_3: italic = null
+31.516380000000936	EXP	text_3: color = #FFFFFF
+31.516380000000936	EXP	text_3: contrast = 1
+31.516380000000936	EXP	text_5: units = height
+31.516380000000936	EXP	text_5: pos = [0,0]
+31.516380000000936	EXP	text_5: size = undefined
+31.516380000000936	EXP	text_5: ori = null
+31.516380000000936	EXP	text_5: opacity = 1
+31.516380000000936	EXP	text_5: depth = null
+31.516380000000936	EXP	text_5: clipMask = null
+31.516380000000936	EXP	text_5: boundingBox = {"x":0,"y":0,"width":0,"height":0,"type":1}
+31.516380000000936	EXP	text_5: text = +
+31.516380000000936	EXP	text_5: alignHoriz = center
+31.516380000000936	EXP	text_5: alignVert = center
+31.516380000000936	EXP	text_5: flipHoriz = null
+31.516380000000936	EXP	text_5: flipVert = null
+31.516380000000936	EXP	text_5: font = Arial
+31.516380000000936	EXP	text_5: height = 0.05
+31.516380000000936	EXP	text_5: wrapWidth = 1
+31.516380000000936	EXP	text_5: bold = null
+31.516380000000936	EXP	text_5: italic = null
+31.516380000000936	EXP	text_5: color = #FFFFFF
+31.516380000000936	EXP	text_5: contrast = 1
+31.516380000000936	EXP	prac_image: units = height
+31.516380000000936	EXP	prac_image: pos = [0,0]
+31.516380000000936	EXP	prac_image: size = [1,1]
+31.516380000000936	EXP	prac_image: ori = null
+31.516380000000936	EXP	prac_image: opacity = 1
+31.516380000000936	EXP	prac_image: depth = -1
+31.516380000000936	EXP	prac_image: clipMask = null
+31.516380000000936	EXP	prac_image: boundingBox = {"x":0,"y":0,"width":0,"height":0,"type":1}
+31.516380000000936	EXP	prac_image: image = undefined
+31.516380000000936	EXP	prac_image: mask = undefined
+31.516380000000936	EXP	prac_image: color = #ffffff
+31.516380000000936	EXP	prac_image: contrast = 1
+31.516380000000936	EXP	prac_image: texRes = 512
+31.516380000000936	EXP	prac_image: interpolate = true
+31.516380000000936	EXP	prac_image: flipHoriz = null
+31.516380000000936	EXP	prac_image: flipVert = null
+31.516380000000936	EXP	imFeedback: units = height
+31.516380000000936	EXP	imFeedback: pos = [0,0]
+31.516380000000936	EXP	imFeedback: size = [0.25,0.25]
+31.516380000000936	EXP	imFeedback: ori = null
+31.516380000000936	EXP	imFeedback: opacity = 1
+31.516380000000936	EXP	imFeedback: depth = -1
+31.516380000000936	EXP	imFeedback: clipMask = null
+31.516380000000936	EXP	imFeedback: boundingBox = {"x":0,"y":0,"width":0,"height":0,"type":1}
+31.516380000000936	EXP	imFeedback: image = undefined
+31.516380000000936	EXP	imFeedback: mask = undefined
+31.516380000000936	EXP	imFeedback: color = #ffffff
+31.516380000000936	EXP	imFeedback: contrast = 1
+31.516380000000936	EXP	imFeedback: texRes = 512
+31.516380000000936	EXP	imFeedback: interpolate = true
+31.516380000000936	EXP	imFeedback: flipHoriz = null
+31.516380000000936	EXP	imFeedback: flipVert = null
+31.516380000000936	EXP	feedback_msg: units = height
+31.516380000000936	EXP	feedback_msg: pos = [0,-0.25]
+31.516380000000936	EXP	feedback_msg: size = undefined
+31.516380000000936	EXP	feedback_msg: ori = null
+31.516380000000936	EXP	feedback_msg: opacity = 1
+31.516380000000936	EXP	feedback_msg: depth = -2
+31.516380000000936	EXP	feedback_msg: clipMask = null
+31.516380000000936	EXP	feedback_msg: boundingBox = {"x":0,"y":0,"width":0,"height":0,"type":1}
+31.516380000000936	EXP	feedback_msg: text = default text
+31.516380000000936	EXP	feedback_msg: alignHoriz = center
+31.516380000000936	EXP	feedback_msg: alignVert = center
+31.516380000000936	EXP	feedback_msg: flipHoriz = null
+31.516380000000936	EXP	feedback_msg: flipVert = null
+31.516380000000936	EXP	feedback_msg: font = Arial
+31.516380000000936	EXP	feedback_msg: height = 0.05
+31.516380000000936	EXP	feedback_msg: wrapWidth = 1
+31.516380000000936	EXP	feedback_msg: bold = null
+31.516380000000936	EXP	feedback_msg: italic = null
+31.516380000000936	EXP	feedback_msg: color = #000000
+31.516380000000936	EXP	feedback_msg: contrast = 1
+31.516380000000936	EXP	text_7: units = height
+31.516380000000936	EXP	text_7: pos = [0,0]
+31.516380000000936	EXP	text_7: size = undefined
+31.516380000000936	EXP	text_7: ori = null
+31.516380000000936	EXP	text_7: opacity = 1
+31.516380000000936	EXP	text_7: depth = null
+31.516380000000936	EXP	text_7: clipMask = null
+31.516380000000936	EXP	text_7: boundingBox = {"x":0,"y":0,"width":0,"height":0,"type":1}
+31.516380000000936	EXP	text_7: text = Great Job!
+
+Now we are going to play the real game. 
+
+Press Space to see the instructions again.
+
+
+31.516380000000936	EXP	text_7: alignHoriz = center
+31.516380000000936	EXP	text_7: alignVert = center
+31.516380000000936	EXP	text_7: flipHoriz = null
+31.516380000000936	EXP	text_7: flipVert = null
+31.516380000000936	EXP	text_7: font = Arial
+31.516380000000936	EXP	text_7: height = 0.05
+31.516380000000936	EXP	text_7: wrapWidth = 1
+31.516380000000936	EXP	text_7: bold = null
+31.516380000000936	EXP	text_7: italic = null
+31.516380000000936	EXP	text_7: color = #000000
+31.516380000000936	EXP	text_7: contrast = 1
+31.516380000000936	EXP	instructions_imageR2: units = height
+31.516380000000936	EXP	instructions_imageR2: pos = [0,0]
+31.516380000000936	EXP	instructions_imageR2: size = [1.3275000000000001,0.75]
+31.516380000000936	EXP	instructions_imageR2: ori = null
+31.516380000000936	EXP	instructions_imageR2: opacity = 1
+31.516380000000936	EXP	instructions_imageR2: depth = -1
+31.516380000000936	EXP	instructions_imageR2: clipMask = null
+31.516380000000936	EXP	instructions_imageR2: boundingBox = {"x":0,"y":0,"width":0,"height":0,"type":1}
+31.516380000000936	EXP	instructions_imageR2: image = undefined
+31.516380000000936	EXP	instructions_imageR2: mask = undefined
+31.516380000000936	EXP	instructions_imageR2: color = #ffffff
+31.516380000000936	EXP	instructions_imageR2: contrast = 1
+31.516380000000936	EXP	instructions_imageR2: texRes = 512
+31.516380000000936	EXP	instructions_imageR2: interpolate = true
+31.516380000000936	EXP	instructions_imageR2: flipHoriz = null
+31.516380000000936	EXP	instructions_imageR2: flipVert = null
+31.516380000000936	EXP	text_4: units = height
+31.516380000000936	EXP	text_4: pos = [0,0]
+31.516380000000936	EXP	text_4: size = undefined
+31.516380000000936	EXP	text_4: ori = null
+31.516380000000936	EXP	text_4: opacity = 1
+31.516380000000936	EXP	text_4: depth = -1
+31.516380000000936	EXP	text_4: clipMask = null
+31.516380000000936	EXP	text_4: boundingBox = {"x":0,"y":0,"width":0,"height":0,"type":1}
+31.516380000000936	EXP	text_4: text = +
+31.516380000000936	EXP	text_4: alignHoriz = center
+31.516380000000936	EXP	text_4: alignVert = center
+31.516380000000936	EXP	text_4: flipHoriz = null
+31.516380000000936	EXP	text_4: flipVert = null
+31.516380000000936	EXP	text_4: font = Arial
+31.516380000000936	EXP	text_4: height = 0.05
+31.516380000000936	EXP	text_4: wrapWidth = 1
+31.516380000000936	EXP	text_4: bold = null
+31.516380000000936	EXP	text_4: italic = null
+31.516380000000936	EXP	text_4: color = #FFFFFF
+31.516380000000936	EXP	text_4: contrast = 1
+31.516380000000936	EXP	text_6: units = height
+31.516380000000936	EXP	text_6: pos = [0,0]
+31.516380000000936	EXP	text_6: size = undefined
+31.516380000000936	EXP	text_6: ori = null
+31.516380000000936	EXP	text_6: opacity = 1
+31.516380000000936	EXP	text_6: depth = null
+31.516380000000936	EXP	text_6: clipMask = null
+31.516380000000936	EXP	text_6: boundingBox = {"x":0,"y":0,"width":0,"height":0,"type":1}
+31.516380000000936	EXP	text_6: text = +
+31.516380000000936	EXP	text_6: alignHoriz = center
+31.516380000000936	EXP	text_6: alignVert = center
+31.516380000000936	EXP	text_6: flipHoriz = null
+31.516380000000936	EXP	text_6: flipVert = null
+31.516380000000936	EXP	text_6: font = Arial
+31.516380000000936	EXP	text_6: height = 0.05
+31.516380000000936	EXP	text_6: wrapWidth = 1
+31.516380000000936	EXP	text_6: bold = null
+31.516380000000936	EXP	text_6: italic = null
+31.516380000000936	EXP	text_6: color = #FFFFFF
+31.516380000000936	EXP	text_6: contrast = 1
+31.516380000000936	EXP	trial_image: units = height
+31.516380000000936	EXP	trial_image: pos = [0,0]
+31.516380000000936	EXP	trial_image: size = [1,1]
+31.516380000000936	EXP	trial_image: ori = null
+31.516380000000936	EXP	trial_image: opacity = 1
+31.516380000000936	EXP	trial_image: depth = -1
+31.516380000000936	EXP	trial_image: clipMask = null
+31.516380000000936	EXP	trial_image: boundingBox = {"x":0,"y":0,"width":0,"height":0,"type":1}
+31.516380000000936	EXP	trial_image: image = undefined
+31.516380000000936	EXP	trial_image: mask = undefined
+31.516380000000936	EXP	trial_image: color = #ffffff
+31.516380000000936	EXP	trial_image: contrast = 1
+31.516380000000936	EXP	trial_image: texRes = 512
+31.516380000000936	EXP	trial_image: interpolate = true
+31.516380000000936	EXP	trial_image: flipHoriz = null
+31.516380000000936	EXP	trial_image: flipVert = null
+31.516380000000936	EXP	instructions_imageR1: units = height
+31.516380000000936	EXP	instructions_imageR1: pos = [0,0]
+31.516380000000936	EXP	instructions_imageR1: size = [1.3275000000000001,0.75]
+31.516380000000936	EXP	instructions_imageR1: ori = null
+31.516380000000936	EXP	instructions_imageR1: opacity = 1
+31.516380000000936	EXP	instructions_imageR1: depth = -1
+31.516380000000936	EXP	instructions_imageR1: clipMask = null
+31.516380000000936	EXP	instructions_imageR1: boundingBox = {"x":0,"y":0,"width":0,"height":0,"type":1}
+31.516380000000936	EXP	instructions_imageR1: image = undefined
+31.516380000000936	EXP	instructions_imageR1: mask = undefined
+31.516380000000936	EXP	instructions_imageR1: color = #ffffff
+31.516380000000936	EXP	instructions_imageR1: contrast = 1
+31.516380000000936	EXP	instructions_imageR1: texRes = 512
+31.516380000000936	EXP	instructions_imageR1: interpolate = true
+31.516380000000936	EXP	instructions_imageR1: flipHoriz = null
+31.516380000000936	EXP	instructions_imageR1: flipVert = null
+31.516380000000936	EXP	text_2: units = height
+31.516380000000936	EXP	text_2: pos = [0,0]
+31.516380000000936	EXP	text_2: size = undefined
+31.516380000000936	EXP	text_2: ori = null
+31.516380000000936	EXP	text_2: opacity = 1
+31.516380000000936	EXP	text_2: depth = -1
+31.516380000000936	EXP	text_2: clipMask = null
+31.516380000000936	EXP	text_2: boundingBox = {"x":0,"y":0,"width":0,"height":0,"type":1}
+31.516380000000936	EXP	text_2: text = +
+31.516380000000936	EXP	text_2: alignHoriz = center
+31.516380000000936	EXP	text_2: alignVert = center
+31.516380000000936	EXP	text_2: flipHoriz = null
+31.516380000000936	EXP	text_2: flipVert = null
+31.516380000000936	EXP	text_2: font = Arial
+31.516380000000936	EXP	text_2: height = 0.05
+31.516380000000936	EXP	text_2: wrapWidth = 1
+31.516380000000936	EXP	text_2: bold = null
+31.516380000000936	EXP	text_2: italic = null
+31.516380000000936	EXP	text_2: color = #FFFFFF
+31.516380000000936	EXP	text_2: contrast = 1
+31.516380000000936	EXP	text_6: units = height
+31.516380000000936	EXP	text_6: pos = [0,0]
+31.516380000000936	EXP	text_6: size = undefined
+31.516380000000936	EXP	text_6: ori = null
+31.516380000000936	EXP	text_6: opacity = 1
+31.516380000000936	EXP	text_6: depth = null
+31.516380000000936	EXP	text_6: clipMask = null
+31.516380000000936	EXP	text_6: boundingBox = {"x":0,"y":0,"width":0,"height":0,"type":1}
+31.516380000000936	EXP	text_6: text = +
+31.516380000000936	EXP	text_6: alignHoriz = center
+31.516380000000936	EXP	text_6: alignVert = center
+31.516380000000936	EXP	text_6: flipHoriz = null
+31.516380000000936	EXP	text_6: flipVert = null
+31.516380000000936	EXP	text_6: font = Arial
+31.516380000000936	EXP	text_6: height = 0.05
+31.516380000000936	EXP	text_6: wrapWidth = 1
+31.516380000000936	EXP	text_6: bold = null
+31.516380000000936	EXP	text_6: italic = null
+31.516380000000936	EXP	text_6: color = #FFFFFF
+31.516380000000936	EXP	text_6: contrast = 1
+31.516380000000936	EXP	trial_image: units = height
+31.516380000000936	EXP	trial_image: pos = [0,0]
+31.516380000000936	EXP	trial_image: size = [1,1]
+31.516380000000936	EXP	trial_image: ori = null
+31.516380000000936	EXP	trial_image: opacity = 1
+31.516380000000936	EXP	trial_image: depth = -1
+31.516380000000936	EXP	trial_image: clipMask = null
+31.516380000000936	EXP	trial_image: boundingBox = {"x":0,"y":0,"width":0,"height":0,"type":1}
+31.516380000000936	EXP	trial_image: image = undefined
+31.516380000000936	EXP	trial_image: mask = undefined
+31.516380000000936	EXP	trial_image: color = #ffffff
+31.516380000000936	EXP	trial_image: contrast = 1
+31.516380000000936	EXP	trial_image: texRes = 512
+31.516380000000936	EXP	trial_image: interpolate = true
+31.516380000000936	EXP	trial_image: flipHoriz = null
+31.516380000000936	EXP	trial_image: flipVert = null
+31.516380000000936	EXP	instructions_imageR2: units = height
+31.516380000000936	EXP	instructions_imageR2: pos = [0,0]
+31.516380000000936	EXP	instructions_imageR2: size = [1.3275000000000001,0.75]
+31.516380000000936	EXP	instructions_imageR2: ori = null
+31.516380000000936	EXP	instructions_imageR2: opacity = 1
+31.516380000000936	EXP	instructions_imageR2: depth = -1
+31.516380000000936	EXP	instructions_imageR2: clipMask = null
+31.516380000000936	EXP	instructions_imageR2: boundingBox = {"x":0,"y":0,"width":0,"height":0,"type":1}
+31.516380000000936	EXP	instructions_imageR2: image = undefined
+31.516380000000936	EXP	instructions_imageR2: mask = undefined
+31.516380000000936	EXP	instructions_imageR2: color = #ffffff
+31.516380000000936	EXP	instructions_imageR2: contrast = 1
+31.516380000000936	EXP	instructions_imageR2: texRes = 512
+31.516380000000936	EXP	instructions_imageR2: interpolate = true
+31.516380000000936	EXP	instructions_imageR2: flipHoriz = null
+31.516380000000936	EXP	instructions_imageR2: flipVert = null
+31.516380000000936	EXP	text_4: units = height
+31.516380000000936	EXP	text_4: pos = [0,0]
+31.516380000000936	EXP	text_4: size = undefined
+31.516380000000936	EXP	text_4: ori = null
+31.516380000000936	EXP	text_4: opacity = 1
+31.516380000000936	EXP	text_4: depth = -1
+31.516380000000936	EXP	text_4: clipMask = null
+31.516380000000936	EXP	text_4: boundingBox = {"x":0,"y":0,"width":0,"height":0,"type":1}
+31.516380000000936	EXP	text_4: text = +
+31.516380000000936	EXP	text_4: alignHoriz = center
+31.516380000000936	EXP	text_4: alignVert = center
+31.516380000000936	EXP	text_4: flipHoriz = null
+31.516380000000936	EXP	text_4: flipVert = null
+31.516380000000936	EXP	text_4: font = Arial
+31.516380000000936	EXP	text_4: height = 0.05
+31.516380000000936	EXP	text_4: wrapWidth = 1
+31.516380000000936	EXP	text_4: bold = null
+31.516380000000936	EXP	text_4: italic = null
+31.516380000000936	EXP	text_4: color = #FFFFFF
+31.516380000000936	EXP	text_4: contrast = 1
+31.516380000000936	EXP	text_6: units = height
+31.516380000000936	EXP	text_6: pos = [0,0]
+31.516380000000936	EXP	text_6: size = undefined
+31.516380000000936	EXP	text_6: ori = null
+31.516380000000936	EXP	text_6: opacity = 1
+31.516380000000936	EXP	text_6: depth = null
+31.516380000000936	EXP	text_6: clipMask = null
+31.516380000000936	EXP	text_6: boundingBox = {"x":0,"y":0,"width":0,"height":0,"type":1}
+31.516380000000936	EXP	text_6: text = +
+31.516380000000936	EXP	text_6: alignHoriz = center
+31.516380000000936	EXP	text_6: alignVert = center
+31.516380000000936	EXP	text_6: flipHoriz = null
+31.516380000000936	EXP	text_6: flipVert = null
+31.516380000000936	EXP	text_6: font = Arial
+31.516380000000936	EXP	text_6: height = 0.05
+31.516380000000936	EXP	text_6: wrapWidth = 1
+31.516380000000936	EXP	text_6: bold = null
+31.516380000000936	EXP	text_6: italic = null
+31.516380000000936	EXP	text_6: color = #FFFFFF
+31.516380000000936	EXP	text_6: contrast = 1
+31.516380000000936	EXP	trial_image: units = height
+31.516380000000936	EXP	trial_image: pos = [0,0]
+31.516380000000936	EXP	trial_image: size = [1,1]
+31.516380000000936	EXP	trial_image: ori = null
+31.516380000000936	EXP	trial_image: opacity = 1
+31.516380000000936	EXP	trial_image: depth = -1
+31.516380000000936	EXP	trial_image: clipMask = null
+31.516380000000936	EXP	trial_image: boundingBox = {"x":0,"y":0,"width":0,"height":0,"type":1}
+31.516380000000936	EXP	trial_image: image = undefined
+31.516380000000936	EXP	trial_image: mask = undefined
+31.516380000000936	EXP	trial_image: color = #ffffff
+31.516380000000936	EXP	trial_image: contrast = 1
+31.516380000000936	EXP	trial_image: texRes = 512
+31.516380000000936	EXP	trial_image: interpolate = true
+31.516380000000936	EXP	trial_image: flipHoriz = null
+31.516380000000936	EXP	trial_image: flipVert = null
+31.516380000000936	EXP	image_5: units = height
+31.516380000000936	EXP	image_5: pos = [0,0]
+31.516380000000936	EXP	image_5: size = [0.8,0.5]
+31.516380000000936	EXP	image_5: ori = null
+31.516380000000936	EXP	image_5: opacity = 1
+31.516380000000936	EXP	image_5: depth = null
+31.516380000000936	EXP	image_5: clipMask = null
+31.516380000000936	EXP	image_5: boundingBox = {"x":0,"y":0,"width":0,"height":0,"type":1}
+31.516380000000936	EXP	image_5: image = {}
+31.516380000000936	EXP	image_5: mask = undefined
+31.516380000000936	EXP	image_5: color = #ffffff
+31.516380000000936	EXP	image_5: contrast = 1
+31.516380000000936	EXP	image_5: texRes = 512
+31.516380000000936	EXP	image_5: interpolate = true
+31.516380000000936	EXP	image_5: flipHoriz = null
+31.516380000000936	EXP	image_5: flipVert = null
+31.516380000000936	EXP	ccimage: size = [0.42800000000000005,0.2699]
+31.516380000000936	EXP	text_top: autoDraw = true
+31.516380000000936	EXP	text_bottom: autoDraw = true
+31.516380000000936	EXP	ccimage: autoDraw = true
+36.63931500000763	DATA	Keydown: ArrowRight
+36.65438500000164	EXP	ccimage: size = [0.428856,0.2699]
+36.89510500000324	DATA	Keydown: ArrowRight
+36.903925000005984	EXP	ccimage: size = [0.433136,0.2699]
+37.122320000009495	DATA	Keydown: ArrowRight
+37.137040000001434	EXP	ccimage: size = [0.437416,0.2699]
+37.34488499999861	DATA	Keydown: ArrowRight
+37.35424500000954	EXP	ccimage: size = [0.44169600000000003,0.2699]
+37.5494250000047	DATA	Keydown: ArrowRight
+37.55709499999648	EXP	ccimage: size = [0.44597600000000004,0.2699]
+37.754925000001094	DATA	Keydown: ArrowRight
+37.770375000007334	EXP	ccimage: size = [0.45025600000000005,0.2699]
+37.97101000000839	DATA	Keydown: ArrowRight
+37.988689999998314	EXP	ccimage: size = [0.45453600000000005,0.2699]
+38.18826999999874	DATA	Keydown: ArrowRight
+38.20151500000793	EXP	ccimage: size = [0.45881600000000006,0.2699]
+38.40825999999652	DATA	Keydown: ArrowRight
+38.421985000008135	EXP	ccimage: size = [0.46309600000000006,0.2699]
+38.75659000000451	DATA	Keydown: ArrowRight
+38.77045999999973	EXP	ccimage: size = [0.46737600000000007,0.2699]
+39.03164000000106	DATA	Keydown: ArrowRight
+39.03671500000928	EXP	ccimage: size = [0.4716560000000001,0.2699]
+39.27877000000444	DATA	Keydown: ArrowRight
+39.287295000001905	EXP	ccimage: size = [0.475936,0.2699]
+39.52083000000857	DATA	Keydown: ArrowRight
+39.53861499999766	EXP	ccimage: size = [0.480216,0.2699]
+39.72444499999983	DATA	Keydown: ArrowRight
+39.734425000002375	EXP	ccimage: size = [0.484496,0.2699]
+39.939689999999246	DATA	Keydown: ArrowRight
+39.954255000004196	EXP	ccimage: size = [0.488776,0.2699]
+40.12782500000321	DATA	Keydown: ArrowRight
+40.14072500000475	EXP	ccimage: size = [0.493056,0.2699]
+40.36529000000155	DATA	Keydown: ArrowRight
+40.36995500000194	EXP	ccimage: size = [0.497336,0.2699]
+40.56116500000644	DATA	Keydown: ArrowRight
+40.570040000005974	EXP	ccimage: size = [0.5016160000000001,0.2699]
+40.765360000004875	DATA	Keydown: ArrowRight
+40.770604999997886	EXP	ccimage: size = [0.505896,0.2699]
+41.00299000000814	DATA	Keydown: ArrowRight
+41.02096999999776	EXP	ccimage: size = [0.5101760000000001,0.2699]
+41.261020000005374	DATA	Keydown: ArrowRight
+41.282340000005206	EXP	ccimage: size = [0.514456,0.2699]
+41.48863500000152	DATA	Keydown: ArrowRight
+41.50428999999713	EXP	ccimage: size = [0.5187360000000001,0.2699]
+41.69512000000395	DATA	Keydown: ArrowRight
+41.70454500000051	EXP	ccimage: size = [0.523016,0.2699]
+41.95094000000972	DATA	Keydown: ArrowRight
+41.95677499999874	EXP	ccimage: size = [0.5272960000000001,0.2699]
+42.149105000004056	DATA	Keydown: ArrowRight
+42.15509500000917	EXP	ccimage: size = [0.531576,0.2699]
+42.370980000006966	DATA	Keydown: ArrowRight
+42.3871300000028	EXP	ccimage: size = [0.5358560000000001,0.2699]
+42.594315000009374	DATA	Keydown: ArrowRight
+42.60960000001069	EXP	ccimage: size = [0.5401360000000001,0.2699]
+42.817210000008345	DATA	Keydown: ArrowRight
+42.82145499999751	EXP	ccimage: size = [0.544416,0.2699]
+43.05673999999999	DATA	Keydown: ArrowRight
+43.07604500000889	EXP	ccimage: size = [0.5486960000000001,0.2699]
+43.41069000000425	DATA	Keydown: ArrowRight
+43.42065500000899	EXP	ccimage: size = [0.552976,0.2699]
+45.23136499999964	DATA	Keydown: ArrowDown
+45.236490000010235	EXP	ccimage: size = [0.552976,0.2693602]
+45.4932550000085	DATA	Keydown: ArrowDown
+45.50321000000986	EXP	ccimage: size = [0.552976,0.2666612]
+45.72122500000114	DATA	Keydown: ArrowDown
+45.73616500000935	EXP	ccimage: size = [0.552976,0.2639622]
+45.936870000005	DATA	Keydown: ArrowDown
+45.95860500000708	EXP	ccimage: size = [0.552976,0.2612632]
+46.16035499999998	DATA	Keydown: ArrowDown
+46.17167500000505	EXP	ccimage: size = [0.552976,0.25856419999999997]
+46.36008500000753	DATA	Keydown: ArrowDown
+46.369839999999385	EXP	ccimage: size = [0.552976,0.25586519999999996]
+46.566854999997304	DATA	Keydown: ArrowDown
+46.57127000000037	EXP	ccimage: size = [0.552976,0.25316619999999995]
+47.0929049999977	DATA	Keydown: ArrowDown
+47.103549999999814	EXP	ccimage: size = [0.552976,0.2526264]
+47.89323500001046	DATA	Keydown: ArrowDown
+47.90295000000333	EXP	ccimage: size = [0.552976,0.2520866]
+48.22815000000992	DATA	Keydown: ArrowDown
+48.23732500000915	EXP	ccimage: size = [0.552976,0.2493876]
+49.603100000007544	DATA	Keydown: ArrowDown
+49.62480000000505	EXP	ccimage: size = [0.552976,0.2488478]
+49.92541000001074	DATA	Keydown: ArrowDown
+49.93532000000414	EXP	ccimage: size = [0.552976,0.2461488]
+50.22687500000757	DATA	Keydown: ArrowDown
+50.23641500000667	EXP	ccimage: size = [0.552976,0.2434498]
+50.493054999999	DATA	Keydown: ArrowDown
+50.50249500000791	EXP	ccimage: size = [0.552976,0.2407508]
+50.73695500000031	DATA	Keydown: ArrowDown
+50.75790500000585	EXP	ccimage: size = [0.552976,0.23805179999999998]
+50.96374000000651	DATA	Keydown: ArrowDown
+50.97014499999932	EXP	ccimage: size = [0.552976,0.23535279999999997]
+51.192089999996824	DATA	Keydown: ArrowDown
+51.202134999999544	EXP	ccimage: size = [0.552976,0.2326538]
+51.40517500000715	DATA	Keydown: ArrowDown
+51.425190000009025	EXP	ccimage: size = [0.552976,0.2299548]
+51.653135000000475	DATA	Keydown: ArrowDown
+51.669370000003255	EXP	ccimage: size = [0.552976,0.22725579999999998]
+51.87199500000861	DATA	Keydown: ArrowDown
+51.891205000007176	EXP	ccimage: size = [0.552976,0.22455679999999997]
+52.11972000000242	DATA	Keydown: ArrowDown
+52.13521500000206	EXP	ccimage: size = [0.552976,0.22185779999999997]
+52.36684000000241	DATA	Keydown: ArrowDown
+52.37131000000227	EXP	ccimage: size = [0.552976,0.21915879999999996]
+52.58791000000201	DATA	Keydown: ArrowDown
+52.60232499999984	EXP	ccimage: size = [0.552976,0.21645979999999998]
+52.78987500000221	DATA	Keydown: ArrowDown
+52.80245499999728	EXP	ccimage: size = [0.552976,0.2137608]
+53.003020000003744	DATA	Keydown: ArrowDown
+53.02423999999883	EXP	ccimage: size = [0.552976,0.2110618]
+53.73145000000659	DATA	Keydown: ArrowUp
+53.735960000005434	EXP	ccimage: size = [0.552976,0.21160159999999997]
+53.9380000000092	DATA	Keydown: ArrowUp
+53.96572500000184	EXP	ccimage: size = [0.552976,0.21430059999999998]
+54.13665500000934	DATA	Keydown: ArrowUp
+54.15350000000035	EXP	ccimage: size = [0.552976,0.2169996]
+54.3758600000001	DATA	Keydown: ArrowUp
+54.38531500000681	EXP	ccimage: size = [0.552976,0.2196986]
+54.55347500000789	DATA	Keydown: ArrowUp
+54.57407499999681	EXP	ccimage: size = [0.552976,0.2223976]
+54.74805500000366	DATA	Keydown: ArrowUp
+54.752820000008796	EXP	ccimage: size = [0.552976,0.22509659999999998]
+54.95358500001021	DATA	Keydown: ArrowUp
+54.974480000004405	EXP	ccimage: size = [0.552976,0.2277956]
+55.153550000002724	DATA	Keydown: ArrowUp
+55.17465500000981	EXP	ccimage: size = [0.552976,0.2304946]
+55.37584999999672	DATA	Keydown: ArrowUp
+55.38552999999956	EXP	ccimage: size = [0.552976,0.2331936]
+55.603255000009085	DATA	Keydown: ArrowUp
+55.61853500000143	EXP	ccimage: size = [0.552976,0.2358926]
+55.809760000003735	DATA	Keydown: ArrowUp
+55.81826000000001	EXP	ccimage: size = [0.552976,0.23859160000000001]
+56.04152500000782	DATA	Keydown: ArrowUp
+56.05190500000026	EXP	ccimage: size = [0.552976,0.24129059999999997]
+56.241909999997006	DATA	Keydown: ArrowUp
+56.251994999998715	EXP	ccimage: size = [0.552976,0.24398959999999997]
+56.44763000000967	DATA	Keydown: ArrowUp
+56.4533400000073	EXP	ccimage: size = [0.552976,0.24668859999999998]
+56.65024000000267	DATA	Keydown: ArrowUp
+56.65373000000545	EXP	ccimage: size = [0.552976,0.2493876]
+56.85297000000719	DATA	Keydown: ArrowUp
+56.86867000001075	EXP	ccimage: size = [0.552976,0.2520866]
+57.0525900000066	DATA	Keydown: ArrowUp
+57.068585000000894	EXP	ccimage: size = [0.552976,0.2547856]
+57.252565000002505	DATA	Keydown: ArrowUp
+57.26863500000036	EXP	ccimage: size = [0.552976,0.2574846]
+57.44713500000944	DATA	Keydown: ArrowUp
+57.452644999997574	EXP	ccimage: size = [0.552976,0.26018359999999996]
+57.68534500000533	DATA	Keydown: ArrowUp
+57.70742500000051	EXP	ccimage: size = [0.552976,0.26288259999999997]
+57.90955500000564	DATA	Keydown: ArrowUp
+57.918579999997746	EXP	ccimage: size = [0.552976,0.2655816]
+58.13582500000484	DATA	Keydown: ArrowUp
+58.15208500000881	EXP	ccimage: size = [0.552976,0.2682806]
+58.37549500000023	DATA	Keydown: ArrowUp
+58.384915000002366	EXP	ccimage: size = [0.552976,0.2709796]
+58.60271000000648	DATA	Keydown: ArrowUp
+58.6177100000059	EXP	ccimage: size = [0.552976,0.2736786]
+58.84219500000472	DATA	Keydown: ArrowUp
+58.851720000006026	EXP	ccimage: size = [0.552976,0.2763776]
+59.10865000000922	DATA	Keydown: ArrowUp
+59.11881500000891	EXP	ccimage: size = [0.552976,0.2790766]
+59.31940500000201	DATA	Keydown: ArrowUp
+59.33501000000979	EXP	ccimage: size = [0.552976,0.2817756]
+59.52472500001022	DATA	Keydown: ArrowUp
+59.534700000003795	EXP	ccimage: size = [0.552976,0.28447459999999997]
+59.74066999999923	DATA	Keydown: ArrowUp
+59.75158999999985	EXP	ccimage: size = [0.552976,0.2871736]
+59.97556500000064	DATA	Keydown: ArrowUp
+59.98516500000551	EXP	ccimage: size = [0.552976,0.2898726]
+60.20515000000887	DATA	Keydown: ArrowUp
+60.218015000005835	EXP	ccimage: size = [0.552976,0.2925716]
+60.441560000006575	DATA	Keydown: ArrowUp
+60.451425000006566	EXP	ccimage: size = [0.552976,0.2952706]
+60.69051500000933	DATA	Keydown: ArrowUp
+60.7068050000089	EXP	ccimage: size = [0.552976,0.2979696]
+60.97523999999976	DATA	Keydown: ArrowUp
+60.98455500000273	EXP	ccimage: size = [0.552976,0.30066859999999995]
+61.21816000000399	DATA	Keydown: ArrowUp
+61.23990000000049	EXP	ccimage: size = [0.552976,0.30336759999999996]
+61.44170500000473	DATA	Keydown: ArrowUp
+61.45151500000793	EXP	ccimage: size = [0.552976,0.30606659999999997]
+61.65204000000085	DATA	Keydown: ArrowUp
+61.66798500000732	EXP	ccimage: size = [0.552976,0.3087656]
+61.871140000002924	DATA	Keydown: ArrowUp
+61.884070000000065	EXP	ccimage: size = [0.552976,0.3114646]
+62.418725000010454	DATA	Keydown: ArrowUp
+62.43990500000655	EXP	ccimage: size = [0.552976,0.31200439999999996]
+62.64127000000735	DATA	Keydown: ArrowUp
+62.65114500001073	EXP	ccimage: size = [0.552976,0.31470339999999997]
+62.85315999999875	DATA	Keydown: ArrowUp
+62.86810000000696	EXP	ccimage: size = [0.552976,0.3174024]
+63.041440000000875	DATA	Keydown: ArrowUp
+63.05153500000597	EXP	ccimage: size = [0.552976,0.3201014]
+63.257165000002715	DATA	Keydown: ArrowUp
+63.26807000000554	EXP	ccimage: size = [0.552976,0.3228004]
+63.852075000002515	DATA	Keydown: ArrowUp
+63.86765500000911	EXP	ccimage: size = [0.552976,0.32334019999999997]
+65.02939000001061	DATA	Keydown: ArrowUp
+65.03974500000186	EXP	ccimage: size = [0.552976,0.32387999999999995]
+65.4408800000092	DATA	Keydown: ArrowUp
+65.45060999999987	EXP	ccimage: size = [0.552976,0.32657899999999995]
+66.30601000000024	DATA	Keydown: ArrowUp
+66.31740500000888	EXP	ccimage: size = [0.552976,0.3271188]
+66.51772000000346	DATA	Keydown: ArrowUp
+66.53947000000335	EXP	ccimage: size = [0.552976,0.3298178]
+66.75284500000998	DATA	Keydown: ArrowUp
+66.76712499999849	EXP	ccimage: size = [0.552976,0.3325168]
+66.98839500000759	DATA	Keydown: ArrowUp
+67.01073500000348	EXP	ccimage: size = [0.552976,0.3352158]
+67.31749500001024	DATA	Keydown: ArrowUp
+67.33952000000863	EXP	ccimage: size = [0.552976,0.3379148]
+67.65136000000348	DATA	Keydown: ArrowUp
+67.67240000001038	EXP	ccimage: size = [0.552976,0.3406138]
+67.96789500000887	DATA	Keydown: ArrowUp
+67.98337500001071	EXP	ccimage: size = [0.552976,0.3433128]
+68.80759500000568	DATA	Keydown: ArrowUp
+68.81690000000526	EXP	ccimage: size = [0.552976,0.3438526]
+69.41833000000042	DATA	Keydown: ArrowUp
+69.43391500000143	EXP	ccimage: size = [0.552976,0.34439239999999993]
+77.84067499999946	DATA	Keydown:  
+77.86766499999794	EXP	ccimage: size = [0.552976,0.34439239999999993]
+77.86766499999794	EXP	text_top: autoDraw = null
+77.86766499999794	EXP	text_bottom: autoDraw = null
+77.86766499999794	EXP	ccimage: autoDraw = null
+77.86766499999794	EXP	prac_instr1: image = {}
+77.86766499999794	EXP	prac_instr1: autoDraw = true
+94.82120000000577	DATA	Keydown:  
+94.84073999999964	EXP	prac_instr1: autoDraw = null
+94.84073999999964	EXP	prac_instr2: autoDraw = true
+114.38899000000674	DATA	Keydown:  
+114.41603500000201	EXP	prac_instr2: autoDraw = null
+114.41603500000201	EXP	prac_instr3: autoDraw = true
+155.52878000000783	DATA	Keydown:  
+155.55715500000224	EXP	prac_instr3: autoDraw = null
+155.55715500000224	EXP	image_2: image = {}
+155.55715500000224	EXP	image_2: autoDraw = true
+184.3546900000074	DATA	Keydown:  
+184.3720650000032	EXP	image_2: autoDraw = null
+184.3720650000032	EXP	image: pos = [-0.224561684061788,0]
+184.3720650000032	EXP	image: size = [0.22346432000000002,0.22069696]
+184.3720650000032	EXP	image: image = {}
+184.3720650000032	EXP	text_8: autoDraw = true
+184.3720650000032	EXP	image: autoDraw = true
+202.28415000000678	DATA	Keydown: f
+202.31523500000185	EXP	text_8: autoDraw = null
+202.31523500000185	EXP	image: autoDraw = null
+202.31523500000185	EXP	image_3: image = {}
+202.31523500000185	EXP	image_3: autoDraw = true
+214.3504499999981	DATA	Keydown:  
+214.37920500000473	EXP	image_3: autoDraw = null
+214.37920500000473	EXP	Pinstructions_imageR1: image = {}
+214.37920500000473	EXP	Pinstructions_imageR1: autoDraw = true
+221.68858499999624	DATA	Keydown:  
+221.70586000000185	EXP	Pinstructions_imageR1: autoDraw = null
+221.70586000000185	EXP	text: color = #FFFFFF
+221.70586000000185	EXP	text: autoDraw = true
+223.35145499999635	EXP	text: autoDraw = null
+223.35145499999635	EXP	text: autoDraw = null
+223.35145499999635	EXP	text_5: color = #FFFFFF
+223.35145499999635	EXP	prac_image: pos = [-0.224561684061788,0]
+223.35145499999635	EXP	prac_image: size = [0.22346432000000002,0.22069696]
+223.35145499999635	EXP	prac_image: image = {}
+223.35145499999635	EXP	text_5: autoDraw = true
+223.35145499999635	EXP	prac_image: autoDraw = true
+227.3543750000099	EXP	text_5: autoDraw = null
+227.3543750000099	EXP	prac_image: autoDraw = null
+227.3543750000099	EXP	text_5: autoDraw = null
+227.3543750000099	EXP	prac_image: autoDraw = null
+227.3543750000099	EXP	imFeedback: image = {}
+227.3543750000099	EXP	feedback_msg: text = Oops, your cross response was right but the picture response was wrong.
+227.3543750000099	EXP	imFeedback: autoDraw = true
+227.3543750000099	EXP	feedback_msg: autoDraw = true
+228.52190500000142	DATA	Keydown: j
+229.35004499999923	EXP	imFeedback: autoDraw = null
+229.35004499999923	EXP	feedback_msg: autoDraw = null
+229.35004499999923	EXP	imFeedback: autoDraw = null
+229.35004499999923	EXP	feedback_msg: autoDraw = null
+229.35004499999923	EXP	text: color = #000000
+229.35004499999923	EXP	text: autoDraw = true
+230.69706000000588	EXP	text: autoDraw = null
+230.69706000000588	EXP	text: autoDraw = null
+230.69706000000588	EXP	text_5: color = #000000
+230.69706000000588	EXP	prac_image: pos = [-0.224561684061788,0]
+230.69706000000588	EXP	prac_image: size = [0.22346432000000002,0.22069696]
+230.69706000000588	EXP	prac_image: image = {}
+230.69706000000588	EXP	text_5: autoDraw = true
+230.69706000000588	EXP	prac_image: autoDraw = true
+232.51425000000745	DATA	Keydown: j
+234.69840500000282	EXP	text_5: autoDraw = null
+234.69840500000282	EXP	prac_image: autoDraw = null
+234.69840500000282	EXP	text_5: autoDraw = null
+234.69840500000282	EXP	prac_image: autoDraw = null
+234.69840500000282	EXP	imFeedback: image = {}
+234.69840500000282	EXP	feedback_msg: text = Oops, both responses were wrong.
+234.69840500000282	EXP	imFeedback: autoDraw = true
+234.69840500000282	EXP	feedback_msg: autoDraw = true
+236.6955949999974	EXP	imFeedback: autoDraw = null
+236.6955949999974	EXP	feedback_msg: autoDraw = null
+236.6955949999974	EXP	imFeedback: autoDraw = null
+236.6955949999974	EXP	feedback_msg: autoDraw = null
+236.6955949999974	EXP	text: color = #000000
+236.6955949999974	EXP	text: autoDraw = true
+238.2462499999965	EXP	text: autoDraw = null
+238.2462499999965	EXP	text: autoDraw = null
+238.2462499999965	EXP	text_5: color = #000000
+238.2462499999965	EXP	prac_image: pos = [-0.224561684061788,0]
+238.2462499999965	EXP	prac_image: size = [0.22346432000000002,0.22069696]
+238.2462499999965	EXP	prac_image: image = {}
+238.2462499999965	EXP	text_5: autoDraw = true
+238.2462499999965	EXP	prac_image: autoDraw = true
+241.3784949999972	DATA	Keydown: f
+242.24798500000907	EXP	text_5: autoDraw = null
+242.24798500000907	EXP	prac_image: autoDraw = null
+242.24798500000907	EXP	text_5: autoDraw = null
+242.24798500000907	EXP	prac_image: autoDraw = null
+242.24798500000907	EXP	imFeedback: image = {}
+242.24798500000907	EXP	feedback_msg: text = Oops, your cross response was right but the picture response was wrong.
+242.24798500000907	EXP	imFeedback: autoDraw = true
+242.24798500000907	EXP	feedback_msg: autoDraw = true
+244.24481000000378	EXP	imFeedback: autoDraw = null
+244.24481000000378	EXP	feedback_msg: autoDraw = null
+244.24481000000378	EXP	imFeedback: autoDraw = null
+244.24481000000378	EXP	feedback_msg: autoDraw = null
+244.24481000000378	EXP	text: color = #000000
+244.24481000000378	EXP	text: autoDraw = true
+245.8309500000032	EXP	text: autoDraw = null
+245.8309500000032	EXP	text: autoDraw = null
+245.8309500000032	EXP	text_5: color = #000000
+245.8309500000032	EXP	prac_image: pos = [-0.224561684061788,0]
+245.8309500000032	EXP	prac_image: size = [0.22346432000000002,0.22069696]
+245.8309500000032	EXP	prac_image: image = {}
+245.8309500000032	EXP	text_5: autoDraw = true
+245.8309500000032	EXP	prac_image: autoDraw = true
+249.4112049999967	DATA	Keydown: f
+249.8344550000038	EXP	text_5: autoDraw = null
+249.8344550000038	EXP	prac_image: autoDraw = null
+249.8344550000038	EXP	text_5: autoDraw = null
+249.8344550000038	EXP	prac_image: autoDraw = null
+249.8344550000038	EXP	imFeedback: image = {}
+249.8344550000038	EXP	feedback_msg: text = Well done!
+249.8344550000038	EXP	imFeedback: autoDraw = true
+249.8344550000038	EXP	feedback_msg: autoDraw = true
+251.8315799999982	EXP	imFeedback: autoDraw = null
+251.8315799999982	EXP	feedback_msg: autoDraw = null
+251.8315799999982	EXP	imFeedback: autoDraw = null
+251.8315799999982	EXP	feedback_msg: autoDraw = null
+251.8315799999982	EXP	text_7: autoDraw = true
+264.6530650000059	DATA	Keydown:  
+264.67022500000894	EXP	text_7: autoDraw = null
+264.67022500000894	EXP	instructions_imageR1: image = {}
+264.67022500000894	EXP	instructions_imageR1: autoDraw = true
+272.2824249999976	DATA	Keydown:  
+272.29671500000404	EXP	instructions_imageR1: autoDraw = null
+272.29671500000404	EXP	text_2: color = #FFFFFF
+272.29671500000404	EXP	text_2: autoDraw = true
+273.89480500000354	EXP	text_2: autoDraw = null
+273.89480500000354	EXP	text_2: autoDraw = null
+273.89480500000354	EXP	text_6: color = #FFFFFF
+273.89480500000354	EXP	trial_image: pos = [-0.224561684061788,0]
+273.89480500000354	EXP	trial_image: size = [0.22346432000000002,0.22069696]
+273.89480500000354	EXP	trial_image: image = {}
+273.89480500000354	EXP	text_6: autoDraw = true
+273.89480500000354	EXP	trial_image: autoDraw = true
+275.3746000000101	DATA	Keydown: j
+275.3957650000084	EXP	text_6: autoDraw = null
+275.3957650000084	EXP	trial_image: autoDraw = null
+275.3957650000084	EXP	text_2: color = #000000
+275.3957650000084	EXP	text_2: autoDraw = true
+276.9750500000082	EXP	text_2: autoDraw = null
+276.9750500000082	EXP	text_2: autoDraw = null
+276.9750500000082	EXP	text_6: color = #000000
+276.9750500000082	EXP	trial_image: pos = [-0.224561684061788,0]
+276.9750500000082	EXP	trial_image: size = [0.22346432000000002,0.22069696]
+276.9750500000082	EXP	trial_image: image = {}
+276.9750500000082	EXP	text_6: autoDraw = true
+276.9750500000082	EXP	trial_image: autoDraw = true
+278.36265500000445	DATA	Keydown: f
+278.3741050000099	EXP	text_6: autoDraw = null
+278.3741050000099	EXP	trial_image: autoDraw = null
+278.3741050000099	EXP	text_2: color = #000000
+278.3741050000099	EXP	text_2: autoDraw = true
+280.04094500000065	EXP	text_2: autoDraw = null
+280.04094500000065	EXP	text_2: autoDraw = null
+280.04094500000065	EXP	text_6: color = #000000
+280.04094500000065	EXP	trial_image: pos = [-0.224561684061788,0]
+280.04094500000065	EXP	trial_image: size = [0.22346432000000002,0.22069696]
+280.04094500000065	EXP	trial_image: image = {}
+280.04094500000065	EXP	text_6: autoDraw = true
+280.04094500000065	EXP	trial_image: autoDraw = true
+282.2135350000026	DATA	Keydown: f
+282.2282850000047	EXP	text_6: autoDraw = null
+282.2282850000047	EXP	trial_image: autoDraw = null
+282.2282850000047	EXP	text_2: color = #000000
+282.2282850000047	EXP	text_2: autoDraw = true
+283.9457950000069	EXP	text_2: autoDraw = null
+283.9457950000069	EXP	text_2: autoDraw = null
+283.9457950000069	EXP	text_6: color = #000000
+283.9457950000069	EXP	trial_image: pos = [-0.224561684061788,0]
+283.9457950000069	EXP	trial_image: size = [0.22346432000000002,0.22069696]
+283.9457950000069	EXP	trial_image: image = {}
+283.9457950000069	EXP	text_6: autoDraw = true
+283.9457950000069	EXP	trial_image: autoDraw = true
+285.1906100000051	DATA	Keydown: j
+285.2117750000034	EXP	text_6: autoDraw = null
+285.2117750000034	EXP	trial_image: autoDraw = null
+285.2117750000034	EXP	text_2: color = #000000
+285.2117750000034	EXP	text_2: autoDraw = true
+286.65662500000326	EXP	text_2: autoDraw = null
+286.65662500000326	EXP	text_2: autoDraw = null
+286.65662500000326	EXP	text_6: color = #000000
+286.65662500000326	EXP	trial_image: pos = [-0.224561684061788,0]
+286.65662500000326	EXP	trial_image: size = [0.22346432000000002,0.22069696]
+286.65662500000326	EXP	trial_image: image = {}
+286.65662500000326	EXP	text_6: autoDraw = true
+286.65662500000326	EXP	trial_image: autoDraw = true
+287.7077149999968	DATA	Keydown: f
+287.72402000000875	EXP	text_6: autoDraw = null
+287.72402000000875	EXP	trial_image: autoDraw = null
+287.72402000000875	EXP	text_2: color = #000000
+287.72402000000875	EXP	text_2: autoDraw = true
+289.37309999999707	EXP	text_2: autoDraw = null
+289.37309999999707	EXP	text_2: autoDraw = null
+289.37309999999707	EXP	text_6: color = #000000
+289.37309999999707	EXP	trial_image: pos = [-0.224561684061788,0]
+289.37309999999707	EXP	trial_image: size = [0.22346432000000002,0.22069696]
+289.37309999999707	EXP	trial_image: image = {}
+289.37309999999707	EXP	text_6: autoDraw = true
+289.37309999999707	EXP	trial_image: autoDraw = true
+290.70669000000635	DATA	Keydown: j
+290.721669999999	EXP	text_6: autoDraw = null
+290.721669999999	EXP	trial_image: autoDraw = null
+290.721669999999	EXP	text_2: color = #000000
+290.721669999999	EXP	text_2: autoDraw = true
+292.10957000000053	EXP	text_2: autoDraw = null
+292.10957000000053	EXP	text_2: autoDraw = null
+292.10957000000053	EXP	text_6: color = #000000
+292.10957000000053	EXP	trial_image: pos = [-0.224561684061788,0]
+292.10957000000053	EXP	trial_image: size = [0.22346432000000002,0.22069696]
+292.10957000000053	EXP	trial_image: image = {}
+292.10957000000053	EXP	text_6: autoDraw = true
+292.10957000000053	EXP	trial_image: autoDraw = true
+294.0838400000066	DATA	Keydown: f
+294.09207500000775	EXP	text_6: autoDraw = null
+294.09207500000775	EXP	trial_image: autoDraw = null
+294.09207500000775	EXP	text_2: color = #FFFFFF
+294.09207500000775	EXP	text_2: autoDraw = true
+295.62596000000485	EXP	text_2: autoDraw = null
+295.62596000000485	EXP	text_2: autoDraw = null
+295.62596000000485	EXP	text_6: color = #FFFFFF
+295.62596000000485	EXP	trial_image: pos = [-0.224561684061788,0]
+295.62596000000485	EXP	trial_image: size = [0.22346432000000002,0.22069696]
+295.62596000000485	EXP	trial_image: image = {}
+295.62596000000485	EXP	text_6: autoDraw = true
+295.62596000000485	EXP	trial_image: autoDraw = true
+301.31022500000836	DATA	Keydown: f
+301.3237599999993	EXP	text_6: autoDraw = null
+301.3237599999993	EXP	trial_image: autoDraw = null
+301.3237599999993	EXP	text_2: color = #FFFFFF
+301.3237599999993	EXP	text_2: autoDraw = true
+302.73798000000534	EXP	text_2: autoDraw = null
+302.73798000000534	EXP	text_2: autoDraw = null
+302.73798000000534	EXP	text_6: color = #FFFFFF
+302.73798000000534	EXP	trial_image: pos = [-0.224561684061788,0]
+302.73798000000534	EXP	trial_image: size = [0.22346432000000002,0.22069696]
+302.73798000000534	EXP	trial_image: image = {}
+302.73798000000534	EXP	text_6: autoDraw = true
+302.73798000000534	EXP	trial_image: autoDraw = true
+304.0789450000011	DATA	Keydown: j
+304.0966650000046	EXP	text_6: autoDraw = null
+304.0966650000046	EXP	trial_image: autoDraw = null
+304.0966650000046	EXP	text_2: color = #000000
+304.0966650000046	EXP	text_2: autoDraw = true
+305.4261499999993	EXP	text_2: autoDraw = null
+305.4261499999993	EXP	text_2: autoDraw = null
+305.4261499999993	EXP	text_6: color = #000000
+305.4261499999993	EXP	trial_image: pos = [-0.224561684061788,0]
+305.4261499999993	EXP	trial_image: size = [0.22346432000000002,0.22069696]
+305.4261499999993	EXP	trial_image: image = {}
+305.4261499999993	EXP	text_6: autoDraw = true
+305.4261499999993	EXP	trial_image: autoDraw = true
+310.2797799999971	DATA	Keydown: j
+310.2872700000007	EXP	text_6: autoDraw = null
+310.2872700000007	EXP	trial_image: autoDraw = null
+310.2872700000007	EXP	text_2: color = #FFFFFF
+310.2872700000007	EXP	text_2: autoDraw = true
+311.90453500000876	EXP	text_2: autoDraw = null
+311.90453500000876	EXP	text_2: autoDraw = null
+311.90453500000876	EXP	text_6: color = #FFFFFF
+311.90453500000876	EXP	trial_image: pos = [-0.224561684061788,0]
+311.90453500000876	EXP	trial_image: size = [0.22346432000000002,0.22069696]
+311.90453500000876	EXP	trial_image: image = {}
+311.90453500000876	EXP	text_6: autoDraw = true
+311.90453500000876	EXP	trial_image: autoDraw = true
+313.3694899999973	DATA	Keydown: f
+313.3914150000055	EXP	text_6: autoDraw = null
+313.3914150000055	EXP	trial_image: autoDraw = null
+313.3914150000055	EXP	text_2: color = #000000
+313.3914150000055	EXP	text_2: autoDraw = true
+315.0864850000071	EXP	text_2: autoDraw = null
+315.0864850000071	EXP	text_2: autoDraw = null
+315.0864850000071	EXP	text_6: color = #000000
+315.0864850000071	EXP	trial_image: pos = [-0.224561684061788,0]
+315.0864850000071	EXP	trial_image: size = [0.22346432000000002,0.22069696]
+315.0864850000071	EXP	trial_image: image = {}
+315.0864850000071	EXP	text_6: autoDraw = true
+315.0864850000071	EXP	trial_image: autoDraw = true
+317.2861600000033	DATA	Keydown: f
+317.30318499999703	EXP	text_6: autoDraw = null
+317.30318499999703	EXP	trial_image: autoDraw = null
+317.30318499999703	EXP	text_2: color = #000000
+317.30318499999703	EXP	text_2: autoDraw = true
+319.00561500000185	EXP	text_2: autoDraw = null
+319.00561500000185	EXP	text_2: autoDraw = null
+319.00561500000185	EXP	text_6: color = #000000
+319.00561500000185	EXP	trial_image: pos = [-0.224561684061788,0]
+319.00561500000185	EXP	trial_image: size = [0.22346432000000002,0.22069696]
+319.00561500000185	EXP	trial_image: image = {}
+319.00561500000185	EXP	text_6: autoDraw = true
+319.00561500000185	EXP	trial_image: autoDraw = true
+320.7942049999983	DATA	Keydown: j
+320.8115700000053	EXP	text_6: autoDraw = null
+320.8115700000053	EXP	trial_image: autoDraw = null
+320.8115700000053	EXP	text_2: color = #000000
+320.8115700000053	EXP	text_2: autoDraw = true
+322.08981499999936	EXP	text_2: autoDraw = null
+322.08981499999936	EXP	text_2: autoDraw = null
+322.08981499999936	EXP	text_6: color = #000000
+322.08981499999936	EXP	trial_image: pos = [-0.224561684061788,0]
+322.08981499999936	EXP	trial_image: size = [0.22346432000000002,0.22069696]
+322.08981499999936	EXP	trial_image: image = {}
+322.08981499999936	EXP	text_6: autoDraw = true
+322.08981499999936	EXP	trial_image: autoDraw = true
+325.77006000000983	DATA	Keydown: j
+325.785195000004	EXP	text_6: autoDraw = null
+325.785195000004	EXP	trial_image: autoDraw = null
+325.785195000004	EXP	text_2: color = #000000
+325.785195000004	EXP	text_2: autoDraw = true
+327.30476500000805	EXP	text_2: autoDraw = null
+327.30476500000805	EXP	text_2: autoDraw = null
+327.30476500000805	EXP	text_6: color = #000000
+327.30476500000805	EXP	trial_image: pos = [-0.224561684061788,0]
+327.30476500000805	EXP	trial_image: size = [0.22346432000000002,0.22069696]
+327.30476500000805	EXP	trial_image: image = {}
+327.30476500000805	EXP	text_6: autoDraw = true
+327.30476500000805	EXP	trial_image: autoDraw = true
+328.66091000000597	DATA	Keydown: f
+328.67017500000657	EXP	text_6: autoDraw = null
+328.67017500000657	EXP	trial_image: autoDraw = null
+328.67017500000657	EXP	text_2: color = #FFFFFF
+328.67017500000657	EXP	text_2: autoDraw = true
+330.0230350000056	EXP	text_2: autoDraw = null
+330.0230350000056	EXP	text_2: autoDraw = null
+330.0230350000056	EXP	text_6: color = #FFFFFF
+330.0230350000056	EXP	trial_image: pos = [-0.224561684061788,0]
+330.0230350000056	EXP	trial_image: size = [0.22346432000000002,0.22069696]
+330.0230350000056	EXP	trial_image: image = {}
+330.0230350000056	EXP	text_6: autoDraw = true
+330.0230350000056	EXP	trial_image: autoDraw = true
+331.30165999999736	DATA	Keydown: f
+331.3183500000014	EXP	text_6: autoDraw = null
+331.3183500000014	EXP	trial_image: autoDraw = null
+331.3183500000014	EXP	text_2: color = #FFFFFF
+331.3183500000014	EXP	text_2: autoDraw = true
+332.75582000000577	EXP	text_2: autoDraw = null
+332.75582000000577	EXP	text_2: autoDraw = null
+332.75582000000577	EXP	text_6: color = #FFFFFF
+332.75582000000577	EXP	trial_image: pos = [-0.224561684061788,0]
+332.75582000000577	EXP	trial_image: size = [0.22346432000000002,0.22069696]
+332.75582000000577	EXP	trial_image: image = {}
+332.75582000000577	EXP	text_6: autoDraw = true
+332.75582000000577	EXP	trial_image: autoDraw = true
+334.8513099999982	DATA	Keydown: f
+334.86738999999943	EXP	text_6: autoDraw = null
+334.86738999999943	EXP	trial_image: autoDraw = null
+334.86738999999943	EXP	text_2: color = #FFFFFF
+334.86738999999943	EXP	text_2: autoDraw = true
+336.60168000000704	EXP	text_2: autoDraw = null
+336.60168000000704	EXP	text_2: autoDraw = null
+336.60168000000704	EXP	text_6: color = #FFFFFF
+336.60168000000704	EXP	trial_image: pos = [-0.224561684061788,0]
+336.60168000000704	EXP	trial_image: size = [0.22346432000000002,0.22069696]
+336.60168000000704	EXP	trial_image: image = {}
+336.60168000000704	EXP	text_6: autoDraw = true
+336.60168000000704	EXP	trial_image: autoDraw = true
+337.48249999999825	DATA	Mouse: 0 button down, pos=(879,630)
+337.60631499999727	DATA	Mouse: 0 button down, pos=(879,630)
+337.83109000000695	DATA	Keydown: j
+337.85250500000257	EXP	text_6: autoDraw = null
+337.85250500000257	EXP	trial_image: autoDraw = null
+337.85250500000257	EXP	text_2: color = #FFFFFF
+337.85250500000257	EXP	text_2: autoDraw = true
+339.3663749999978	EXP	text_2: autoDraw = null
+339.3663749999978	EXP	text_2: autoDraw = null
+339.3663749999978	EXP	text_6: color = #FFFFFF
+339.3663749999978	EXP	trial_image: pos = [-0.224561684061788,0]
+339.3663749999978	EXP	trial_image: size = [0.22346432000000002,0.22069696]
+339.3663749999978	EXP	trial_image: image = {}
+339.3663749999978	EXP	text_6: autoDraw = true
+339.3663749999978	EXP	trial_image: autoDraw = true
+340.75929500001075	DATA	Keydown: j
+340.7669200000091	EXP	text_6: autoDraw = null
+340.7669200000091	EXP	trial_image: autoDraw = null
+340.7669200000091	EXP	text_2: color = #FFFFFF
+340.7669200000091	EXP	text_2: autoDraw = true
+342.4550500000041	EXP	text_2: autoDraw = null
+342.4550500000041	EXP	text_2: autoDraw = null
+342.4550500000041	EXP	text_6: color = #FFFFFF
+342.4550500000041	EXP	trial_image: pos = [-0.224561684061788,0]
+342.4550500000041	EXP	trial_image: size = [0.22346432000000002,0.22069696]
+342.4550500000041	EXP	trial_image: image = {}
+342.4550500000041	EXP	text_6: autoDraw = true
+342.4550500000041	EXP	trial_image: autoDraw = true
+345.3723450000107	DATA	Keydown: f
+345.3873450000101	EXP	text_6: autoDraw = null
+345.3873450000101	EXP	trial_image: autoDraw = null
+345.3873450000101	EXP	text_2: color = #FFFFFF
+345.3873450000101	EXP	text_2: autoDraw = true
+347.0164450000011	EXP	text_2: autoDraw = null
+347.0164450000011	EXP	text_2: autoDraw = null
+347.0164450000011	EXP	text_6: color = #FFFFFF
+347.0164450000011	EXP	trial_image: pos = [-0.224561684061788,0]
+347.0164450000011	EXP	trial_image: size = [0.22346432000000002,0.22069696]
+347.0164450000011	EXP	trial_image: image = {}
+347.0164450000011	EXP	text_6: autoDraw = true
+347.0164450000011	EXP	trial_image: autoDraw = true
+349.31897500000196	DATA	Keydown: j
+349.3368199999968	EXP	text_6: autoDraw = null
+349.3368199999968	EXP	trial_image: autoDraw = null
+349.3368199999968	EXP	text_2: color = #FFFFFF
+349.3368199999968	EXP	text_2: autoDraw = true
+350.6846050000022	EXP	text_2: autoDraw = null
+350.6846050000022	EXP	text_2: autoDraw = null
+350.6846050000022	EXP	text_6: color = #FFFFFF
+350.6846050000022	EXP	trial_image: pos = [-0.224561684061788,0]
+350.6846050000022	EXP	trial_image: size = [0.22346432000000002,0.22069696]
+350.6846050000022	EXP	trial_image: image = {}
+350.6846050000022	EXP	text_6: autoDraw = true
+350.6846050000022	EXP	trial_image: autoDraw = true
+352.65142000000924	DATA	Keydown: f
+352.67397000000346	EXP	text_6: autoDraw = null
+352.67397000000346	EXP	trial_image: autoDraw = null
+352.67397000000346	EXP	text_2: color = #FFFFFF
+352.67397000000346	EXP	text_2: autoDraw = true
+354.27416000000085	EXP	text_2: autoDraw = null
+354.27416000000085	EXP	text_2: autoDraw = null
+354.27416000000085	EXP	text_6: color = #FFFFFF
+354.27416000000085	EXP	trial_image: pos = [-0.224561684061788,0]
+354.27416000000085	EXP	trial_image: size = [0.22346432000000002,0.22069696]
+354.27416000000085	EXP	trial_image: image = {}
+354.27416000000085	EXP	text_6: autoDraw = true
+354.27416000000085	EXP	trial_image: autoDraw = true
+358.1680900000065	DATA	Keydown: j
+358.1807950000075	EXP	text_6: autoDraw = null
+358.1807950000075	EXP	trial_image: autoDraw = null
+358.1807950000075	EXP	text_2: color = #FFFFFF
+358.1807950000075	EXP	text_2: autoDraw = true
+359.6970450000081	EXP	text_2: autoDraw = null
+359.6970450000081	EXP	text_2: autoDraw = null
+359.6970450000081	EXP	text_6: color = #FFFFFF
+359.6970450000081	EXP	trial_image: pos = [-0.224561684061788,0]
+359.6970450000081	EXP	trial_image: size = [0.22346432000000002,0.22069696]
+359.6970450000081	EXP	trial_image: image = {}
+359.6970450000081	EXP	text_6: autoDraw = true
+359.6970450000081	EXP	trial_image: autoDraw = true
+363.1978700000036	DATA	Keydown: j
+363.23911000000953	EXP	text_6: autoDraw = null
+363.23911000000953	EXP	trial_image: autoDraw = null
+363.23911000000953	EXP	image_4: autoDraw = true
+364.7301299999963	EXP	image_4: autoDraw = null
+364.7301299999963	EXP	image_4: autoDraw = null
+364.7301299999963	EXP	image_2: image = {}
+364.7301299999963	EXP	image_2: autoDraw = true
+379.9820699999982	DATA	Keydown:  
+379.9953550000064	EXP	image_2: autoDraw = null
+379.9953550000064	EXP	image: pos = [-0.224561684061788,0]
+379.9953550000064	EXP	image: size = [0.22346432000000002,0.22069696]
+379.9953550000064	EXP	image: image = {}
+379.9953550000064	EXP	text_8: autoDraw = true
+379.9953550000064	EXP	image: autoDraw = true
+390.0433800000028	DATA	Keydown: f
+390.07601499999873	EXP	text_8: autoDraw = null
+390.07601499999873	EXP	image: autoDraw = null
+390.07601499999873	EXP	image_3: image = {}
+390.07601499999873	EXP	image_3: autoDraw = true
+397.7746400000033	DATA	Keydown:  
+397.8074900000065	EXP	image_3: autoDraw = null
+397.8074900000065	EXP	Pinstructions_imageR2: image = {}
+397.8074900000065	EXP	Pinstructions_imageR2: autoDraw = true
+401.2760750000016	DATA	Keydown:  
+401.2965499999991	EXP	Pinstructions_imageR2: autoDraw = null
+401.2965499999991	EXP	text_3: color = #FFFFFF
+401.2965499999991	EXP	text_3: autoDraw = true
+402.6269949999987	EXP	text_3: autoDraw = null
+402.6269949999987	EXP	text_3: autoDraw = null
+402.6269949999987	EXP	text_5: color = #FFFFFF
+402.6269949999987	EXP	prac_image: pos = [-0.224561684061788,0]
+402.6269949999987	EXP	prac_image: size = [0.22346432000000002,0.22069696]
+402.6269949999987	EXP	prac_image: image = {}
+402.6269949999987	EXP	text_5: autoDraw = true
+402.6269949999987	EXP	prac_image: autoDraw = true
+404.7257099999988	DATA	Keydown: j
+406.6280550000083	EXP	text_5: autoDraw = null
+406.6280550000083	EXP	prac_image: autoDraw = null
+406.6280550000083	EXP	text_5: autoDraw = null
+406.6280550000083	EXP	prac_image: autoDraw = null
+406.6280550000083	EXP	imFeedback: image = {}
+406.6280550000083	EXP	feedback_msg: text = Well done!
+406.6280550000083	EXP	imFeedback: autoDraw = true
+406.6280550000083	EXP	feedback_msg: autoDraw = true
+408.6287949999969	EXP	imFeedback: autoDraw = null
+408.6287949999969	EXP	feedback_msg: autoDraw = null
+408.6287949999969	EXP	imFeedback: autoDraw = null
+408.6287949999969	EXP	feedback_msg: autoDraw = null
+408.6287949999969	EXP	text_3: color = #FFFFFF
+408.6287949999969	EXP	text_3: autoDraw = true
+409.9598499999993	EXP	text_3: autoDraw = null
+409.9598499999993	EXP	text_3: autoDraw = null
+409.9598499999993	EXP	text_5: color = #FFFFFF
+409.9598499999993	EXP	prac_image: pos = [-0.224561684061788,0]
+409.9598499999993	EXP	prac_image: size = [0.22346432000000002,0.22069696]
+409.9598499999993	EXP	prac_image: image = {}
+409.9598499999993	EXP	text_5: autoDraw = true
+409.9598499999993	EXP	prac_image: autoDraw = true
+411.2740100000083	DATA	Keydown: f
+413.96102000000246	EXP	text_5: autoDraw = null
+413.96102000000246	EXP	prac_image: autoDraw = null
+413.96102000000246	EXP	text_5: autoDraw = null
+413.96102000000246	EXP	prac_image: autoDraw = null
+413.96102000000246	EXP	imFeedback: image = {}
+413.96102000000246	EXP	feedback_msg: text = Well done!
+413.96102000000246	EXP	imFeedback: autoDraw = true
+413.96102000000246	EXP	feedback_msg: autoDraw = true
+415.95754000000306	EXP	imFeedback: autoDraw = null
+415.95754000000306	EXP	feedback_msg: autoDraw = null
+415.95754000000306	EXP	imFeedback: autoDraw = null
+415.95754000000306	EXP	feedback_msg: autoDraw = null
+415.95754000000306	EXP	text_3: color = #000000
+415.95754000000306	EXP	text_3: autoDraw = true
+417.5271400000056	EXP	text_3: autoDraw = null
+417.5271400000056	EXP	text_3: autoDraw = null
+417.5271400000056	EXP	text_5: color = #000000
+417.5271400000056	EXP	prac_image: pos = [-0.224561684061788,0]
+417.5271400000056	EXP	prac_image: size = [0.22346432000000002,0.22069696]
+417.5271400000056	EXP	prac_image: image = {}
+417.5271400000056	EXP	text_5: autoDraw = true
+417.5271400000056	EXP	prac_image: autoDraw = true
+421.3257350000058	DATA	Keydown:  
+421.52845500000694	EXP	text_5: autoDraw = null
+421.52845500000694	EXP	prac_image: autoDraw = null
+421.52845500000694	EXP	text_5: autoDraw = null
+421.52845500000694	EXP	prac_image: autoDraw = null
+421.52845500000694	EXP	imFeedback: image = {}
+421.52845500000694	EXP	feedback_msg: text = Oops, your cross response was right but the picture response was wrong.
+421.52845500000694	EXP	imFeedback: autoDraw = true
+421.52845500000694	EXP	feedback_msg: autoDraw = true
+423.5219599999982	EXP	imFeedback: autoDraw = null
+423.5219599999982	EXP	feedback_msg: autoDraw = null
+423.5219599999982	EXP	imFeedback: autoDraw = null
+423.5219599999982	EXP	feedback_msg: autoDraw = null
+423.5219599999982	EXP	text_3: color = #000000
+423.5219599999982	EXP	text_3: autoDraw = true
+425.1066850000061	EXP	text_3: autoDraw = null
+425.1066850000061	EXP	text_3: autoDraw = null
+425.1066850000061	EXP	text_5: color = #000000
+425.1066850000061	EXP	prac_image: pos = [-0.224561684061788,0]
+425.1066850000061	EXP	prac_image: size = [0.22346432000000002,0.22069696]
+425.1066850000061	EXP	prac_image: image = {}
+425.1066850000061	EXP	text_5: autoDraw = true
+425.1066850000061	EXP	prac_image: autoDraw = true
+429.0995050000056	EXP	text_5: autoDraw = null
+429.0995050000056	EXP	prac_image: autoDraw = null
+429.0995050000056	EXP	text_5: autoDraw = null
+429.0995050000056	EXP	prac_image: autoDraw = null
+429.0995050000056	EXP	imFeedback: image = {}
+429.0995050000056	EXP	feedback_msg: text = Oops, your cross response was right but the picture response was wrong.
+429.0995050000056	EXP	imFeedback: autoDraw = true
+429.0995050000056	EXP	feedback_msg: autoDraw = true
+429.7532599999977	DATA	Mouse: 0 button down, pos=(942,597)
+429.88180000000284	DATA	Mouse: 0 button down, pos=(942,597)
+429.9270800000086	DATA	Keydown: j
+431.1050850000029	EXP	imFeedback: autoDraw = null
+431.1050850000029	EXP	feedback_msg: autoDraw = null
+431.1050850000029	EXP	imFeedback: autoDraw = null
+431.1050850000029	EXP	feedback_msg: autoDraw = null
+431.1050850000029	EXP	text_7: autoDraw = true
+453.23533999999927	DATA	Keydown:  
+453.2638050000096	EXP	text_7: autoDraw = null
+453.2638050000096	EXP	instructions_imageR2: image = {}
+453.2638050000096	EXP	instructions_imageR2: autoDraw = true
+455.80662499999744	DATA	Keydown:  
+455.82536000000255	EXP	instructions_imageR2: autoDraw = null
+455.82536000000255	EXP	text_4: color = #FFFFFF
+455.82536000000255	EXP	text_4: autoDraw = true
+457.1053050000046	EXP	text_4: autoDraw = null
+457.1053050000046	EXP	text_4: autoDraw = null
+457.1053050000046	EXP	text_6: color = #FFFFFF
+457.1053050000046	EXP	trial_image: pos = [-0.224561684061788,0]
+457.1053050000046	EXP	trial_image: size = [0.22346432000000002,0.22069696]
+457.1053050000046	EXP	trial_image: image = {}
+457.1053050000046	EXP	text_6: autoDraw = true
+457.1053050000046	EXP	trial_image: autoDraw = true
+458.4357350000064	DATA	Keydown: j
+458.4511599999969	EXP	text_6: autoDraw = null
+458.4511599999969	EXP	trial_image: autoDraw = null
+458.4511599999969	EXP	text_4: color = #000000
+458.4511599999969	EXP	text_4: autoDraw = true
+459.9881800000003	EXP	text_4: autoDraw = null
+459.9881800000003	EXP	text_4: autoDraw = null
+459.9881800000003	EXP	text_6: color = #000000
+459.9881800000003	EXP	trial_image: pos = [-0.224561684061788,0]
+459.9881800000003	EXP	trial_image: size = [0.22346432000000002,0.22069696]
+459.9881800000003	EXP	trial_image: image = {}
+459.9881800000003	EXP	text_6: autoDraw = true
+459.9881800000003	EXP	trial_image: autoDraw = true
+462.4372000000003	DATA	Keydown: j
+462.4530400000076	EXP	text_6: autoDraw = null
+462.4530400000076	EXP	trial_image: autoDraw = null
+462.4530400000076	EXP	text_4: color = #000000
+462.4530400000076	EXP	text_4: autoDraw = true
+463.81721000000834	EXP	text_4: autoDraw = null
+463.81721000000834	EXP	text_4: autoDraw = null
+463.81721000000834	EXP	text_6: color = #000000
+463.81721000000834	EXP	trial_image: pos = [-0.224561684061788,0]
+463.81721000000834	EXP	trial_image: size = [0.22346432000000002,0.22069696]
+463.81721000000834	EXP	trial_image: image = {}
+463.81721000000834	EXP	text_6: autoDraw = true
+463.81721000000834	EXP	trial_image: autoDraw = true
+465.2222449999972	DATA	Keydown: f
+465.2338549999986	EXP	text_6: autoDraw = null
+465.2338549999986	EXP	trial_image: autoDraw = null
+465.2338549999986	EXP	text_4: color = #000000
+465.2338549999986	EXP	text_4: autoDraw = true
+466.5017200000002	EXP	text_4: autoDraw = null
+466.5017200000002	EXP	text_4: autoDraw = null
+466.5017200000002	EXP	text_6: color = #000000
+466.5017200000002	EXP	trial_image: pos = [-0.224561684061788,0]
+466.5017200000002	EXP	trial_image: size = [0.22346432000000002,0.22069696]
+466.5017200000002	EXP	trial_image: image = {}
+466.5017200000002	EXP	text_6: autoDraw = true
+466.5017200000002	EXP	trial_image: autoDraw = true
+470.2155350000103	DATA	Keydown: f
+470.23565000000235	EXP	text_6: autoDraw = null
+470.23565000000235	EXP	trial_image: autoDraw = null
+470.23565000000235	EXP	text_4: color = #000000
+470.23565000000235	EXP	text_4: autoDraw = true
+471.70382500000414	EXP	text_4: autoDraw = null
+471.70382500000414	EXP	text_4: autoDraw = null
+471.70382500000414	EXP	text_6: color = #000000
+471.70382500000414	EXP	trial_image: pos = [-0.224561684061788,0]
+471.70382500000414	EXP	trial_image: size = [0.22346432000000002,0.22069696]
+471.70382500000414	EXP	trial_image: image = {}
+471.70382500000414	EXP	text_6: autoDraw = true
+471.70382500000414	EXP	trial_image: autoDraw = true
+473.49545000000217	DATA	Keydown: f
+473.5020150000055	EXP	text_6: autoDraw = null
+473.5020150000055	EXP	trial_image: autoDraw = null
+473.5020150000055	EXP	text_4: color = #000000
+473.5020150000055	EXP	text_4: autoDraw = true
+474.96889000000374	EXP	text_4: autoDraw = null
+474.96889000000374	EXP	text_4: autoDraw = null
+474.96889000000374	EXP	text_6: color = #000000
+474.96889000000374	EXP	trial_image: pos = [-0.224561684061788,0]
+474.96889000000374	EXP	trial_image: size = [0.22346432000000002,0.22069696]
+474.96889000000374	EXP	trial_image: image = {}
+474.96889000000374	EXP	text_6: autoDraw = true
+474.96889000000374	EXP	trial_image: autoDraw = true
+476.2357950000005	DATA	Keydown: j
+476.2488500000036	EXP	text_6: autoDraw = null
+476.2488500000036	EXP	trial_image: autoDraw = null
+476.2488500000036	EXP	text_4: color = #000000
+476.2488500000036	EXP	text_4: autoDraw = true
+477.86786500000744	EXP	text_4: autoDraw = null
+477.86786500000744	EXP	text_4: autoDraw = null
+477.86786500000744	EXP	text_6: color = #000000
+477.86786500000744	EXP	trial_image: pos = [-0.224561684061788,0]
+477.86786500000744	EXP	trial_image: size = [0.22346432000000002,0.22069696]
+477.86786500000744	EXP	trial_image: image = {}
+477.86786500000744	EXP	text_6: autoDraw = true
+477.86786500000744	EXP	trial_image: autoDraw = true
+479.0555000000022	DATA	Keydown: j
+479.0713000000105	EXP	text_6: autoDraw = null
+479.0713000000105	EXP	trial_image: autoDraw = null
+479.0713000000105	EXP	text_4: color = #FFFFFF
+479.0713000000105	EXP	text_4: autoDraw = true
+480.5987549999991	EXP	text_4: autoDraw = null
+480.5987549999991	EXP	text_4: autoDraw = null
+480.5987549999991	EXP	text_6: color = #FFFFFF
+480.5987549999991	EXP	trial_image: pos = [-0.224561684061788,0]
+480.5987549999991	EXP	trial_image: size = [0.22346432000000002,0.22069696]
+480.5987549999991	EXP	trial_image: image = {}
+480.5987549999991	EXP	text_6: autoDraw = true
+480.5987549999991	EXP	trial_image: autoDraw = true
+482.16646500000206	DATA	Keydown: f
+482.1814149999991	EXP	text_6: autoDraw = null
+482.1814149999991	EXP	trial_image: autoDraw = null
+482.1814149999991	EXP	text_4: color = #FFFFFF
+482.1814149999991	EXP	text_4: autoDraw = true
+483.56698499999766	EXP	text_4: autoDraw = null
+483.56698499999766	EXP	text_4: autoDraw = null
+483.56698499999766	EXP	text_6: color = #FFFFFF
+483.56698499999766	EXP	trial_image: pos = [-0.224561684061788,0]
+483.56698499999766	EXP	trial_image: size = [0.22346432000000002,0.22069696]
+483.56698499999766	EXP	trial_image: image = {}
+483.56698499999766	EXP	text_6: autoDraw = true
+483.56698499999766	EXP	trial_image: autoDraw = true
+485.76542999999947	DATA	Keydown: j
+485.7809350000025	EXP	text_6: autoDraw = null
+485.7809350000025	EXP	trial_image: autoDraw = null
+485.7809350000025	EXP	text_4: color = #000000
+485.7809350000025	EXP	text_4: autoDraw = true
+487.3011700000061	EXP	text_4: autoDraw = null
+487.3011700000061	EXP	text_4: autoDraw = null
+487.3011700000061	EXP	text_6: color = #000000
+487.3011700000061	EXP	trial_image: pos = [-0.224561684061788,0]
+487.3011700000061	EXP	trial_image: size = [0.22346432000000002,0.22069696]
+487.3011700000061	EXP	trial_image: image = {}
+487.3011700000061	EXP	text_6: autoDraw = true
+487.3011700000061	EXP	trial_image: autoDraw = true
+488.7658900000097	DATA	Keydown: j
+488.7812399999966	EXP	text_6: autoDraw = null
+488.7812399999966	EXP	trial_image: autoDraw = null
+488.7812399999966	EXP	text_4: color = #000000
+488.7812399999966	EXP	text_4: autoDraw = true
+490.30019500000344	EXP	text_4: autoDraw = null
+490.30019500000344	EXP	text_4: autoDraw = null
+490.30019500000344	EXP	text_6: color = #000000
+490.30019500000344	EXP	trial_image: pos = [-0.224561684061788,0]
+490.30019500000344	EXP	trial_image: size = [0.22346432000000002,0.22069696]
+490.30019500000344	EXP	trial_image: image = {}
+490.30019500000344	EXP	text_6: autoDraw = true
+490.30019500000344	EXP	trial_image: autoDraw = true
+491.45354000000225	DATA	Keydown: f
+491.46357000000717	EXP	text_6: autoDraw = null
+491.46357000000717	EXP	trial_image: autoDraw = null
+491.46357000000717	EXP	text_4: color = #000000
+491.46357000000717	EXP	text_4: autoDraw = true
+492.7818150000094	EXP	text_4: autoDraw = null
+492.7818150000094	EXP	text_4: autoDraw = null
+492.7818150000094	EXP	text_6: color = #000000
+492.7818150000094	EXP	trial_image: pos = [-0.224561684061788,0]
+492.7818150000094	EXP	trial_image: size = [0.22346432000000002,0.22069696]
+492.7818150000094	EXP	trial_image: image = {}
+492.7818150000094	EXP	text_6: autoDraw = true
+492.7818150000094	EXP	trial_image: autoDraw = true
+494.8257750000048	DATA	Keydown: f
+494.83320500000264	EXP	text_6: autoDraw = null
+494.83320500000264	EXP	trial_image: autoDraw = null
+494.83320500000264	EXP	text_4: color = #000000
+494.83320500000264	EXP	text_4: autoDraw = true
+496.5563800000091	EXP	text_4: autoDraw = null
+496.5563800000091	EXP	text_4: autoDraw = null
+496.5563800000091	EXP	text_6: color = #000000
+496.5563800000091	EXP	trial_image: pos = [-0.224561684061788,0]
+496.5563800000091	EXP	trial_image: size = [0.22346432000000002,0.22069696]
+496.5563800000091	EXP	trial_image: image = {}
+496.5563800000091	EXP	text_6: autoDraw = true
+496.5563800000091	EXP	trial_image: autoDraw = true
+498.032950000008	DATA	Keydown: f
+498.04608500000904	EXP	text_6: autoDraw = null
+498.04608500000904	EXP	trial_image: autoDraw = null
+498.04608500000904	EXP	text_4: color = #000000
+498.04608500000904	EXP	text_4: autoDraw = true
+499.61824999999953	EXP	text_4: autoDraw = null
+499.61824999999953	EXP	text_4: autoDraw = null
+499.61824999999953	EXP	text_6: color = #000000
+499.61824999999953	EXP	trial_image: pos = [-0.224561684061788,0]
+499.61824999999953	EXP	trial_image: size = [0.22346432000000002,0.22069696]
+499.61824999999953	EXP	trial_image: image = {}
+499.61824999999953	EXP	text_6: autoDraw = true
+499.61824999999953	EXP	trial_image: autoDraw = true
+500.87110499999835	DATA	Keydown: j
+500.87996000000567	EXP	text_6: autoDraw = null
+500.87996000000567	EXP	trial_image: autoDraw = null
+500.87996000000567	EXP	text_4: color = #000000
+500.87996000000567	EXP	text_4: autoDraw = true
+502.19600500000524	EXP	text_4: autoDraw = null
+502.19600500000524	EXP	text_4: autoDraw = null
+502.19600500000524	EXP	text_6: color = #000000
+502.19600500000524	EXP	trial_image: pos = [-0.224561684061788,0]
+502.19600500000524	EXP	trial_image: size = [0.22346432000000002,0.22069696]
+502.19600500000524	EXP	trial_image: image = {}
+502.19600500000524	EXP	text_6: autoDraw = true
+502.19600500000524	EXP	trial_image: autoDraw = true
+503.36800499999663	DATA	Keydown: f
+503.38024500000756	EXP	text_6: autoDraw = null
+503.38024500000756	EXP	trial_image: autoDraw = null
+503.38024500000756	EXP	text_4: color = #FFFFFF
+503.38024500000756	EXP	text_4: autoDraw = true
+504.65511000000697	EXP	text_4: autoDraw = null
+504.65511000000697	EXP	text_4: autoDraw = null
+504.65511000000697	EXP	text_6: color = #FFFFFF
+504.65511000000697	EXP	trial_image: pos = [-0.224561684061788,0]
+504.65511000000697	EXP	trial_image: size = [0.22346432000000002,0.22069696]
+504.65511000000697	EXP	trial_image: image = {}
+504.65511000000697	EXP	text_6: autoDraw = true
+504.65511000000697	EXP	trial_image: autoDraw = true
+505.63528499999666	DATA	Keydown: j
+505.65086000000883	EXP	text_6: autoDraw = null
+505.65086000000883	EXP	trial_image: autoDraw = null
+505.65086000000883	EXP	text_4: color = #FFFFFF
+505.65086000000883	EXP	text_4: autoDraw = true
+507.36180500000773	EXP	text_4: autoDraw = null
+507.36180500000773	EXP	text_4: autoDraw = null
+507.36180500000773	EXP	text_6: color = #FFFFFF
+507.36180500000773	EXP	trial_image: pos = [-0.224561684061788,0]
+507.36180500000773	EXP	trial_image: size = [0.22346432000000002,0.22069696]
+507.36180500000773	EXP	trial_image: image = {}
+507.36180500000773	EXP	text_6: autoDraw = true
+507.36180500000773	EXP	trial_image: autoDraw = true
+508.3292450000008	DATA	Keydown: f
+508.3477899999998	EXP	text_6: autoDraw = null
+508.3477899999998	EXP	trial_image: autoDraw = null
+508.3477899999998	EXP	text_4: color = #FFFFFF
+508.3477899999998	EXP	text_4: autoDraw = true
+509.7219299999997	EXP	text_4: autoDraw = null
+509.7219299999997	EXP	text_4: autoDraw = null
+509.7219299999997	EXP	text_6: color = #FFFFFF
+509.7219299999997	EXP	trial_image: pos = [-0.224561684061788,0]
+509.7219299999997	EXP	trial_image: size = [0.22346432000000002,0.22069696]
+509.7219299999997	EXP	trial_image: image = {}
+509.7219299999997	EXP	text_6: autoDraw = true
+509.7219299999997	EXP	trial_image: autoDraw = true
+510.74947500000417	DATA	Keydown: j
+510.76118000000133	EXP	text_6: autoDraw = null
+510.76118000000133	EXP	trial_image: autoDraw = null
+510.76118000000133	EXP	text_4: color = #FFFFFF
+510.76118000000133	EXP	text_4: autoDraw = true
+512.2783500000078	EXP	text_4: autoDraw = null
+512.2783500000078	EXP	text_4: autoDraw = null
+512.2783500000078	EXP	text_6: color = #FFFFFF
+512.2783500000078	EXP	trial_image: pos = [-0.224561684061788,0]
+512.2783500000078	EXP	trial_image: size = [0.22346432000000002,0.22069696]
+512.2783500000078	EXP	trial_image: image = {}
+512.2783500000078	EXP	text_6: autoDraw = true
+512.2783500000078	EXP	trial_image: autoDraw = true
+515.0840949999983	DATA	Keydown: f
+515.0938150000002	EXP	text_6: autoDraw = null
+515.0938150000002	EXP	trial_image: autoDraw = null
+515.0938150000002	EXP	text_4: color = #000000
+515.0938150000002	EXP	text_4: autoDraw = true
+516.5367700000061	EXP	text_4: autoDraw = null
+516.5367700000061	EXP	text_4: autoDraw = null
+516.5367700000061	EXP	text_6: color = #000000
+516.5367700000061	EXP	trial_image: pos = [-0.224561684061788,0]
+516.5367700000061	EXP	trial_image: size = [0.22346432000000002,0.22069696]
+516.5367700000061	EXP	trial_image: image = {}
+516.5367700000061	EXP	text_6: autoDraw = true
+516.5367700000061	EXP	trial_image: autoDraw = true
+517.8942249999964	DATA	Keydown: j
+517.9113050000014	EXP	text_6: autoDraw = null
+517.9113050000014	EXP	trial_image: autoDraw = null
+517.9113050000014	EXP	text_4: color = #000000
+517.9113050000014	EXP	text_4: autoDraw = true
+519.2686550000071	EXP	text_4: autoDraw = null
+519.2686550000071	EXP	text_4: autoDraw = null
+519.2686550000071	EXP	text_6: color = #000000
+519.2686550000071	EXP	trial_image: pos = [-0.224561684061788,0]
+519.2686550000071	EXP	trial_image: size = [0.22346432000000002,0.22069696]
+519.2686550000071	EXP	trial_image: image = {}
+519.2686550000071	EXP	text_6: autoDraw = true
+519.2686550000071	EXP	trial_image: autoDraw = true
+521.0664650000108	DATA	Keydown: f
+521.0782850000105	EXP	text_6: autoDraw = null
+521.0782850000105	EXP	trial_image: autoDraw = null
+521.0782850000105	EXP	text_4: color = #000000
+521.0782850000105	EXP	text_4: autoDraw = true
+522.3989600000059	EXP	text_4: autoDraw = null
+522.3989600000059	EXP	text_4: autoDraw = null
+522.3989600000059	EXP	text_6: color = #000000
+522.3989600000059	EXP	trial_image: pos = [-0.224561684061788,0]
+522.3989600000059	EXP	trial_image: size = [0.22346432000000002,0.22069696]
+522.3989600000059	EXP	trial_image: image = {}
+522.3989600000059	EXP	text_6: autoDraw = true
+522.3989600000059	EXP	trial_image: autoDraw = true
+524.932845000003	DATA	Keydown: f
+524.944994999998	EXP	text_6: autoDraw = null
+524.944994999998	EXP	trial_image: autoDraw = null
+524.944994999998	EXP	text_4: color = #000000
+524.944994999998	EXP	text_4: autoDraw = true
+526.4611100000038	EXP	text_4: autoDraw = null
+526.4611100000038	EXP	text_4: autoDraw = null
+526.4611100000038	EXP	text_6: color = #000000
+526.4611100000038	EXP	trial_image: pos = [-0.224561684061788,0]
+526.4611100000038	EXP	trial_image: size = [0.22346432000000002,0.22069696]
+526.4611100000038	EXP	trial_image: image = {}
+526.4611100000038	EXP	text_6: autoDraw = true
+526.4611100000038	EXP	trial_image: autoDraw = true
+527.782435000001	DATA	Keydown: f
+527.795530000003	EXP	text_6: autoDraw = null
+527.795530000003	EXP	trial_image: autoDraw = null
+527.795530000003	EXP	text_4: color = #FFFFFF
+527.795530000003	EXP	text_4: autoDraw = true
+529.3423900000053	EXP	text_4: autoDraw = null
+529.3423900000053	EXP	text_4: autoDraw = null
+529.3423900000053	EXP	text_6: color = #FFFFFF
+529.3423900000053	EXP	trial_image: pos = [-0.224561684061788,0]
+529.3423900000053	EXP	trial_image: size = [0.22346432000000002,0.22069696]
+529.3423900000053	EXP	trial_image: image = {}
+529.3423900000053	EXP	text_6: autoDraw = true
+529.3423900000053	EXP	trial_image: autoDraw = true
+530.4095300000045	DATA	Keydown: j
+530.4317149999988	EXP	text_6: autoDraw = null
+530.4317149999988	EXP	trial_image: autoDraw = null
+530.4317149999988	EXP	instructions_imageR1: image = {}
+530.4317149999988	EXP	instructions_imageR1: autoDraw = true
+544.7942400000029	DATA	Keydown:  
+544.8165450000088	EXP	instructions_imageR1: autoDraw = null
+544.8165450000088	EXP	text_2: color = #FFFFFF
+544.8165450000088	EXP	text_2: autoDraw = true
+546.4126150000084	EXP	text_2: autoDraw = null
+546.4126150000084	EXP	text_2: autoDraw = null
+546.4126150000084	EXP	text_6: color = #FFFFFF
+546.4126150000084	EXP	trial_image: pos = [-0.224561684061788,0]
+546.4126150000084	EXP	trial_image: size = [0.22346432000000002,0.22069696]
+546.4126150000084	EXP	trial_image: image = {}
+546.4126150000084	EXP	text_6: autoDraw = true
+546.4126150000084	EXP	trial_image: autoDraw = true
+549.82647	DATA	Keydown: j
+549.8433550000045	EXP	text_6: autoDraw = null
+549.8433550000045	EXP	trial_image: autoDraw = null
+549.8433550000045	EXP	text_2: color = #000000
+549.8433550000045	EXP	text_2: autoDraw = true
+551.2749849999964	EXP	text_2: autoDraw = null
+551.2749849999964	EXP	text_2: autoDraw = null
+551.2749849999964	EXP	text_6: color = #000000
+551.2749849999964	EXP	trial_image: pos = [-0.224561684061788,0]
+551.2749849999964	EXP	trial_image: size = [0.22346432000000002,0.22069696]
+551.2749849999964	EXP	trial_image: image = {}
+551.2749849999964	EXP	text_6: autoDraw = true
+551.2749849999964	EXP	trial_image: autoDraw = true
+552.6346000000049	DATA	Keydown: f
+552.6433499999985	EXP	text_6: autoDraw = null
+552.6433499999985	EXP	trial_image: autoDraw = null
+552.6433499999985	EXP	text_2: color = #000000
+552.6433499999985	EXP	text_2: autoDraw = true
+554.3396400000056	EXP	text_2: autoDraw = null
+554.3396400000056	EXP	text_2: autoDraw = null
+554.3396400000056	EXP	text_6: color = #000000
+554.3396400000056	EXP	trial_image: pos = [-0.224561684061788,0]
+554.3396400000056	EXP	trial_image: size = [0.22346432000000002,0.22069696]
+554.3396400000056	EXP	trial_image: image = {}
+554.3396400000056	EXP	text_6: autoDraw = true
+554.3396400000056	EXP	trial_image: autoDraw = true
+556.9072450000094	DATA	Keydown: f
+556.9242999999988	EXP	text_6: autoDraw = null
+556.9242999999988	EXP	trial_image: autoDraw = null
+556.9242999999988	EXP	text_2: color = #000000
+556.9242999999988	EXP	text_2: autoDraw = true
+558.4940050000005	EXP	text_2: autoDraw = null
+558.4940050000005	EXP	text_2: autoDraw = null
+558.4940050000005	EXP	text_6: color = #000000
+558.4940050000005	EXP	trial_image: pos = [-0.224561684061788,0]
+558.4940050000005	EXP	trial_image: size = [0.22346432000000002,0.22069696]
+558.4940050000005	EXP	trial_image: image = {}
+558.4940050000005	EXP	text_6: autoDraw = true
+558.4940050000005	EXP	trial_image: autoDraw = true
+559.776675000001	DATA	Keydown: j
+559.790875000006	EXP	text_6: autoDraw = null
+559.790875000006	EXP	trial_image: autoDraw = null
+559.790875000006	EXP	text_2: color = #FFFFFF
+559.790875000006	EXP	text_2: autoDraw = true
+561.0730949999997	EXP	text_2: autoDraw = null
+561.0730949999997	EXP	text_2: autoDraw = null
+561.0730949999997	EXP	text_6: color = #FFFFFF
+561.0730949999997	EXP	trial_image: pos = [-0.224561684061788,0]
+561.0730949999997	EXP	trial_image: size = [0.22346432000000002,0.22069696]
+561.0730949999997	EXP	trial_image: image = {}
+561.0730949999997	EXP	text_6: autoDraw = true
+561.0730949999997	EXP	trial_image: autoDraw = true
+562.6458150000108	DATA	Keydown: j
+562.6587050000089	EXP	text_6: autoDraw = null
+562.6587050000089	EXP	trial_image: autoDraw = null
+562.6587050000089	EXP	text_2: color = #FFFFFF
+562.6587050000089	EXP	text_2: autoDraw = true
+564.1376900000032	EXP	text_2: autoDraw = null
+564.1376900000032	EXP	text_2: autoDraw = null
+564.1376900000032	EXP	text_6: color = #FFFFFF
+564.1376900000032	EXP	trial_image: pos = [-0.224561684061788,0]
+564.1376900000032	EXP	trial_image: size = [0.22346432000000002,0.22069696]
+564.1376900000032	EXP	trial_image: image = {}
+564.1376900000032	EXP	text_6: autoDraw = true
+564.1376900000032	EXP	trial_image: autoDraw = true
+565.7394100000092	DATA	Keydown: f
+565.7539150000084	EXP	text_6: autoDraw = null
+565.7539150000084	EXP	trial_image: autoDraw = null
+565.7539150000084	EXP	text_2: color = #000000
+565.7539150000084	EXP	text_2: autoDraw = true
+567.4723700000031	EXP	text_2: autoDraw = null
+567.4723700000031	EXP	text_2: autoDraw = null
+567.4723700000031	EXP	text_6: color = #000000
+567.4723700000031	EXP	trial_image: pos = [-0.224561684061788,0]
+567.4723700000031	EXP	trial_image: size = [0.22346432000000002,0.22069696]
+567.4723700000031	EXP	trial_image: image = {}
+567.4723700000031	EXP	text_6: autoDraw = true
+567.4723700000031	EXP	trial_image: autoDraw = true
+568.5377149999986	DATA	Keydown: f
+568.553820000001	EXP	text_6: autoDraw = null
+568.553820000001	EXP	trial_image: autoDraw = null
+568.553820000001	EXP	text_2: color = #000000
+568.553820000001	EXP	text_2: autoDraw = true
+569.9235199999966	EXP	text_2: autoDraw = null
+569.9235199999966	EXP	text_2: autoDraw = null
+569.9235199999966	EXP	text_6: color = #000000
+569.9235199999966	EXP	trial_image: pos = [-0.224561684061788,0]
+569.9235199999966	EXP	trial_image: size = [0.22346432000000002,0.22069696]
+569.9235199999966	EXP	trial_image: image = {}
+569.9235199999966	EXP	text_6: autoDraw = true
+569.9235199999966	EXP	trial_image: autoDraw = true
+570.9577149999968	DATA	Keydown: j
+570.9758750000037	EXP	text_6: autoDraw = null
+570.9758750000037	EXP	trial_image: autoDraw = null
+570.9758750000037	EXP	text_2: color = #000000
+570.9758750000037	EXP	text_2: autoDraw = true
+572.2868000000017	EXP	text_2: autoDraw = null
+572.2868000000017	EXP	text_2: autoDraw = null
+572.2868000000017	EXP	text_6: color = #000000
+572.2868000000017	EXP	trial_image: pos = [-0.224561684061788,0]
+572.2868000000017	EXP	trial_image: size = [0.22346432000000002,0.22069696]
+572.2868000000017	EXP	trial_image: image = {}
+572.2868000000017	EXP	text_6: autoDraw = true
+572.2868000000017	EXP	trial_image: autoDraw = true
+573.4201100000064	DATA	Keydown: j
+573.4366350000055	EXP	text_6: autoDraw = null
+573.4366350000055	EXP	trial_image: autoDraw = null
+573.4366350000055	EXP	text_2: color = #000000
+573.4366350000055	EXP	text_2: autoDraw = true
+574.9706750000041	EXP	text_2: autoDraw = null
+574.9706750000041	EXP	text_2: autoDraw = null
+574.9706750000041	EXP	text_6: color = #000000
+574.9706750000041	EXP	trial_image: pos = [-0.224561684061788,0]
+574.9706750000041	EXP	trial_image: size = [0.22346432000000002,0.22069696]
+574.9706750000041	EXP	trial_image: image = {}
+574.9706750000041	EXP	text_6: autoDraw = true
+574.9706750000041	EXP	trial_image: autoDraw = true
+576.0586650000041	DATA	Keydown: f
+576.075675	EXP	text_6: autoDraw = null
+576.075675	EXP	trial_image: autoDraw = null
+576.075675	EXP	text_2: color = #000000
+576.075675	EXP	text_2: autoDraw = true
+577.521820000009	EXP	text_2: autoDraw = null
+577.521820000009	EXP	text_2: autoDraw = null
+577.521820000009	EXP	text_6: color = #000000
+577.521820000009	EXP	trial_image: pos = [-0.224561684061788,0]
+577.521820000009	EXP	trial_image: size = [0.22346432000000002,0.22069696]
+577.521820000009	EXP	trial_image: image = {}
+577.521820000009	EXP	text_6: autoDraw = true
+577.521820000009	EXP	trial_image: autoDraw = true
+578.8761349999986	DATA	Keydown: f
+578.8879850000085	EXP	text_6: autoDraw = null
+578.8879850000085	EXP	trial_image: autoDraw = null
+578.8879850000085	EXP	text_2: color = #000000
+578.8879850000085	EXP	text_2: autoDraw = true
+580.3194150000054	EXP	text_2: autoDraw = null
+580.3194150000054	EXP	text_2: autoDraw = null
+580.3194150000054	EXP	text_6: color = #000000
+580.3194150000054	EXP	trial_image: pos = [-0.224561684061788,0]
+580.3194150000054	EXP	trial_image: size = [0.22346432000000002,0.22069696]
+580.3194150000054	EXP	trial_image: image = {}
+580.3194150000054	EXP	text_6: autoDraw = true
+580.3194150000054	EXP	trial_image: autoDraw = true
+581.6101849999977	DATA	Keydown: j
+581.6208800000022	EXP	text_6: autoDraw = null
+581.6208800000022	EXP	trial_image: autoDraw = null
+581.6208800000022	EXP	text_2: color = #000000
+581.6208800000022	EXP	text_2: autoDraw = true
+583.1696749999974	EXP	text_2: autoDraw = null
+583.1696749999974	EXP	text_2: autoDraw = null
+583.1696749999974	EXP	text_6: color = #000000
+583.1696749999974	EXP	trial_image: pos = [-0.224561684061788,0]
+583.1696749999974	EXP	trial_image: size = [0.22346432000000002,0.22069696]
+583.1696749999974	EXP	trial_image: image = {}
+583.1696749999974	EXP	text_6: autoDraw = true
+583.1696749999974	EXP	trial_image: autoDraw = true
+584.2191549999989	DATA	Keydown: j
+584.2368600000045	EXP	text_6: autoDraw = null
+584.2368600000045	EXP	trial_image: autoDraw = null
+584.2368600000045	EXP	text_2: color = #000000
+584.2368600000045	EXP	text_2: autoDraw = true
+585.9551449999999	EXP	text_2: autoDraw = null
+585.9551449999999	EXP	text_2: autoDraw = null
+585.9551449999999	EXP	text_6: color = #000000
+585.9551449999999	EXP	trial_image: pos = [-0.224561684061788,0]
+585.9551449999999	EXP	trial_image: size = [0.22346432000000002,0.22069696]
+585.9551449999999	EXP	trial_image: image = {}
+585.9551449999999	EXP	text_6: autoDraw = true
+585.9551449999999	EXP	trial_image: autoDraw = true
+587.1234499999991	DATA	Keydown: f
+587.1447500000068	EXP	text_6: autoDraw = null
+587.1447500000068	EXP	trial_image: autoDraw = null
+587.1447500000068	EXP	text_2: color = #000000
+587.1447500000068	EXP	text_2: autoDraw = true
+588.502170000007	EXP	text_2: autoDraw = null
+588.502170000007	EXP	text_2: autoDraw = null
+588.502170000007	EXP	text_6: color = #000000
+588.502170000007	EXP	trial_image: pos = [-0.224561684061788,0]
+588.502170000007	EXP	trial_image: size = [0.22346432000000002,0.22069696]
+588.502170000007	EXP	trial_image: image = {}
+588.502170000007	EXP	text_6: autoDraw = true
+588.502170000007	EXP	trial_image: autoDraw = true
+589.4735400000063	DATA	Keydown: j
+589.4868500000011	EXP	text_6: autoDraw = null
+589.4868500000011	EXP	trial_image: autoDraw = null
+589.4868500000011	EXP	text_2: color = #000000
+589.4868500000011	EXP	text_2: autoDraw = true
+590.9677200000006	EXP	text_2: autoDraw = null
+590.9677200000006	EXP	text_2: autoDraw = null
+590.9677200000006	EXP	text_6: color = #000000
+590.9677200000006	EXP	trial_image: pos = [-0.224561684061788,0]
+590.9677200000006	EXP	trial_image: size = [0.22346432000000002,0.22069696]
+590.9677200000006	EXP	trial_image: image = {}
+590.9677200000006	EXP	text_6: autoDraw = true
+590.9677200000006	EXP	trial_image: autoDraw = true
+592.1709649999975	DATA	Keydown: f
+592.1847050000069	EXP	text_6: autoDraw = null
+592.1847050000069	EXP	trial_image: autoDraw = null
+592.1847050000069	EXP	text_2: color = #000000
+592.1847050000069	EXP	text_2: autoDraw = true
+593.6205100000079	EXP	text_2: autoDraw = null
+593.6205100000079	EXP	text_2: autoDraw = null
+593.6205100000079	EXP	text_6: color = #000000
+593.6205100000079	EXP	trial_image: pos = [-0.224561684061788,0]
+593.6205100000079	EXP	trial_image: size = [0.22346432000000002,0.22069696]
+593.6205100000079	EXP	trial_image: image = {}
+593.6205100000079	EXP	text_6: autoDraw = true
+593.6205100000079	EXP	trial_image: autoDraw = true
+596.5842300000077	DATA	Keydown: f
+596.6062349999993	EXP	text_6: autoDraw = null
+596.6062349999993	EXP	trial_image: autoDraw = null
+596.6062349999993	EXP	text_2: color = #000000
+596.6062349999993	EXP	text_2: autoDraw = true
+597.9435099999973	EXP	text_2: autoDraw = null
+597.9435099999973	EXP	text_2: autoDraw = null
+597.9435099999973	EXP	text_6: color = #000000
+597.9435099999973	EXP	trial_image: pos = [-0.224561684061788,0]
+597.9435099999973	EXP	trial_image: size = [0.22346432000000002,0.22069696]
+597.9435099999973	EXP	trial_image: image = {}
+597.9435099999973	EXP	text_6: autoDraw = true
+597.9435099999973	EXP	trial_image: autoDraw = true
+598.9367400000046	DATA	Keydown: f
+598.953634999998	EXP	text_6: autoDraw = null
+598.953634999998	EXP	trial_image: autoDraw = null
+598.953634999998	EXP	text_2: color = #000000
+598.953634999998	EXP	text_2: autoDraw = true
+600.6365450000012	EXP	text_2: autoDraw = null
+600.6365450000012	EXP	text_2: autoDraw = null
+600.6365450000012	EXP	text_6: color = #000000
+600.6365450000012	EXP	trial_image: pos = [-0.224561684061788,0]
+600.6365450000012	EXP	trial_image: size = [0.22346432000000002,0.22069696]
+600.6365450000012	EXP	trial_image: image = {}
+600.6365450000012	EXP	text_6: autoDraw = true
+600.6365450000012	EXP	trial_image: autoDraw = true
+601.756355000005	DATA	Keydown: j
+601.7663549999997	EXP	text_6: autoDraw = null
+601.7663549999997	EXP	trial_image: autoDraw = null
+601.7663549999997	EXP	text_2: color = #FFFFFF
+601.7663549999997	EXP	text_2: autoDraw = true
+603.405190000005	EXP	text_2: autoDraw = null
+603.405190000005	EXP	text_2: autoDraw = null
+603.405190000005	EXP	text_6: color = #FFFFFF
+603.405190000005	EXP	trial_image: pos = [-0.224561684061788,0]
+603.405190000005	EXP	trial_image: size = [0.22346432000000002,0.22069696]
+603.405190000005	EXP	trial_image: image = {}
+603.405190000005	EXP	text_6: autoDraw = true
+603.405190000005	EXP	trial_image: autoDraw = true
+604.8059150000045	DATA	Keydown: j
+604.8176999999996	EXP	text_6: autoDraw = null
+604.8176999999996	EXP	trial_image: autoDraw = null
+604.8176999999996	EXP	text_2: color = #FFFFFF
+604.8176999999996	EXP	text_2: autoDraw = true
+606.1520149999997	EXP	text_2: autoDraw = null
+606.1520149999997	EXP	text_2: autoDraw = null
+606.1520149999997	EXP	text_6: color = #FFFFFF
+606.1520149999997	EXP	trial_image: pos = [-0.224561684061788,0]
+606.1520149999997	EXP	trial_image: size = [0.22346432000000002,0.22069696]
+606.1520149999997	EXP	trial_image: image = {}
+606.1520149999997	EXP	text_6: autoDraw = true
+606.1520149999997	EXP	trial_image: autoDraw = true
+607.4491300000082	DATA	Keydown: f
+607.470960000006	EXP	text_6: autoDraw = null
+607.470960000006	EXP	trial_image: autoDraw = null
+607.470960000006	EXP	text_2: color = #000000
+607.470960000006	EXP	text_2: autoDraw = true
+608.8845050000091	EXP	text_2: autoDraw = null
+608.8845050000091	EXP	text_2: autoDraw = null
+608.8845050000091	EXP	text_6: color = #000000
+608.8845050000091	EXP	trial_image: pos = [-0.224561684061788,0]
+608.8845050000091	EXP	trial_image: size = [0.22346432000000002,0.22069696]
+608.8845050000091	EXP	trial_image: image = {}
+608.8845050000091	EXP	text_6: autoDraw = true
+608.8845050000091	EXP	trial_image: autoDraw = true
+609.9182000000001	DATA	Keydown: f
+609.9378250000009	EXP	text_6: autoDraw = null
+609.9378250000009	EXP	trial_image: autoDraw = null
+609.9378250000009	EXP	text_2: color = #000000
+609.9378250000009	EXP	text_2: autoDraw = true
+611.4066250000033	EXP	text_2: autoDraw = null
+611.4066250000033	EXP	text_2: autoDraw = null
+611.4066250000033	EXP	text_6: color = #000000
+611.4066250000033	EXP	trial_image: pos = [-0.224561684061788,0]
+611.4066250000033	EXP	trial_image: size = [0.22346432000000002,0.22069696]
+611.4066250000033	EXP	trial_image: image = {}
+611.4066250000033	EXP	text_6: autoDraw = true
+611.4066250000033	EXP	trial_image: autoDraw = true
+612.8835800000088	DATA	Keydown: j
+612.9000800000067	EXP	text_6: autoDraw = null
+612.9000800000067	EXP	trial_image: autoDraw = null
+612.9000800000067	EXP	text_2: color = #FFFFFF
+612.9000800000067	EXP	text_2: autoDraw = true
+614.2178050000075	EXP	text_2: autoDraw = null
+614.2178050000075	EXP	text_2: autoDraw = null
+614.2178050000075	EXP	text_6: color = #FFFFFF
+614.2178050000075	EXP	trial_image: pos = [-0.224561684061788,0]
+614.2178050000075	EXP	trial_image: size = [0.22346432000000002,0.22069696]
+614.2178050000075	EXP	trial_image: image = {}
+614.2178050000075	EXP	text_6: autoDraw = true
+614.2178050000075	EXP	trial_image: autoDraw = true
+615.6059250000108	DATA	Keydown: j
+615.6214000000036	EXP	text_6: autoDraw = null
+615.6214000000036	EXP	trial_image: autoDraw = null
+615.6214000000036	EXP	instructions_imageR2: image = {}
+615.6214000000036	EXP	instructions_imageR2: autoDraw = true
+623.8323050000035	DATA	Keydown:  
+623.8479999999981	EXP	instructions_imageR2: autoDraw = null
+623.8479999999981	EXP	text_4: color = #FFFFFF
+623.8479999999981	EXP	text_4: autoDraw = true
+625.549715000001	EXP	text_4: autoDraw = null
+625.549715000001	EXP	text_4: autoDraw = null
+625.549715000001	EXP	text_6: color = #FFFFFF
+625.549715000001	EXP	trial_image: pos = [-0.224561684061788,0]
+625.549715000001	EXP	trial_image: size = [0.22346432000000002,0.22069696]
+625.549715000001	EXP	trial_image: image = {}
+625.549715000001	EXP	text_6: autoDraw = true
+625.549715000001	EXP	trial_image: autoDraw = true
+627.8816000000079	DATA	Keydown: f
+627.8966100000107	EXP	text_6: autoDraw = null
+627.8966100000107	EXP	trial_image: autoDraw = null
+627.8966100000107	EXP	text_4: color = #FFFFFF
+627.8966100000107	EXP	text_4: autoDraw = true
+629.1663899999985	EXP	text_4: autoDraw = null
+629.1663899999985	EXP	text_4: autoDraw = null
+629.1663899999985	EXP	text_6: color = #FFFFFF
+629.1663899999985	EXP	trial_image: pos = [-0.224561684061788,0]
+629.1663899999985	EXP	trial_image: size = [0.22346432000000002,0.22069696]
+629.1663899999985	EXP	trial_image: image = {}
+629.1663899999985	EXP	text_6: autoDraw = true
+629.1663899999985	EXP	trial_image: autoDraw = true
+630.3839200000075	DATA	Keydown: j
+630.3955850000057	EXP	text_6: autoDraw = null
+630.3955850000057	EXP	trial_image: autoDraw = null
+630.3955850000057	EXP	text_4: color = #FFFFFF
+630.3955850000057	EXP	text_4: autoDraw = true
+631.9302299999981	EXP	text_4: autoDraw = null
+631.9302299999981	EXP	text_4: autoDraw = null
+631.9302299999981	EXP	text_6: color = #FFFFFF
+631.9302299999981	EXP	trial_image: pos = [-0.224561684061788,0]
+631.9302299999981	EXP	trial_image: size = [0.22346432000000002,0.22069696]
+631.9302299999981	EXP	trial_image: image = {}
+631.9302299999981	EXP	text_6: autoDraw = true
+631.9302299999981	EXP	trial_image: autoDraw = true
+633.0171399999963	DATA	Keydown: j
+633.0329550000024	EXP	text_6: autoDraw = null
+633.0329550000024	EXP	trial_image: autoDraw = null
+633.0329550000024	EXP	text_4: color = #FFFFFF
+633.0329550000024	EXP	text_4: autoDraw = true
+634.7655650000088	EXP	text_4: autoDraw = null
+634.7655650000088	EXP	text_4: autoDraw = null
+634.7655650000088	EXP	text_6: color = #FFFFFF
+634.7655650000088	EXP	trial_image: pos = [-0.224561684061788,0]
+634.7655650000088	EXP	trial_image: size = [0.22346432000000002,0.22069696]
+634.7655650000088	EXP	trial_image: image = {}
+634.7655650000088	EXP	text_6: autoDraw = true
+634.7655650000088	EXP	trial_image: autoDraw = true
+635.8194550000044	DATA	Keydown: f
+635.8309750000044	EXP	text_6: autoDraw = null
+635.8309750000044	EXP	trial_image: autoDraw = null
+635.8309750000044	EXP	text_4: color = #FFFFFF
+635.8309750000044	EXP	text_4: autoDraw = true
+637.3514600000053	EXP	text_4: autoDraw = null
+637.3514600000053	EXP	text_4: autoDraw = null
+637.3514600000053	EXP	text_6: color = #FFFFFF
+637.3514600000053	EXP	trial_image: pos = [-0.224561684061788,0]
+637.3514600000053	EXP	trial_image: size = [0.22346432000000002,0.22069696]
+637.3514600000053	EXP	trial_image: image = {}
+637.3514600000053	EXP	text_6: autoDraw = true
+637.3514600000053	EXP	trial_image: autoDraw = true
+638.4454649999971	DATA	Keydown: f
+638.4613650000101	EXP	text_6: autoDraw = null
+638.4613650000101	EXP	trial_image: autoDraw = null
+638.4613650000101	EXP	text_4: color = #000000
+638.4613650000101	EXP	text_4: autoDraw = true
+640.1640800000023	EXP	text_4: autoDraw = null
+640.1640800000023	EXP	text_4: autoDraw = null
+640.1640800000023	EXP	text_6: color = #000000
+640.1640800000023	EXP	trial_image: pos = [-0.224561684061788,0]
+640.1640800000023	EXP	trial_image: size = [0.22346432000000002,0.22069696]
+640.1640800000023	EXP	trial_image: image = {}
+640.1640800000023	EXP	text_6: autoDraw = true
+640.1640800000023	EXP	trial_image: autoDraw = true
+641.3819950000034	DATA	Keydown: j
+641.3947449999978	EXP	text_6: autoDraw = null
+641.3947449999978	EXP	trial_image: autoDraw = null
+641.3947449999978	EXP	text_4: color = #000000
+641.3947449999978	EXP	text_4: autoDraw = true
+642.8307550000027	EXP	text_4: autoDraw = null
+642.8307550000027	EXP	text_4: autoDraw = null
+642.8307550000027	EXP	text_6: color = #000000
+642.8307550000027	EXP	trial_image: pos = [-0.224561684061788,0]
+642.8307550000027	EXP	trial_image: size = [0.22346432000000002,0.22069696]
+642.8307550000027	EXP	trial_image: image = {}
+642.8307550000027	EXP	text_6: autoDraw = true
+642.8307550000027	EXP	trial_image: autoDraw = true
+643.8790900000022	DATA	Keydown: j
+643.8964500000002	EXP	text_6: autoDraw = null
+643.8964500000002	EXP	trial_image: autoDraw = null
+643.8964500000002	EXP	text_4: color = #FFFFFF
+643.8964500000002	EXP	text_4: autoDraw = true
+645.2444650000107	EXP	text_4: autoDraw = null
+645.2444650000107	EXP	text_4: autoDraw = null
+645.2444650000107	EXP	text_6: color = #FFFFFF
+645.2444650000107	EXP	trial_image: pos = [-0.224561684061788,0]
+645.2444650000107	EXP	trial_image: size = [0.22346432000000002,0.22069696]
+645.2444650000107	EXP	trial_image: image = {}
+645.2444650000107	EXP	text_6: autoDraw = true
+645.2444650000107	EXP	trial_image: autoDraw = true
+646.3449950000067	DATA	Keydown: f
+646.3632550000038	EXP	text_6: autoDraw = null
+646.3632550000038	EXP	trial_image: autoDraw = null
+646.3632550000038	EXP	text_4: color = #FFFFFF
+646.3632550000038	EXP	text_4: autoDraw = true
+648.0979400000069	EXP	text_4: autoDraw = null
+648.0979400000069	EXP	text_4: autoDraw = null
+648.0979400000069	EXP	text_6: color = #FFFFFF
+648.0979400000069	EXP	trial_image: pos = [-0.224561684061788,0]
+648.0979400000069	EXP	trial_image: size = [0.22346432000000002,0.22069696]
+648.0979400000069	EXP	trial_image: image = {}
+648.0979400000069	EXP	text_6: autoDraw = true
+648.0979400000069	EXP	trial_image: autoDraw = true
+649.2472850000049	DATA	Keydown: j
+649.259904999999	EXP	text_6: autoDraw = null
+649.259904999999	EXP	trial_image: autoDraw = null
+649.259904999999	EXP	text_4: color = #FFFFFF
+649.259904999999	EXP	text_4: autoDraw = true
+650.7272749999975	EXP	text_4: autoDraw = null
+650.7272749999975	EXP	text_4: autoDraw = null
+650.7272749999975	EXP	text_6: color = #FFFFFF
+650.7272749999975	EXP	trial_image: pos = [-0.224561684061788,0]
+650.7272749999975	EXP	trial_image: size = [0.22346432000000002,0.22069696]
+650.7272749999975	EXP	trial_image: image = {}
+650.7272749999975	EXP	text_6: autoDraw = true
+650.7272749999975	EXP	trial_image: autoDraw = true
+651.7479699999967	DATA	Keydown: j
+651.7679849999986	EXP	text_6: autoDraw = null
+651.7679849999986	EXP	trial_image: autoDraw = null
+651.7679849999986	EXP	text_4: color = #000000
+651.7679849999986	EXP	text_4: autoDraw = true
+653.1342000000004	EXP	text_4: autoDraw = null
+653.1342000000004	EXP	text_4: autoDraw = null
+653.1342000000004	EXP	text_6: color = #000000
+653.1342000000004	EXP	trial_image: pos = [-0.224561684061788,0]
+653.1342000000004	EXP	trial_image: size = [0.22346432000000002,0.22069696]
+653.1342000000004	EXP	trial_image: image = {}
+653.1342000000004	EXP	text_6: autoDraw = true
+653.1342000000004	EXP	trial_image: autoDraw = true
+654.1256649999996	DATA	Keydown: f
+654.1526750000048	EXP	text_6: autoDraw = null
+654.1526750000048	EXP	trial_image: autoDraw = null
+654.1526750000048	EXP	text_4: color = #000000
+654.1526750000048	EXP	text_4: autoDraw = true
+655.6614700000064	EXP	text_4: autoDraw = null
+655.6614700000064	EXP	text_4: autoDraw = null
+655.6614700000064	EXP	text_6: color = #000000
+655.6614700000064	EXP	trial_image: pos = [-0.224561684061788,0]
+655.6614700000064	EXP	trial_image: size = [0.22346432000000002,0.22069696]
+655.6614700000064	EXP	trial_image: image = {}
+655.6614700000064	EXP	text_6: autoDraw = true
+655.6614700000064	EXP	trial_image: autoDraw = true
+656.8829100000003	DATA	Keydown: f
+656.8840150000033	DATA	Keydown: r
+656.8953200000105	EXP	text_6: autoDraw = null
+656.8953200000105	EXP	trial_image: autoDraw = null
+656.8953200000105	EXP	text_4: color = #000000
+656.8953200000105	EXP	text_4: autoDraw = true
+658.548219999997	EXP	text_4: autoDraw = null
+658.548219999997	EXP	text_4: autoDraw = null
+658.548219999997	EXP	text_6: color = #000000
+658.548219999997	EXP	trial_image: pos = [-0.224561684061788,0]
+658.548219999997	EXP	trial_image: size = [0.22346432000000002,0.22069696]
+658.548219999997	EXP	trial_image: image = {}
+658.548219999997	EXP	text_6: autoDraw = true
+658.548219999997	EXP	trial_image: autoDraw = true
+659.6698449999967	DATA	Keydown: f
+659.6820299999963	EXP	text_6: autoDraw = null
+659.6820299999963	EXP	trial_image: autoDraw = null
+659.6820299999963	EXP	text_4: color = #000000
+659.6820299999963	EXP	text_4: autoDraw = true
+661.1525750000001	EXP	text_4: autoDraw = null
+661.1525750000001	EXP	text_4: autoDraw = null
+661.1525750000001	EXP	text_6: color = #000000
+661.1525750000001	EXP	trial_image: pos = [-0.224561684061788,0]
+661.1525750000001	EXP	trial_image: size = [0.22346432000000002,0.22069696]
+661.1525750000001	EXP	trial_image: image = {}
+661.1525750000001	EXP	text_6: autoDraw = true
+661.1525750000001	EXP	trial_image: autoDraw = true
+662.6589850000018	DATA	Keydown: f
+662.6806150000048	EXP	text_6: autoDraw = null
+662.6806150000048	EXP	trial_image: autoDraw = null
+662.6806150000048	EXP	text_4: color = #FFFFFF
+662.6806150000048	EXP	text_4: autoDraw = true
+664.0593800000061	EXP	text_4: autoDraw = null
+664.0593800000061	EXP	text_4: autoDraw = null
+664.0593800000061	EXP	text_6: color = #FFFFFF
+664.0593800000061	EXP	trial_image: pos = [-0.224561684061788,0]
+664.0593800000061	EXP	trial_image: size = [0.22346432000000002,0.22069696]
+664.0593800000061	EXP	trial_image: image = {}
+664.0593800000061	EXP	text_6: autoDraw = true
+664.0593800000061	EXP	trial_image: autoDraw = true
+665.3093349999981	DATA	Keydown: j
+665.3245200000092	EXP	text_6: autoDraw = null
+665.3245200000092	EXP	trial_image: autoDraw = null
+665.3245200000092	EXP	text_4: color = #FFFFFF
+665.3245200000092	EXP	text_4: autoDraw = true
+666.9312150000042	EXP	text_4: autoDraw = null
+666.9312150000042	EXP	text_4: autoDraw = null
+666.9312150000042	EXP	text_6: color = #FFFFFF
+666.9312150000042	EXP	trial_image: pos = [-0.224561684061788,0]
+666.9312150000042	EXP	trial_image: size = [0.22346432000000002,0.22069696]
+666.9312150000042	EXP	trial_image: image = {}
+666.9312150000042	EXP	text_6: autoDraw = true
+666.9312150000042	EXP	trial_image: autoDraw = true
+668.4599799999996	DATA	Keydown: j
+668.4779550000094	EXP	text_6: autoDraw = null
+668.4779550000094	EXP	trial_image: autoDraw = null
+668.4779550000094	EXP	text_4: color = #000000
+668.4779550000094	EXP	text_4: autoDraw = true
+669.8921550000086	EXP	text_4: autoDraw = null
+669.8921550000086	EXP	text_4: autoDraw = null
+669.8921550000086	EXP	text_6: color = #000000
+669.8921550000086	EXP	trial_image: pos = [-0.224561684061788,0]
+669.8921550000086	EXP	trial_image: size = [0.22346432000000002,0.22069696]
+669.8921550000086	EXP	trial_image: image = {}
+669.8921550000086	EXP	text_6: autoDraw = true
+669.8921550000086	EXP	trial_image: autoDraw = true
+671.0558500000043	DATA	Keydown: j
+671.0762749999994	EXP	text_6: autoDraw = null
+671.0762749999994	EXP	trial_image: autoDraw = null
+671.0762749999994	EXP	text_4: color = #000000
+671.0762749999994	EXP	text_4: autoDraw = true
+672.7098350000015	EXP	text_4: autoDraw = null
+672.7098350000015	EXP	text_4: autoDraw = null
+672.7098350000015	EXP	text_6: color = #000000
+672.7098350000015	EXP	trial_image: pos = [-0.224561684061788,0]
+672.7098350000015	EXP	trial_image: size = [0.22346432000000002,0.22069696]
+672.7098350000015	EXP	trial_image: image = {}
+672.7098350000015	EXP	text_6: autoDraw = true
+672.7098350000015	EXP	trial_image: autoDraw = true
+673.8099450000009	DATA	Keydown: f
+673.8240000000078	EXP	text_6: autoDraw = null
+673.8240000000078	EXP	trial_image: autoDraw = null
+673.8240000000078	EXP	text_4: color = #000000
+673.8240000000078	EXP	text_4: autoDraw = true
+675.4271399999998	EXP	text_4: autoDraw = null
+675.4271399999998	EXP	text_4: autoDraw = null
+675.4271399999998	EXP	text_6: color = #000000
+675.4271399999998	EXP	trial_image: pos = [-0.224561684061788,0]
+675.4271399999998	EXP	trial_image: size = [0.22346432000000002,0.22069696]
+675.4271399999998	EXP	trial_image: image = {}
+675.4271399999998	EXP	text_6: autoDraw = true
+675.4271399999998	EXP	trial_image: autoDraw = true
+676.7808150000055	DATA	Keydown: f
+676.7921750000096	EXP	text_6: autoDraw = null
+676.7921750000096	EXP	trial_image: autoDraw = null
+676.7921750000096	EXP	text_4: color = #000000
+676.7921750000096	EXP	text_4: autoDraw = true
+678.0932049999974	EXP	text_4: autoDraw = null
+678.0932049999974	EXP	text_4: autoDraw = null
+678.0932049999974	EXP	text_6: color = #000000
+678.0932049999974	EXP	trial_image: pos = [-0.224561684061788,0]
+678.0932049999974	EXP	trial_image: size = [0.22346432000000002,0.22069696]
+678.0932049999974	EXP	trial_image: image = {}
+678.0932049999974	EXP	text_6: autoDraw = true
+678.0932049999974	EXP	trial_image: autoDraw = true
+679.2512050000078	DATA	Keydown: f
+679.2592450000084	EXP	text_6: autoDraw = null
+679.2592450000084	EXP	trial_image: autoDraw = null
+679.2592450000084	EXP	text_4: color = #000000
+679.2592450000084	EXP	text_4: autoDraw = true
+680.5950450000091	EXP	text_4: autoDraw = null
+680.5950450000091	EXP	text_4: autoDraw = null
+680.5950450000091	EXP	text_6: color = #000000
+680.5950450000091	EXP	trial_image: pos = [-0.224561684061788,0]
+680.5950450000091	EXP	trial_image: size = [0.22346432000000002,0.22069696]
+680.5950450000091	EXP	trial_image: image = {}
+680.5950450000091	EXP	text_6: autoDraw = true
+680.5950450000091	EXP	trial_image: autoDraw = true
+681.7238199999993	DATA	Keydown: j
+681.7450850000023	EXP	text_6: autoDraw = null
+681.7450850000023	EXP	trial_image: autoDraw = null
+681.7450850000023	EXP	text_4: color = #FFFFFF
+681.7450850000023	EXP	text_4: autoDraw = true
+683.3227350000088	EXP	text_4: autoDraw = null
+683.3227350000088	EXP	text_4: autoDraw = null
+683.3227350000088	EXP	text_6: color = #FFFFFF
+683.3227350000088	EXP	trial_image: pos = [-0.224561684061788,0]
+683.3227350000088	EXP	trial_image: size = [0.22346432000000002,0.22069696]
+683.3227350000088	EXP	trial_image: image = {}
+683.3227350000088	EXP	text_6: autoDraw = true
+683.3227350000088	EXP	trial_image: autoDraw = true
+684.5235749999993	DATA	Keydown: f
+684.5409100000106	EXP	text_6: autoDraw = null
+684.5409100000106	EXP	trial_image: autoDraw = null
+684.5409100000106	EXP	text_4: color = #FFFFFF
+684.5409100000106	EXP	text_4: autoDraw = true
+686.1926950000052	EXP	text_4: autoDraw = null
+686.1926950000052	EXP	text_4: autoDraw = null
+686.1926950000052	EXP	text_6: color = #FFFFFF
+686.1926950000052	EXP	trial_image: pos = [-0.224561684061788,0]
+686.1926950000052	EXP	trial_image: size = [0.22346432000000002,0.22069696]
+686.1926950000052	EXP	trial_image: image = {}
+686.1926950000052	EXP	text_6: autoDraw = true
+686.1926950000052	EXP	trial_image: autoDraw = true
+687.1967950000108	DATA	Keydown: f
+687.2055700000055	EXP	text_6: autoDraw = null
+687.2055700000055	EXP	trial_image: autoDraw = null
+687.2055700000055	EXP	text_4: color = #FFFFFF
+687.2055700000055	EXP	text_4: autoDraw = true
+688.7010900000023	EXP	text_4: autoDraw = null
+688.7010900000023	EXP	text_4: autoDraw = null
+688.7010900000023	EXP	text_6: color = #FFFFFF
+688.7010900000023	EXP	trial_image: pos = [-0.224561684061788,0]
+688.7010900000023	EXP	trial_image: size = [0.22346432000000002,0.22069696]
+688.7010900000023	EXP	trial_image: image = {}
+688.7010900000023	EXP	text_6: autoDraw = true
+688.7010900000023	EXP	trial_image: autoDraw = true
+689.9242599999998	DATA	Keydown: j
+689.9657250000018	EXP	text_6: autoDraw = null
+689.9657250000018	EXP	trial_image: autoDraw = null
+689.9657250000018	EXP	image_5: autoDraw = true
